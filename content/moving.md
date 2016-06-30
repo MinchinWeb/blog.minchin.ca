@@ -1,0 +1,44 @@
+Title: Moving
+Date: 2007-04-09 22:22
+Author: Minchin Web (noreply@blogger.com)
+Tags: Quotables, Series:Personal Bits
+Slug: moving
+
+Exams are now done...boy does that feel good. I walked out knowing I
+should have studied more, but I knew that walking in. Now I wait to see
+what my marks are. I'm sure they'll be fine - I'm not worried about
+failing a class - but I had wanted to improve my GPA from where it was
+last semester. I think my resolve held out till earlier this week, when
+I started flipping through the Internet to discover all of Google's many
+projects ([here](http://www.google.com/options/index.html), be sure to
+check out [Google Labs](http://labs.google.com/)).
+
+When I was planning my move, I didn't realize the amount of time it
+would take. I guess I figured I could walk in, and walk out. But it
+didn't happen that way in the least. I spent two or three hours
+yesterday putting all of my stuff into boxes and into the car. At that
+point, it was closing in on midnight, so I called it a night and went to
+visit a couple of friends. They were Bar-B-Q-ing chicken wings over
+charcoal, which were very delicious. As we sat there eating, the
+Northern Lights came out to play. It means they're very bright when you
+can see them through the city lights. It's always amazing to watch the
+green bands dance across the sky.
+
+I ended up coming back this morning to do the cleaning and spent two to
+three hours at that too. I'd hate to think what I would be like if I had
+a bigger place to move. The other thing I was reminded in this all is
+that paper is heavy. After lifting my two boxes of books and papers, my
+19" CRT (computer monitor), which weighs 50 lbs itself, seemed rather
+light. But now that's all done and I get to settle in to my new
+quarters.
+
+I'll leave you with a fun quote:
+
+> Duct tape is like the force - it has a light side, a dark side, and it
+> hold the Universe together!
+> </p>
+> <p>
+> - Carl Zwanzig
+
+</p>
+
