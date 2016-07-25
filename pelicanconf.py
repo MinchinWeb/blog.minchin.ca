@@ -72,8 +72,34 @@ MARKUP = (('rst',
 PATH = 'content'
 OUTPUT_PATH = '../blog.minchin.ca-master/'
 
+#FORMATTED_FIELDS = ['summary', 'title', ]
+
+
+# Set URL's
+TAG_URL = 'label/{slug}/'
+TAG_SAVE_AS = 'label/{slug}/index.html'
+TAGS_URL = 'label/'
+TAGS_SAVE_AS = 'label/index.html'
+CATEGORY_URL = ''
+CATEGORY_SAVE_AS = ''
+CATEGORIES_URL = ''
+CATEGORIES_SAVE_AS = ''
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = ARTICLE_URL
+AUTHORS_URL = ''
+AUTHORS_SAVE_AS = ''
+ARCHIVES_URL = 'archives/'
+ARCHIVES_SAVE_AS = 'archives/index.html'
+YEAR_ARCHIVE_URL = '{date:%Y}/'
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_URL = '{date:%Y}/{date:%m}/'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = PAGE_URL
+
+
 # Add Blog to sidebar
-MENUITEMS = (('Blog',        'http://blog.minchin.ca/',      'fa fa-pencil'),
+MENUITEMS = (('Blog',        SITEURL + '/',                  'fa fa-pencil'),
              ('Genealogy',   'http://minchin.ca/genealogy',  'glyphicon glyphicon-tree-deciduous'),
              ('My Projects', 'http://minchin.ca/projects/',  'fa fa-flask'),
              ('Search',      'http://minchin.ca/search/',    'fa fa-search'),
@@ -84,43 +110,16 @@ MENUITEMS = (('Blog',        'http://blog.minchin.ca/',      'fa fa-pencil'),
 MENUITEMS_2_AT = 'Blog'
 MENUITEMS_2_AT_LINK = ''  # this is added to SITEURL
 
-MENUITEMS_2 = (('Surnames',         SITEURL + '/names.html',          False),
-               ('Updates',          SITEURL + '/updates.html',        False),
-               ('Sources',          SITEURL + '/sources.html',        False),
-               ('Distribution Map', SITEURL + '/map.html',            False),
-               ('Timelines',        SITEURL + '/timeline.html',       False),
-               #('Immigrants',       SITEURL + '/immigrants.html',     False),  # doens't exist in current builds
-               #('Nobility',         SITEURL + '/titles.html',         False),  # doens't exist in current builds
-               ('Locations',        SITEURL + '/places.html',         False),
-               ('Bonkers Report',   SITEURL + '/bonkers-report.html', False),
-               ('Photos',           SITEURL + '/photos.html',         False),
-               #('External Links',   SITEURL + '/links.html',          False),  # doens't exist in current builds
-               #('Statistics',       SITEURL + '/stats.html',          False),  # stats graphs aren't working right now
+MENUITEMS_2 = (('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-archive'),
+               ('Tags',      SITEURL + '/' + TAGS_URL,      'fa fa-tags'),
                )
 
 
 DISPLAY_PAGES_ON_MENU = False
 
-'''
-# disable Tags, etc
-TAGS_SAVE_AS = ''
-TAG_SAVE_AS = ''
-CATEGORY_URL = ''
-CATEGORY_SAVE_AS = ''
-CATEGORIES_URL = ''
-CATEGORIES_SAVE_AS = ''
-ARTICLE_URL = ''
-ARTICLE_SAVE_AS = ''
-AUTHORS_URL = ''
-AUTHORS_SAVE_AS = ''
-ARCHIVES_URL = ''
-ARCHIVES_SAVE_AS = ''
-'''
-PAGE_URL = "{slug}.html"
-PAGE_SAVE_AS = "{slug}.html"
 
 # Theme Related
-TYPOGRIFY = False  # turn off for HIDDEN names...
+TYPOGRIFY = True
 THEME = '../minchinweb.github.io-pelican/themes/pelican-minchin-ca'
 SITELOGO = 'images/MinchindotCA-200.png'
 SITELOGO_SIZE = '100%'
@@ -172,3 +171,21 @@ GITHUB_USER = False
 ADDTHIS_PROFILE = False
 DISQUS_SITENAME = False
 PDF_PROCESSOR = False
+
+
+# Jijna2 filters
+
+def datetimefilter(value, format='%Y/%m/%d %H:%M'):
+    """convert a datetime to a different format."""
+    return value.strftime(format)
+
+def article_date(value):
+    """Converts a date to the format we want it displayed on the article
+       template.
+    """
+    return value.strftime('%A, %B %-d, %Y')
+
+JINJA_FILTERS = {
+  'datetimefilter': datetimefilter,
+  'article_date':   article_date,
+}

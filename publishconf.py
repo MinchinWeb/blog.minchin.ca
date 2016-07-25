@@ -11,6 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://blog.minchin.ca/'
+SITE_ROOT_URL = 'http://minchin.ca'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/posts/default'
