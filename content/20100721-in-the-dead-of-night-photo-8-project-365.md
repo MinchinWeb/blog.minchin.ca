@@ -3,14 +3,9 @@ Date: 2010-07-21 9:54
 Modified: 2010-08-08 22:30
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: in-the-dead-of-night-photo-8-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TEcPRa3wGZI/AAAAAAAABcg/Cj4-BAQKWLE/s640/IMG_1367.JPG)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TEcPRa3wGZI/AAAAAAAABcg/Cj4-BAQKWLE/s1600/IMG_1367.JPG)
-
-</div>
+image: images/project-365/2010-07-19 - P365 - IMG_1367.JPG
 
 After everyone else goes to bed, the world remains interesting and
 alive. This is a small farming community, not far from home. I love how
@@ -25,30 +20,14 @@ and [in
 focus](http://upload.wikimedia.org/wikipedia/commons/1/12/Focus-screen-2.jpg)
 )
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span> Canon EF-S 18-55mm
-> f/3.5-5.6 IS
->
-> <span style="color: #666666;">Exposure: </span>25 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/4.0
->
-> <span style="color: #666666;">Focal Length: </span>25 mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>400
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:07:19 23:18:58
->
-> <p>
-
-[About Project
-365](http://blog.minchin.ca/2010/07/project-365-introduction.html)
-
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS  
+*Exposure*: 25 sec  
+*Aperture*: ƒ/4.0  
+*Focal Length*: 25 mm  
+*Flash Used*: No  
+*ISO*: 400  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2010:07:19 23:18:58
+</div>

@@ -2,6 +2,7 @@ Title: I'm in the Paper!
 Date: 2008-07-10 12:41
 Author: Wm. Minchin
 Tags: Edmonton Sun, Series:Personal Bits, WheresWilly.com
+Category: Personal Bits
 Slug: im-in-the-paper
 
 Allow me to indulge in a little self-aggrandization -- I was in the paper

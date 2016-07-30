@@ -2,7 +2,8 @@ Title: Day 1: Edmonton to Cardston AB
 Date: 2009-05-01 11:30
 Modified: 2009-06-26 8:25
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-1-edmonton-to-cardston-ab
 
 *Sunday, April 26, 2008*
@@ -24,14 +25,28 @@ Edmonton, it was snowing, and it snowed off and on until I was about
 half an hour south of Calgary. Supper was at Peter's Drive-in, of
 course.
 
-![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/Sfs0RVszgaI/AAAAAAAAA28/vd9jWnoClbM/s400/IMG_7033.jpg)The
-'beautiful' road conditions as I left Edmonton
+<figure markdown=1>
+![Road Leaving Edmonton]({filename}images/2009/IMG_7033.jpg)
+<figcaption markdown=1>
+The 'beautiful' road conditions as I left Edmonton
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/Sfs0WmBb0iI/AAAAAAAAA3E/vvOal1GWvhA/s400/IMG_7040.jpg)Peter's
+<figure markdown=1>
+![Peter's Drive-in]({filename}images/2009/IMG_7040.jpg)
+<figcaption markdown=1>
+Peter's
 Drive-in in Calgary
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/Sfs0bYpQIDI/AAAAAAAAA3M/th5vMQPxDfg/s400/IMG_7049.jpg)The
+<figure markdown=1>
+![Cardston Temple]({filename}images/2009/IMG_7049.jpg)
+<figcaption markdown=1>
+The
 Alberta Temple in Cardston
+</figcaption>
+</figure>
 
 Leave Edmonton -- 3:25pm -- 219,187km  
 Arrive Calgary -- 6:15pm -- 219,483km  
@@ -42,24 +57,24 @@ Arrive Cardston -- 9:15pm -- 219,721km
 *Today -- CAD$36.82 -- 5:15 hours -- 534km*  
 ***Total -- CAD$36.82 -- 5:15 hours -- 534km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
-Travel Days: 1 ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) ·
-[9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html) ·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
+Travel Days:
+1 ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>

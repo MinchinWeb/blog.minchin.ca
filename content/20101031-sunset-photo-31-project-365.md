@@ -3,39 +3,21 @@ Date: 2010-10-31 10:03
 Modified: 2011-01-12 3:43
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: sunset-photo-31-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TIRkQqK5eKI/AAAAAAAABkI/xMnHA_ca3qQ/s640/2010-08-28+-+P365+-+IMG_2450.JPG)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TIRkQqK5eKI/AAAAAAAABkI/xMnHA_ca3qQ/s1600/2010-08-28+-+P365+-+IMG_2450.JPG)
-
-</div>
+Image: images/project-365/2010-08-28 - P365 - IMG_2450.JPG
 
 If photography is "light writing," few lighting situations are most
 wonderful than sunset!
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span>EF-S18-55mm f/3.5-5.6
-> IS
->
-> <span style="color: #666666;">Exposure: </span>6 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/4.5
->
-> <span style="color: #666666;">Focal Length: </span>30 mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>800
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:08:28 21:30:35
->
-> <p>
-
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: EF-S18-55mm ƒ/3.5-5.6 IS  
+*Exposure*: 6 sec  
+*Aperture*: ƒ/4.5  
+*Focal Length*: 30 mm  
+*Flash Used*: No  
+*ISO*: 800  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2010:08:28 21:30:35
+</div>

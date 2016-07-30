@@ -2,6 +2,7 @@ Title: Cab Fare, Anyone?
 Date: 2007-09-26 15:52
 Author: Wm. Minchin
 Tags: Series:Social Commentary
+Category: Social Commentary
 Slug: cab-fare-anyone
 
 [![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/RvrW9_My0iI/AAAAAAAAAdU/Gg3MlcrHDHs/s400/cab+fare.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/RvrW9_My0iI/AAAAAAAAAdU/Gg3MlcrHDHs/s1600-h/cab+fare.jpg)

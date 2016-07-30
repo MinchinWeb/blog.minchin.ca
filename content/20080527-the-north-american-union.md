@@ -2,6 +2,7 @@ Title: The North American Union
 Date: 2008-05-27 22:47
 Author: Wm. Minchin
 Tags: AllAboutCities.ca, Cities, History, New York, Series:Social Commentary, US Canada Relations
+Category: Social Commentary
 Slug: the-north-american-union
 
 I came across a very interesting "social science fiction" essay today at

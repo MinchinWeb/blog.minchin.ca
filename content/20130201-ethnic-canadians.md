@@ -4,31 +4,26 @@ Modified: 2012-02-03 02:07
 Author: Wm. Minchin
 Tags: Canada, Ethnicity, Map
 Slug: ethnic-canadians
+Image: images/2013/Censusdivisions-ethnic.png
 
 I recently stumbled across this map of "Leading Ethnicity by Census
 Division," based on the 2006 Canadian census ([original
-here](http://en.wikipedia.org/wiki/File:Censusdivisions-ethnic.png)).
+on Wikipedia](http://en.wikipedia.org/wiki/File:Censusdivisions-ethnic.png)).
 Maps fascinate me and I thought this one was pretty cool. I thought I'd
 share a few thoughts, but first the map itself:
-
-<div class="separator" style="clear: both; text-align: center;">
-
-[![](http://1.bp.blogspot.com/-izn_or2Vkzs/TymZyMXigAI/AAAAAAAAB98/6vSsqZeVcPE/s640/Censusdivisions-ethnic.png)](http://1.bp.blogspot.com/-izn_or2Vkzs/TymZyMXigAI/AAAAAAAAB98/6vSsqZeVcPE/s1600/Censusdivisions-ethnic.png)
-
-</div>
 
 Some of my observations:
 
 -   there are a lot of immigrants in Toronto - the suburbs there contain
     the one East Indian and the one Italian mention on the map.
--   the Inuit are the most common in Nunuvut, which I guess is to be
+-   the Inuit are the most common in Nunavut, which I guess is to be
     expected, but I guess I assumed they'd be better represented in
     northern Northwest Territories or in the Yukon.
 -   I'm surprised that the Yukon comes up as "English" rather than
     "First Nations" (North American Indian) or "Inuit."
 -   I know the Ukrainians from north-central Alberta (perogies...yum!),
     but they don't show up there, but rather a strip across eastern
-    Saskatchewan into Manitobia. I hadn't realized that the Ukrainians
+    Saskatchewan into Manitoba. I hadn't realized that the Ukrainians
     had settled over that big an area, but why not?
 -   Of the two place French showed up, one made sense and the other
     surprised me. Cape Breton made sense, as that was a French
@@ -47,7 +42,7 @@ Some of my observations:
     aren't a lot of people moving to the island, and only those born
     there in the last 60 years were even born under a Canadian flag!
     (Newfoundland was a separate British colony until it join Canadian
-    Confederation in 1949)
+    Confederation in 1949.)
 -   I wonder if the many ethnicities showing up on the prairies
     (Manitoba, Saskatchewan, and Alberta) compared with the prominence
     of "Canadian" further east simply a result of history, or a lack

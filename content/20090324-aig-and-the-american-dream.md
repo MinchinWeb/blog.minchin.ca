@@ -3,6 +3,7 @@ Date: 2009-03-24 20:47
 Modified: 2009-03-29 19:30
 Author: Wm. Minchin
 Tags: AIG, American Politics, Bailout, Series:Social Commentary, The American Dream, United States of America
+Category: Social Commentary
 Slug: aig-and-the-american-dream
 
 Over the last week, the newswire has been flooded with stories about

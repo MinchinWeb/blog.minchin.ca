@@ -2,6 +2,7 @@ Title: Goals and Perseverance
 Date: 2008-04-02 12:23
 Author: Wm. Minchin
 Tags: Burnout, Goals, Neal Maxwell, Series:Personal Bits
+Category: Personal Bits
 Slug: goals-and-perseverance
 
 I came across I quote this week that really got me thinking.

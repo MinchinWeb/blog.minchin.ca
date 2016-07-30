@@ -3,6 +3,7 @@ Date: 2010-04-17 21:42
 Modified: 2011-05-19 18:30
 Author: Wm. Minchin
 Tags: Anthony Henday, Series:Personal Bits, Transportation, YouTube
+Category: Personal Bits
 Slug: bretona-corner
 
 School projects make for interesting things to post. This time, it's the
@@ -13,25 +14,9 @@ video! So I played my in-class presentation from YouTube! The
 presentation is on the junction of Highway 14 and the Anthony Henday
 (Highway 216) on the southeast corner of Edmonton.
 
-<div align="center">
-
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/EqWIFxEb0cE&amp;hl=en_US&amp;fs=1&amp;color1=0x2b405b&amp;color2=0x6b8ab6">
-
-</param>
-
-<param name="allowFullScreen" value="true">
-
-</param>
-
-<param name="allowscriptaccess" value="always">
-
-</param>
-
-<p>
-<embed src="http://www.youtube.com/v/EqWIFxEb0cE&amp;hl=en_US&amp;fs=1&amp;color1=0x2b405b&amp;color2=0x6b8ab6" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344">
-</embed>
-</object>
-
+<!-- 870px with the max width of 9cols in Bootstrp -->
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/EqWIFxEb0cE" type="text/html" width="870px" frameborder="0"></iframe>
 </div>
 
 For the technical side, the video was put together using Microsoft

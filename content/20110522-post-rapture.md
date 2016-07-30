@@ -3,6 +3,7 @@ Date: 2011-05-22 23:33
 Modified: 2011-05-23 05:33
 Author: Wm. Minchin
 Tags: Rapture, Series:Random Bits
+Category: Random Bits
 Slug: post-rapture
 
 So I don't know who he uses for PR, but some guy in California figured
@@ -13,12 +14,8 @@ the end of the world in 1994....
 
 Anyway, there's nothing quite like being shut down with scripture:
 
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://i.imgur.com/obytk.jpg)](http://i.imgur.com/obytk.jpg)
-
-</div>
+![]({filename}images/2011/obytk.jpg)
 
 Anyway, I thought I'd share; it made me laugh :)
 
+*via: [Imgur](https://i.imgur.com/obytk.jpg)*

@@ -3,6 +3,7 @@ Date: 2014-02-12 10:44
 Author: Wm. Minchin
 Tags: Birkenhead, Bunbury, Genealogy
 Slug: birkenheads-of-backford
+Category: Genealogy
 
 I have been continuing my research of the Bunbury line. For the 18th
 century and earlier, *Burke's Peerage* has proved incredibly useful. As

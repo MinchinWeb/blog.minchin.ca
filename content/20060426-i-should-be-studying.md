@@ -3,6 +3,7 @@ Date: 2006-04-26 17:19
 Modified: 2007-04-09 15:21
 Author: Wm. Minchin
 Tags: Series:Personal Bits, Series:Upcoming
+Category: Personal Bits
 Slug: i-should-be-studying
 
 I have a couple of exams tomorrow, but I find myself drawn here instead.

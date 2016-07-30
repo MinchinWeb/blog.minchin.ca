@@ -3,6 +3,7 @@ Date: 2008-03-06 22:24
 Modified: 2008-03-23 19:16
 Author: Wm. Minchin
 Tags: Interstate System, Series:Social Commentary, Society, Technology
+Category: Social Commentary
 Slug: problems-on-the-interstate
 
 [![Exit off of Interstate H-1 in

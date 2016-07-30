@@ -3,6 +3,7 @@ Date: 2009-01-02 11:47
 Modified: 2009-03-29 19:48
 Author: Wm. Minchin
 Tags: IKEA, Photography, Printemps à Paris, Series:Personal Bits, Time Lapse Video, YouTube
+Category: Personal Bits
 Slug: spring-in-paris-or-the-crazy-night
 
 A couple days ago we made a run to IKEA to get a little furniture to

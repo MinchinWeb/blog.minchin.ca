@@ -20,4 +20,4 @@ out how to get a transparent background - Photoshop doesn't seem to like
 me today)
 
 <small>(This is an update to [Nexodyne Email
-Images]({filename}20060514-nexodyne-email-images))</small>
+Images]({filename}20060514-nexodyne-email-images.md))</small>

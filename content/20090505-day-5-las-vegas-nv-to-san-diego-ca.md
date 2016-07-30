@@ -2,7 +2,8 @@ Title: Day 5: Las Vegas NV to San Diego CA
 Date: 2009-05-05 14:02
 Modified: 2009-06-26 8:33
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-5-las-vegas-nv-to-san-diego-ca
 
 *Thursday, April 30, 2009*
@@ -25,23 +26,47 @@ into the rural freeway that I'd driven much of the time up till then.
 California is beautiful, but lots of hills (and traffic). Tomorrow, I'm
 just going to stick around San Diego.
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/SgCbgxThs5I/AAAAAAAAA40/W2fqpdgm0Qw/s400/IMG_7118.jpg)This
+<figure markdown=1>
+![Vegas hotel room]({filename}images/2009/IMG_7118.jpg)
+<figcaption markdown=1>
+This
 was the room I stay in in Vegas.
+</figcaption>
+</figure>
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SgCbgroQeWI/AAAAAAAAA4s/RozJpkC-hF8/s400/IMG_7127.jpg)They're
+<figure markdown=1>
+![Bridge at Hoover Dam]({filename}images/2009/IMG_7127.jpg)
+<figcaption markdown=1>
+They're
 in the process of building a bride just downstream of the dam to
 increase the capacity of US-89, which currently runs across the dam.
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/SgCbgo_WDnI/AAAAAAAAA4k/wMQeWwdwyBg/s400/IMG_7128.jpg)Hoover
+<figure markdown=1>
+![Hoover Dam]({filename}images/2009/IMG_7128.jpg)
+<figcaption markdown=1>
+Hoover
 Dam from the front - the white at the bottom is the roof of the power
 house.
+</figcaption>
+</figure>
 
-![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/SgCbgfcUedI/AAAAAAAAA4c/4ETaJRGfQcY/s400/IMG_7161.jpg)Zzyzx
-Road - you wonder if they did that just so it would show up last in the
+<figure markdown=1>
+![Zzyzx Road]({filename}images/2009/IMG_7161.jpg)
+<figcaption markdown=1>
+Zzyzx
+Road -- you wonder if they did that just so it would show up last in the
 dictionary....
+</figcaption>
+</figure>
 
-![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/SgCbgNQlsxI/AAAAAAAAA4U/Rb96XyGfRTY/s400/IMG_7169.jpg)The
-California freeways
+<figure markdown=1>
+![California Freeway]({filename}images/2009/IMG_7169.jpg)
+<figcaption markdown=1>
+The California freeways.
+</figcaption>
+</figure>
 
 Leave Las Vegas (breakfast buffet $12.78) -- 9:38am (PDT) -- 221,718km  
 Hoover Dam (parking $7) -- 10:20am to noon -- 221,768km  
@@ -52,23 +77,24 @@ Arrive Valley Center -- 7pm -- 222,298km
 *Today -- US$61.77 -- 6:10 hours -- 580km*  
 ***Total - CAD$552.34 -- 27:20 hours -- 2777km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-· 5 · [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) ·
-[9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html) ·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+5 · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>

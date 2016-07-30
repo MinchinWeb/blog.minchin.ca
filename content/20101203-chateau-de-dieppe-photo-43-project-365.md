@@ -4,13 +4,7 @@ Modified: 2010-12-08 09:49
 Author: Wm. Minchin
 Tags: Normandy, Project 365
 Slug: chateau-de-dieppe-photo-43-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TMwA2Vv9AiI/AAAAAAAABmk/hCLt86eFyYw/s640/2010-10-03+-+P365+-+IMG_3319.JPG)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TMwA2Vv9AiI/AAAAAAAABmk/hCLt86eFyYw/s1600/2010-10-03+-+P365+-+IMG_3319.JPG)
-
-</div>
+Image: images/project-365/2010-10-03 - P365 - IMG_3319.JPG
 
 This is the castle sitting on the cliffs, overlooking the sea and
 standing guard over Dieppe. When the city was walled, the castle had a
@@ -40,24 +34,14 @@ background), even when cloudy, is surprisingly bright. Thus, if the
 camera isn't set right, the detail of the colour of the castle is either
 washed out or covered in darkness.
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span>EF-S18-55mm f/3.5-5.6
-> IS
->
-> <span style="color: #666666;">Exposure: </span>1/200 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/7.0
->
-> <span style="color: #666666;">Focal Length: </span>55 mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>400
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:10:03 15:28:56
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: EF-S18-55mm ƒ/3.5-5.6 IS  
+*Exposure*: 1/200 sec  
+*Aperture*: ƒ/7.0  
+*Focal Length*: 55 mm  
+*Flash Used*: No  
+*ISO*: 400  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2010:10:03 15:28:56
+</div>

@@ -3,6 +3,7 @@ Date: 2007-08-02 23:10
 Modified: 2008-02-05 22:03
 Author: Wm. Minchin
 Tags: Engineering, Series:Social Commentary
+Category: Social Commentary
 Slug: civil-engineering-is-stuff-that-isnt-supposed-to-move
 
 If you missed it in the news, the bridge that takes I-35W across the

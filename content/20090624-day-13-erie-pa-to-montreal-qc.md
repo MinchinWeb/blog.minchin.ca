@@ -2,7 +2,8 @@ Title: Day 13: Erie PA to Montreal QC
 Date: 2009-06-24 15:11
 Modified: 2009-06-26 11:07
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-13-erie-pa-to-montreal-qc
 
 *Friday, May 8, 2009*
@@ -30,17 +31,31 @@ the dorms at the University of Montreal dorms just before 10 to bring
 this crazy road trip to an end. Now for the business of living in
 Quebec....
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SkKl8fcf7PI/AAAAAAAAA8E/0_aDR3S4MvU/s400/IMG_7423.jpg)The
-landscape in New York - very green.
+<figure markdown=1>
+![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SkKl8fcf7PI/AAAAAAAAA8E/0_aDR3S4MvU/s400/IMG_7423.jpg)
+The
+landscape in New York -- very green.
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SkKl8CewC9I/AAAAAAAAA78/OsROUU4Cvao/s400/IMG_7436.jpg)The
-Sacred Grove, Palmyra, New York
+<figure markdown=1>
+![The Sacred Grove]({filename}images/2009/IMG_7436.jpg)
+<figcaption markdown=1>
+The Sacred Grove, Palmyra, New York.
+</figcaption>
+</figure>
 
-![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SkKl7xn27xI/AAAAAAAAA70/yyf17qAYk6M/s400/IMG_7452.jpg)A
-beautiful sunset, somewhere in Ontario.
+<figure markdown=1>
+![Ontario Sunset]({filename}images/2009/IMG_7452.jpg)
+<figcaption markdown=1>
+A beautiful sunset, somewhere in Ontario.
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/SkKl7heEPUI/AAAAAAAAA7s/XRSi1yXc4bY/s400/IMG_7455.jpg)Snowmobile
-crossing signs - only in Quebec!
+<figure markdown=1>
+![Snowmobile Crossing]({filename}images/2009/IMG_7455.jpg)
+<figcaption markdown=1>
+Snowmobile crossing signs -- only in Quebec!
+</figcaption>
+</figure>
 
 Leave Erie PA (gas $29, toll $3) -- 9:50am (EST) -- 226,972 km  
 Rest Area MP 397 NY (Tim Horton's $0.92) -- 11:50am -- 227,167lm  
@@ -55,24 +70,24 @@ Arrive at Montreal -- 10:05pm -- 227,789km
 *Today -- US$82.43 CAD$2.75 -- 8h20 -- 817km*  
 ***Total -- CAD$1258.48 -- 79h40 -- 8,264km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) ·
-[9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html) ·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-· 13
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+13  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>

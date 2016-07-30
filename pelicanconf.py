@@ -58,7 +58,8 @@ EXTRA_PATH_METADATA = {
 # Custom settings
 #FILENAME_METADATA = ('(?P<date>\d{4}-\d{2}-\d{2}).*')  # default?
 #FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'  # extract date and slug
-FILENAME_METADATA = '(?P<slug>[\w-]*)'      # so anything before the file extension becomes the slug
+#FILENAME_METADATA = '(?P<slug>[\w-]*)'      # so anything before the file extension becomes the slug
+FILENAME_METADATA = '(?P<date>\d{4}\d{2}\d{2})-(?P<slug>.*)'
 ## Please note that the metadata available inside your files takes precedence
 #  over the metadata extracted from the filename.
 
@@ -128,24 +129,30 @@ DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
 BOOTSTRAP_THEME = 'minchin-ca'
 USE_OPEN_GRAPH = True
-CUSTOM_CSS = 'css/minchin-ca.css'
+#CUSTOM_CSS = 'css/minchin-ca.css'
 DOCUTIL_CSS = False
-CUSTOM_JS_LIST = ['js/jquery-ui.min.js',
-                  'js/globalize.min.js',
-                  'js/dx.chartjs.js',
+CUSTOM_JS_LIST = [
                   ]
 
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
+CATEGORY_IMAGES = {'colourettu': 'images/2015/colourettu-logo-4x.png',
+                   }
+
+
 # Plugins
 #PLUGIN_PATH = '../pelican-plugins'
 PLUGIN_PATHS = ('../pelican-plugins',)
 # PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
-PLUGINS = ['assets', ]
+PLUGINS = [
+            'assets',
+            'neighbors',
+          ]
 
 ASSET_CSS = False
 ASSET_JS = False
+NEIGHBORS = True
 
 SITEMAP = {
     "format": "xml",
@@ -174,6 +181,7 @@ PDF_PROCESSOR = False
 
 
 # Jijna2 filters
+## To-Do: move out to seperate module
 
 def datetimefilter(value, format='%Y/%m/%d %H:%M'):
     """convert a datetime to a different format."""

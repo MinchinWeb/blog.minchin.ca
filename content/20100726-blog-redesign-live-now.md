@@ -2,6 +2,7 @@ Title: Blog Redesign - Live Now!
 Date: 2010-07-26 19:41
 Author: Wm. Minchin
 Tags: Series:Personal Bits
+Category: Personal Bits
 Slug: blog-redesign-live-now
 
 A blog redesign is a big step, perhaps even bigger than [my
@@ -11,7 +12,7 @@ land here and because the look is different, they won't recognize it as
 'my' blog. Well, a blog redesign has been in the works for probably two
 years and I decided it's time to pull the trigger. The immediate push
 was my '[Project
-365](http://blog.minchin.ca/2010/07/project-365-introduction.html).' For
+365]({filename}20100726-project-365-an-introduction.md).' For
 the last two weeks, I've been posting pictures that are wider than the
 old design and kept telling myself "the redesign is in the works." My
 other hesitation in doing the redesign is that I lose all the tweaks in

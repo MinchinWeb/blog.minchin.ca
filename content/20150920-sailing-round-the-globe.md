@@ -3,6 +3,9 @@ Date: 2015-09-20 16:52
 Author: Wm. Minchin
 Tags: 2030, 2040, sailing
 Slug: sailing-round-globe
+Image: images/2015/trip-around-the-world.png
+
+<!-- Map on Tripline -->
 
 So one of the things my Love and I have talked about is the idea of
 taking off to a season of sailing. The ocean has a sort of primitive
@@ -77,12 +80,6 @@ a good average for a sailboat is 100 nautical miles, or 185km, per day.
 That would work out to 267 days on the water, giving no time for shore
 leave. If timed right (in regards to seasons and shore leave), could we
 pull this off inside a year?
-
-<div class="separator" style="clear: both; text-align: center;">
-[![](http://3.bp.blogspot.com/-v-LDxxxtohA/Vf81kAGVQbI/AAAAAAAAEus/rD4fnBfyJOU/s640/sail-round-the-world.png)](http://3.bp.blogspot.com/-v-LDxxxtohA/Vf81kAGVQbI/AAAAAAAAEus/rD4fnBfyJOU/s1600/sail-round-the-world.png)
-</div>
-
-<!-- Map on Tripline -->
 
 As I put together a map of the trip, I found [another
 family](http://www.sailforgood.org/) proposing something like this. They

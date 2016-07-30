@@ -1,15 +1,10 @@
-Title: Colourettu version 1.1.0 for Python released
+Title: Colourettu 1.1.0 for Python released
 Date: 2015-07-20 9:25
 Modified: 2015-08-15 14:23
 Author: Wm. Minchin
 Tags: Colourettu, Python, releases
+Category: Colourettu
 Slug: colourettu-version-11-for-python
-
-<div class="separator" style="clear: both; text-align: center;">
-
-[![](http://2.bp.blogspot.com/-6kZnhjuzaP8/Vc4IvTn6GcI/AAAAAAAAEq8/BYlb5PNolzc/s1600/colourettu-logo-4x.png)](http://2.bp.blogspot.com/-6kZnhjuzaP8/Vc4IvTn6GcI/AAAAAAAAEq8/BYlb5PNolzc/s1600/colourettu-logo-4x.png)
-
-</div>
 
 Version 1.1.0 of *Colourettu* has been released.
 
@@ -29,10 +24,8 @@ A quick example:
     p2.from_list(all_colours)
     p2.to_image('p2.png', max_width=360, vertical=False)
 
-<div class="separator" style="clear: both; text-align: center;">
-
-[![](http://2.bp.blogspot.com/-l6idW-GHcq4/Vc4JgMlj7RI/AAAAAAAAErE/KNCiLvCdSpk/s1600/p2.png)](http://2.bp.blogspot.com/-l6idW-GHcq4/Vc4JgMlj7RI/AAAAAAAAErE/KNCiLvCdSpk/s1600/p2.png)
-
+<div markdown=1 class="text-center">
+![Colourettu p2]({filename}images/2015/p2.png)
 </div>
 
 The easiest to install (or upgrade) *Colourettu* (assuming you already

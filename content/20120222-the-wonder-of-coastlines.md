@@ -2,14 +2,9 @@ Title: The Wonder of Coastlines
 Date: 2012-02-22 22:31
 Author: Wm. Minchin
 Tags: Coastlines, Property, Series:Social Commentary
+Category: Social Commentary
 Slug: the-wonder-of-coastlines
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://2.bp.blogspot.com/-Mnt8pi467oQ/T0XNQTSItcI/AAAAAAAAB-I/Wrm4i9i9Rug/s400/IMG_4814.JPG)](http://2.bp.blogspot.com/-Mnt8pi467oQ/T0XNQTSItcI/AAAAAAAAB-I/Wrm4i9i9Rug/s1600/IMG_4814.JPG)
-
-</div>
+Image: images/2012/IMG_4814.JPG
 
 A year ago, I traveled to southern France with my honey and some
 friends. As we visited Marseilles, a port town on the Mediterranean with
@@ -33,9 +28,11 @@ not have seen this shore until the 1770's. At Victoria, a busy city has
 grown up, but the shoreline to the west quickly starts resembling what
 it must have looked like 250 years ago.
 
-[![](http://4.bp.blogspot.com/-tdDNMJ6TSwE/T0XNro2vtzI/AAAAAAAAB-Q/y90fFhviWZQ/s320/IMG_6297.JPG)](http://4.bp.blogspot.com/-tdDNMJ6TSwE/T0XNro2vtzI/AAAAAAAAB-Q/y90fFhviWZQ/s1600/IMG_6297.JPG)[![](http://4.bp.blogspot.com/-2GwrNurlyCI/T0XNvIvajHI/AAAAAAAAB-Y/18dpBo1Jhzk/s320/IMG_6298.JPG)](http://4.bp.blogspot.com/-2GwrNurlyCI/T0XNvIvajHI/AAAAAAAAB-Y/18dpBo1Jhzk/s1600/IMG_6298.JPG)
-
-<div class="separator" style="clear: both; text-align: center;">
+<div markdown=1 class="feature-image">
+![Vancouver Island]({filename}images/2012/IMG_6297.JPG)
+</div>
+<div markdown=1 class="feature-image">
+![Vancouver Island]({filename}images/2012/IMG_6298.JPG)
 </div>
 
 In both places, as I sat looking out over the ocean and listening to the
@@ -71,7 +68,7 @@ you make landfall is that some king (or republic) already claims it! In
 the words of Canadian Foreign Minister Peter MacKay "This isn't the 15th
 century. You can't go around the world and just plant flags and say
 'We're claiming this territory'" ([though the Russians might try
-anyway...](http://www.canada.com/montrealgazette/story.html?id=3f4b4327-92a7-4043-ae95-3575763d7b08))
+anyway...](http://www.canada.com/montrealgazette/story.html?id=3f4b4327-92a7-4043-ae95-3575763d7b08)).
 
 So while my studies in flag design aren't going to be immediately
 useful, I think I still like it this way. Civilized societies also

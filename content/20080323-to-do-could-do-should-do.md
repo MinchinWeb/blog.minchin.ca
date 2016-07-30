@@ -2,6 +2,7 @@ Title: To Do, Could Do, Should Do
 Date: 2008-03-23 19:15
 Author: Wm. Minchin
 Tags: Life Hacks, Series:Personal Bits, To Do, To Do List
+Category: Personal Bits
 Slug: to-do-could-do-should-do
 
 ![My To Do

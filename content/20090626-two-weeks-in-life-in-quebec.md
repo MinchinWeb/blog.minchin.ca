@@ -1,7 +1,8 @@
 Title: Two Weeks In (Life in Québec)
 Date: 2009-06-26 8:59
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: two-weeks-in-life-in-quebec
 
 *Monday, May 25, 2009*
@@ -65,24 +66,23 @@ from the Group, church, neighbors, and work.
 The summer looks promising and I look forward to an amazing summer in
 Québec!
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) ·
-[9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html) ·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 Two Weeks In
+</div>

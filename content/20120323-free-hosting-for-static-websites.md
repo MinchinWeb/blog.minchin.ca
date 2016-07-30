@@ -1,5 +1,6 @@
 Title: Free Hosting for Static Websites
 Date: 2012-03-23 22:10
+Modified: 2016-07-26 17:26
 Author: Wm. Minchin
 Tags: Git, GitHub, Web Hosting, Web Services
 Slug: free-hosting-for-static-websites
@@ -11,7 +12,7 @@ play around with HTML. Since I don't run any ads on them, or run a
 business from them, I've trying to avoid having to pay for hosting. In
 the almost 5 years they've been online, I've managed to find a place to
 host them for free: first at Google Pages, and then at Microsoft Office
-Small Business. Google closed 'Pages' in 2009 and Microsoft's offering
+Small Business. Google closed *Pages* in 2009 and Microsoft's offering
 will start charging for hosting the end of next month. So I've been
 looking for a new place to host them. Today I completed the move to
 [GitHub](http://www.github.com/)!
@@ -28,14 +29,12 @@ through installing any software you might need to work with GitHub.
 3. [Create a repository](http://help.github.com/create-a-repo) named
 *{your_username}.github.com*
 4. Push the static files of your website to your new repository.
-
-    1.  Your page will go live at *http://{your_username}.github.com*
+    1.  Your page will go live at *http://{your_username}.github.io*
     2.  If you want to use a different web address (and you own the domain),
         include a file called *CNAME* that lists that other web address in
         your repository. You will also need to create a A record for that
-        domain pointing to `207.97.227.245` (Get your domain name registrar
+        domain pointing to `192.30.252.153` and `192.30.252.154` (Get your domain name registrar
         to help you with that one).
-
 5. You might have to wait 10 minutes for it to go live...
 6. You have a free website!
 

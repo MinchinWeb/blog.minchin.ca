@@ -4,8 +4,7 @@ Modified: 2012-05-21 09:01
 Author: Wm. Minchin
 Tags: Excel, MTS, VBA
 Slug: minchin-timesheet-system-version-11
-
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S8VarB-dZpI/AAAAAAAABQw/rzyhDxjzejk/s400/Full+Timesheet+corner.bmp)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S8Vaqw6uPxI/AAAAAAAABQo/HNmQk8bGSZI/s1600/Full+Timesheet.bmp)
+Image: images/2010/mts-full-timesheet.png
 
 **The Minchin Timesheet System** is designed to provide an easy way to
 keep track of time spent on various projects, especially in situations
@@ -28,10 +27,10 @@ mistakes, and adds an "About" dialogue.
 Excel 2007 or newer is required.
 
 Download [Minchin Timesheet System
-v1.1](http://www.minchin.ca/MTS_1v1.xlsm) (Excel Workbook)
+v1.1]({filename}/images/2010/MTS_1v1.xlsm) (Excel Workbook)
 
 [Example Timesheet
-1](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-13-2010.pdf)
+1](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-13-2010.pdf) ([mirror]({filename}/images/2010/Timesheet-5496-Mar-13-2010.pdf))
 
 [Example Timesheet
-2](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-27-2010.pdf)
+2](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-27-2010.pdf) ([mirror]({filename}/images/2010/Timesheet-5496-Mar-27-2010.pdf))

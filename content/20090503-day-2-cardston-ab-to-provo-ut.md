@@ -2,7 +2,8 @@ Title: Day 2: Cardston AB to Provo UT
 Date: 2009-05-03 9:25
 Modified: 2009-06-26 8:26
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-2-cardston-ab-to-provo-ut
 
 *Monday, April 27, 2009*
@@ -29,17 +30,33 @@ later in the day, the temperature kept rising; when I left Cardston, it
 was just under zero, and by the time I got to Provo, it was 14C. After a
 long day's drive, I finally made it to Provo just before midnight.
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/Sf23ffeMQaI/AAAAAAAAA3U/tQGDRH_qwZA/s400/IMG_7052.jpg)This
-is what I woke up to...
+<figure markdown=1>
+![Snow]({filename}images/2009/IMG_7052.jpg)
+<figcaption markdown=1>
+This is what I woke up to...
+</figcaption>
+</figure>
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/Sf23fSIsthI/AAAAAAAAA3c/bB0qaCzzBQ0/s400/IMG_7058.jpg)The
-road conditions near Raymond AB
+<figure markdown=1>
+![Road near Raymond]({filename}images/2009/IMG_7058.jpg)
+<figcaption markdown=1>
+The road conditions near Raymond AB
+</figcaption>
+</figure>
 
-![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/Sf23fs06rrI/AAAAAAAAA3k/WZrf29y226g/s400/IMG_7060.jpg)The
-little cafe where I ate lunch in Dillon MT
+<figure markdown=1>
+![Cafe in Dillon MT]({filename}images/2009/IMG_7060.jpg)
+<figcaption markdown=1>
+The little cafe where I ate lunch in Dillon MT
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/Sf23fqGJPAI/AAAAAAAAA3s/ZohnCIuNk-o/s400/IMG_7069.jpg)There
-are some gorgeous views along the I-15. This one is somewhere in Idaho.
+<figure markdown=1>
+![View from the I-15]({filename}images/2009/IMG_7069.jpg)
+<figcaption markdown=1>
+There are some gorgeous views along the I-15. This one is somewhere in Idaho.
+</figcaption>
+</figure>
 
 Leave Cardston AB -- 9:55am -- 219,867km  
 Milk River (water and Ginger Ale $6.46)  
@@ -55,24 +72,24 @@ Arrive Provo UT -- 11:23pm -- 221,045km
 *Today -- CAD$6.46, US$140.10 -- 11:25 hours -- 1178km*  
 ***Total -- CAD$222.90 -- 16:40 hours -- 1712km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) · 2
-· [3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) ·
-[9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html) ·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+2 ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>

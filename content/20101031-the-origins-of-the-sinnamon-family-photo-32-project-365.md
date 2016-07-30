@@ -3,13 +3,7 @@ Date: 2010-10-31 12:44
 Author: Wm. Minchin
 Tags: Genealogy, Project 365, Sinnamon
 Slug: the-origins-of-the-sinnamon-family-photo-32-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TIRkRU0-02I/AAAAAAAABkM/G2mYGbl7sUw/s640/2010-08-29+-+P365+-+IMG_2458.JPG)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TIRkRU0-02I/AAAAAAAABkM/G2mYGbl7sUw/s1600/2010-08-29+-+P365+-+IMG_2458.JPG)
-
-</div>
+Image: images/project-365/2010-08-29 - P365 - IMG_2458.JPG
 
 When I was home to my parents' last time, I was going through some old
 boxes and found this. The album must be nearly as old as I am. The
@@ -23,31 +17,15 @@ that carried Sinnamon as a maiden name. The passage reads:
 > illiterate. Later, when they learned to read and write, the name was
 > written down as SINNAMON
 
-> 
-> <span style="color: #666666;">Model: </span> Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span> EF-S18-55mm f/3.5-5.6
-> IS
->
-> <span style="color: #666666;">Exposure: </span>1/60 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/4.0
->
-> <span style="color: #666666;">Focal Length: </span>21 mm
->
-> <span style="color: #666666;">Flash Used: </span>Used
->
-> <span style="color: #666666;">ISO: </span>400
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:08:29 21:44:07
->
-> 
->
-> <span style="color: #666666;">Post-production: </span>Crop
->
-> <p>
-
+<div markdown=1 class="photo-infobox">
+*Model*:  Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: EF-S18-55mm ƒ/3.5-5.6 IS  
+*Exposure*: 1/60 sec  
+*Aperture*: ƒ/4.0  
+*Focal Length*: 21 mm  
+*Flash Used*: Used  
+*ISO*: 400  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2010:08:29 21:44:07  
+*Post-production*: Crop
+</div>

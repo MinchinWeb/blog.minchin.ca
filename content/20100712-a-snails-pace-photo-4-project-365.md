@@ -3,14 +3,9 @@ Date: 2010-07-12 16:08
 Modified: 2010-08-08 22:29
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: a-snails-pace-photo-4-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDuAgU-UAkI/AAAAAAAABac/WxCaeRNVI8c/s640/2010-07-12+-+P365+-+IMG_1111.JPG)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDuAgU-UAkI/AAAAAAAABac/WxCaeRNVI8c/s1600/2010-07-12+-+P365+-+IMG_1111.JPG)
-
-</div>
+Image: images/project-365/2010-07-12 - P365 - IMG_1111.JPG
 
 On my way home from some morning errands, I spotted a snail working its
 way along the concert lawn edger. In the few minutes I took to get my
@@ -23,30 +18,14 @@ the f-stop number to limit what's in focus. At ƒ/1.8 it gets rather
 tricky as, if you set it wrong, you'll have the grass in front in focus
 and not the snail...
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span>Canon EF 50mm f/1.8
-> MkII
->
-> <span style="color: #666666;">Exposure: </span>1/500 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/1.8
->
-> <span style="color: #666666;">Focal Length: </span>50mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>200
->
-> <span style="color: #666666;">Filter(s): </span>None
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:07:12 09:01:32
->
-> <p>
-
-[About Project
-365](http://blog.minchin.ca/2010/07/project-365-introduction.html)
-
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: Canon EF 50mm f/1.8 MkII  
+*Exposure*: 1/500 sec  
+*Aperture*: ƒ/1.8  
+*Focal Length*: 50mm  
+*Flash Used*: No  
+*ISO*: 200  
+*Filter(s)*: None  
+*Date and Time Original*: 2010:07:12 09:01:32
+</div>

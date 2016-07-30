@@ -3,9 +3,10 @@ Date: 2011-10-16 11:04
 Author: Wm. Minchin
 Tags: 3D Printing, Model Railway, Trains
 Slug: 3d-printing-and-model-trains
+Image: images/2011/IMG_6112-cropped.jpg
 
-While in France, the combination of being somewhere near church mouse
-poor and living in a small (32 square metres / 350 sq ft) 1 bedroom
+While in France, the combination of being somewhere near 'church mouse
+poor' and living in a small (32 square metres / 350 sq ft) 1 bedroom
 apartment, I looked for hobbies that took up little space and so settled
 on photography (i.e. my [Project
 365](http://blog.minchin.ca/search/label/Project%20365) here) and
@@ -19,26 +20,9 @@ dream. One of my shocks was the cost of models! A regular-ish building,
 measuring maybe 2x3x3 inches would cost $60! There had to be a better
 way...
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
+### Enter 3D Printing
 
-<tr>
-<td style="text-align: center;">
-[![](http://2.bp.blogspot.com/-08zIEymW0nQ/TpsOWko5HbI/AAAAAAAAB8g/fiDJTUcKVxI/s400/IMG_6112.JPG)](http://2.bp.blogspot.com/-08zIEymW0nQ/TpsOWko5HbI/AAAAAAAAB8g/fiDJTUcKVxI/s1600/IMG_6112.JPG)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
-My brand new locomotive!
-
-</td>
-</tr>
-</tbody>
-</table>
-
-**ENTER 3D PRINTING.** Various technologies exist but the most popular,
+Various technologies exist but the most popular,
 at least at the hobby level, basically consists of a hot metal nozzle
 that melts a 'thread' of plastic and then uses this melted plastic to
 paint, layer by layer, your desired object. A kit for a printer like
@@ -48,16 +32,18 @@ computer model rather than in physical model building, so I started
 wondering if I could sell some models and let someone else pay for my
 printer and railway modelling...
 
-<a name="more"></a>
+<!-- Read More -->
 
-**LITERATURE REVIEW.** Good research starts with a review of those who
+### Literature Review
+
+Good research starts with a review of those who
 have already worked on the problem. My Google searches turned up a few
 sites of note.
 
 The first is [a note from
 2008](http://fabbaloo.com/blog/2008/7/16/tiny-3d-trains.html) talking
 about the feasibility of using a 3D printer for model railroading. There
-were two comments of interest: one, 3D pritners are expensive, and two,
+were two comments of interest: one, 3D printers are expensive, and two,
 the resolution isn't there yet.
 
 Next is a series of posts
@@ -88,7 +74,9 @@ complex geometries.
 So the two issues that stand out are cost (of the printer) and
 resolution.
 
-**COST.** Professional 3D printers don't come cheap. Searching online
+### Cost
+
+Professional 3D printers don't come cheap. Searching online
 does not also show prices, but from what I can gather, professional
 printer lines start at $10-15,000 and can run to $60,000 or more and
 many also require maintenance contracts. The hobby printers are
@@ -104,7 +92,9 @@ kilogram or a couple of cents per cubic centimetre. Although not free,
 if it defendant within reach (like how we don't think about paper in our
 inkjet printers today).
 
-**RESOLUTION.** Resolution is a measure of how fine of thing can be
+### Resolution
+
+Resolution is a measure of how fine of thing can be
 printed and still be seen. Ignoring the professional printers (already
 ruled out on the basis of cost), the basic resolution of the hobby
 printers is based on the size of the nozzle. For the Thing-O-Matic, I
@@ -123,7 +113,9 @@ laser printers used to give you 150 dpi and it seemed rough, but very
 workable. So I think resolution is workable, although I will keep my
 eyes open for upgrades to that.
 
-**COMPETITION.** Competition is good and bad. On the one hand, if there
+### Competition
+
+Competition is good and bad. On the one hand, if there
 is some competition, it means the idea isn't too crazy and someone else
 may have developed a market for you; if there's too much competition,
 it's hard to stand out.
@@ -145,7 +137,9 @@ wasn't able to figure out what kind of printer they use, but anything I
 added to my cart was out of stock, so I'm not sure they're in business
 anymore.
 
-**CONCLUSIONS.** 3D printing is still a developing technology and as
+### Conclusions
+
+3D printing is still a developing technology and as
 such is not "state-of-the-art" for model making. However, it is
 available at an accessible price point and allows creation of models at
 home! As a plus, I don't think it's unreasonable to turn it into a small
@@ -154,7 +148,7 @@ in-house like this is that the inventory I need to keep on hand is very
 minimal. And even if the business side fails, I still get to use it to
 build my own railway!
 
-**OTHER READING.**
+### Other Reading
 
 -   [Overview of 3D printing
     technologies](http://www.explainingthefuture.com/3dprinting.html)

@@ -3,6 +3,7 @@ Date: 2010-10-05
 Modified: 2010-10-22 17:21
 Author: Wm. Minchin
 Tags: Series:Personal Bits
+Category: Personal Bits
 Slug: disconneted
 
 (Written on Tuesday October 5, 2010, about a week before I had regular

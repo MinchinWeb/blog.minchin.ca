@@ -2,6 +2,7 @@ Title: MetaLibrary Documentation Live
 Date: 2014-02-01 18:13
 Author: Wm. Minchin
 Tags: MetaLibrary, NoAI, OpenTTD
+Category: MetaLibrary
 Slug: metalibrary-documentation-live
 
 Over the last four years, I've been working on an AI called WmDOT for

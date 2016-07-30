@@ -9,7 +9,7 @@ thought doing my job search through the Internet would be the way to do
 it. It turned out to be both brilliant and brutal, all at the same
 time.
 
-## The Brilliant
+### The Brilliant
 
 The Internet has made distances, for many purposes, very small indeed.
 From France, I could search though hundreds of possible jobs from scores
@@ -19,7 +19,7 @@ made it easy to find even more possible jobs. When I found a position I
 was interested in, email allowed me to submit my resume without having
 to find a FAX machine or worry about the eight hour time difference.
 
-## The Brutal
+### The Brutal
 
 While the Internet has reworked the world in wonderful ways, not all the
 implications have been dealt with.
@@ -53,7 +53,7 @@ taken a cardboard sign down go the local street corner! At the very
 least, I'd have a better story than spending weeks and months in front
 of the computer...
 
-## My Job Search
+### My Job Search
 
 In the beginning, my job search was realitively simple, spending time on
 the Internet with a goal of 2 or 3 applications a week. I spent about
@@ -64,7 +64,7 @@ On returning to Canada, I rewrote my resume (twice) and then hit the
 pavement. My 40 online applications netted me nothing, but of my 8
 walk-ins, one landed me an interview and then a job.
 
-## My Suggestions -- To Those Offering Jobs
+### My Suggestions -- To Those Offering Jobs
 
 My experience is just my own, but there are some lessons I hope I can
 pass along.

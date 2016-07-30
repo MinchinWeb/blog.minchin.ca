@@ -3,38 +3,22 @@ Date: 2010-10-13 5:37
 Modified: 2010-10-22 10:03
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: seattle-skyline-photo-25-project-365
 Location: Seattle, WA, USA
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TIRkMdbQeoI/AAAAAAAABjw/9fIpNg5jkJs/s640/2010-08-20+-+P365+-+IMG_2188.JPG)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TIRkMdbQeoI/AAAAAAAABjw/9fIpNg5jkJs/s1600/2010-08-20+-+P365+-+IMG_2188.JPG)
-
-</div>
+Image: images/project-365/2010-08-20 - P365 - IMG_2188.JPG
 
 As we headed north into Washington, we pulled off the coast to visit
 friends in Seattle. This is the Seattle skyline from I-5. I've always
 thought of cityscapes are an interesting portrait of a city.
 
-> 
-> <span style="color: #666666;">Model: </span> Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Exposure: </span>1/125 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/9
->
-> <span style="color: #666666;">Focal Length: </span>55 mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>100
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:08:20
->
-> <p>
-
+<div markdown=1 class="photo-infobox">
+*Model*:  Canon EOS DIGITAL REBEL XSI  
+*Exposure*: 1/125 sec  
+*Aperture*: ƒ/9  
+*Focal Length*: 55 mm  
+*Flash Used*: No  
+*ISO*: 100  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2010:08:20
+</div>

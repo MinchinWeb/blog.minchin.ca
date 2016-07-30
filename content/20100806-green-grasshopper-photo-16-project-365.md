@@ -3,42 +3,21 @@ Date: 2010-08-06 12:37
 Modified: 2010-11-30 22:32
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: green-grasshopper-photo-16-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TFunZhrBurI/AAAAAAAABhM/iIkhFdf2CkU/s640/2010-08-05+-+P365+-IMG_1428.JPG)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TFunZhrBurI/AAAAAAAABhM/iIkhFdf2CkU/s1600/2010-08-05+-+P365+-IMG_1428.JPG)
-
-</div>
+Image: images/project-365/2010-08-05 - P365 - IMG_1428.JPG
 
 Tonight brought much excitement. Up next to the light was a bright green
 grasshopper. He so conveniently stayed still for me to shoot him :)
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span> Canon EF-S 18-55mm
-> f/3.5-5.6 IS
->
-> <span style="color: #666666;">Exposure: </span>1/25 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/5.6
->
-> <span style="color: #666666;">Focal Length: </span>50 mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>800
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:08:06 19:06:49
->
-> <p>
-
-[About Project
-365](http://blog.minchin.ca/2010/07/project-365-introduction.html)
-
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS
+*Exposure*: 1/25 sec  
+*Aperture*: ƒ/5.6  
+*Focal Length*: 50 mm  
+*Flash Used*: No  
+*ISO*: 800  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2010:08:06 19:06:49
+</div>

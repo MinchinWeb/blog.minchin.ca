@@ -2,13 +2,14 @@ Title: Seven Things I've Learned Blogging
 Date: 2007-06-20 11:37
 Author: Wm. Minchin
 Tags: Blogging, Series:Personal Bits
+Category: Personal Bits
 Slug: seven-things-ive-learned-blogging
 
 I've had this little presence on the web for just over a year now, and
 thought I would make a list of the few things that I've learnt along the
 way, some from reading, and some from doing.
 
-## HTML Can Be Fun
+### HTML Can Be Fun
 
 I've never really taken a hold of sophisticated web design, and haven't
 really had anywhere to apply in until I signed up with Blogger. The
@@ -18,7 +19,7 @@ source, you'll see a number of notes I've written there to myself.
 There's still a new things I'm trying to figure out, so my template will
 probably yet change again.
 
-## Privacy is a Myth
+### Privacy is a Myth
 
 I have come to feel that privacy is more perception than reality - it
 exist because of social norms, not technological barriers. Every so
@@ -33,7 +34,7 @@ her name and licence plate, the person on the other end was able to call
 up her MasterCard number and which meter she was parked at. Scary, but
 only because now she knows.
 
-## Little Original Content
+### Little Original Content
 
 We read in Ecclesiastes that ["*there* is no new *thing* under the
 sun."](http://scriptures.lds.org/en/eccl/1/9#9). While modern technology
@@ -45,7 +46,7 @@ takes a fair bit of effort (see following point), and even once created,
 it's very hard to guarantee an audience, especially when put next to
 technology news.
 
-## Decent Content Takes Decent Time
+### Decent Content Takes Decent Time
 
 I have discovered that when I want to write something half-way decent,
 it always seems to always take longer than I think it should. I guess
@@ -55,7 +56,7 @@ don't have a tight deadline to work under. This for little piece, for
 example, I've had ideas running around my head for the last three
 months.
 
-## The Inverse Law of Usenet Bandwidth
+### The Inverse Law of Usenet Bandwidth
 
 I first came across this in the February 2006 Readers Digest (Canadian
 Edition). The Law states "The more interesting your life becomes, the
@@ -65,7 +66,7 @@ Barger, the same guy who would later coin the word "weblog", from which
 a regular posting schedule, but after reading this, I didn't feel nearly
 as bad about keeping up the rest of my life instead.
 
-## Long Tail Economics
+### Long Tail Economics
 
 One of the things the information age is changing is some of the
 fundamental laws of what to stock and what not to. In a brick-and-morter
@@ -84,7 +85,7 @@ the bank, and those sites collectively can become the most important
 the end of the world if there's a lot of other people down there too
 (and there sure is!).
 
-## The Price of Free -- Advertising
+### The Price of Free -- Advertising
 
 I don't watch much TV, but I am always annoyned by the amount of
 commercials (it's something like 15 minutes in an hour). In setting up

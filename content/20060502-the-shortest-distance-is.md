@@ -3,6 +3,7 @@ Date: 2006-05-02 14:32
 Modified: 2008-02-05 21:55
 Author: Wm. Minchin
 Tags: Air Travel, Map, Map Projection, Map Projections, Maps, NORAD, Polar Flights, Series:Random Bits
+Category: Random Bits
 Slug: the-shortest-distance-is
 
 The time-old adage is that "The shortest distance between two points is

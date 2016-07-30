@@ -1,7 +1,8 @@
 Title: Olympic Hockey and Water Use
 Date: 2010-03-09 11:54
 Author: Wm. Minchin
-Tags: Hockey, Series:Personal Bits, Series:Social Commentary
+Tags: Hockey, Series:Social Commentary
+Category: Social Commentary
 Slug: olympic-hockey-and-water-use
 
 This was too priceless to pass up....
@@ -25,9 +26,10 @@ when the game picks up and the end of the periods.
 
 But like I said, amazing game. GO CANADA!
 
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/S5dBV2CLuqI/AAAAAAAABCA/QXYgAP1mFUg/s400/flush_game.jpg)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/S5dBV2CLuqI/AAAAAAAABCA/QXYgAP1mFUg/s1600-h/flush_game.jpg)
+![Flushes During Hockey Game]({filename}/images/2010/flush_game.jpg)
+
 (The green line represents water usage on the day before the game, or
 usage on a 'normal' day)
 
-Via [Pat's
-Papers](http://www.patspapers.com/blog/item/what_if_everybody_flushed_at_once_Edmonton_water_gold_medal_hockey_game/)
+*Via [Pat's
+Papers](http://www.patspapers.com/blog/item/what_if_everybody_flushed_at_once_Edmonton_water_gold_medal_hockey_game/)*

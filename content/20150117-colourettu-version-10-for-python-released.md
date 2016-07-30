@@ -1,8 +1,9 @@
-Title: Colourettu version 1.0.0 for Python released
+Title: Colourettu 1.0.0 for Python released
 Date: 2015-01-17 9:21
 Modified: 2015-08-15 14:25
 Author: Wm. Minchin
 Tags: Colourettu, Python, releases
+Category: Colourettu
 Slug: colourettu-version-10-for-python
 
 Version 1.0.0 of *Colourettu* has been released.
@@ -26,7 +27,7 @@ A quick example:
     >>> colourettu.contrast(c4, c5)
     4.363552233203198
 
-The easiest to install (or upgrade) *Colourett* (assuming you already
+The easiest to install (or upgrade) *Colourettu* (assuming you already
 have Python installed) is to use *pip*:
 
     pip install colourettu --upgrade

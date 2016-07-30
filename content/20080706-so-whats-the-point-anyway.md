@@ -3,6 +3,7 @@ Date: 2008-07-06 14:28
 Modified: 2009-03-29 22:22
 Author: Wm. Minchin
 Tags: Series:Personal Bits, Writing
+Category: Personal Bits
 Slug: so-whats-the-point-anyway
 
 I sit down at my computer with an idea that's been running around in my

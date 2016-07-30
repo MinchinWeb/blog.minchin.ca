@@ -2,6 +2,7 @@ Title: The Health Care Pricing Fallacy
 Date: 2010-02-26 21:58
 Author: Wm. Minchin
 Tags: Health Care, Series:Social Commentary
+Category: Social Commentary
 Slug: the-health-care-pricing-fallacy
 
 The often supplied answer, in some circles, to any question that seems

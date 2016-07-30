@@ -3,6 +3,7 @@ Date: 2008-07-29 22:34
 Modified: 2009-03-29 15:33
 Author: Wm. Minchin
 Tags: Road Trips, Series:Personal Bits, Travel
+Category: Personal Bits
 Slug: travel-bug
 
 ![Biplane](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SJAMxwhLlXI/AAAAAAAAAl8/O6AC_nBUObc/s400/Biplane.jpg)

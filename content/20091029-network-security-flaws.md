@@ -2,6 +2,7 @@ Title: Network Security Flaws
 Date: 2009-10-29 11:25
 Author: Wm. Minchin
 Tags: Network Security, Series:Random Bits
+Category: Random Bits
 Slug: network-security-flaws
 
 One of the problems with security, especially as it pertains to

@@ -3,8 +3,9 @@ Date: 2010-07-05 16:49
 Author: Wm. Minchin
 Tags: Beijing Metro, China, Guangzhou Metro, Hong Kong, MTR, Public Transportation, Shanghai Metro, Shenzhen Metro, Tainjin Metro, TOD, Transportation, Transportation Oriented Development
 Slug: chinese-public-transportation-history
+Category: Essays
 
-#### Abstract
+### Abstract
 
 Public transit has existed in China since 1969 with the
 opening of the Beijing Metro. Today, Shanghai has the largest metro
@@ -21,7 +22,6 @@ popular, with over 80% mode capture rate. Hong Kong continues to expand
 its
 rail transit network, but at a slower rate than many cities in mainland
 China.
-
 The system operator has also taken on the role of developer, generating
 more
 profits from property management than railway fares, and in the process
@@ -33,24 +33,20 @@ policies in action, which are a model for TOD efforts worldwide.
 In summary, a short compare and contrast between China's
 fast growing cities of today and post-World War II American cities is
 provided.
-
 Both are growing (or grew) at incredible speeds, have rising middle
 classes and
-
 significant economic growth. What Chinese planners can note is that in
 America,
 highways were chosen over public transportation options. Today, that
 means that
 traffic congestions remains a major problem in many American cities.
-
 Additionally, funds to maintain infrastructure have waned as the cities'
 growth
-
 has slowed with the slowing of economic growth.
 
 <!-- read more -->
 
-## Introduction
+### Introduction
 
 Public transit is a relatively new phenomena in China. Planning for the
 Beijing Metro began with the help of Soviet experts in 1950, but it
@@ -91,7 +87,7 @@ undertaking today is compared to the development path pursued by
 American
 cities following World War II.
 
-## A History of Public Transit in Mainland China
+### A History of Public Transit in Mainland China
 
 Current mode split in Chinese cities, as noted in Table 1, shows that
 public transit (all forms)
@@ -141,75 +137,45 @@ would be
 approved for light rail projects with a one-way capacity over 10,000
 people/hour *([1](#IBI10))*.
 
-Table 1. Mode Split in Chinese Cities *(<a href="\#Ken01"\>2</a>)*
-
-<div align="center">
-
-<table border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;">
-
-<tr>
-<td width="169" valign="top" style="width:126.9pt;border-top:solid black 1.0pt;  border-left:none;border-bottom:solid black 1.0pt; border-right:none;padding:0in 5.4pt 0in 5.4pt">
-
-Mode
-</td>
-<td width="138" valign="top" style="width:103.5pt;border-top:solid black 1.0pt; border-left:none;border-bottom:solid black 1.0pt; border-right:none;padding:0in 5.4pt 0in 5.4pt">
-
-Mode Capture
-</td>
-
-</tr>
-
-<tr>
-
-<td width="169" valign="top" style="width:126.9pt; border:none; background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-Walking/Cycling
-
-</td>
-
-<td width="138" valign="top" style="width:103.5pt;border:none;background:silver;&lt;/p&gt;&lt;p&gt;  padding:0in 5.4pt 0in 5.4pt">
-
-65%
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="169" valign="top" style="width:126.9pt;border:none;padding:0in 5.4pt 0in 5.4pt">
-
-Transit
-
-</td>
-
-<td width="138" valign="top" style="width:103.5pt;border:none;padding:0in 5.4pt 0in 5.4pt">
-
-19%
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="169" valign="top" style="width:126.9pt;border:none;border-bottom:solid black 1.0pt; background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-Private Motor Vehicle
-
-</td>
-
-<td width="138" valign="top" style="width:103.5pt;border:none;border-bottom:solid black 1.0pt; background:silver;  padding:0in 5.4pt 0in 5.4pt">
-
-16%
-
-</td>
-
-</tr>
-
+<table markdown=1 class="table table-striped">
+<caption markdown=1>
+    Table 1. Mode Split in Chinese Cities *([2](#Ken01))*
+</caption>
+<thead>
+    <th>
+        Mode
+    </th>
+    <th>
+        Mode Capture
+    </th>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            Walking/Cycling
+        </td>
+        <td>
+            65%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Transit
+        </td>
+        <td>
+            19%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Private Motor Vehicle
+        </td>
+        <td>
+            16%
+        </td>
+    </tr>
+</tbody>
 </table>
-
-</div>
 
 It is worth noting that, by annual ridership, the Beijing (#5), Hong
 Kong (#8), and Shanghai (#9) systems are in the top ten systems
@@ -220,114 +186,63 @@ players in mainland China remain Shanghai, Beijing, Guangzhou, Shenzhen
 (market
 share for 2010 noted in Table 2, which together account for 64% of
 Chinese
-urban rail passengers *([1](#IBI10))*).
+urban rail passengers *([1](#IBI10)))*.
 
-Table 2. Major Player Market Share in
-Chinese Urban Rail Transportation (2010) *([1](#IBI10))*
-
-<div align="center">
-
-<table border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;">
-
-<tr>
-
-<td width="229" valign="top" style="width:171.9pt;border-top:solid black 1.0pt; border-left:none;border-bottom:solid black 1.0pt; border-right:none;padding:0in 5.4pt 0in 5.4pt">
-
-Major Player Market Share
-
-</td>
-
-<td width="84" valign="top" style="width:63.0pt;border-top:solid black 1.0pt; border-left:none;border-bottom:solid black 1.0pt; border-right:none;padding:0in 5.4pt 0in 5.4pt">
-
-Range
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="229" valign="top" style="width:171.9pt;border:none;background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-Shanghai Shentong Metro Group
-
-</td>
-
-<td width="84" valign="top" style="width:63.0pt;border:none;background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-28%
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="229" valign="top" style="width:171.9pt;border:none;padding:0in 5.4pt 0in 5.4pt">
-
-Beijing Subway Operation Co., Ltd.
-
-</td>
-
-<td width="84" valign="top" style="width:63.0pt;border:none;padding:0in 5.4pt 0in 5.4pt">
-
-18%
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="229" valign="top" style="width:171.9pt;border:none;background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-Guangzhou Metro Corporation
-
-</td>
-
-<p>
-<td width="84" valign="top" style="width:63.0pt;border:none;background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-11%
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="229" valign="top" style="width:171.9pt;border:none;padding:0in 5.4pt 0in 5.4pt">
-
-Shenzhen Metro Co., Ltd.
-
-</td>
-
-<td width="84" valign="top" style="width:63.0pt;border:none;padding:0in 5.4pt 0in 5.4pt">
-
-7%
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="229" valign="top" style="width:171.9pt;border:none;border-bottom:solid black 1.0pt; background:silver; padding:0in 5.4pt 0in 5.4pt">
-
-Other
-
-</td>
-
-<td width="84" valign="top" style="width:63.0pt;border:none;border-bottom:solid black 1.0pt; background:silver;  padding:0in 5.4pt 0in 5.4pt">
-
-36%
-
-</td>
-</tr>
+<table markdown=1 class="table table-striped">
+<caption markdown=1>
+    Table 2. Major Player Market Share in Chinese Urban Rail Transportation (2010) *([1](#IBI10))*
+</caption>
+<thead>
+    <th>
+        Major Player Market Share
+    </th>
+    <th>
+        Range
+    </th>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            Shanghai Shentong Metro Group
+        </td>
+        <td>
+            28%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Beijing Subway Operation Co., Ltd.
+        </td>
+        <td>
+            18%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Guangzhou Metro Corporation
+        </td>
+        <td>
+            11%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Shenzhen Metro Co., Ltd.
+        </td>
+        <td>
+            7%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Other
+        </td>
+        <td>
+        36%
+        </td>
+    </tr>
+</tbody>
 </table>
-
-
-</div>
 
 Today, there
 are over 100 cities in China with a population of over 1 million but
@@ -346,7 +261,7 @@ together account for 64% of Chinese urban rail passengers
 country's population is expected to be urban by 2020 and 75% by 2050,
 major
 expansion of urban rapid transit has begun in China. The Chinese central
-government has committed to spending USD 1 trillion by 2015 on
+government has committed to spending USD $1 trillion by 2015 on
 grade-separated
 urban transportation corridors. This is expected to increase the length
 of
@@ -357,47 +272,22 @@ this
 investment *([4](#Yon10))* (click on the image to see an enlarged
 version).
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
+<figure markdown=1>
+![Rapid Transit in China]({filename}/images/2010/image001.jpg)
+<figcaption markdown=1>
+    Rapid Transit in China, Today and 2020 *([4](#Yon10))*
+</figcaption>
+</figure>
 
-<tr>
-<td style="text-align: center;">
-[![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJR0RLP78I/AAAAAAAABV8/3mUqx1SQdUQ/s400/image001.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJR0RLP78I/AAAAAAAABV8/3mUqx1SQdUQ/s1600/image001.jpg)
 
-</td>
-</tr>
+### Beijing
 
-<tr>
-<td class="tr-caption" style="text-align: center;">
-Rapid Transit in China, Today
-and 2020 *([4](#Yon10))*
-
-</td>
-</tr>
-
-</tbody>
-</table>
-
-#### Beijing
-
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-
-<tr>
-<td style="text-align: center;">
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSDLdQByI/AAAAAAAABWE/VDf5lWTxHL0/s200/image003.png)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSDLdQByI/AAAAAAAABWE/VDf5lWTxHL0/s1600/image003.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
-Beijing Metro Logo
-
-</td>
-</tr>
-</tbody>
-</table>
+<figure markdown=1>
+![Beijing Metro Logo]({filename}/images/2010/image003.png)
+<figcaption markdown=1>
+    Beijing Metro Logo
+</figcaption>
+</figure>
 
 The Beijing Metro was the country's first, originally planned with the
 help of Soviet experts and the concept originally unveiled in 1953.
@@ -456,46 +346,21 @@ this year. This will bring the system length to 420 km by 2012 and to
 place
 by 2020 (not 2015, as noted in the diagram).
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
+<figure markdown=1>
+![Beijing Subway Plan for 2020]({filename}/images/2010/image005.png)
+<figcaption markdown=1>
+    Beijing Subway Plan for 2020 *([9](#Ran09))*
+</figcaption>
+</figure>
 
-<tr>
-<td style="text-align: center;">
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDJSD3DRjQI/AAAAAAAABWM/G9CWSAa9Pkk/s400/image005.png)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDJSD3DRjQI/AAAAAAAABWM/G9CWSAa9Pkk/s1600/image005.png)
+### Tianjin
 
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
-Beijing Subway Plan for 2020 *([9](#Ran09))*
-
-</td>
-</tr>
-</tbody>
-</table>
-
-## Tianjin
-
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-
-<tr>
-<td style="text-align: center;">
-[![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJSFT8jvcI/AAAAAAAABWU/d7SPbxcaOHI/s200/image007.png)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJSFT8jvcI/AAAAAAAABWU/d7SPbxcaOHI/s1600/image007.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Tainjin Metro Logo]({filename}/images/2010/image007.png)
+<figcaption markdown=1>
 Tainjin Metro Logo
-
-</td>
-</tr>
-
-</tbody>
-</table>
+</figcaption>
+</figure>
 
 The Tianjin
 Metro was the second to open in China, opening the first few stations in
@@ -521,25 +386,14 @@ MGRT) and 26 km of track. Lines 2 (opening 2011), 3 (opening 2012), 5
 and 8 remain in the planning stages *([10](#Wik10c))*. Below is a map of
 the Tianjin Metro system.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSHud-GiI/AAAAAAAABWc/JUHRUyMWsUA/s400/image009.png)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSHud-GiI/AAAAAAAABWc/JUHRUyMWsUA/s1600/image009.png)
+<figure markdown=1>
+![Tianjin Subway]({filename}/images/2010/image009.png)
+<figcaption markdown=1>
+Tianjin Subway, Including Lines Under Construction *([11](#ASD10))*
+</figcaption>
+</figure>
 
-</td>
-</tr>
-<tr>
-<td class="tr-caption" style="text-align: center;">
-Tianjin
-Subway, Including Lines Under Construction *([11](#ASD10))*
-
-</td>
-</tr>
-</tbody>
-</table>
-
-## Shanghai
+### Shanghai
 
 Shanghai has a rich history, rising to particular importance following
 the Opium Wars (1839-42), after which it was opened to foreign trade. In
@@ -555,24 +409,12 @@ foreign investment. In 2005, Shanghai became the world's largest port
 *([12](#Wik10e))*. Today, Shanghai is
 well on its way to reclaiming its spot as an important world city.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-
-<tr>
-<td style="text-align: center;">
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSI-rRgKI/AAAAAAAABWk/WkcuSwtRif0/s200/image011.png)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSI-rRgKI/AAAAAAAABWk/WkcuSwtRif0/s1600/image011.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Shanghai Metro Logo]({filename}/images/2010/image011.png)
+<figcaption markdown=1>
 Shanghai Metro Logo
-
-</td>
-</tr>
-</tbody>
-</table>
+</figcaption>
+</figure>
 
 The first line of the Shanghai Metro opened in 1995 as a north-south
 axis from the Central Station to the southern suburbs. In recent years,
@@ -597,24 +439,12 @@ By
 877 km of
 track (see below) *([13](#Wik10f))*.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-
-<tr>
-<td style="text-align: center;">
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDJSJQse72I/AAAAAAAABWs/7jCjuEO280g/s400/image013.jpg)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDJSJQse72I/AAAAAAAABWs/7jCjuEO280g/s1600/image013.jpg)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Shanghai Metro Map]({filename}/images/2010/image013.jpg)
+<figcaption markdown=1>
 Shanghai Metro Map *([14](#Yon10b))*
-
-</td>
-</tr>
-</tbody>
-</table>
+</figcaption>
+</figure>
 
 Shanghai's metro system is unique in China in that it runs on 1,500V DC
 power and is powered via overhead cantery, in part because of the high
@@ -622,7 +452,7 @@ voltage
 (most metro systems run on 750 V DC and are powered via a third rail)
 *([15](#Rob04b))*.
 
-## Guangzhou
+### Guangzhou
 
 With a history stretching back more than 2100 years, Guangzhou has a
 varied and rich history. Established during the Qin dynasty as a
@@ -635,7 +465,6 @@ Wars
 in
 modern times as, for various reasons, the port was closed to the outside
 world.
-
 Starting with China's economic reforms in the last 1970's and its
 designation
 in 1984 as an 'open city', Guangzhou has sought to reclaim its past
@@ -649,23 +478,12 @@ remake it
 into a regional hub for southeast China and Southeast Asia
 *([16](#Jia03))*.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDJSKYKG_RI/AAAAAAAABW0/CMEpLhEAkdU/s200/image015.png)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDJSKYKG_RI/AAAAAAAABW0/CMEpLhEAkdU/s1600/image015.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Guangzhou Metro Logo]({filename}/images/2010/image015.png)
+<figcaption markdown=1>
 Guangzhou Metro Logo
-
-</td>
-</tr>
-</tbody>
-</table>
+</figcaption>
+</figure>
 
 The construction of the Metro in Guangzhou began in December 1993 and
 the
@@ -683,25 +501,14 @@ expected to grow to 191 km by 2010 (see below for 2013 system) and over
 600 km
 in the long term.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJSMPZYCwI/AAAAAAAABW8/1F8rXFC5nqg/s400/image017.png)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJSMPZYCwI/AAAAAAAABW8/1F8rXFC5nqg/s1600/image017.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Guangzhou Metro Map]({filename}/images/2010/image017.png)
+<figcaption markdown=1>
 Guangzhou Metro Map (2013) *([19](#ASD10c))*
+</figcaption>
+</figure>
 
-</td>
-</tr>
-</tbody>
-</table>
-
-## Shenzhen
+### Shenzhen
 
 Before 1979, Shenzhen was a sleepy fishing village with a population of
 300,000. That year brought Shenzhen the designation as the first of
@@ -714,23 +521,12 @@ as the number five financial center in the world after London, New York,
 Hong
 Kong, and Singapore *([20](#Edd10))*.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDJSNeI4DLI/AAAAAAAABXE/zpAt5i_oeBI/s200/image019.png)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDJSNeI4DLI/AAAAAAAABXE/zpAt5i_oeBI/s1600/image019.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Shenzhen Metro Logo]({filename}/images/2010/image019.png)
+<figcaption markdown=1>
 Shenzhen Metro Logo
-
-</td>
-</tr>
-</tbody>
-</table>
+</figcaption>
+</figure>
 
 The
 Shenzhen Metro opened in December 2004, the fifth city in mainland China
@@ -741,44 +537,20 @@ of track in use. It is anticipated that there will be 177 km of track in
 service by 2011 (see below) *([21](#Wik10d))*. Plans of the expanded
 2020 system can also be found below.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSOHBJedI/AAAAAAAABXM/jmd0oZnR2ac/s400/image021.png)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TDJSOHBJedI/AAAAAAAABXM/jmd0oZnR2ac/s1600/image021.png)
+<figure markdown=1>
+![Shenzhen Metro Map]({filename}/images/2010/image021.png)
+<figcaption markdown=1>
+Shenzhen Metro Map *([22](#Ran081))*
+</figcaption>
+</figure>
 
-</td>
-</tr>
+<figure markdown=1>
+![Shenzhen Metro Network ]({filename}/images/2010/image023.png)
+<figcaption markdown=1>
+Shenzhen Metro Network in 2020 *([23](#And09))*
+</figcaption>
+</figure>
 
-<tr>
-<td class="tr-caption" style="text-align: center;">
-Shenzhen
-
-Metro Map *([22](#Ran081))*
-
-</td>
-</tr>
-</tbody>
-</table>
-
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJSPzNgkoI/AAAAAAAABXU/eYl_Wn_Pnvk/s400/image023.png)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/TDJSPzNgkoI/AAAAAAAABXU/eYl_Wn_Pnvk/s1600/image023.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
-Shenzhen
-Metro Network in 2020 *([23](#And09))*
-
-</td>
-</tr>
-</tbody>
-</table>
 
 Due to its
 location near Hong Kong, part of the expansion to be complete in 2011
@@ -787,25 +559,14 @@ reciprocal agreement allowing a unified system of fare payment for both
 the
 Hong Kong and Shenzhen Metro Systems *([21](#Wik10d))*.
 
-## Hong Kong
+### Hong Kong
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr>
-<td style="text-align: center;">
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDJSSqvGBSI/AAAAAAAABXg/nRyeYnAcUuc/s200/image026.gif)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDJSSqvGBSI/AAAAAAAABXg/nRyeYnAcUuc/s1600/image026.gif)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![MTR Logo]({filename}/images/2010/image026.gif)
+<figcaption markdown=1>
 MTR Logo
-
-</td>
-</tr>
-</tbody>
-</table>
+</figcaption>
+</figure>
 
 Hong Kong was a British colony until 1997 when it was handed back to
 China, but has continued to maintain a political and economic system
@@ -840,26 +601,14 @@ cities (a map of the expanded network can be found in below), due, no
 doubt in
 part, to the already extensive nature of the system.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-
-<tr>
-<td style="text-align: center;">
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDJSS0wIufI/AAAAAAAABXk/025HlHT2fAk/s400/image027.png)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDJSS0wIufI/AAAAAAAABXk/025HlHT2fAk/s1600/image027.png)
-
-</td>
-</tr>
-
-<tr>
-<td class="tr-caption" style="text-align: center;">
+<figure markdown=1>
+![Future MTR Network]({filename}/images/2010/image027.png)
+<figcaption markdown=1>
 Future MTR Network *([27](#Xav09))*
+</figcaption>
+</figure>
 
-</td>
-</tr>
-</tbody>
-</table>
-
-## Success with Transportation-Oriented Development in Hong Kong
+### Success with Transportation-Oriented Development in Hong Kong
 
 MTR has branched beyond solely providing public transit and has become a
 major land developer in Hong Kong, often developing the immediate area
@@ -872,7 +621,7 @@ billion) than from transport operations (HK$2.12 billion)
 Much of the success of MTR is believed to relate to the high density of
 both workers and population near MTR stations with over 20% of housing
 units lying
-within 200 m of an MTR station, and over 43% within 500m. This means
+within 200 m of an MTR station, and over 43% within 500 m. This means
 that some
 2.78 million people live within 500 m of a station. Each public housing
 unit within 500 m of
@@ -887,7 +636,7 @@ avoid
 deliberately place facilities (such as schools or shops) beyond walking
 distance, where possible *([28](#Tan04))*.
 
-## Moving Forward
+### Moving Forward
 
 Growth of megacities and regions means that to fully understand the
 urban transportation picture, intercity rail links must be considered,
@@ -920,8 +669,8 @@ typically
 spent enormous amounts of money -- by some estimates, 10% of their GDP --
 each
 year on infrastructure, even in 'normal' years. This pace has meant that
-<a href="http://en.wikipedia.com"\>Wikipedia</a> and public
-transportation blogs, particularly <a href="http://www.thetransportpolitic.com"\>The Transport Politic</a>,
+[Wikipedia](http://en.wikipedia.com) and public
+transportation blogs, particularly [The Transport Politic](http://www.thetransportpolitic.com),
 are vital
 to understanding the current situation in China, due to their ability to
 be
@@ -957,7 +706,7 @@ because of distance, was typically filled by the use of private motor
 vehicles. Today,
 much of that momentum has waned, leaving grand projects such as the
 Eisenhower Interstate
-System of yesteryear and the any proposed national HSR network to
+System of yesteryear and any proposed national HSR network to
 languish in
 political no-man's land. While the debate continues, existing urban and
 transportation infrastructure becomes increasingly fragile as
@@ -975,7 +724,6 @@ infrastructure that took much longer to develop in America. In cities
 such as
 Beijing and Shanghai, public transit is seen, at least in part, as an
 answer.
-
 Chinese cities, as they develop and redevelop, would to do well to
 remember the
 guiding principal of reducing the need for trips to begin with, which
@@ -983,7 +731,7 @@ has worked
 exceptionally well for Hong Kong's MTR in particular, and Hong Kong as a
 whole.
 
-## Conclusion
+### Conclusion
 
 Public transit is an area of high growth in China. As an example,
 Shanghai went from lacking an operational metro system before 1995 to
@@ -1018,195 +766,224 @@ and growing cities worldwide, do well to consider the long term impact
 of their
 transportation network choices of today.
 
-## References
+### References
 
+<!--- Adding the span tags provides an intra-document target for the reference links above. It also has the side effect of turning the below into paragraphs rather than a numbered list. -->
+
+<span id="IBI10"></span>
 1. IBISWorld. IBISWorld and ACMR China Industry Report: Underground Rail
 and Subway Transportation in China: 5320. 2010.
 
+<span id="Ken01"></span>
 2. Kenworthy, J., and F.B. Laube. The Mellennium Cities Database for
 Sustainable Transport.
 Brussels, Belgium, 2001.
 
+<span id="Wik10a"></span>
 3. Wikipedia contributors. Metro systems by annual passenger rides.
-<i>Wikipedia, The Free Encyclopedia</i>, May 9, 2010. <a href="http://en.wikipedia.org/w/index.php?title=Metro_systems_by_annual_passenger_rides&oldid=361069182">http://​en.wikipedia.org/​w/​index.php?title=Metro_systems_by_annual_passenger_rides&oldid=361069182</a>.
+<i>Wikipedia, The Free Encyclopedia</i>, May 9, 2010. <http://en.wikipedia.org/w/index.php?title=Metro_systems_by_annual_passenger_rides&oldid=361069182>.
 Accessed May 13, 2010.
 
+<span id="Yon10"></span>
 4. Freemark, Y. China
 Expands Its Investment in Rapid Transit, Paving Way for Future Urban
 Growth. <i>The
-Transport Politic</i>, May 13, 2010. <a href="http://www.thetransportpolitic.com/2010/05/13/china-expands-its-investment-in-rapid-transit-paving-way-for-future-urban-growth/">http://​www.thetransportpolitic.com/​2010/​05/​13/​china-expands-its-investment-in-rapid-transit-paving-way-for-future-urban-growth/</a>.
+Transport Politic</i>, May 13, 2010. <http://www.thetransportpolitic.com/2010/05/13/china-expands-its-investment-in-rapid-transit-paving-way-for-future-urban-growth/>.
 Accessed May 13, 2010.
 
+<span id="Wik10b"></span>
 5. Wikipedia
-contributors. Beijing Subway. *Wikipedia, The Free Encylopedia*, May 13,
-2010. <a href="http://en.wikipedia.org/w/index.php?title=Beijing\_Subway&oldid=361885456">http://​en.wikipedia.org/​w/​index.php?title=Beijing_Subway&oldid=361885456</a>.
+contributors. Beijing Subway. *Wikipedia, The Free Encylopedia*, May 13, 2010. <http://en.wikipedia.org/w/index.php?title=Beijing_Subway&oldid=361885456.
 Accessed May 13, 2010.
 
+<span id="cit06"></span>
 6. citw2008.com. Touring
 Beijing: The Beijing subway's History. *Beijing International Travel
-Website*,
-2006.
-[http://​china.citw2008.com/​html/​2006/​1106/​1123.shtml](http://china.citw2008.com/html/2006/1106/1123.shtml).
+Website*, 2006.
+<http://​china.citw2008.com/​html/​2006/​1106/​1123.shtml>.
 Accessed May 13, 2010.
 
+<span id="MTR09a"></span>
 7. MTR Corporation
 Limited. Beijing Metro Line 4. *Projects in Progress (China)*, 2009.
-<a href="http://www.mtr.com.hk/eng/projects/china\_beijing.html">http://​www.mtr.com.hk/​eng/​projects/​china_beijing.html</a>.
+<http://www.mtr.com.hk/eng/projects/china_beijing.html>.
 Accessed May 13, 2010.
 
+<span id="Peo08"></span>
 8. People's Daily.
-Beijing to build world's longest metro. *People's Daily Online*, Nov 10,
-2008.
-[http://​english.people.com.cn/​200611/​20/​eng20061120\_323289.html](http://english.people.com.cn/200611/20/eng20061120_323289.html).
+Beijing to build world's longest metro. *People's Daily Online*, Nov 10, 2008.
+<http://​english.people.com.cn/​200611/​20/​eng20061120\_323289.html>.
 Accessed May 13, 2010.
 
+<span id="Ran09"></span>
 9. Ran.
-Beijing-Subway-Map.svg. *Wikipedia Commons*, March 7, 2009. <a href="http://commons.wikimedia.org/wiki/File:Beijing-Subway-Plan.svg">http://​commons.wikimedia.org/​wiki/​File:Beijing-Subway-Plan.svg</a>.
+Beijing-Subway-Map.svg. *Wikipedia Commons*, March 7, 2009. <http://commons.wikimedia.org/wiki/File:Beijing-Subway-Plan.svg>.
 Accessed May 13, 2010.
 
+<span id="Wik10c"></span>
 10. Wikipedia
-contributors. Tianjin Metro. *Wikipedia, The Free Encyclopedia*, May 5,
-2010.
-[http://​en.wikipedia.org/​wiki/​Tianjin\_Metro](http://en.wikipedia.org/wiki/Tianjin_Metro).
+contributors. Tianjin Metro. *Wikipedia, The Free Encyclopedia*, May 5, 2010.
+<http://​en.wikipedia.org/​wiki/​Tianjin_Metro>.
 Accessed May 13, 2010.
 
+<span id="ASD10"></span>
 11. ASDFGH. File:Tianjin
 Subway map (under construction).jpg. *Wikipedia, the Free Encyclopedia*,
-January 28, 2010. <a href="http://en.wikipedia.org/wiki/File:Tianjin_Subway_map_(under_construction).jpg">http://​en.wikipedia.org/​wiki/​File:Tianjin_Subway_map_(under_construction).jpg</a>.
+January 28, 2010. <http://en.wikipedia.org/wiki/File:Tianjin_Subway_map_(under_construction).jpg>.
 Accessed May 13, 2010.
 
+<span id="Wik10e"></span>
 12. Wikipedia
-contributors. Shanghai. *Wikipedia, the Free Encyclopedia*, May 14,
-2010.
-[http://​en.wikipedia.org/​w/​index.php?title=Shanghai&oldid=362129050](http://en.wikipedia.org/w/index.php?title=Shanghai&oldid=362129050).
+contributors. Shanghai. *Wikipedia, the Free Encyclopedia*, May 14, 2010.
+<http://​en.wikipedia.org/​w/​index.php?title=Shanghai&oldid=362129050>.
 Accessed May 16, 2010.
 
+<span id="Wik10f"></span>
 13. Wikipedia
-contributors. Shanghai Metro. *Wikipedia, the Free Encyclopedia*, May
-11,
-2010. <a href="http://en.wikipedia.org/w/index.php?title=Shanghai\_Metro&oldid=361496429">http://​en.wikipedia.org/​w/​index.php?title=Shanghai_Metro&oldid=361496429</a>.
+contributors. Shanghai Metro. *Wikipedia, the Free Encyclopedia*, May 11, 2010. <http://en.wikipedia.org/w/index.php?title=Shanghai_Metro&oldid=361496429>.
 Accessed May 16, 2010.
 
+<span id="Yon10b"></span>
 14. Freemark, Y.
 Shanghai's Metro, Now World's Longest, Continues to Grow Quickly as
 China
 Invests in Rapid Transit. *The Transport Politic*, April 15, 2010.
-<a href="http://www.thetransportpolitic.com/2010/04/15/shanghais-metro-now-worlds-longest-continues-to-grow-quickly-as-china-invests-in-rapid-transit/">http://​www.thetransportpolitic.com/​2010/​04/​15/​shanghais-metro-now-worlds-longest-continues-to-grow-quickly-as-china-invests-in-rapid-transit/</a>.
+<http://www.thetransportpolitic.com/2010/04/15/shanghais-metro-now-worlds-longest-continues-to-grow-quickly-as-china-invests-in-rapid-transit/>.
 Accessed May 15, 2010.
 
+<span id="Rob04b"></span>
 15. Schwandl, R. Shanghai
-Subway - Metro. *UrbanRail.Net*, 2004. <a href="http://www.urbanrail.net/as/shan/shanghai.htm">http://​www.urbanrail.net/​as/​shan/​shanghai.htm</a>.
+Subway - Metro. *UrbanRail.Net*, 2004. <http://www.urbanrail.net/as/shan/shanghai.htm>.
 Accessed May 15, 2010.
 
+<span id="Jia03"></span>
 16. Xu, J., and A. G.O.
-Yeh. City Profile: Guangzhou. *Cities*, Vol. 20, no. 5, 2003, pp.
-361-374.
+Yeh. City Profile: Guangzhou. *Cities*, Vol. 20, no. 5, 2003, pp. 361-374.
 
+<span id="Rob07"></span>
 17. Schwandl, R.
-Guangzhou Metro. *UrbanRail.Net*, 2007. <a href="http://www.urbanrail.net/as/guan/guangzhou.htm">http://​www.urbanrail.net/​as/​guan/​guangzhou.htm</a>.
+Guangzhou Metro. *UrbanRail.Net*, 2007. <http://www.urbanrail.net/as/guan/guangzhou.htm>.
 Accessed May 14, 2010.
 
+<span id="Gua06"></span>
 18. Guangzhou Interactive
 Information Network Company. Planning Status for Guangzhou Metro
 Construction.
-*Life of Guangzhou*, Feb 16, 2006. <a href="http://www.lifeofguangzhou.com/node_10/node_38/node_61/2006/02/17/1140159583190.shtml">http://​www.lifeofguangzhou.com/​node_10/​node_38/​node_61/​2006/​02/​17/​1140159583190.shtml</a>.
+*Life of Guangzhou*, Feb 16, 2006. <http://www.lifeofguangzhou.com/node_10/node_38/node_61/2006/02/17/1140159583190.shtml>.
 Accessed May 14, 2010.
 
+<span id="ASD10c"></span>
 19. ASDFGH.
 File:Guangzhou Metro MapB.png. *Wikipedia, the Free Encyclopedia*,
-January 25, 2010. <a href="http://en.wikipedia.org/wiki/File:Guangzhou_Metro_MapB.png">http://​en.wikipedia.org/​wiki/​File:Guangzhou_Metro_MapB.png</a>.
+January 25, 2010. <http://en.wikipedia.org/wiki/File:Guangzhou_Metro_MapB.png>.
 Accessed May 14, 2010.
 
+<span id="Edd10"></span>
 20. Eddsterone, Shaund,
-et al. Shenzhen travel guide. *Wikitravel*, May 11, 2010. <a href="http://wikitravel.org/en/Shenzhen">http://​wikitravel.org/​en/​Shenzhen</a>.
+et al. Shenzhen travel guide. *Wikitravel*, May 11, 2010. <http://wikitravel.org/en/Shenzhen>.
 Accessed May 14, 2010.
 
+<span id="Wik10d"></span>
 21. Wikipedia
-contributors. Shenzhen Metro. *Wikipedia, the Free Encyclopedia*, May
-12,
-2010. <a href="http://en.wikipedia.org/w/index.php?title=Shenzhen_Metro&oldid=361686943">http://​en.wikipedia.org/​w/​index.php?title=Shenzhen_Metro&oldid=361686943</a>.
+contributors. Shenzhen Metro. *Wikipedia, the Free Encyclopedia*, May 12, 2010. <http://en.wikipedia.org/w/index.php?title=Shenzhen_Metro&oldid=361686943>.
 Accessed May 14, 2010.
 
+<span id="Ran081"></span>
 22. Ran.
-File:Shenzhen-Metro-Plan.png. *Wikipedia Commons*, July 20, 2008. <a href="http://commons.wikimedia.org/wiki/File:Shenzhen-Metro-Plan.png">http://​commons.wikimedia.org/​wiki/​File:Shenzhen-Metro-Plan.png</a>.
+File:Shenzhen-Metro-Plan.png. *Wikipedia Commons*, July 20, 2008. <http://commons.wikimedia.org/wiki/File:Shenzhen-Metro-Plan.png>.
 Accessed May 14, 2010.
 
+<span id="And09"></span>
 23. Andao. File:SZ
-Railway 2020 English.png. *Wikipedia Commons*, October 24, 2009. <a href="http://commons.wikimedia.org/wiki/File:SZ\_Railway\_2020\_English.png"\>http://​commons.wikimedia.org/​wiki/​File:SZ\_Railway\_2020\_English.png</a>.
+Railway 2020 English.png. *Wikipedia Commons*, October 24, 2009. <http://commons.wikimedia.org/wiki/File:SZ_Railway_2020_English.png>.
 Accessed May 14, 2010.
 
+<span id="Wik10"></span>
 24. Wikipedia
 contributors. MTR. *Wikipedia, The Free Encyclopedia*, May 3, 2010.
-<a href="http://en.wikipedia.org/w/index.php?title=MTR&oldid=359890615">http://​en.wikipedia.org/​w/​index.php?title=MTR&oldid=359890615</a>.
+<http://en.wikipedia.org/w/index.php?title=MTR&oldid=359890615>.
 Accessed May 6, 2010.
 
+<span id="MTR09"></span>
 25. MTR Corporation. 2009
 Interim Results. *MTR > Investor's Information*, August 11, 2009.
-<a href="http://www.mtr.com.hk/eng/investrelation/annualresult2009/MTR_interim_2009_web.pdf"\>http://​www.mtr.com.hk/​eng/​investrelation/​annualresult2009/​MTR_interim_2009_web.pdf</a>.
+<http://www.mtr.com.hk/eng/investrelation/annualresult2009/MTR_interim_2009_web.pdf>.
 Accessed May 12, 2010.
 
+<span id="Wan10"></span>
 26. Wang, L. H. In Search
 of a Sustainable Transport Development Strategy for Hong Kong. <i>Hong
 Kong
-Policy Research Insitute Ltd.</i>, <a href="http://www.hkpri.org.hk/bulletin/5/l-h-wang.html">http://​www.hkpri.org.hk/​bulletin/​5/​l-h-wang.html</a>.
+Policy Research Insitute Ltd.</i>, <http://www.hkpri.org.hk/bulletin/5/l-h-wang.html>.
 Accessed May 12, 2010.
 
+<span id="Xav09"></span>
 27. Xavier114fch.
 File:FutureMTRNetworkAfterMerger.png. *Wikipedia Commons*, Aug 14, 2009.
-<a href="http://commons.wikimedia.org/wiki/File:FutureMTRNetworkAfterMerger.png">http://​commons.wikimedia.org/​wiki/​File:FutureMTRNetworkAfterMerger.png</a>.
+<http://commons.wikimedia.org/wiki/File:FutureMTRNetworkAfterMerger.png>.
 Accessed May 17, 2010.
 
+<span id="Tan04"></span>
 28. Tang, B.S., Y.H.
 Chiang, A.N. Baldwin, and C.W. Yeung. Study of the Integrate
 Rail-Propery
 Development Model. Hong Kong, 2004.
 
+<span></span>
 29. Wikipedia
-contributors. MTR Corporation. *Wikipedia, The Free Encyclopedia*, April
-29, 2010. <a href="http://en.wikipedia.org/w/index.php?title=MTR\_Corporation&oldid=358997078">http://​en.wikipedia.org/​w/​index.php?title=MTR\_Corporation&oldid=358997078</a>.
+contributors. MTR Corporation. *Wikipedia, The Free Encyclopedia*, April 29, 2010. <http://en.wikipedia.org/w/index.php?title=MTR_Corporation&oldid=358997078>.
 Accessed May 6, 2010.
 
+<span></span>
 30. ASDFGH. File:Tianjin
-Metro Corporation logo.png. *Wikipedia, the Free Encyclopedia*, August
-12, 2009. <a href="http://en.wikipedia.org/wiki/File:Tianjin_Metro_Corporation_logo.png">http://​en.wikipedia.org/​wiki/​File:Tianjin_Metro_Corporation_logo.png</a>.
+Metro Corporation logo.png. *Wikipedia, the Free Encyclopedia*, August 12, 2009. <http://en.wikipedia.org/wiki/File:Tianjin_Metro_Corporation_logo.png>.
 Accessed May 13, 2010.
 
+<span></span>
 31. Schwandl, R. TIANJIN
-(Tientsin) Subway. *UrbanRail.Net*, 2004. <a href="http://www.urbanrail.net/as/tian/tianjin.htm">http://​www.urbanrail.net/​as/​tian/​tianjin.htm</a>.
+(Tientsin) Subway. *UrbanRail.Net*, 2004. <http://www.urbanrail.net/as/tian/tianjin.htm>.
 Accessed May 13, 2010.
 
+<span></span>
 32. Ran.
-File:Shenzhen-Metro.png. *Wikipedia Commons*, Dec 13, 2009. <a href="http://commons.wikimedia.org/wiki/File:Shenzhen-Metro.png">http://​commons.wikimedia.org/​wiki/​File:Shenzhen-Metro.png</a>.
+File:Shenzhen-Metro.png. *Wikipedia Commons*, Dec 13, 2009. <http://commons.wikimedia.org/wiki/File:Shenzhen-Metro.png>.
 Accessed May 14, 2010.
 
+<span></span>
 33. Keithorz. File:SZ
-Railway 2011.png. *Wikipedia Commons*, May 14, 2008. <a href="http://commons.wikimedia.org/wiki/File:SZ\_Railway\_2011.png">http://​commons.wikimedia.org/​wiki/​File:SZ\_Railway\_2011.png</a>.
+Railway 2011.png. *Wikipedia Commons*, May 14, 2008. <http://commons.wikimedia.org/wiki/File:SZ\_Railway\_2011.png>.
 Accessed May 14, 2010.
 
+<span></span>
 34. ASDFGH.
 File:Guangzhou Metro MapA.png. *Wikipedia Commons*, April 16, 2010.
-<a href="http://commons.wikimedia.org/wiki/File:Guangzhou_Metro_MapA.png">http://​commons.wikimedia.org/​wiki/​File:Guangzhou_Metro_MapA.png</a>.
+<http://commons.wikimedia.org/wiki/File:Guangzhou_Metro_MapA.png>.
 Accessed May 14, 2010.
 
+<span></span>
 35. Joowwww.
 File:Shanghai Metro logo.svg. *Wikipedia, the Free Encyclopedia*, August
 14, 2008.
-[http://​en.wikipedia.org/​wiki/​File:Shanghai\_Metro\_logo.svg](http://en.wikipedia.org/wiki/File:Shanghai_Metro_logo.svg).
+<http://​en.wikipedia.org/​wiki/​File:Shanghai_Metro_logo.svg>.
 Accessed May 14, 2010.
 
+<span></span>
 36. ASDFGH. File:Beijing
-Subway logo.png. *Wikipedia, the Free Encyclopedia*, Oct 2, 2009. <a href="http://en.wikipedia.org/wiki/File:Beijing_Subway_logo.png">http://​en.wikipedia.org/​wiki/​File:Beijing_Subway_logo.png</a>.
+Subway logo.png. *Wikipedia, the Free Encyclopedia*, Oct 2, 2009. <http://en.wikipedia.org/wiki/File:Beijing_Subway_logo.png>.
 Accessed May 13, 2010.
 
+<span></span>
 37. Tnds.
 File:Shanghaimetro Current.svg. *Wikipedia Commons*, April 22, 2010.
-<a href="http://commons.wikimedia.org/wiki/File:Shanghaimetro_Current.svg">http://​commons.wikimedia.org/​wiki/​File:Shanghaimetro_Current.svg</a>.
+<http://commons.wikimedia.org/wiki/File:Shanghaimetro_Current.svg>.
 Accessed May 15, 2010.
 
+<span></span>
 38. Tnds.
-File:Shanghaimetro 2020.svg. *Wikipedia Commons*, April 10, 2010. <a href="http://commons.wikimedia.org/wiki/File:Shanghaimetro_2020.svg">http://​commons.wikimedia.org/​wiki/​File:Shanghaimetro_2020.svg</a>.
+File:Shanghaimetro 2020.svg. *Wikipedia Commons*, April 10, 2010. <http://commons.wikimedia.org/wiki/File:Shanghaimetro_2020.svg>.
 Accessed May 15, 2010.
 
+<span></span>
 39. Jackl. File:MTR
-Corporation.svg. *Wikipedia Commons*, Dec 11, 2007. <a href="http://en.wikipedia.org/wiki/File:MTR_Corporation.svg"\>http://​en.wikipedia.org/​wiki/​File:MTR_Corporation.svg</a>.
+Corporation.svg. *Wikipedia Commons*, Dec 11, 2007. <http://en.wikipedia.org/wiki/File:MTR_Corporation.svg>.
 Accessed May 17, 2010.

@@ -9,10 +9,8 @@ A wonderful citation
 manager was introduced in Microsoft Word 2007 (found on the 'Reference'
 tab, see below).
 
-<div class="separator" style="clear: both; text-align: center;">
-
-![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/TDTGR1Vf0vI/AAAAAAAABY4/I528GAN2-ZM/s1600/References_in_Word.png)
-
+<div markdown=1 class="text-center">
+![Reference in Word]({filename}/images/2010/References_in_Word.png)
 </div>
 
 It allows one to add
@@ -51,7 +49,6 @@ Repeated references reuse the original number.
 
 The bibliography output is as follows:
 
-> 
 > 1. Polus, A., J.L.
 > Schofer, and A. Ushpi. Pedestrian flow and level of service.
 > <i>Journal of
@@ -77,7 +74,7 @@ The bibliography output is as follows:
 > contributors. List of metro systems. *Wikipedia, The Free
 > Encyclopedia*,
 > June 17, 2010.
-> http://en.wikipedia.org/w/index.php?title=List\_of\_metro\_systems&oldid=368658114.
+> <http://en.wikipedia.org/w/index.php?title=List_of_metro_systems&oldid=368658114>.
 > Accessed June 17, 2010.
 
 To use this, download the file below and place it in the
@@ -87,6 +84,6 @@ styles as "TRB [Minchin.ca]". This remains a work in progress, and so if
 you find this
 useful or find something that needs to be corrected, please contact me!
 
-Download: [TRB Bibliography format for Word
+**Download**: [TRB Bibliography format for Word
 2007/2010](http://minchin.ca/TRB_Minchin.ca.XSL) (right-click and select
 "Save Link As...")

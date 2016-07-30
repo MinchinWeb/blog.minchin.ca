@@ -2,6 +2,7 @@ Title: Caen France District Dissolved
 Date: 2011-05-17 21:38
 Author: Wm. Minchin
 Tags: Church, Normandy, Series:Personal Bits
+Category: Personal Bits
 Slug: caen-france-district-dissolved
 
 Spending 7 months as part of the Rouen Branch meant that, in a way, they
@@ -21,11 +22,11 @@ receive this email:
 > La Présidence de Missionet le Patriarche
 > Rouen, le Havre, et Caensont rattaché au Pieu de Paris et Alençon est rattaché au Pieu d'Anger.
 > Le District de Caen n'existe plus.
-> Voilà pour les nouvelles
+> Voilà pour les nouvelles.
 >  
 > Comment allez vous?
 > Nous ça va, nous sommes heureux d'etres rattaché au Pieu de Paris.
-> Nous vous disons a Bientôt
+> Nous vous disons a Bientôt.
 > 
 > La Famille Decaudin
 

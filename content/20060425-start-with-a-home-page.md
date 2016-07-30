@@ -3,6 +3,7 @@ Date: 2006-04-25 15:18
 Modified: 2007-04-09 15:19
 Author: Wm. Minchin
 Tags: Blogging, Google Pages, Series:Personal Bits
+Category: Personal Bits
 Slug: start-with-a-home-page
 
 I set up a personal home page yesterday with

@@ -31,7 +31,7 @@ I imagine many Linux machines would work the same way):
 -   Now, create a folder as needed (for example, an 'hgrepo' folder in
     your home folder)
 
-        `$ cd ~`
+        $ cd ~
         $ mkdir hgrepo
         $ cd hgrepo
 
@@ -62,7 +62,7 @@ I imagine many Linux machines would work the same way):
 
 -   Now push your repo to GitHub!
     
-        $ hg push git`
+        $ hg push git
 
 If everything worked right, your repo should now be available on GitHub!
 

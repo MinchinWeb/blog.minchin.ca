@@ -2,10 +2,11 @@ Title: Cheap Oil's Gone; Now What?
 Date: 2008-05-04 14:33
 Author: Wm. Minchin
 Tags: Ethanol, Northwest Passage, Oil, Onshoring, Series:Social Commentary
+Category: Social Commentary
 Slug: cheap-oils-gone-now-what
 
 > *What's right about America is that although we have a mess of
-> problems, we have great capacity - intellect and resources - to do
+> problems, we have great capacity -- intellect and resources -- to do
 > some thing about them.*
 >
 > -- Henry Ford

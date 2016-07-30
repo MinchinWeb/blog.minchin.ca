@@ -243,11 +243,8 @@ three sectors equally, and so then with a little bit of rounding to make
 -   FIE - Claymore Canadian Financial Monthly Income - 15%
 -   Student Loans - 20%
 
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://1.bp.blogspot.com/-ZHiMavfa2ZI/T1ulSxNq7xI/AAAAAAAAB-k/kpvigwWiX_I/s1600/Portfolio+Allocation.png)](http://1.bp.blogspot.com/-ZHiMavfa2ZI/T1ulSxNq7xI/AAAAAAAAB-k/kpvigwWiX_I/s1600/Portfolio+Allocation.png)
-
+<div markdown=1 class="text-center">
+![Portfolio Allocations]({filename}/images/2012/portfolio-allocations.png)
 </div>
 
 Overall, the portfolio would have a weighed MER of 0.30%.

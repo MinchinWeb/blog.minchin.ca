@@ -2,15 +2,10 @@ Title: Golden Coat of Arms -- Photo 83 -- Project 365
 Date: 2011-10-06 13:27
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: golden-coat-of-arms-photo-83-project-365
 Location: Buckingham Palance, London, UK
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://3.bp.blogspot.com/-4r-wl5PsJdA/TdhrHuijCEI/AAAAAAAAB08/qlKMR8N79Vw/s640/2011-04-01+-+IMG_5262.JPG)](http://3.bp.blogspot.com/-4r-wl5PsJdA/TdhrHuijCEI/AAAAAAAAB08/qlKMR8N79Vw/s1600/2011-04-01+-+IMG_5262.JPG)
-
-</div>
+Image: images/project-365/2011-04-01 - IMG_5262.JPG
 
 My continuing adventures took me to London and to see the Queen!
 Actually, the Queen was nowhere to be seen, but I did see Buckingham
@@ -20,26 +15,14 @@ and on the gates of the Palace itself sit the Arms of Britain itself. I
 thought the gold leaf was cool and it provided a nice contrast against
 the grey-green iron of the rest of the gate.
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span>EF-S 18-55mm f/3.5-5.6
-> IS
->
-> <span style="color: #666666;">Exposure: </span>1/60 sec
->
-> <span style="color: #666666;">Aperture: </span>ƒ/6.3
->
-> <span style="color: #666666;">Focal Length:</span>36 mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>200
->
-> <span style="color: #666666;">Filter(s): </span>HOYA UV(0)
->
-> <p>
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2011:04:01 18:43:51
-
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: EF-S 18-55mm ƒ/3.5-5.6 IS  
+*Exposure*: 1/60 sec  
+*Aperture*: ƒ/6.3  
+*Focal Length*: 36 mm  
+*Flash Used*: No  
+*ISO*: 200  
+*Filter(s)*: HOYA UV(0)  
+*Date and Time Original*: 2011:04:01 18:43:51
+</div>

@@ -2,7 +2,8 @@ Title: Day 4: Provo UT to Las Vegas NV
 Date: 2009-05-03 18:44
 Modified: 2009-06-26 8:31
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-4-provo-ut-to-las-vegas-nv
 
 *Wednesday, April 29, 2009*
@@ -43,17 +44,33 @@ to go out and do much. I guess I'll know for next time -- if I really
 want to see Vegas, I need more than one night; the first will get eaten
 up in just getting settled in.
 
-![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/Sf4444OmNlI/AAAAAAAAA4M/Xno0xZiJZHI/s400/IMG_7091.jpg)Historic
-Old Fort Cole, located at near the junction of I-15 and I-70.
+<figure markdown=1>
+![Fort Cole]({filename}images/2009/IMG_7091.jpg)
+<figcaption markdown=1>
+Historic Old Fort Cole, located at near the junction of I-15 and I-70.
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/Sf4447SHClI/AAAAAAAAA4E/0xT9d3EtGEw/s400/IMG_7085.jpg)The
-telegraph room at Old Fort Cole.
+<figure markdown=1>
+![Telegraph Room at Fort Cole]({filename}images/2009/IMG_7085.jpg)
+<figcaption markdown=1>
+The telegraph room at Old Fort Cole.
+</figcaption>
+</figure>
 
-![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/Sf444vHzdWI/AAAAAAAAA38/YJcCXjYvjrQ/s400/IMG_7105.jpg)The
-St. George Temple
+<figure markdown=1>
+![St George Temple]({filename}images/2009/IMG_7105.jpg)
+<figcaption markdown=1>
+The St. George Temple.
+</figcaption>
+</figure>
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/Sf444scWkNI/AAAAAAAAA30/BmVnVwvcnk8/s400/IMG_7116.jpg)This
-is (one tower of) the hotel I stayed at in Vegas -- the Tropicana.
+<figure markdown=1>
+![The Tropicana]({filename}images/2009/IMG_7116.jpg)
+<figcaption markdown=1>
+This is (one tower of) the hotel I stayed at in Vegas -- the Tropicana.
+</figcaption>
+</figure>
 
 Leave Provo UT -- 9:31am -- 221,060km  
 Scipio UT (gas $30.62, Skittles $2.98) -- arrive 10:35am, leave 11:08am
@@ -69,23 +86,24 @@ Las Vegas (hotel room $65.95)
 *Today -- US$188.20 -- 4:30 hours -- 485km*  
 ***Total -- CAD$473.15 -- 21:10 hours -- 2197km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) · 4 ·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) ·
-[9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html) ·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+4 ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>

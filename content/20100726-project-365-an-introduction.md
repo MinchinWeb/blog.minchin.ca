@@ -2,6 +2,7 @@ Title: Project 365 -- An Introduction
 Date: 2010-07-26 18:39
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: project-365-an-introduction
 
 Project 365 is an idea I've seen tossing around online various places
@@ -40,4 +41,4 @@ importantly, myself.
 Thank you for joining me. I hope we enjoy the trip!
 
 To see [all of my Project 365
-photos...](tag/project-365.html)
+photos...](/label/project-365/)

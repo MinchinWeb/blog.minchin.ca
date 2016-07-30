@@ -3,6 +3,7 @@ Date: 2009-07-16 12:25
 Modified: 2009-11-12 23:45
 Author: Wm. Minchin
 Tags: Emotion and Reasoning, Engineering, Relationships, Series:Personal Bits
+Category: Personal Bits
 Slug: emotional-response
 
 'Geers (or 'engineers,' to the uninitiated) have a thing for numbers,

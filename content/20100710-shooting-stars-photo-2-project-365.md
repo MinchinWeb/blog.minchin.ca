@@ -3,20 +3,9 @@ Date: 2010-07-10 23:42
 Modified: 2010-08-08 22:29
 Author: Wm. Minchin
 Tags: Project 365
+Category: Project 365
 Slug: shooting-stars-photo-2-project-365
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDuAeNg4CdI/AAAAAAAABaU/EViwxybUCeQ/s640/2010-07-10+-+P365+-IMG_1031.JPG)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TDuAeNg4CdI/AAAAAAAABaU/EViwxybUCeQ/s1600/2010-07-10+-+P365+-IMG_1031.JPG)
-
-</div>
-
-<div class="separator" style="clear: both; text-align: center;">
-
-<p>
-
-</div>
+Image: images/project-365/2010-07-10 - P365 - IMG_1031.JPG
 
 Tonight I was after a nighttime theme again. If you point your camera at
 the stars and leave the shutter open long enough, you end up with these
@@ -27,31 +16,14 @@ better call it a night.
 
 I'll keep playing with it and see what I can come up with...
 
-> 
-> <span style="color: #666666;">Model: </span>Canon EOS DIGITAL REBEL
-> XSi
->
-> <span style="color: #666666;">Lens ID: </span>Canon EF 50mm f/1.8
-> MkII
->
-> <span style="color: #666666;">Exposure: </span>180 sec ('Bulb'
-> setting)
->
-> <span style="color: #666666;">Aperture: </span>ƒ/10
->
-> <span style="color: #666666;">Focal Length: </span>50mm
->
-> <span style="color: #666666;">Flash Used: </span>No
->
-> <span style="color: #666666;">ISO: </span>400
->
-> <span style="color: #666666;">Filter(s): </span>None
->
-> <span style="color: #666666;">Date and Time
-> (Original): </span>2010:07:10 23:42:03
->
-> <p>
-
-[About Project
-365](http://blog.minchin.ca/2010/07/project-365-introduction.html)
-
+<div markdown=1 class="photo-infobox">
+*Model*: Canon EOS DIGITAL REBEL XSI  
+*Lens ID*: Canon EF 50mm f/1.8 MkII  
+*Exposure*: 180 sec ('Bulb' setting)  
+*Aperture*: ƒ/10  
+*Focal Length*: 50mm  
+*Flash Used*: No  
+*ISO*: 400  
+*Filter(s)*: None  
+*Date and Time Original*: 2010:07:10 23:42:03
+</div>

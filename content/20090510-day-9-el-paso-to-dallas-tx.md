@@ -2,7 +2,8 @@ Title: Day 9: El Paso to Dallas TX
 Date: 2009-05-10 17:01
 Modified: 2009-06-26 8:44
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-9-el-paso-to-dallas-tx
 
 *Monday, May 4, 2009*
@@ -34,11 +35,19 @@ where I'm staying, and then I should head north and east. New Orleans
 would be great, but I think it's a little too far from where I need to
 go, although Ottawa and Palymra remain options.
 
-![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/SgddKsIQ-sI/AAAAAAAAA6c/FrWBD1NelmQ/s400/IMG_7272.jpg)The
-place I stayed at at 311 E Franklin Street, El Paso TX.
+<figure markdown=1>
+![Hotel in El Paso]({filename}images/2009/IMG_7272.jpg)
+<figcaption markdown=1>
+The place I stayed at at 311 E Franklin Street, El Paso TX.
+</figcaption>
+</figure>
 
-![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/SgddKffcTSI/AAAAAAAAA6U/9Cvm7tC8vV0/s400/IMG_7306.jpg)A
-gorgeous sunset.
+<figure markdown=1>
+![Sunset]({filename}images/2009/IMG_7306.jpg)
+<figcaption markdown=1>
+A gorgeous sunset.
+</figcaption>
+</figure>
 
 (hostel $21.55, parking $1.75, towel rental $0.75, breakfast $6)  
 Leave El Paso -- 11:19am (MDT) -- 223,651km  
@@ -54,25 +63,24 @@ Arrive Little Elm -- 10:43pm -- 224,719km
 *Today -- US$111.84 -- 9:10 hours -- 1068km*  
 ***Total -- CAD$761.89 -- 48 hours -- 5198km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-[8](http://blog.minchin.ca/2009/05/day-8-mesa-az-to-el-paso-tx.html) · 9
-·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
+9 ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>

@@ -2,6 +2,7 @@ Title: The Transformation of Facebook
 Date: 2014-02-04 11:44
 Author: Wm. Minchin
 Tags: Facebook, Series:Personal Bits
+Category: Personal Bits
 Slug: the-transformation-of-facebook
 
 While much has been written about Facebook, this isn't about how

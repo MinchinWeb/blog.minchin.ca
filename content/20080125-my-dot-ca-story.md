@@ -3,6 +3,7 @@ Date: 2008-01-24 12:47
 Modified: 2008-01-28 8:23
 Author: Wm. Minchin
 Tags: CIRA, Minchin.ca, Series:Personal Bits, Tell Us Your dot CA Story
+Category: Personal Bits
 Slug: my-dot-ca-story
 
 I couple of days ago I got an email from the [CIRA](http://www.cira.ca)

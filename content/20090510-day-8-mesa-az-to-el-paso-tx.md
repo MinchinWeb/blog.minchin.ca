@@ -2,7 +2,8 @@ Title: Day 8: Mesa AZ to El Paso TX
 Date: 2009-05-10 9:55
 Modified: 2009-06-26 8:40
 Author: Wm. Minchin
-Tags: Quebec Trip, Series:Personal Bits
+Tags: Quebec Trip 2009
+Category: Quebec Trip 2009
 Slug: day-8-mesa-az-to-el-paso-tx
 
 *Sunday, May 3, 2009*
@@ -49,16 +50,27 @@ their couch for the night. To make Dallas though is going to call for a
 full day of driving, and from the look on the map, there really isn't
 much between the two....
 
-![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/Sgb5l7lqYHI/AAAAAAAAA6E/ZTlI4AyaKvA/s400/IMG_7264.jpg)The
-Mesa Temple [(Larger
-Version)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/Sgb5lpr0RTI/AAAAAAAAA58/xC8R8uTZ8Ec/s1600-h/IMG_7264_1600.jpg).
+<figure markdown=1>
+![Mesa Temple]({filename}images/2009/IMG_7264.jpg)
+<figcaption markdown=1>
+The Mesa Temple.
+</figcaption>
+</figure>
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/Sgb5mI0M_XI/AAAAAAAAA6M/EP5kM0I7o2U/s400/IMG_7262.jpg)A
-detail on the panels of Mesa Temple. The various panels show the
+<figure markdown=1>
+![Mesa Temple panels]({filename}images/2009/IMG_7262.jpg)
+<figcaption markdown=1>
+A detail on the panels of Mesa Temple. The various panels show the
 gathering of different groups to the temple.
+</figcaption>
+</figure>
 
-![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/Sgb5lrffzGI/AAAAAAAAA50/X0uiePPuVAc/s400/IMG_7267.jpg)The
-Arizona landscape.
+<figure markdown=1>
+![Arizona]({filename}images/2009/IMG_7267.jpg)
+<figcaption markdown=1>
+The Arizona landscape.
+</figcaption>
+</figure>
 
 Leave Mesa -- 2:09pm -- 222,945km  
 Really leave Mesa (after checking out the Temple) -- 2:47pm  
@@ -69,25 +81,24 @@ Arrive El Paso TX -- about 12:20am (PDT) -- 223,651km
 *Today -- US$22.51 -- 5:30 hours -- 706km*  
 ***Total -- CAD$618.51 -- 38:50 -- 4130km***
 
-[To Quebec and
-Adventure!](http://blog.minchin.ca/2009/04/to-quebec-and-adventure.html)
+---
+
+<div class="text-center" markdown=1>
+[To Quebec and Adventure!]({filename}20090424-to-quebec-and-adventure.md)  
 Travel Days:
-[1](http://blog.minchin.ca/2009/05/day-1-edmonton-to-cardston.html) ·
-[2](http://blog.minchin.ca/2009/05/day-2-cardston-ab-to-provo-ut.html) ·
-[3](http://blog.minchin.ca/2009/05/day-3-provo-ut.html) ·
-[4](http://blog.minchin.ca/2009/05/day-4-provo-ut-to-las-vegas-nv.html)
-·
-[5](http://blog.minchin.ca/2009/05/day-5-las-vegas-nv-to-san-diego-ca.html)
-· [6](http://blog.minchin.ca/2009/05/day-6-san-diego-ca.html) ·
-[7](http://blog.minchin.ca/2009/05/day-7-san-deigo-ca-to-mesa-az.html) ·
-8 · [9](http://blog.minchin.ca/2009/05/day-9-el-paso-to-dallas-tx.html)
-·
-[10](http://blog.minchin.ca/2009/05/day-10-dallas-tx-to-texarkana-ar.html)
-·
-[11](http://blog.minchin.ca/2009/06/day-11-texarkana-ak-to-nashville-tn.html)
-·
-[12](http://blog.minchin.ca/2009/06/day-12-nashville-tn-to-erie-pa.html)
-·
-[13](http://blog.minchin.ca/2009/06/day-13-erie-pa-to-montreal-qc.html)
+[1]({filename}20090501-day-1-edmonton-to-cardston-ab.md) ·
+[2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
+[3]({filename}20090503-day-3-provo-ut.md) ·
+[4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[6]({filename}20090507-day-6-san-diego-ca.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+8 ·
+[9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
+[10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·
+[11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
+[12]({filename}20090605-day-12-nashville-tn-to-erie-pa.md) ·
+[13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
 [Two Weeks
-In](http://blog.minchin.ca/2009/06/two-weeks-in-life-in-quebec.html)
+In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+</div>
