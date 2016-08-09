@@ -32,9 +32,11 @@ this crazy road trip to an end. Now for the business of living in
 Quebec....
 
 <figure markdown=1>
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SkKl8fcf7PI/AAAAAAAAA8E/0_aDR3S4MvU/s400/IMG_7423.jpg)
-The
-landscape in New York -- very green.
+![New York]({filename}images/2009/IMG_7423.jpg)
+<figcaption markdown=1>
+The landscape in New York -- very green.
+</figcaption>
+</figure>
 
 <figure markdown=1>
 ![The Sacred Grove]({filename}images/2009/IMG_7436.jpg)

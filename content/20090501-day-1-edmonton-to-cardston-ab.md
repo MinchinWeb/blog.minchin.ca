@@ -14,10 +14,10 @@ too. As I left, I made sure I had my passport, and I figure I can buy
 just about anything else. There are a few things that didn't make it
 into the van:
 
--   shampoo and conditioner
--   a baseball hat
--   combination locks -- this is really dumb because I bought them
-    Saturday for this trip
+- shampoo and conditioner
+- a baseball hat
+- combination locks -- this is really dumb because I bought them
+  Saturday for this trip
 
 The first day was mostly uneventful; I made it to Cardston like I'd
 hoped to and made good time. It's kind of ridiculous, but when I left

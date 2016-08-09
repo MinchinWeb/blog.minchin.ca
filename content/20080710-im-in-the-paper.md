@@ -22,4 +22,4 @@ Trackers"](http://edmontonsun.com/News/Canada/2008/07/07/6085566-sun.html)),
 and click on the picture below to check out the original article,
 picture included!
 
-[![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SHbrlErF9dI/AAAAAAAAAlc/QuUduy4ds5Y/s400/Edmonton+Sun+-+Money+Trackers.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SHbrlErF9dI/AAAAAAAAAlc/QuUduy4ds5Y/s1600-h/Edmonton+Sun+-+Money+Trackers.jpg) 
+[![Edmonton Sun -- Money Trackers](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SHbrlErF9dI/AAAAAAAAAlc/QuUduy4ds5Y/s400/Edmonton+Sun+-+Money+Trackers.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SHbrlErF9dI/AAAAAAAAAlc/QuUduy4ds5Y/s1600-h/Edmonton+Sun+-+Money+Trackers.jpg) 

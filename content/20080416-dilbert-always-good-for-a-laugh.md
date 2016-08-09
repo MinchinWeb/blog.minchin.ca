@@ -4,7 +4,7 @@ Author: Wm. Minchin
 Tags: Dilbert, Series:Web Site-seeing
 Slug: dilbert-always-good-for-a-laugh
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SAZZCPI4a3I/AAAAAAAAAj4/yHCtNlo-EC8/s400/Dilbert.gif)
+![Dilbert](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SAZZCPI4a3I/AAAAAAAAAj4/yHCtNlo-EC8/s400/Dilbert.gif)
 
 Every so often I need a good laugh…and "Dilbert" by Scott Adams so often
 fits the bill. For those of you out of the loop, Dilbert is the engineer

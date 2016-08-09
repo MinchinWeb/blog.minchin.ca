@@ -4,7 +4,7 @@ Author: Wm. Minchin
 Tags: Love, Series:Sunday Quotes
 Slug: sunday-quotes-1-the-difference-love-makes
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S8v4ubNG3qI/AAAAAAAABRU/SIHYk1ht4IM/s200/MotherTeresa_090.jpg)
+![Mother Teresa](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S8v4ubNG3qI/AAAAAAAABRU/SIHYk1ht4IM/s200/MotherTeresa_090.jpg)
 
 > We cannot do great things on this earth, just small things with great
 > love.

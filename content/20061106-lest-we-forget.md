@@ -5,7 +5,7 @@ Author: Wm. Minchin
 Tags: Flanders, Flanders Fields, In Flanders Fields, Lest We Forget, November 11, Remebrance Day, Series:Reading, Wikipedia
 Slug: lest-we-forget
 
-[![](http://photos1.blogger.com/blogger/3717/2829/400/High%20Wood%20Cemetery%2C%20France.jpg)](http://photos1.blogger.com/blogger/3717/2829/1600/High%20Wood%20Cemetery%2C%20France.jpg)
+[![High Wood Cemetery, France](http://photos1.blogger.com/blogger/3717/2829/400/High%20Wood%20Cemetery%2C%20France.jpg)](http://photos1.blogger.com/blogger/3717/2829/1600/High%20Wood%20Cemetery%2C%20France.jpg)
 
 In Flanders fields the poppies blow  
 Between the crosses, row on row,  

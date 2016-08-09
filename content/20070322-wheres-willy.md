@@ -11,7 +11,7 @@ discovered the site was set up by the same guy that set up
 [www.WheresGeorge.com](http://www.wheresgeorge.com). Where's George is
 for American bills and Willy for Canadian.
 
-[![](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RgMu30DDIuI/AAAAAAAAAAc/C9fx3hBz6mQ/s400/Where%27s+Willy+20%27s.jpg)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RgMu30DDIuI/AAAAAAAAAAc/C9fx3hBz6mQ/s1600-h/Where%27s+Willy+20%27s.jpg)
+[![Where's Willy](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RgMu30DDIuI/AAAAAAAAAAc/C9fx3hBz6mQ/s400/Where%27s+Willy+20%27s.jpg)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RgMu30DDIuI/AAAAAAAAAAc/C9fx3hBz6mQ/s1600-h/Where%27s+Willy+20%27s.jpg)
 
 The idea is you that you put a little note of the bills you have in your
 wallet which includes the website address, put the serial number and

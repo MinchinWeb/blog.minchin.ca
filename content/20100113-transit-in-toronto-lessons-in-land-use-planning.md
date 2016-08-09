@@ -46,12 +46,9 @@ strong public transit system. Conclusions and observations were also
 drawn on how the success of Toronto may be replicated elsewhere.
 
 <figure id="ednref4" markdown=1>
-![Toronto ON
-Skyline]({filename}images/2010/TO-skyline.jpg)
+![Toronto ON Skyline]({filename}images/2010/TO-skyline.jpg)
 <figcaption markdown=1>
-FIGURE 1
-Toronto skyline
-([***[4]***](#edn4)).
+FIGURE 1 Toronto skyline ([***[4]***](#edn4)).
 </figcaption>
 </figure>
 

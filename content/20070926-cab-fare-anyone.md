@@ -5,7 +5,7 @@ Tags: Series:Social Commentary
 Category: Social Commentary
 Slug: cab-fare-anyone
 
-[![](http://2.bp.blogspot.com/_fWUoqQ2t4Js/RvrW9_My0iI/AAAAAAAAAdU/Gg3MlcrHDHs/s400/cab+fare.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/RvrW9_My0iI/AAAAAAAAAdU/Gg3MlcrHDHs/s1600-h/cab+fare.jpg)
+[![Cab Fare](http://2.bp.blogspot.com/_fWUoqQ2t4Js/RvrW9_My0iI/AAAAAAAAAdU/Gg3MlcrHDHs/s400/cab+fare.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/RvrW9_My0iI/AAAAAAAAAdU/Gg3MlcrHDHs/s1600-h/cab+fare.jpg)
 
 I got a kick out of a flyer that came in the mail the other day. The
 Alberta Cancer Foundation has launched its annual "[Cash

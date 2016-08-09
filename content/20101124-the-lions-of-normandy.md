@@ -5,7 +5,7 @@ Author: Wm. Minchin
 Tags: England, Heraldry, Normandy, Project 365
 Slug: the-lions-of-normandy
 
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TOwgOjCckLI/AAAAAAAABpk/FBvsB_PCFcI/s320/IMG_3779.JPG)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TOwgOjCckLI/AAAAAAAABpk/FBvsB_PCFcI/s1600/IMG_3779.JPG)
+[![Normandy Crest](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TOwgOjCckLI/AAAAAAAABpk/FBvsB_PCFcI/s320/IMG_3779.JPG)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TOwgOjCckLI/AAAAAAAABpk/FBvsB_PCFcI/s1600/IMG_3779.JPG)
 
 During
 my

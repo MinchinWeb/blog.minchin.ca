@@ -12,7 +12,7 @@ want a full report, you'll have to look elsewhere (I can point you to
 [CBC](http://www.cbc.ca/world/story/2007/08/02/bridge-collapse.html "CBC"));
 some highlights:
 
-[![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/RrK9CM-EJ5I/AAAAAAAAAdA/HNpPj4qUMN8/s200/I-35W+bridge+collapse+TLR1.jpg)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/RrK9CM-EJ5I/AAAAAAAAAdA/HNpPj4qUMN8/s1600-h/I-35W+bridge+collapse+TLR1.jpg)
+[![I-35W Bridge Collapse](http://1.bp.blogspot.com/_fWUoqQ2t4Js/RrK9CM-EJ5I/AAAAAAAAAdA/HNpPj4qUMN8/s200/I-35W+bridge+collapse+TLR1.jpg)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/RrK9CM-EJ5I/AAAAAAAAAdA/HNpPj4qUMN8/s1600-h/I-35W+bridge+collapse+TLR1.jpg)
 
 -   the bridge was built in 1967
 -   I-35W is a major artery through Minneapolis; the bridge is 8 lanes

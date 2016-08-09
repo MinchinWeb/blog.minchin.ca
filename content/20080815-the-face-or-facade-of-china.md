@@ -85,7 +85,7 @@ this all reminds me of is the Russians during the Cold War; after the
 USSR fell, we, in the West, discovered the appearance of military might
 had come at the cost of all else.
 
-[![](http://farm4.static.flickr.com/3113/2759948173_147556233b.jpg)](http://www.flickr.com/photos/8769295@N07/2759948173/ "photo sharing")<small>[One
+[![One World, One Dream?](http://farm4.static.flickr.com/3113/2759948173_147556233b.jpg)](http://www.flickr.com/photos/8769295@N07/2759948173/ "photo sharing")<small>[One
 World One Dream?](http://www.flickr.com/photos/8769295@N07/2759948173/),
 originally uploaded by
 [goa\_entranced](http://www.flickr.com/people/8769295@N07/).</small>

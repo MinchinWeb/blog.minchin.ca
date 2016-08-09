@@ -4,7 +4,7 @@ Author: Wm. Minchin
 Tags: Motivation, Neal Maxwell, Series:Sunday Quotes
 Slug: sunday-quote-2-we-were-found-equal-to
 
-![](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S-zcSqn4ZjI/AAAAAAAABUQ/j8ihV6hN7Pk/s1600/Neil+A+Maxwell.jpg)
+![Neil A. Maxwell](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S-zcSqn4ZjI/AAAAAAAABUQ/j8ihV6hN7Pk/s1600/Neil+A+Maxwell.jpg)
 
 > When, in situations of stress, we wonder if there is any more in us to
 > give, we can be comforted to know that God, who knows our capacities

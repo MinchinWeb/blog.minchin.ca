@@ -14,7 +14,7 @@ the end of the world in 1994....
 
 Anyway, there's nothing quite like being shut down with scripture:
 
-![]({filename}images/2011/obytk.jpg)
+![No man knows the day or the hour]({filename}images/2011/obytk.jpg)
 
 Anyway, I thought I'd share; it made me laugh :)
 
