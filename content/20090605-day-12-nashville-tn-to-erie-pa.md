@@ -39,7 +39,7 @@ road was pretty bare, with no obvious place to stop. Tomorrow:
 Montreal!!
 
 <figure markdown=1>
-![Abe Lincoln's Birthplace]({filename}images/2009/IMG_7380.jpg)
+![Abe Lincoln's Birthplace]({filename}images/2009/IMG_7380.JPG)
 <figcaption markdown=1>
 I took a little side trip and decided to check out where Abe Lincoln was
 born. Near Hodgenville, Kentucky.
@@ -47,14 +47,14 @@ born. Near Hodgenville, Kentucky.
 </figure>
 
 <figure markdown=1>
-![small town America]({filename}images/2009/IMG_7384.jpg)
+![small town America]({filename}images/2009/IMG_7384.JPG)
 <figcaption markdown=1>
 Classic small town America; in this case, Hodgenville.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Cincinnati]{filename}images/2009/IMG_7393.jpg)
+![Cincinnati]({filename}images/2009/IMG_7393.JPG)
 <figcaption markdown=1>
 The Cincinnati skyline, coming in on I-71 from the south (technically the
 west...).

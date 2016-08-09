@@ -4,14 +4,13 @@ Modified: 2007-04-09 15:47
 Author: Wm. Minchin
 Tags: CBC, Currency, Currency Tracking, Disease Spread, Epidemic, Science Blog, Series:Web Site-seeing, University of California, WheresGeorge.com, WheresWilly.com, WillyMap, Wilred Laurier
 Slug: wheres-willy
+Image: images/2007/Wheres_Willy_20s.jpg
 
 A couple months ago I came across a bill marked with the website
 [www.WheresWilly.com](http://www.whereswilly.com) so I looked into it. I
 discovered the site was set up by the same guy that set up
 [www.WheresGeorge.com](http://www.wheresgeorge.com). Where's George is
 for American bills and Willy for Canadian.
-
-[![Where's Willy](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RgMu30DDIuI/AAAAAAAAAAc/C9fx3hBz6mQ/s400/Where%27s+Willy+20%27s.jpg)](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RgMu30DDIuI/AAAAAAAAAAc/C9fx3hBz6mQ/s1600-h/Where%27s+Willy+20%27s.jpg)
 
 The idea is you that you put a little note of the bills you have in your
 wallet which includes the website address, put the serial number and
@@ -54,5 +53,4 @@ Check it out for yourself at
 readers and at [www.WheresGeorge.com](http://www.wheresgeorge.com) for
 my American friends.
 
-<small>[Photo](http://www.flickr.com/photos/impeccabletiming/242129064/)
-by Snuggle Up & Read.</small>
+*[picutre](http://www.flickr.com/photos/impeccabletiming/242129064/) via by Snuggle Up & Read on Flickr*

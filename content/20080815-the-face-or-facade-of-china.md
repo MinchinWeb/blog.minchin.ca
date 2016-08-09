@@ -85,10 +85,12 @@ this all reminds me of is the Russians during the Cold War; after the
 USSR fell, we, in the West, discovered the appearance of military might
 had come at the cost of all else.
 
-[![One World, One Dream?](http://farm4.static.flickr.com/3113/2759948173_147556233b.jpg)](http://www.flickr.com/photos/8769295@N07/2759948173/ "photo sharing")<small>[One
-World One Dream?](http://www.flickr.com/photos/8769295@N07/2759948173/),
-originally uploaded by
-[goa\_entranced](http://www.flickr.com/people/8769295@N07/).</small>
+<figure markdown=1>
+![One World, One Dream?]({filename}images/2008/2759948173_691107f946_o.jpg)
+<figcaption markdown=1>
+One World One Dream? *via [goa_entranced on Flickr](http://www.flickr.com/photos/8769295@N07/2759948173/)*
+</figcaption>
+</figure>
 
 And so I wonder, Is it deception, in the goal of flawless execution, or
 is it simple cultural misunderstanding? China wanted to play with the

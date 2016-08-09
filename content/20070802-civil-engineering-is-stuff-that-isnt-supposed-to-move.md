@@ -5,14 +5,13 @@ Author: Wm. Minchin
 Tags: Engineering, Series:Social Commentary
 Category: Social Commentary
 Slug: civil-engineering-is-stuff-that-isnt-supposed-to-move
+Image: images/2007/I-35W_bridge_collapse_TLR1.jpg
 
 If you missed it in the news, the bridge that takes I-35W across the
 Mississippi River in Minneapolis fell into the river last night. If you
 want a full report, you'll have to look elsewhere (I can point you to
 [CBC](http://www.cbc.ca/world/story/2007/08/02/bridge-collapse.html "CBC"));
 some highlights:
-
-[![I-35W Bridge Collapse](http://1.bp.blogspot.com/_fWUoqQ2t4Js/RrK9CM-EJ5I/AAAAAAAAAdA/HNpPj4qUMN8/s200/I-35W+bridge+collapse+TLR1.jpg)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/RrK9CM-EJ5I/AAAAAAAAAdA/HNpPj4qUMN8/s1600-h/I-35W+bridge+collapse+TLR1.jpg)
 
 -   the bridge was built in 1967
 -   I-35W is a major artery through Minneapolis; the bridge is 8 lanes
@@ -100,4 +99,4 @@ So I have faith in our Civil Engineers and their work. If there's a
 problem, I trust they'll fix it. I'll see you on the other side of that
 bridge!
 
-<small>Picture is public domain, and copied from Wikipedia.</small>
+*picture via Wikipedia, and is public domain.*

@@ -13,13 +13,6 @@ cheap.
 
 ## GrandCentral - What it is
 
-<div align="center">
-
-<embed src="http://embed.grandcentral.com/webcall/bcc8023c8707e154bf6c391a553b46ac" width="437" height="91" wmode="transparent">
-</embed>
-
-</div>
-
 Take the example of [GrandCentral](http://www.grandcentral.com). The
 site was established by Craig Walker & Vincent Paquet with the goal of
 creating one number that would never change that you could be reached at

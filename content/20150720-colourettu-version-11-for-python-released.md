@@ -19,7 +19,8 @@ A quick example:
     c3 = colourettu.colour("#456bda")
     c4 = colourettu.colour([3, 56, 129])    # as an RGB tuple or list
     c5 = colourettu.colour((63, 199, 233))
-    c6 = colourettu.colour([0.242, 0.434, 0.165], normalized_rgb=True)all_colours = [c1, c2, c3, c4, c5, c6]
+    c6 = colourettu.colour([0.242, 0.434, 0.165], normalized_rgb=True)
+    all_colours = [c1, c2, c3, c4, c5, c6]
     p2 = colourettu.palette()
     p2.from_list(all_colours)
     p2.to_image('p2.png', max_width=360, vertical=False)

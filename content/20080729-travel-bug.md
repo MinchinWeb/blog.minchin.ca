@@ -5,8 +5,7 @@ Author: Wm. Minchin
 Tags: Road Trips, Series:Personal Bits, Travel
 Category: Personal Bits
 Slug: travel-bug
-
-![Biplane](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SJAMxwhLlXI/AAAAAAAAAl8/O6AC_nBUObc/s400/Biplane.jpg)
+Image: images/2008/Biplane.jpg
 
 A couple weeks ago, I got that vibe -- the one that says "Run away for 6
 or 9 months, explore the world, and 'find yourself'!" It didn't take

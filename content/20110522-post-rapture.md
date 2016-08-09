@@ -18,4 +18,4 @@ Anyway, there's nothing quite like being shut down with scripture:
 
 Anyway, I thought I'd share; it made me laugh :)
 
-*via: [Imgur](https://i.imgur.com/obytk.jpg)*
+*via [Imgur](https://i.imgur.com/obytk.jpg)*

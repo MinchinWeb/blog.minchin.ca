@@ -31,28 +31,28 @@ was just under zero, and by the time I got to Provo, it was 14C. After a
 long day's drive, I finally made it to Provo just before midnight.
 
 <figure markdown=1>
-![Snow]({filename}images/2009/IMG_7052.jpg)
+![Snow]({filename}images/2009/IMG_7052.JPG)
 <figcaption markdown=1>
 This is what I woke up to...
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Road near Raymond]({filename}images/2009/IMG_7058.jpg)
+![Road near Raymond]({filename}images/2009/IMG_7058.JPG)
 <figcaption markdown=1>
 The road conditions near Raymond AB
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Cafe in Dillon MT]({filename}images/2009/IMG_7060.jpg)
+![Cafe in Dillon MT]({filename}images/2009/IMG_7060.JPG)
 <figcaption markdown=1>
 The little cafe where I ate lunch in Dillon MT
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![View from the I-15]({filename}images/2009/IMG_7069.jpg)
+![View from the I-15]({filename}images/2009/IMG_7069.JPG)
 <figcaption markdown=1>
 There are some gorgeous views along the I-15. This one is somewhere in Idaho.
 </figcaption>

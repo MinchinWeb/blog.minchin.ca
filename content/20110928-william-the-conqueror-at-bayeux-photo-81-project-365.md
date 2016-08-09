@@ -7,7 +7,7 @@ Slug: william-the-conqueror-at-bayeux-photo-81
 Location: Bayeux, France
 Image: images/project-365/2011-03-12 - IMG_5222.JPG
 
-The French love their comic books (Tin Tin, et al.), a tradition that
+The French love their comic books ([TinTin](https://en.wikipedia.org/wiki/The_Adventures_of_Tintin), et al.), a tradition that
 may be ten centuries old! One of the oldest records in France is the
 Bayeux Tapestry (dating to the 11th century), which records the conquest
 of England by William the Conqueror, in comic book form of course! The

@@ -1,6 +1,7 @@
 Title: TRB (Transportation Research Board) Bibliography Style for Word 2007/2010
 Date: 2010-07-07 11:34
 Modified: 2012-06-28 7:17
+Modified: 2016-08-08 21:25
 Author: Wm. Minchin
 Tags: BibWord, Microsoft Word, TRB, Word 2007
 Slug: trb-transportation-research-board
@@ -87,3 +88,11 @@ useful or find something that needs to be corrected, please contact me!
 **Download**: [TRB Bibliography format for Word
 2007/2010](http://minchin.ca/TRB_Minchin.ca.XSL) (right-click and select
 "Save Link As...")
+
+### Update (August 8, 2016)
+
+It would appear that changes made in recent version of Word
+(Word 2016, at least) have broken this. The format appears to be
+similiar, but I haven't (yet) had time to investigate what's changed.
+
+So, for now, this sadly doesn't work with Word 2016.

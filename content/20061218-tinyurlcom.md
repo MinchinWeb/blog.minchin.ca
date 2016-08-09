@@ -23,15 +23,8 @@ the perment link for this post, and you get
 [tinyURL.com/y3lvrh](http://tinyurl.com/y3lvrh). Not so shabby! Give it
 a try for yourself:
 
-<form action="http://tinyurl.com/create.php" method="post" target="_blank">
+<form action="http://tinyurl.com/create.php" method="post" target="_blank" markdown=1>
+**Enter a long URL to make [tiny](http://tinyurl.com):**
 
-+--------------------------------------------------------------------------+
-|                                                                          |
-| **Enter a long URL to make [tiny](http://tinyurl.com):**\                |
-|                                                                          |
-| <input type="text" name="url" size="30"><input type="submit" name="submi |
-| t" value="Make TinyURL!">                                                |
-|                                                                          |
-+--------------------------------------------------------------------------+
-
+<input type="text" name="url" size="30"><input type="submit" name="submit" value="Make TinyURL!"> 
 </form>

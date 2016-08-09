@@ -15,14 +15,14 @@ Temple, and then to a movie ("X Men Origins: Wolverine"). Tomorrow the
 plan is to make it to Mesa, Arizona.
 
 <figure markdown=1>
-![Beautiful View]({filename}images/2009/IMG_7199.jpg)
+![Beautiful View]({filename}images/2009/IMG_7199.JPG)
 <figcaption markdown=1>
 The beautiful view from the place I was staying.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![San Diego Temple]({filename}images/2009/IMG_7196.jpg)
+![San Diego Temple]({filename}images/2009/IMG_7196.JPG)
 <figcaption markdown=1>
 The San Diego Temple.
 </figcaption>

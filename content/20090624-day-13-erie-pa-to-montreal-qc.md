@@ -32,28 +32,28 @@ this crazy road trip to an end. Now for the business of living in
 Quebec....
 
 <figure markdown=1>
-![New York]({filename}images/2009/IMG_7423.jpg)
+![New York]({filename}images/2009/IMG_7423.JPG)
 <figcaption markdown=1>
 The landscape in New York -- very green.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![The Sacred Grove]({filename}images/2009/IMG_7436.jpg)
+![The Sacred Grove]({filename}images/2009/IMG_7436.JPG)
 <figcaption markdown=1>
 The Sacred Grove, Palmyra, New York.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Ontario Sunset]({filename}images/2009/IMG_7452.jpg)
+![Ontario Sunset]({filename}images/2009/IMG_7452.JPG)
 <figcaption markdown=1>
 A beautiful sunset, somewhere in Ontario.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Snowmobile Crossing]({filename}images/2009/IMG_7455.jpg)
+![Snowmobile Crossing]({filename}images/2009/IMG_7455.JPG)
 <figcaption markdown=1>
 Snowmobile crossing signs -- only in Quebec!
 </figcaption>

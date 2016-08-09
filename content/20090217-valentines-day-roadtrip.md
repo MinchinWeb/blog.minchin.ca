@@ -23,9 +23,9 @@ parked near where we needed to be in the morning, pulled out the long
 underwear and winter coats, and hunkered down in the van for the night,
 running it off and on to stay warm. So the moral of this adventure:
 
-<div align="center">
+<div class="text-center lead" markdown=1>
 
-**<large>If it's Valentine's Day, get reservations!</large>**
+**If it's Valentine's Day, get reservations!**
 
 </div>
 

@@ -1,13 +1,16 @@
-Title: Eric the Red -- Photo 35 -- Project 365
+Title: Leif Eríkson -- Photo 35 -- Project 365
 Date: 2010-11-05 9:12
+Modified 2016-08-08 19:38
 Author: Wm. Minchin
 Tags: Iceland, Project 365
-Slug: eric-the-red-photo-35-project-365
+Redirect: eric-the-red-photo-35-project-365
+Slug: leif-erikson-photo-35-project-365
 Location: Hallgrímskirkja, Reykjavik, Iceland
 Image: images/project-365/2010-09-19 - P365 - IMG_2903.JPG
 
 Welcome to Iceland! In the foreground is Iceland's most famous
-residents, Eric the Red (the statue is a gift given by the US to Iceland
+residents, <del>Eric the Red</del> Leif Eríkson
+(the statue is a gift given by the US to Iceland
 in 1930), and in the background is the tallest building in Iceland and
 one of Reykjavik best known landmarks,
 [Hallgrimskirkja](http://www.sacred-destinations.com/iceland/reykjavik-hallgrimskirkja).
@@ -23,3 +26,7 @@ one of Reykjavik best known landmarks,
 *Filter(s)*: HOYA UV(0)  
 *Date and Time Original*: 2010:09:19 13:02:45
 </div>
+
+### Update, August 8, 2016
+
+As pointed on by the anonymous commentor, this is Leif Eríkson rather than Eric the Red.

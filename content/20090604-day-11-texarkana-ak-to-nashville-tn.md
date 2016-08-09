@@ -32,7 +32,7 @@ at the Day's Inn -- more expensive, but a way nicer place than the last
 motel....
 
 <figure markdown=1>
-![Arkansas Church]({filename}images/2009/IMG_7344.jpg)
+![Arkansas Church]({filename}images/2009/IMG_7344.JPG)
 <figcaption markdown=1>
 It's
 hard to get good pictures of stuff BESIDE the road as you go flying by,
@@ -41,7 +41,7 @@ but I saw huge churches like this all over the Arkansas and Tennessee.
 </figure>
 
 <figure markdown=1>
-![Arkansas Trees]{filename}images/2009/IMG_7349.jpg)
+![Arkansas Trees]({filename}images/2009/IMG_7349.JPG)
 <figcaption markdown=1>
 From
 a rest stop along the Interstate in Arkansas. Compare the green with was
@@ -50,14 +50,14 @@ I was seeing across Texas and New Mexico a couple of days before.
 </figure>
 
 <figure markdown=1>
-![Memphis]({filename}images/2009/IMG_7355.jpg)
+![Memphis]({filename}images/2009/IMG_7355.JPG)
 <figcaption markdown=1>
 The Memphis skyline from across the Mississippi.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Elvis]({filename}images/2009/IMG_7364.jpg)
+![Elvis]({filename}images/2009/IMG_7364.JPG)
 <figcaption markdown=1>
 The
 King of Rock and Roll -- Elvis. The statue is in the Memphis visitor's

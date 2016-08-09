@@ -10,7 +10,7 @@ Image: images/project-365/2010-08-16 - P365 - IMG_1891.JPG
 
 I took a road trip and wanted a picture of the "Welcome to..." signs are
 the various state lines. As I drove into California, the road was under
-construction. The two were too funny together - "Welcome to California"
+construction. The two were too funny together -- "Welcome to California"
 and "Road Closed"!
 
 <div markdown=1 class="photo-infobox">

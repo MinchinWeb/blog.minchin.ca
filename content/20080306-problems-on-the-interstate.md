@@ -5,9 +5,7 @@ Author: Wm. Minchin
 Tags: Interstate System, Series:Social Commentary, Society, Technology
 Category: Social Commentary
 Slug: problems-on-the-interstate
-
-[![Exit off of Interstate H-1 in
-Honolulu](http://3.bp.blogspot.com/_fWUoqQ2t4Js/R8yYcyoJslI/AAAAAAAAAeg/o8VaQhrmrzA/s400/Freeway+Signs.JPG)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/R8yYcyoJslI/AAAAAAAAAeg/o8VaQhrmrzA/s1600-h/Freeway+Signs.JPG)
+Image: images/2008/Freeway_Signs.JPG
 
 The Eisenhower Interstate program was brilliant for its day -- it created
 a national system of freeways that crisscrossed the United States, and

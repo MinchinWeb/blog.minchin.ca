@@ -4,8 +4,7 @@ Modified: 2010-11-24 4:40
 Author: Wm. Minchin
 Tags: England, Heraldry, Normandy, Project 365
 Slug: the-lions-of-normandy
-
-[![Normandy Crest](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TOwgOjCckLI/AAAAAAAABpk/FBvsB_PCFcI/s320/IMG_3779.JPG)](http://1.bp.blogspot.com/_fWUoqQ2t4Js/TOwgOjCckLI/AAAAAAAABpk/FBvsB_PCFcI/s1600/IMG_3779.JPG)
+Image: images/2010/IMG_3779.JPG
 
 During
 my
@@ -49,8 +48,7 @@ as
 William the Bastard (what a name!) in choosing the three leopards we now
 recognize as a symbol of the English crown.
 
-<b>Update
-(November 17):</b>
+### Update (November 17, 2010)
 
 Unfortunately, the story refuses to stay so simple. Two facts
 come to the surface:
@@ -63,7 +61,7 @@ come to the surface:
     Germany.
 
 -   Heraldry, as we know it, wasn't defined and formalized until the
-    12^th^
+    12<sup>th</sup>
     century in England.
 
 The combination of the two basically means
@@ -96,15 +94,13 @@ reading...](http://www.sacred-texts.com/lcr/fsca/fsca47.htm)
 and [All about Lions in
 Heraldy](http://www7b.biglobe.ne.jp/~bprince/hr/foxdavies/fdguide11.htm)
 
-**Bonus: The Leopard at the foot of Richard the Lionheart's tomb** in
+## Bonus Picture
+
+The Leopard at the foot of Richard the Lionheart's tomb in
 the Rouen Cathedral
-(Also Photo 42 for my Project 365)
+(Also Photo 42 for my Project 365).
 
-<div class="separator" style="clear: both; text-align: center;">
-
-[![](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TOwfyge5KjI/AAAAAAAABpQ/zZREniVzPMM/s640/IMG_3762.JPG)](http://3.bp.blogspot.com/_fWUoqQ2t4Js/TOwfyge5KjI/AAAAAAAABpQ/zZREniVzPMM/s1600/IMG_3762.JPG)
-
-</div>
+![Richard Lionheart's Tomb]({filename}images/project-365/IMG_3762.JPG)
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

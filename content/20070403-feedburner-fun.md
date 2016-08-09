@@ -1,6 +1,7 @@
 Title: FeedBurner Fun
 Date: 2007-04-03 19:42
 Modified: 2007-04-09 15:49
+Modified: 2016-08-08 22:23
 Author: Wm. Minchin
 Tags: Atom, FeedBurner.com, Headline Animator, RRS, Series:On-Line Wonders
 Slug: feedburner-fun
@@ -30,10 +31,13 @@ one)
 Another thing you can do is check out my RSS feed online at FeedBurner's
 site at
 [feeds.feedburner.com/MinchinWeb](http://feeds.feedburner.com/MinchinWeb).
-So yeah, that's my latest fun. (I like the 468x60 banner most, which now
+So yeah, that's my latest fun.
+
+<!-- (I like the 468x60 banner most, which now
 sits at the bottom of each page [that might yet change], so I can't have
 an image in the post as it will mess up the formating of my blog, so
 look down or click below to get the code)
 
 [↑ Grab the Minchin Web Headline
 Animator](http://www.feedburner.com/fb/a/headlineanimator/install?id=824735)
+-->

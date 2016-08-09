@@ -16,7 +16,7 @@ spend a lovely afternoon together!
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
-*Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS
+*Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS  
 *Exposure*: 1/50 sec  
 *Aperture*: ƒ/5.6  
 *Focal Length*: 34 mm  

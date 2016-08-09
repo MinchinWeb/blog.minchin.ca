@@ -13,14 +13,9 @@ called *Printemps à Paris* (Spring in Paris) and was taken by a lady
 from Alberta. I decided to make a video of us putting it up and it
 turned out hilarious!
 
-<div align="center">
-
-<object height="344" width="425">
-<param name="movie" value="http://www.youtube.com/v/5QjGVtkfnO4&amp;hl=en&amp;fs=1&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always">
-<embed src="http://www.youtube.com/v/5QjGVtkfnO4&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" height="344" width="425">
-</embed>
-</object>
-
+<!-- 870px with the max width of 9cols in Bootstrp -->
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/5QjGVtkfnO4" type="text/html" width="870px" frameborder="0"></iframe>
 </div>
 
 The video was done in time lapse style, taking one frame every 5 seconds

@@ -25,13 +25,13 @@ street, you have to actually know someone's email address.
 From what I've gathered over the years, spammers gather email address in
 three main ways:
 
-1.  Ask you for it - You are thinking, "I would never give my address to
+1.  Ask you for it -- You are thinking, "I would never give my address to
     a spammer!" and you probably wouldn't, if you knew what you were
     doing. Sometimes websites will ask for your email address for
     mailing lists or registration, and then sell it over to spammers.
     Reading website's privacy policies can be helpful, and respectable
     websites realize this isn't a good way to keep up a reputation.
-2.  Find it on the web - In much the same way that search engines go
+2.  Find it on the web -- In much the same way that search engines go
     over the web, spammers can write little programs, called robots,
     that "crawl" the web, following the links on pages and sending the
     email address they find back. These addresses can be in the text you
@@ -39,7 +39,7 @@ three main ways:
     HTML coding that typically only web programmers, web browsers and
     robots care to look at. This is why many sites warn you not to post
     your email address on the web.
-3.  Buy it off someone else -Sometimes spammers with a little money and
+3.  Buy it off someone else -- Sometimes spammers with a little money and
     less technical know-how or time will buy lists of email addresses.
     The advantage to this, for the spammer, is that you can get lists of
     "comfirmed" emails.
@@ -59,7 +59,7 @@ image directly off their server.
 
 Here's the copy from their server:
 
-<div style="text-align: center;">
+<div class="text-center" markdown=1>
 
 ![Served
 Copy](http://services.nexodyne.com/email/icon/W16xUebD%2B5ICdw%3D%3D/MZ.X8AU%3D/R01haWw%3D/0/image.png)
@@ -68,13 +68,13 @@ Copy](http://services.nexodyne.com/email/icon/W16xUebD%2B5ICdw%3D%3D/MZ.X8AU%3D/
 
 and the local copy:
 
-<div style="text-align: center;">
+<div class="text-center" markdown=1>
 
-![Local Copy](http://photos1.blogger.com/blogger/3717/2829/200/mail.png)
+![Local Copy]({filename}images/2006/mail.png)
 
 </div>
 
 Very cool idea!
 
-<small>(This post was updated on [April 3,
-2007](http://minchinweb.blogspot.com/2007/04/gmail-image.html))</small>
+(This post was also updated on [April 3,
+2007](http://minchinweb.blogspot.com/2007/04/gmail-image.html))

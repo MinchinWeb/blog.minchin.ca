@@ -16,7 +16,7 @@ beautiful lens flare. Enjoy!
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
-*Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS
+*Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS  
 *Exposure*: 1/160 sec  
 *Aperture*: ƒ/10  
 *Focal Length*: 20mm  

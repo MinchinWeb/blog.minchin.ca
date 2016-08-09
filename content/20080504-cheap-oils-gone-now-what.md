@@ -4,6 +4,7 @@ Author: Wm. Minchin
 Tags: Ethanol, Northwest Passage, Oil, Onshoring, Series:Social Commentary
 Category: Social Commentary
 Slug: cheap-oils-gone-now-what
+Image: images/2008/fill_er_up.jpg
 
 > *What's right about America is that although we have a mess of
 > problems, we have great capacity -- intellect and resources -- to do
@@ -45,9 +46,6 @@ Other technologies to watch include plug-in cars,
 [hybrids](http://www.wired.com/cars/futuretransport/news/2008/01/lutz_volt_qa)
 (battery technologies), [fuels cells](http://www.ballard.com/),
 hydrogen, and stuff coming out of left field that is unheard of today.
-
-![Fill 'er
-Up!](http://3.bp.blogspot.com/_fWUoqQ2t4Js/SB4cVLR-qHI/AAAAAAAAAkE/yCVU_tjUFzA/s400/Fill+%27er+up!.jpg)
 
 The increasing price point will also mean that those transporters who
 can benefit most from economies of scale, like railways, will become

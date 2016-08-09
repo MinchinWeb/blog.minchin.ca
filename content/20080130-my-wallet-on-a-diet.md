@@ -33,5 +33,5 @@ swipe.
 
 I think this is diet we can all stick to!
 
-<small>Via
-[Lifehacker](http://lifehacker.com/software/wallet/slim-down-your-wallet-with-just-one-club-card-240816.php).</small>
+*via
+[Lifehacker](http://lifehacker.com/software/wallet/slim-down-your-wallet-with-just-one-club-card-240816.php)*

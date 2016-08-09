@@ -26,14 +26,14 @@ half an hour south of Calgary. Supper was at Peter's Drive-in, of
 course.
 
 <figure markdown=1>
-![Road Leaving Edmonton]({filename}images/2009/IMG_7033.jpg)
+![Road Leaving Edmonton]({filename}images/2009/IMG_7033.JPG)
 <figcaption markdown=1>
 The 'beautiful' road conditions as I left Edmonton
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Peter's Drive-in]({filename}images/2009/IMG_7040.jpg)
+![Peter's Drive-in]({filename}images/2009/IMG_7040.JPG)
 <figcaption markdown=1>
 Peter's
 Drive-in in Calgary
@@ -41,7 +41,7 @@ Drive-in in Calgary
 </figure>
 
 <figure markdown=1>
-![Cardston Temple]({filename}images/2009/IMG_7049.jpg)
+![Cardston Temple]({filename}images/2009/IMG_7049.JPG)
 <figcaption markdown=1>
 The
 Alberta Temple in Cardston

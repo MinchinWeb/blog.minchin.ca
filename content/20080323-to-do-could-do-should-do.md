@@ -4,9 +4,7 @@ Author: Wm. Minchin
 Tags: Life Hacks, Series:Personal Bits, To Do, To Do List
 Category: Personal Bits
 Slug: to-do-could-do-should-do
-
-![My To Do
-List](http://1.bp.blogspot.com/_fWUoqQ2t4Js/R-b--HCggRI/AAAAAAAAAeo/4bVqor7te9Y/s400/To+Do+List.JPG)
+Image: images/2008/to_do_list.JPG
 
 ## The List
 

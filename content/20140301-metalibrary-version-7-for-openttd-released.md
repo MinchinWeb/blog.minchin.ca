@@ -41,9 +41,9 @@ Other improvements include:
     MetaLibrary](http://minchin.ca/openttd-metalibrary/) is now online
     at Minchin.ca
 -   Fix array creation bugs in Array.Create2D(), Array.Create3D()
--   Added Array.RemoveDuplicates(Array)
--   Added Array.ToAIList(Array)
--   Added Extras.MinDistance(TileID, TargetArray); can be used as a
+-   Added `Array.RemoveDuplicates(Array)`
+-   Added `Array.ToAIList(Array)`
+-   Added `Extras.MinDistance(TileID, TargetArray)`; can be used as a
     valuator
 -   Split Constants from Extras (file only, function access remains the
     same)

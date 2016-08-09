@@ -1,12 +1,12 @@
-Title: Harry Potter - Cultural Icon
+Title: Harry Potter -- Cultural Icon
 Date: 2006-05-29 22:18
 Modified: 2007-04-09 15:31
 Author: Wm. Minchin
 Tags: Bible, Da Vinci Code, Dan Brown, Faukman, Harry Potter, Holy Grail, J.K. Rowling, Langdon, Robert Langdon, Rowling, Series:Reading
 Slug: harry-potter-cultural-icon
 
-It's interesting how much Harry Potter - the fictional wizard boy that
-every kid has read about and made J.K. Rowling an instant millionarie -
+It's interesting how much Harry Potter -- the fictional wizard boy that
+every kid has read about and made J.K. Rowling an instant millionarie --
 has become so much of our culture. This is well illustrated by a quote
 from the latest book my sister, also a Harry Potter fan, picked up. This
 book, also well known, is Dan Brown's "The Da Vinci Code".

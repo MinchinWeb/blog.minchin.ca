@@ -4,6 +4,7 @@ Author: Wm. Minchin
 Tags: Edmonton Sun, Series:Personal Bits, WheresWilly.com
 Category: Personal Bits
 Slug: im-in-the-paper
+Image: images/2008/Edmonton_Sun_Money_Trackers.jpg
 
 Allow me to indulge in a little self-aggrandization -- I was in the paper
 last Monday! I guess a reporter at the Edmonton Sun found a bill in her
@@ -16,10 +17,8 @@ a day later, I found my picture in the paper!
 > B.C., I had a couple come up in Ontario"
 
 Check out what I wrote about [Where's
-Willy](http://blog.minchin.ca/2007/03/wheres-willy.html) a year ago, the
+Willy]({filename}20070322-wheres-willy.md) a year ago, the
 article on the Sun's website (["Money
 Trackers"](http://edmontonsun.com/News/Canada/2008/07/07/6085566-sun.html)),
 and click on the picture below to check out the original article,
 picture included!
-
-[![Edmonton Sun -- Money Trackers](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SHbrlErF9dI/AAAAAAAAAlc/QuUduy4ds5Y/s400/Edmonton+Sun+-+Money+Trackers.jpg)](http://2.bp.blogspot.com/_fWUoqQ2t4Js/SHbrlErF9dI/AAAAAAAAAlc/QuUduy4ds5Y/s1600-h/Edmonton+Sun+-+Money+Trackers.jpg) 

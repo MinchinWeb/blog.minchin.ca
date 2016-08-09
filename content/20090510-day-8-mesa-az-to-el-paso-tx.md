@@ -51,14 +51,14 @@ full day of driving, and from the look on the map, there really isn't
 much between the two....
 
 <figure markdown=1>
-![Mesa Temple]({filename}images/2009/IMG_7264.jpg)
+![Mesa Temple]({filename}images/2009/IMG_7264.JPG)
 <figcaption markdown=1>
 The Mesa Temple.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Mesa Temple panels]({filename}images/2009/IMG_7262.jpg)
+![Mesa Temple panels]({filename}images/2009/IMG_7262.JPG)
 <figcaption markdown=1>
 A detail on the panels of Mesa Temple. The various panels show the
 gathering of different groups to the temple.
@@ -66,7 +66,7 @@ gathering of different groups to the temple.
 </figure>
 
 <figure markdown=1>
-![Arizona]({filename}images/2009/IMG_7267.jpg)
+![Arizona]({filename}images/2009/IMG_7267.JPG)
 <figcaption markdown=1>
 The Arizona landscape.
 </figcaption>
