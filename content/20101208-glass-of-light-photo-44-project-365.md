@@ -20,5 +20,5 @@ front.
 *ISO*: 400  
 *Filter(s)*: HOYA UV(0)  
 *Date and Time Original*: 2010:10:05 08:07:29
-*Postproduciton*: Crop
+*Post-production*: Crop
 </div>

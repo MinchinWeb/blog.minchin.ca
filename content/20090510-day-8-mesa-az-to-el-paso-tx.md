@@ -19,7 +19,7 @@ asked someone when something is since, I've taken to asking them what
 time they have right now so I make sure to show up at the right time!
 
 Church was good, and ironically I ended up in the "Sherwood Park Ward" --
-I attended the Sherwood Park 1st Ward for many years near Edmonton
+I attended the Sherwood Park 1<sup>st</sup> Ward for many years near Edmonton
 growing up. After church, the plan was simply to drive east, although I
 did want to catch the [CES fireside that night by Elder
 Bednar](http://lds.org/broadcast/ces/0,7341,538,00.html). It seemed

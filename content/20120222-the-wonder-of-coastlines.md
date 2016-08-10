@@ -6,7 +6,7 @@ Category: Social Commentary
 Slug: the-wonder-of-coastlines
 Image: images/2012/IMG_4814.JPG
 
-A year ago, I traveled to southern France with my honey and some
+A year ago, I travelled to southern France with my honey and some
 friends. As we visited Marseilles, a port town on the Mediterranean with
 a history stretching back some 2,600 years, we came to a plaque that
 commemorated the start of that history. Along the old harbour, the
@@ -65,7 +65,7 @@ eminent domain, and escheat. A short review:
 Some countries (like the US) have done away with the king, but kept the
 powers. So the problem with borrowing a rowboat and claiming wherever
 you make landfall is that some king (or republic) already claims it! In
-the words of Canadian Foreign Minister Peter MacKay "This isn't the 15th
+the words of Canadian Foreign Minister Peter MacKay "This isn't the 15<sup>th</sup>
 century. You can't go around the world and just plant flags and say
 'We're claiming this territory'" ([though the Russians might try
 anyway...](http://www.canada.com/montrealgazette/story.html?id=3f4b4327-92a7-4043-ae95-3575763d7b08)).

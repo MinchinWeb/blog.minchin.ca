@@ -4,7 +4,8 @@ Modified: 2010-10-22 10:03
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: san-francisco-photo-22-project-365-updated
+Alias: 2010/09/san-francisco-photo-22-project-365-updated.html
+Slug: san-francisco-photo-22-project-365
 Location: San Francisco, CA, USA
 Image: images/project-365/2010-08-17 - P365 - IMG_1904.JPG
 

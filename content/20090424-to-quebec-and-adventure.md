@@ -28,7 +28,7 @@ game for a weekend trip, which includes Ottawa, Montréal, Québec City,
 and even Boston. It will also give me a chance keep up my French, and I
 think it will be fun to get out of town and see some Canadian history.
 Plus, it works much better to go to either Paris (rather expensive) or
-Tunsia (what can I do but be a tourist?), two of the other places I was
+Tunisia (what can I do but be a tourist?), two of the other places I was
 considering going for a bit following graduation.
 
 The drive out there will be an adventure in and of itself. I have two

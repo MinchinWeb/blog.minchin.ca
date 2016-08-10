@@ -23,5 +23,5 @@ what's not quite. :)
 *ISO*: 400  
 *Filter(s)*: HOYA UV(0)  
 *Date and Time Original*: 2010:10:12 18:38:59
-*Postproduction*: Crop
+*Post-production*: Crop
 </div>

@@ -4,7 +4,8 @@ Modified: 2015-08-15 14:26
 Author: Wm. Minchin
 Tags: Colourettu, Python, releases
 Category: Colourettu
-Slug: colourettu-version-011-for-python-released
+Alias: 2014/12/colourettu-version-011-for-python-released.html
+Slug: colourettu-0-1-1-for-python
 
 Version 0.1.1 of *Colourettu* has been released.
 

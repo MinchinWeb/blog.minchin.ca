@@ -3,7 +3,8 @@ Date: 2011-03-02 7:15
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: the-moon-over-st-pierre-photo-61-project
+Alias: 2011/03/the-moon-over-st-pierre-photo-61-project.html
+Slug: the-moon-over-st-pierre-photo-61-project-365
 Location: Cean, France
 Image: images/project-365/2010-11-18 - IMG_3852.JPG
 

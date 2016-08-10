@@ -1,4 +1,4 @@
-Title: Blog Redesign - Live Now!
+Title: Blog Redesign -- Live Now!
 Date: 2010-07-26 19:41
 Author: Wm. Minchin
 Tags: Series:Personal Bits

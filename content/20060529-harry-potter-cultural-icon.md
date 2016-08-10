@@ -6,14 +6,14 @@ Tags: Bible, Da Vinci Code, Dan Brown, Faukman, Harry Potter, Holy Grail, J.K. R
 Slug: harry-potter-cultural-icon
 
 It's interesting how much Harry Potter -- the fictional wizard boy that
-every kid has read about and made J.K. Rowling an instant millionarie --
+every kid has read about and made J.K. Rowling an instant millionaire --
 has become so much of our culture. This is well illustrated by a quote
 from the latest book my sister, also a Harry Potter fan, picked up. This
 book, also well known, is Dan Brown's "The Da Vinci Code".
 
-Leading up this point, Langdon (the professor, our main charcter) is
+Leading up this point, Langdon (the professor, our main character) is
 presenting the script to his book to his publisher, Faukman. The
-manuscript says, in essance, that the Holy Grail is something much more
+manuscript says, in essence, that the Holy Grail is something much more
 than a simple cup.
 
 From Chapter 38:

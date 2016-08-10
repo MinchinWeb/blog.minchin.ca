@@ -81,7 +81,7 @@ production back closer to markets -- typically North America and Europe.
 
 ## The Northwest Passage
 
-The Artic for many is written off as a vast, cold, snow-covered
+The Arctic for many is written off as a vast, cold, snow-covered
 wasteland, but it also contains the prize that brought Columbus and
 [many
 others](http://www.bl.uk/onlinegallery/features/northwpass/intro.html)

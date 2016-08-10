@@ -6,7 +6,7 @@ Category: Project 365
 Slug: celtic-cross-photo-69-project-365
 Image: images/project-365/2010-12-30a - IMG_4458.JPG
 
-Touring after Christmas, we traveled to the *Land of the Celts* in
+Touring after Christmas, we travelled to the *Land of the Celts* in
 Brittany, France. I found this stone cross on the top of a fence. The
 cross, the vines, and the stone seems to fit the image of the Celts in
 my mind too well to pass it by.

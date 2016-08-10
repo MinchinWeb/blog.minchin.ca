@@ -3,7 +3,8 @@ Date: 2011-03-13 15:51
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: obliterate-your-ticket-photo-62-project
+Alias: 2011/03/obliterate-your-ticket-photo-62-project-365.html
+Slug: obliterate-your-ticket-photo-62-project-365
 Image: images/project-365/2010-11-20a - IMG_3889.JPG
 
 Speaking French, one of the things I have to pay particular attention to

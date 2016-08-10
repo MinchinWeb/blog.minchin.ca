@@ -44,7 +44,7 @@ away relatively quietly, as the United States would be mired in several
 their gems and a cradle of the American Union go so quietly. The last
 time some tried to skip the Union, we got a 4 year Civil War. On the
 flip side, would New Yorkers be willing to lose their identity as
-Americans? It doesn't take long traveling through the States to realize
+Americans? It doesn't take long travelling through the States to realize
 Americans are very proud of who they are and their history.
 
 ## Border Problems

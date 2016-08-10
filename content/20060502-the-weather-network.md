@@ -2,11 +2,11 @@ Title: The Weather Network
 Date: 2006-05-02 13:43
 Modified: 2007-04-09 22:54
 Author: Wm. Minchin
-Tags: Forcast, Quotables, Series:On-Line Wonders, TheWeatherNetwork.com, Weather
+Tags: Forecast, Quotables, Series:On-Line Wonders, TheWeatherNetwork.com, Weather
 Slug: the-weather-network
 
 The Weather Network claims that 80% of the population checks the weather
-forcast, so they ask why not put the forecast on your site. Best of all
+forecast, so they ask why not put the forecast on your site. Best of all
 it's free! They have several options for shapes and sizes, but
 basically, you put a little bit of code in your page, and voila. To hook
 up, go to

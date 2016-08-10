@@ -41,6 +41,6 @@ Looking at it now, I think it's probably good enough to end up on my
 
 If you want to [enter
 yourself](https://registrants.cira.ca/onemilprofile/apply/en), you must
-already have a dot CA domain name, and you have until February 8th to
+already have a dot CA domain name, and you have until February 8<sup>th</sup> to
 enter. Your story has to be under 500 words and the grand prize is an
 Apple MacBook. Good luck!

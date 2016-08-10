@@ -4,13 +4,14 @@ Modified: 2015-08-14 8:11
 Author: Wm. Minchin
 Tags: MetaLibrary, NoAI, OpenTTD, releases
 Category: MetaLibrary
-Slug: metalibrary-version-9-for-openttd
+Alias: 2015/01/metalibrary-version-9-for-openttd.html
+Slug: metalibrary-9-for-openttd
 
 Version 9 of *MetaLibrary* has been released.
 
 To recap, *MetaLibrary* is a collection of code I've written to simplify
 writing an AI for [OpenTTD](http://www.openttd.org/), a remake of my
-childhood favorite, Transport Tycoon.
+childhood favourite, Transport Tycoon.
 
 Version 9 brings a couple of bug fixes in the Python build script. The
 [documentation for MetaLibrary](http://minchin.ca/openttd-metalibrary/)

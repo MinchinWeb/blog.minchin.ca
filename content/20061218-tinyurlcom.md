@@ -4,6 +4,7 @@ Modified: 2007-04-09 22:43
 Author: Wm. Minchin
 Tags: Java Applet, Series:On-Line Wonders, TinyURL.com, URL, URL's, URLs
 Slug: tinyurlcom
+alias: 2006\12\tinyurlcom-on-line-wonders-iii.html
 
 Back when the internet started and you wanted to find something,
 websites had simple names. As more and more people have moved onto the

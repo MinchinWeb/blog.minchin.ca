@@ -1,6 +1,6 @@
 Title: FeedBurner Fun
 Date: 2007-04-03 19:42
-Modified: 2007-04-09 15:49
+Modified_1: 2007-04-09 15:49
 Modified: 2016-08-08 22:23
 Author: Wm. Minchin
 Tags: Atom, FeedBurner.com, Headline Animator, RRS, Series:On-Line Wonders

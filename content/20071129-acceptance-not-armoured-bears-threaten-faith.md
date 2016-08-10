@@ -4,7 +4,9 @@ Modified: 2008-02-05 23:05
 Author: Wm. Minchin
 Tags: Acceptance, Christiany, France, Phillip Pullman, Series:Social Commentary, The Gateway, The Golden Compass, Tolerance
 Category: Social Commentary
-Slug: acceptance-not-armoured-bears-threaten
+alias: 2007/11/acceptance-not-armoured-bears-threaten.html
+Slug: acceptance-not-armoured-bears-threaten-faith
+
 
 *This is written as a response to an article in the November 26, 2007
 edition of the University of Alberta student newspaper, "[The

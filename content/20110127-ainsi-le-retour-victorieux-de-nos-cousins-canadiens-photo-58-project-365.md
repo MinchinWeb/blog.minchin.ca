@@ -3,7 +3,8 @@ Date: 2011-01-27 16:02
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: ainsi-le-retour-victorieux-de-nos
+Alias: 2011/01/ainsi-le-retour-victorieux-de-nos.html
+Slug: ainsi-le-retour-victorieux-de-nos-cousin-canadiens-photo-58-project-365
 Location: Dieppe, France
 Image: images/project-365/2010-11-05 - IMG_3773.JPG
 
@@ -32,13 +33,13 @@ DU PREMIER SEPTEMBRE MIL NEUF CENT QUARTANTE QUATRE
 The translation of the plaque:
 
 <div markdown=1 class="text-center">
-The 19th of August, 1945  
+The 19<sup>th</sup> of August, 1945  
 on the beaches of Dieppe  
 Our Canadian cousins  
 Traced in their blood  
 the path to our final liberation  
 Passing for their victorious return  
-the 1st of September, 1944  
+the 1<sup>st</sup> of September, 1944  
 </div>
 
 And the photo details:

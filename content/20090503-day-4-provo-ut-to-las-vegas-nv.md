@@ -17,7 +17,7 @@ still doesn't seem nears as empty as Montana. The traffic never really
 disappeared, which makes me wonder where they all could be going. My
 first stop was Old Fort Cole, located just off the junction of I-15 and
 I-70. President Hickley's grandfather built it at the request of Brigham
-Young, and it served as a way-point for both travelers (who would be 30
+Young, and it served as a way-point for both travellers (who would be 30
 miles on a good day, in contrast with my 700...) and the telegraph. It
 had been recommended to stop into Zion National Park a couple of times,
 but it's about an hour off the road, so I decided to pass, and I'll have

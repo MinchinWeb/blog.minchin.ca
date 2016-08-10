@@ -4,7 +4,8 @@ Modified: 2015-08-14 8:11
 Author: Wm. Minchin
 Tags: MetaLibrary, NoAI, OpenTTD, releases
 Category: MetaLibrary
-Slug: metalibrary-version-7-for-openttd
+Alias: 2014/03/metalibrary-version-7-for-openttd.html
+Slug: metalibrary-7-for-openttd
 
 *[MetaLibrary](http://minchin.ca/openttd-metalibrary/)* moves forward
 again!
@@ -56,10 +57,10 @@ Other improvements include:
 -   Rename `Readme.txt` to `Readme.md`
 -   Update requirement to Fibonacci Heap, v.3
 -   Automated creation of tar files for upload to BaNaNaS
--   Automated translation for the Game Script verision
+-   Automated translation for the Game Script version
 
 The [forum thread for *MetaLibrary*
-dicsusion](http://www.tt-forums.net/viewtopic.php?f=65&t=57903) is on
+discussion](http://www.tt-forums.net/viewtopic.php?f=65&t=57903) is on
 TT-Forums, the [code for
 *MetaLibrary*](https://github.com/MinchinWeb/openttd-metalibrary/) is
 available on GitHub, the [documentation for

@@ -3,7 +3,7 @@ Date: 2012-11-24 20:19
 Author: Wm. Minchin
 Tags: Alberta, Project 365
 Category: Project 365
-Slug: alberta-is-amazing-for-its-landscapes
+Alias: 2012/11/alberta-is-amazing-for-its-landscapes.html
 Image: images/project-365/2012-10-08a - IMG_7259.JPG
 
 Alberta is amazing for its landscapes. Much of it is flat, and combined

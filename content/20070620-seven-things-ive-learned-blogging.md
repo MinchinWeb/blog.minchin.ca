@@ -69,7 +69,7 @@ as bad about keeping up the rest of my life instead.
 ### Long Tail Economics
 
 One of the things the information age is changing is some of the
-fundamental laws of what to stock and what not to. In a brick-and-morter
+fundamental laws of what to stock and what not to. In a brick-and-mortar
 store, it costs something to stick a product on a shelf, so you have to
 sell so many or the product doesn't make the cut. When that shelf
 becomes your hard drive and the "shelf cost" becomes a fraction of a
@@ -87,7 +87,7 @@ the end of the world if there's a lot of other people down there too
 
 ### The Price of Free -- Advertising
 
-I don't watch much TV, but I am always annoyned by the amount of
+I don't watch much TV, but I am always annoyed by the amount of
 commercials (it's something like 15 minutes in an hour). In setting up
 this blog, I added "Sponsored Links" through Google Adsense anyways to
 see if I could make a little money. I have since come to understand how

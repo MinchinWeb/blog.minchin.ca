@@ -3,7 +3,8 @@ Date: 2010-08-08 23:39
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: crabin-lego-photo-17-project-365
+Alias: 2010/08/crabin-lego-photo-17-project-365.html
+Slug: crab-in-lego-photo-17-project-365
 Image: images/project-365/2010-08-07a - P365 - IMG_1446.JPG
 
 So I went to the County Fair for the first time. I had no idea you could

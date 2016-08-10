@@ -70,7 +70,7 @@ for the factory workers (***[5]***). Of this mentality, Newman and Kenwothy
 note:
 
 > <span id="ednref6"></span>
-> "One of the features of 20th century modernism is functional
+> "One of the features of 20<sup>th</sup> century modernism is functional
 > isolation: architects, for example, believed that they could 'make a
 > statement' with their buildings as though they did not relate to an
 > urban context with a history or a local community.
@@ -81,8 +81,7 @@ note:
 > transport as isolated patterns of origins and destinations which were
 > floating entities to be joined up by a straight line and be as fast
 > moving as possible."
-> ([***[6]***](#edn6),
-> p. 1)
+> ([***[6]***](#edn6), p. 1)
 
 Toronto initially started down this course of fordist development, but a
 turning point came as the result of public opposition to and the

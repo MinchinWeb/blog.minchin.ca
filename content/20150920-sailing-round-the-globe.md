@@ -11,7 +11,7 @@ So one of the things my Love and I have talked about is the idea of
 taking off to a season of sailing. The ocean has a sort of primitive
 draw to me that is hard to explain and not particularly rational. I have
 no experience sailing. In fact, my experience on the water is limited to
-commercial ferries and canoeing a couple of hours at a time.
+commercial ferries and canoing a couple of hours at a time.
 
 To take off on a trip like this, we would need a couple of prep steps: a
 boat, training in sailing, and a route would probably be good too.

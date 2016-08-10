@@ -59,7 +59,7 @@ Paris!
 </figure>
 
 Leave Little Elm TX -- 3:45pm (CDT) -- 224,723km  
-Oil change (yes, I put that many kilometers on on this roadtrip that I
+Oil change (yes, I put that many kilometres on on this roadtrip that I
 have to change the oil) ($37.46)  
 Visit "Minchin"  
 Leave Denton -- 5:50pm -- 224,770km  

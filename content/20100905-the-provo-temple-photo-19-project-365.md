@@ -20,7 +20,7 @@ better from above. This was taken from Squaw Peak, just up Provo Canyon.
 This was also taken with my zoom lens - next time I'm taking my tripod
 to improve my odds of getting good night photos.
 
-(For those paying attention to the dates, this one actaully falls
+(For those paying attention to the dates, this one actually falls
 between Photos 17 and 18.)
 
 <div markdown=1 class="photo-infobox">

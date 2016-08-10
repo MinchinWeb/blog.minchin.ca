@@ -8,7 +8,7 @@ Slug: project-365-an-introduction
 Project 365 is an idea I've seen tossing around online various places
 and decided to give it a try. The basic premise is to take a picture
 every day for a year.  I started on July 9th and today is the 26th, so I
-have 10 photos in 18 days… hmmm. But I'll do better -- school has cooled
+have 10 photos in 18 days... hmmm. But I'll do better -- school has cooled
 off and I feel like I've gotten a better hang of what this project is
 going to require in terms of dedication.
 

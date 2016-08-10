@@ -7,7 +7,7 @@ Slug: walking-shoes-photo-60-project-365
 Image: images/project-365/2010-11-12 - IMG_3813.JPG
 
 Having a camera means it sometimes gets used because it's what I have
-handy. In this case, I was prepping to relace my shoes. But I also like
+handy. In this case, I was prepping to replace my shoes. But I also like
 how the picture turned out with the simple background and the flash
 fade-off in the corners.
 

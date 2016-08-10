@@ -35,7 +35,7 @@ Havre, and Caen have been moved to the Paris Stake (based out of
 Versailles), and the Alençon Branch has been moved to the Angers Stake.
 What I don't know is what happened to the Branches of Coutances or
 Cherbourg. Possibilities include them also be part of the Paris Stake,
-the Angers Stake or the Lorient Distrist (informally, the "Brittany
+the Angers Stake or the Lorient District (informally, the "Brittany
 District"), or possibly they are directly under the Mission! (The
 Evereax Branch was closed down a year or two ago and merged with the
 Mantes-la-Jolie Ward in the suburbs of Paris).

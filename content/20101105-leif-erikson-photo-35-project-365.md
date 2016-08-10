@@ -1,9 +1,9 @@
-Title: Leif Eríkson -- Photo 35 -- Project 365
+Title: Leif Erikson -- Photo 35 -- Project 365
 Date: 2010-11-05 9:12
-Modified 2016-08-08 19:38
+Modified: 2016-08-08 19:38
 Author: Wm. Minchin
 Tags: Iceland, Project 365
-Redirect: eric-the-red-photo-35-project-365
+Alias: 2010/11/eric-the-red-photo-35-project-365.html
 Slug: leif-erikson-photo-35-project-365
 Location: Hallgrímskirkja, Reykjavik, Iceland
 Image: images/project-365/2010-09-19 - P365 - IMG_2903.JPG
@@ -29,4 +29,5 @@ one of Reykjavik best known landmarks,
 
 ### Update, August 8, 2016
 
-As pointed on by the anonymous commentor, this is Leif Eríkson rather than Eric the Red.
+As pointed on by the anonymous commenter, this is Leif Eríkson
+rather than Eric the Red. The statue is just as cool in any case.

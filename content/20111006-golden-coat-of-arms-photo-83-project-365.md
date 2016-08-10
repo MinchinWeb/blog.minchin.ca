@@ -4,7 +4,7 @@ Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
 Slug: golden-coat-of-arms-photo-83-project-365
-Location: Buckingham Palance, London, UK
+Location: Buckingham Palace, London, UK
 Image: images/project-365/2011-04-01 - IMG_5262.JPG
 
 My continuing adventures took me to London and to see the Queen!

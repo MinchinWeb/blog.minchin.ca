@@ -1,6 +1,6 @@
 Title: Nexodyne Email Images
 Date: 2006-05-14 22:07
-Modified: 2004-04-03
+Modified_1: 2004-04-03
 Modified: 2007-04-09 22:28
 Author: Wm. Minchin
 Tags: Email, Nexodyne, Privacy, Quotables, Series:On-Line Wonders, Spam
@@ -14,7 +14,7 @@ Slug: nexodyne-email-images
 With new technology, comes new concerns. In the case of electronic mail,
 it is that of spam. At least when we get junk mail at home, we can
 quickly sort through it and drop it into the recycle bin. The fact that
-you have to pay someone to print and deliever the flyers does serve to
+you have to pay someone to print and deliver the flyers does serve to
 deter companies from filling up everyone's mailbox with non-addressed
 mail. Spam, on the other hand, can be sent for almost free. I guess they
 must make some sales out of it, or you would think that they would have
@@ -42,9 +42,9 @@ three main ways:
 3.  Buy it off someone else -- Sometimes spammers with a little money and
     less technical know-how or time will buy lists of email addresses.
     The advantage to this, for the spammer, is that you can get lists of
-    "comfirmed" emails.
+    "confirmed" emails.
 
-So how do you get around this? The simpliest way is just not to have an
+So how do you get around this? The simplest way is just not to have an
 email address, but for most of us, this isn't a practical solution.
 Another option, as I did when I set up this website, is to have a
 "public" email. But I came across an ingenious solution this last week -

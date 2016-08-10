@@ -11,7 +11,7 @@ writing is in my grandma's own hand, which is fitting because it was her
 that carried Sinnamon as a maiden name. The passage reads:
 
 > The Sinnamons are descendants from the family of St. Amond who were
-> Huguenots (French Protestants) in Europe. In the 16th and 17th century
+> Huguenots (French Protestants) in Europe. In the 16<sup>th</sup> and 17<sup>th</sup> century
 > [sic] when the Huguenots were persecuted, some of them fled to the
 > northern part of Ireland for refuge. At that time, the St. Amonds were
 > illiterate. Later, when they learned to read and write, the name was

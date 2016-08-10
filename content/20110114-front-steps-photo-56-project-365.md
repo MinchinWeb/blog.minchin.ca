@@ -11,7 +11,7 @@ These crumbling steps were once the front door to a splendid building,
 dreamed up as a vacation resort for the working class. Things didn't
 quite work out that way, with the building used as a hospital during the
 First World War and being blown up during the Second. Now, only the
-stairs remain as a lonely testiment to that dream.
+stairs remain as a lonely testament to that dream.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

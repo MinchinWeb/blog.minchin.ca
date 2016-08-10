@@ -84,7 +84,7 @@ marriage to Eleanor of Aquitain as a single lion was the symbol of
 Aquitain.
 Their son was Richard whose great seal we mentioned earlier.
 
-Another possibility is simplily that the
+Another possibility is simply that the
 three lions were pleasing to the eyes and were chosen for no greater
 reason. (If
 you're the king, who's really going to tell you 'no'?)
@@ -92,7 +92,7 @@ you're the king, who's really going to tell you 'no'?)
 [For further
 reading...](http://www.sacred-texts.com/lcr/fsca/fsca47.htm)
 and [All about Lions in
-Heraldy](http://www7b.biglobe.ne.jp/~bprince/hr/foxdavies/fdguide11.htm)
+Heraldry](http://www7b.biglobe.ne.jp/~bprince/hr/foxdavies/fdguide11.htm)
 
 ## Bonus Picture
 

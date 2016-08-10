@@ -2,7 +2,7 @@ Title: Where's Willy
 Date: 2007-03-22 19:30
 Modified: 2007-04-09 15:47
 Author: Wm. Minchin
-Tags: CBC, Currency, Currency Tracking, Disease Spread, Epidemic, Science Blog, Series:Web Site-seeing, University of California, WheresGeorge.com, WheresWilly.com, WillyMap, Wilred Laurier
+Tags: CBC, Currency, Currency Tracking, Disease Spread, Epidemic, Science Blog, Series:Web Site-seeing, University of California, WheresGeorge.com, WheresWilly.com, WillyMap, Wilfred Laurier
 Slug: wheres-willy
 Image: images/2007/Wheres_Willy_20s.jpg
 
@@ -53,4 +53,4 @@ Check it out for yourself at
 readers and at [www.WheresGeorge.com](http://www.wheresgeorge.com) for
 my American friends.
 
-*[picutre](http://www.flickr.com/photos/impeccabletiming/242129064/) via by Snuggle Up & Read on Flickr*
+*[picture](http://www.flickr.com/photos/impeccabletiming/242129064/) via by Snuggle Up & Read on Flickr*

@@ -8,8 +8,8 @@ Image: images/project-365/2010-09-28 - P365 - IMG_3304.JPG
 
 I went rambling through the bushes and brought home a visitor that I
 quickly dispatched. But first, he turned into my photo subject. As a
-photo subject, a bug of this size is increadibly hard to shoot -- the
-distance between in and out of focus is a matter of millimeters. Some of
+photo subject, a bug of this size is incredibly hard to shoot -- the
+distance between in and out of focus is a matter of millimetres. Some of
 my other bug pictures haven't turned out because I can't hold still
 enough! It doesn't help either that it is near impossible to tell on the
 camera screen whether something this small is in focus either. But I

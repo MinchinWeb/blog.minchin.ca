@@ -3,7 +3,8 @@ Date: 2010-12-08 02:24
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: the-eiffel-tower-of-light-photo-45-project
+Alias: 2010/12/the-eiffel-tower-of-light-photo-45-project.html
+Slug: the-eiffel-tower-of-light-photo-45-project-365
 Image: images/project-365/2010-10-09 - P365 - IMG_3350.JPG
 
 I made it back to Paris and the icon, of course, is the Eiffel Tower. At

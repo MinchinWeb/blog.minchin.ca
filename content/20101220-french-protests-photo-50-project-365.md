@@ -7,9 +7,9 @@ Slug: french-protests-photo-50-project-365
 Image: images/project-365/2010-10-19 - P365 - IMG_3419.JPG
 
 The strikes here in France seemed to be nearly constant. We spent our
-first month in France wondering whether we would have public busses the
+first month in France wondering whether we would have public buses the
 next day and double checking modified inter-city train schedules. When
-we asked our French friends about it, they would shurg and reply
+we asked our French friends about it, they would shrug and reply
 "Welcome to France!" with a wry smile. The retirement reforms (moving
 the minimum retirement age up to 62) have since passed and with Noël
 (Christmas) upcoming, things seem to have quieted down considerably.

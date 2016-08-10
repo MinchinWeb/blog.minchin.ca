@@ -3,7 +3,8 @@ Date: 2011-06-02 14:06
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: snow-at-the-train-station-photo-66-project
+Alias: 2011/06/snow-at-the-train-station-photo-66-project.html
+Slug: snow-at-the-train-station-photo-66-project-365
 Location: Rouen, France
 Image: images/project-365/2010-12-19 - IMG_4132.JPG
 

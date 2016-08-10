@@ -4,7 +4,8 @@ Modified: 2011-09-28 18:58
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: mediterranean-village-photo-79-project
+Alias: 2011/09/mediterranean-village-photo-79-project.html
+Slug: mediterranean-village-photo-79-project-365
 Location: Les Baux-de-Provence, France
 Image: images/project-365/2011-02-22 - IMG_5075.JPG
 

@@ -1,7 +1,8 @@
 Title: Online Dating from Hell (or Modern Job Hunting)
 Date: 2011-07-17 21:33
 Author: Wm. Minchin
-Slug: online-dating-from-hell-or-modern-job
+Alias: 2011/07/online-dating-from-hell-or-modern-job.html
+Slug: online-dating-from-hell-or-modern-job-hunting
 
 Several months ago I was in France and realized I would need to get a
 job upon my return to North America. In today's interconnected world, I
@@ -24,7 +25,7 @@ to find a FAX machine or worry about the eight hour time difference.
 While the Internet has reworked the world in wonderful ways, not all the
 implications have been dealt with.
 
-Let me return to the metephor I mentioned in the title. Imagine an
+Let me return to the metaphor I mentioned in the title. Imagine an
 Internet dating site. You've been told this is THE site, the one where
 everyone hangs out on (and no, it's not Facebook...). It's free to sign
 up so you start looking around. You find a couple of cute girls and
@@ -55,7 +56,7 @@ of the computer...
 
 ### My Job Search
 
-In the beginning, my job search was realitively simple, spending time on
+In the beginning, my job search was relatively simple, spending time on
 the Internet with a goal of 2 or 3 applications a week. I spent about
 three months at this until my internet connection suddenly died (French
 customer service can be the subject of another post...grrr).
@@ -71,7 +72,7 @@ pass along.
 
 -   Online job hunting is a great idea but it needs to be implemented
     well. Keep in mind that most job hunters will have to deal with
-    several of these sites. Too many sites were cluncky, slow, and hard
+    several of these sites. Too many sites were clunky, slow, and hard
     to navigate. The longer it takes for me to apply, the more likely I
     am to abandon part way through or to never come back. And although
     there might be a lot less effort to apply to the second job, I have
@@ -79,14 +80,14 @@ pass along.
 -   Keep your website up to date. Do you know, for a fact, that your
     phone number and address are on your website and are current? Also,
     if you hire someone, take down the job posting; it's very
-    frustrasting to prepare an application, call to get the submission
+    frustrating to prepare an application, call to get the submission
     email and at that point find out the position was filled last week.
 -   Have good job descriptions. Too many job descriptions are filled
     with advertising copy for the company and too little about the
     actual position. If I'm applying for this job, you've already sold
     me on your company. Tell me about the specifics of the job and what
     I need to be able to do it. And if I have to call to get those
-    details, let me talk to someone who actaully knows the details of
+    details, let me talk to someone who actually knows the details of
     the job. Please.
 -   You only get one chance to make a first impression - how does your
     receptionist greet job seekers? With a smile and then have someone
@@ -98,7 +99,7 @@ pass along.
     address from? I had already visited their website and their tortured
     job section...).
 -   And most importantly, keep it personal! If the Internet has
-    destroyed realationships, it's the relationships between businesses
+    destroyed relationships, it's the relationships between businesses
     and individuals. Too often in my job search I felt like I was being
     ignored by a computer. Much of my second phase of job hunting was
     about trying to figure out how I could talk to a living breathing

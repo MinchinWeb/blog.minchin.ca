@@ -3,7 +3,8 @@ Date: 2010-12-20 5:22
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: the-white-cliffs-of-normandy-photo-52
+Alias: 2010/12/the-white-cliffs-of-normandy-photo-52.html
+Slug: the-white-cliffs-of-normandy-photo-52-project-365
 Image: images/project-365/2010-10-20b - IMG_3435.JPG
 
 Again the amazing French countryside! Maybe you're heard of 'the white

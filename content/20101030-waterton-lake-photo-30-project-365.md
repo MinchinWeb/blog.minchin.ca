@@ -6,10 +6,10 @@ Slug: waterton-lake-photo-30-project-365
 Image: images/project-365/2010-08-27 - P365 - Waterton Panorama.jpg
 
 An easy hike starting across from the road to the Prince of Wales hotel
-is Bear"s Hump. The view, as noted above, is magnificant!
+is Bear"s Hump. The view, as noted above, is magnificent!
 
-This image is actaully the result of several overlapping images that
-have been stiched together. By holding the settings constant (focal
+This image is actually the result of several overlapping images that
+have been stitched together. By holding the settings constant (focal
 distance, f-stop, exposure, etc.), the combined image looks like it's
 one shot.
 

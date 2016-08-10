@@ -4,7 +4,8 @@ Modified: 2010-08-08 22:30
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: light-through-the-blinds-photo-10-project
+Alias: 2010/07/light-through-the-blinds-photo-10-project.html
+Slug: light-through-the-blinds-photo-10-project-365
 Image: images/project-365/2010-07-26 - P365 - IMG_1378.JPG
 
 The morning light through the tree leaves and then the blinds makes some

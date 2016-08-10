@@ -148,6 +148,7 @@ PLUGIN_PATHS = ('../pelican-plugins',)
 PLUGINS = [
             'assets',
             'neighbors',
+            'pelican_alias',
           ]
 
 ASSET_CSS = False

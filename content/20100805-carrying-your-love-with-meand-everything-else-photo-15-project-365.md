@@ -4,7 +4,8 @@ Modified: 2010-08-09 05:31
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: carrying-your-love-with-meand-everything-else-photo-15-project-365
+Alias: 2010/08/carrying-your-love-with-meand-everything-else-photo-15-project-365.html
+Slug: carrying-your-love-with-me-and-everything-else-photo-15-project-365
 Image: images/project-365/2010-08-05 - P365 - IMG_1424.JPG
 
 I don't buy much 'stuff' and so I can get pretty excited about the stuff

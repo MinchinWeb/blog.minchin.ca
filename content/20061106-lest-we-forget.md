@@ -2,7 +2,7 @@ Title: Lest We Forget
 Date: 2006-11-06 13:23
 Modified: 2007-04-09 15:40
 Author: Wm. Minchin
-Tags: Flanders, Flanders Fields, In Flanders Fields, Lest We Forget, November 11, Remebrance Day, Series:Reading, Wikipedia
+Tags: Flanders, Flanders Fields, In Flanders Fields, Lest We Forget, November 11, Remembrance Day, Series:Reading, Wikipedia
 Slug: lest-we-forget
 Image: images/2006/High_Wood_cemetery,_France.jpg
 

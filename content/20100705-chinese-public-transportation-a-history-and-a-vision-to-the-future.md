@@ -2,7 +2,8 @@ Title: Chinese Public Transportation: A History and a Vision to the Future
 Date: 2010-07-05 16:49
 Author: Wm. Minchin
 Tags: Beijing Metro, China, Guangzhou Metro, Hong Kong, MTR, Public Transportation, Shanghai Metro, Shenzhen Metro, Tainjin Metro, TOD, Transportation, Transportation Oriented Development
-Slug: chinese-public-transportation-history
+Alias: 2010/07/chinese-public-transportation-history.html
+Slug: chinese-public-transportation-a-history-and-a-vision-to-the-future
 Category: Essays
 
 ### Abstract
@@ -403,7 +404,7 @@ financial center. In the wake of the Communist victory of the Chinese
 Civil War
 in 1949 brought closure of Shanghai to much of the rest of the world,
 but the
-economic librations of the 1980's and 90's brought redevelopment and
+economic liberations of the 1980's and 90's brought redevelopment and
 eventually
 foreign investment. In 2005, Shanghai became the world's largest port
 *([12](#Wik10e))*. Today, Shanghai is
@@ -775,7 +776,7 @@ transportation network choices of today.
 and Subway Transportation in China: 5320. 2010.
 
 <span id="Ken01"></span>
-2. Kenworthy, J., and F.B. Laube. The Mellennium Cities Database for
+2. Kenworthy, J., and F.B. Laube. The Millennium Cities Database for
 Sustainable Transport.
 Brussels, Belgium, 2001.
 
@@ -793,7 +794,7 @@ Accessed May 13, 2010.
 
 <span id="Wik10b"></span>
 5. Wikipedia
-contributors. Beijing Subway. *Wikipedia, The Free Encylopedia*, May 13, 2010. <http://en.wikipedia.org/w/index.php?title=Beijing_Subway&oldid=361885456.
+contributors. Beijing Subway. *Wikipedia, The Free Encyclopedia*, May 13, 2010. <http://en.wikipedia.org/w/index.php?title=Beijing_Subway&oldid=361885456.
 Accessed May 13, 2010.
 
 <span id="cit06"></span>
@@ -914,7 +915,7 @@ Accessed May 12, 2010.
 26. Wang, L. H. In Search
 of a Sustainable Transport Development Strategy for Hong Kong. <i>Hong
 Kong
-Policy Research Insitute Ltd.</i>, <http://www.hkpri.org.hk/bulletin/5/l-h-wang.html>.
+Policy Research Institute Ltd.</i>, <http://www.hkpri.org.hk/bulletin/5/l-h-wang.html>.
 Accessed May 12, 2010.
 
 <span id="Xav09"></span>

@@ -3,7 +3,8 @@ Date: 2010-10-11 6:31
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: californian-lighthouse-photo-24-project
+Alias: 2010/10/californian-lighthouse-photo-24-project.html
+Slug: californian-lighthouse-photo-24-project-365
 image: images/project-365/2010-08-19 - P365 - IMG_2159.JPG
 
 Further along the Pacific Coast Highway I came across a lighthouse, just

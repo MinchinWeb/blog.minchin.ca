@@ -17,7 +17,7 @@ some highlights:
 -   I-35W is a major artery through Minneapolis; the bridge is 8 lanes
     wide and reportedly carries over 200,000 vehicles a day
 -   the bridge collapsed towards the end of the evening rush hour, about
-    7pm local time; and very suddenly (the center section collapsed in 4
+    7pm local time; and very suddenly (the centre section collapsed in 4
     seconds)
 -   the cause of the collapse is unknown at present
     -   A 2005 report rated the bridge as "structurally deficient" (a
@@ -43,7 +43,7 @@ guidelines to keep this from happening again.
 
 Unfortunately, this isn't the first time a bridge has collapsed - we
 only need to look back to last October when the [de la Concorde freeway
-collapsed](http://www.canada.com/topics/news/story.html?id=ee2d0ff1-b2c3-40a6-bc8c-d6a5e8da2c55 "de la Concorde freeway collasped")
+collapsed](http://www.canada.com/topics/news/story.html?id=ee2d0ff1-b2c3-40a6-bc8c-d6a5e8da2c55 "de la Concorde freeway collapsed")
 in Laval, just out of Montreal. Unfortunately, [it seems unlikely that
 this will be the last time we see this sort of
 thing](http://news.com.com/Aging+infrastructure+at+heart+of+Minnesota+disaster/2100-1008_3-6200459.html?tag=nefd.lede "Aging infrastructure at heart of Minnesota disaster | CNET News").
@@ -63,8 +63,8 @@ self-governing, meaning they have the power to remove members for
 violations of the Code of Ethics. This means that if an Engineer
 disregards the public welfare, or doesn't properly perform his duties or
 due diligence, even if he doesn't face criminal charges, he can have his
-permit to practice engineering, which is probably his livelihood,
-revoked. Becuase of this, the Code of Ethics has become a touchstone in
+permit to practise engineering, which is probably his livelihood,
+revoked. Because of this, the Code of Ethics has become a touchstone in
 both the day-to-day and the extraordinary decisions an engineer will
 face.
 
@@ -83,14 +83,14 @@ engineering work is performed, I have no doubt there will be changes.
 Failures provide the chance to learn. No engineer would claim to
 understand every natural law, and thus all design work is completed
 using a factor of safety, which can be as large as 3. That means that
-the sturcture is designed to withstand three times its expected load.
+the structure is designed to withstand three times its expected load.
 This is done to cover off the unexpected, the un-understood, and the
 unknown. The Quebec Bridge failures of 1907 and 1916 [fundamentally
-changed](http://en.wikipedia.org/wiki/Quebec_Bridge#Aftermath "fundamentally changed")
+changed](http://en.wikipedia.org/wiki/Quebec_Bridge#Aftermath)
 the way engineers in Canada went about their work, and the redesigned
 bridge stands yet today as the longest cantilever bridge span in the
 world. In Canada, the [Ritual of the Calling of the
-Engineer](http://en.wikipedia.org/wiki/The_Ritual_of_the_Calling_of_an_Engineer "Ritual of the Calling of the Engineer")
+Engineer](http://en.wikipedia.org/wiki/The_Ritual_of_the_Calling_of_an_Engineer)
 was set up shortly afterwards, and folklore says that the Iron Rings
 presented are made of the failed Quebec Bridge to serve as a reminder to
 him of his obligation to the public.

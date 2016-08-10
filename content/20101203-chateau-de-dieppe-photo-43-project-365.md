@@ -17,7 +17,7 @@ only) leaving the castle.
 > certainly built on the site of an earlier castle, built by Henry II
 > and Richard the Lion Heart [of England et al.], then destroyed by
 > Philippe Auguste [of France] in 1195. ... The site was restored in the
-> 14th century. The castle was later in large part reconstructed in 1433
+> 14<sup>th</sup> century. The castle was later in large part reconstructed in 1433
 > by Charles des Marets.
 >
 > The town walls were built around 1360. ... Although the town was

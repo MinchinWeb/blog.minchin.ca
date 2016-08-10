@@ -38,7 +38,7 @@ already visited, but possible destinations include:
 -   **Montreal** -- supposedly the city has a very European feel to it.
     Another option is to catch a cheap flight to Paris from here.
 -   **Old Quebec City** -- with Montreal, it's filled with history.
--   **Ottawa** -- why not see Parliment while out and about?
+-   **Ottawa** -- why not see Parliament while out and about?
 -   **PEI** -- see above.
 -   **Minchin Cove**, Terra Nova National Park, Newfoundland, Canada --
     perhaps out of the way, but distance was never a consideration in
@@ -81,8 +81,8 @@ because" category:
 The roadtrip is the most likely possibility, so let's do a little napkin
 math: ignore Alaska and the round trip distance is approximately 20,000
 km,
-<!-- http://www.mapquest.com/mq/9-reIBrSV1 http://www.mapquest.com/mq/6-SONmOQJ02akx  http://www.vancouverisland.com/Transport/details.asp?id=8  http://www.mapquest.com/mq/9-Y0gnqAYN -->so
-at 800km/day (which is a ton of driving), you're looking at 25 days of
+<!-- http://www.mapquest.com/mq/9-reIBrSV1 http://www.mapquest.com/mq/6-SONmOQJ02akx  http://www.vancouverisland.com/Transport/details.asp?id=8  http://www.mapquest.com/mq/9-Y0gnqAYN -->
+so at 800km/day (which is a ton of driving), you're looking at 25 days of
 driving, and more if I stop anywhere for any amount of time, and about
 $2800 in gas at today's prices ($1.30/l), about $1000 for food
 ($40/day) and $2000 for hotels ($80/night), if I go that route. A

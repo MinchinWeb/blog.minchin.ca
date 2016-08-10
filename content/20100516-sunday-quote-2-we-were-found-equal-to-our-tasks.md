@@ -2,7 +2,8 @@ Title: Sunday Quote #2: "We Were Found Equal to Our Tasks"
 Date: 2010-05-16 02:00
 Author: Wm. Minchin
 Tags: Motivation, Neal Maxwell, Series:Sunday Quotes
-Slug: sunday-quote-2-we-were-found-equal-to
+Alias: 2010/05/sunday-quote-2-we-were-found-equal-to.html
+Slug: sunday-quote-2-we-were-found-equal-to-our-tasks
 
 ![Neil A. Maxwell](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S-zcSqn4ZjI/AAAAAAAABUQ/j8ihV6hN7Pk/s1600/Neil+A+Maxwell.jpg)
 

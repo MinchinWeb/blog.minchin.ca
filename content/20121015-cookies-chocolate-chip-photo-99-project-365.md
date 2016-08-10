@@ -3,7 +3,8 @@ Date: 2012-10-15 17:16
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: cookies-chocolate-chip-photo-99-project
+Alias: 2012/10/cookies-chocolate-chip-photo-99-project.html
+Slug: cookies-chocolate-chip-photo-99-project-365
 Image: images/project-365/2012-09-16 - IMG_7212.JPG
 
 This is one of those pictures you have to take right away or the subject

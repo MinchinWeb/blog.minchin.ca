@@ -16,7 +16,7 @@ not knowing as many people as I thought I did in town and several of
 those who I did know having decided to skip town for the weekend (crazy
 idea, I know...). Plan B, then, was buck up and drop the hundred bucks
 and get a motel room. Plan B, however, had one major miscalculation --
-this was the night of February 14th, and EVERYTHING in town was taken;
+this was the night of February 14<sup>th</sup>, and EVERYTHING in town was taken;
 we drove around for an hour and even the places we were told to avoid
 like the plague had pulled out their "No Vacancy" signs. In the end, we
 parked near where we needed to be in the morning, pulled out the long
@@ -24,8 +24,5 @@ underwear and winter coats, and hunkered down in the van for the night,
 running it off and on to stay warm. So the moral of this adventure:
 
 <div class="text-center lead" markdown=1>
-
 **If it's Valentine's Day, get reservations!**
-
 </div>
-

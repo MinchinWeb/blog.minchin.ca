@@ -50,7 +50,7 @@ out reject moving me in for anything less than 12 months, although one
 couple was "nice" enough to offer me a place, but on the condition that
 I paid for at least 4 months. After two nights of looking, I managed to
 find a nice one-bedroom apartment not far from the University with a
-landlord that could fathom people moving in other times than July 1st
+landlord that could fathom people moving in other times than July 1<sup>st</sup>
 (the vast majority of leases in Québec seem to end and start on this
 date).
 
@@ -61,7 +61,7 @@ previously. Having my own place also meant I wasn't surrounded by the
 constant flurry of activity that having five roommates brought. For me,
 however, it's worked out well -- I've enjoyed having the peace and quiet
 and I've meet (and been able to spend time with) some really cool people
-from the Group, church, neighbors, and work.
+from the Group, church, neighbours, and work.
 
 The summer looks promising and I look forward to an amazing summer in
 Québec!

@@ -80,6 +80,6 @@ Some thoughts:
     you still have to pay your student loans). However, 7 years in a
     long time. In general, Canadian student loans are generally
     amortized over 10 years, with the option to extend that to 15 years.
-    So by the time that you might be able to dischanrge your student
+    So by the time that you might be able to discharge your student
     loans, you've already paid 50-70+% of them off.
 -   I never want to deal with bankruptcy!

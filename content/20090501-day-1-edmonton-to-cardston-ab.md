@@ -43,8 +43,7 @@ Drive-in in Calgary
 <figure markdown=1>
 ![Cardston Temple]({filename}images/2009/IMG_7049.JPG)
 <figcaption markdown=1>
-The
-Alberta Temple in Cardston
+The Alberta Temple in Cardston
 </figcaption>
 </figure>
 

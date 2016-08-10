@@ -104,7 +104,7 @@ market:
     Horizons S&P/TSX 60 Index ETF - MER of 0.07% - a "synthetic ETF,"
     meaning they don't actually own all of the stocks, but that helps
     keep the MER low; this fund includes the 60 biggest (by
-    capitalization) stocks on the TSX, represending 71% of the TSX by
+    capitalization) stocks on the TSX, representing 71% of the TSX by
     market capitalization; the fund doesn't typically pay much in
     dividends
 -   [XMD](http://ca.ishares.com/product_info/fund/overview/XMD.htm) -
@@ -121,7 +121,7 @@ For the American market:
     version as well
     ([CLU.C](http://www.claymoreinvestments.ca/etf/fund/clu))
 -   [HXS](http://www.horizonsetfs.com/pub/en/etfs/?etf=HXS&r=o) -
-    Horixons S&P 500 IDX - MER of 0.15% - a "synthetic ETF"; "includes
+    Horizons S&P 500 IDX - MER of 0.15% - a "synthetic ETF"; "includes
     500 of the leading companies in leading industries in the United
     States economy" - this fund in Canadian hedged
 
@@ -156,7 +156,7 @@ general international funds:
 
 Bonds are a debt holding that will return you both it's principal at the
 end of the term as well as interest while you hold the bond. I'm a
-little bit leary of bonds at the moment because yields are low and their
+little bit leery of bonds at the moment because yields are low and their
 liquid price tends to drop as interest rate raise (and interest rates,
 being what they are today, really can't go down any further...) To
 provide income, a couple of other options include preferred shares,
@@ -174,7 +174,7 @@ Investment Trusts).
     yield of 15%
 -   [CHB](http://www.claymoreinvestments.ca/etf/fund/chb) - Claymore
     Advantaged High Yield Bond - MER of 0.56% - annual dividend 7.5%,
-    yield of 36%; this is "non-investement grade bonds"
+    yield of 36%; this is "non-investment grade bonds"
 -   [CSD](http://www.claymoreinvestments.ca/etf/fund/csd) - Claymore
     Short Duration High Income - MER of 0.63% - annual dividend of 5%,
     yield of 2.5%; both investment and non-investment grade bonds with a
@@ -238,7 +238,7 @@ three sectors equally, and so then with a little bit of rounding to make
 
 -   HXT - Horizons S&P/TSX 60 Index ETF - 25%
 -   XMD - iShares S&P/TSX Completion - 10%
--   HXS - Horixons S&P 500 IDX - 15%
+-   HXS - Horizons S&P 500 IDX - 15%
 -   VEF - Vanguard MSCI EAFE Index ETF - 15%
 -   FIE - Claymore Canadian Financial Monthly Income - 15%
 -   Student Loans - 20%
@@ -251,7 +251,7 @@ Overall, the portfolio would have a weighed MER of 0.30%.
 
 As I'll be putting money in regularly, I'll use the regular purchases to
 try and maintain the ratio, hopefully without having to do too major of
-rebalancings. As well, if a fund seems to be close to it's 52 week high,
+re-balancings. As well, if a fund seems to be close to it's 52 week high,
 I'll consider whether to wait to buy the fund. I also need to keep tabs
 on the FIE dividend rates, and consider options if it falls much under
 5.5% (i.e. what my student loans cost). I'm also going to keep an eye

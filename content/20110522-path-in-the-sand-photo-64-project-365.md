@@ -9,7 +9,7 @@ Image: images/project-365/2010-11-20c - IMG_3926.JPG
 
 I'm on a St. Malo roll, why stop now?
 
-St. Malo is a wonderful little city, and one of my favorite places to
+St. Malo is a wonderful little city, and one of my favourite places to
 visit in France. This here is on the beach, during low-ish tide. Just
 barely off the coast, there are several old military posts. This is the
 path leading to the closest one. But a picture of a path like this is a

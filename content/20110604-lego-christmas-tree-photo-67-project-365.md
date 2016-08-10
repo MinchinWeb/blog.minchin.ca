@@ -3,7 +3,8 @@ Date: 2011-06-04 10:13
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: lego-christmas-tree-photo-67-project
+Alias: 2011/06/lego-christmas-tree-photo-67-project.html
+Slug: lego-christmas-tree-photo-67-project-365
 Location: Paris, France
 Image: images/project-365/2010-12-24 - IMG_4243.JPG
 

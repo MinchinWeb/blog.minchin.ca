@@ -7,7 +7,7 @@ Category: Project 365
 Slug: a-kiss-photo-77-project-365
 Image: images/project-365/2011-02-21 - IMG_4975.JPG
 
-We traveled to southern France with some friends and as we explored the
+We travelled to southern France with some friends and as we explored the
 coastline and abandoned buildings, they decided it was quite romantic!
 (It probably helped that this was a trip they took to celebrate their
 anniversary.)

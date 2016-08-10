@@ -3,13 +3,14 @@ Date: 2011-09-28 19:06
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: william-the-conqueror-at-bayeux-photo-81
+Alias: 2011/09/william-the-conqueror-at-bayeux-photo-81.html
+Slug: william-the-conqueror-at-bayeux-photo-81-project-365
 Location: Bayeux, France
 Image: images/project-365/2011-03-12 - IMG_5222.JPG
 
 The French love their comic books ([TinTin](https://en.wikipedia.org/wiki/The_Adventures_of_Tintin), et al.), a tradition that
 may be ten centuries old! One of the oldest records in France is the
-Bayeux Tapestry (dating to the 11th century), which records the conquest
+Bayeux Tapestry (dating to the 11<sup>th</sup> century), which records the conquest
 of England by William the Conqueror, in comic book form of course! The
 style is actually surprisingly similar to the newspaper comics, just
 without the bars between scenes and the punchlines.

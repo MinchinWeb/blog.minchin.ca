@@ -34,7 +34,7 @@ to El Paso, although I might drive further as I hope to make it to
 Dallas the next night, and there's about 1000km between the two....
 
 <figure markdown=1>
-![California Freewa, by San Deigo]({filename}images/2009/IMG_7202.JPG)
+![California Freeway, by San Deigo]({filename}images/2009/IMG_7202.JPG)
 <figcaption markdown=1>
 The California freeway, just north of San Deigo.
 </figcaption>

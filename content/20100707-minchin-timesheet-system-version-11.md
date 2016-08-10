@@ -19,7 +19,7 @@ time by day, project and subproject, and saving the result as an easy to
 email or print PDF.
 
 This is an update to the original version (v1.0), released at
-[Univeristy Student VBA
+[University Student VBA
 Projects](http://vbaprojects.blogspot.com/2010/04/minchin-timesheet-v1025059.html).
 This update smooths over the edges a little, corrects a few minor math
 mistakes, and adds an "About" dialogue.

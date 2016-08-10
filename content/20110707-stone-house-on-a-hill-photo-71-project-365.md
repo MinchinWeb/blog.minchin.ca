@@ -3,7 +3,8 @@ Date: 2011-07-07 11:29
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Slug: stone-house-on-a-hill-photo-71-project
+Alias: 2011/07/stone-house-on-a-hill-photo-71-project.html
+Slug: stone-house-on-a-hill-photo-71-project-365
 Location: Mont Saint-Michel, France
 Image: images/project-365/2010-12-31 - IMG_4534.JPG
 
@@ -12,7 +13,7 @@ the old stone homes from the days before 2x4 (lumber, wood-frame)
 construction. This home is at Mont Saint Michel, a rock on the Normandy
 coast that has had an abbey at the top of it for over 1000 years and a
 village built in stone under it for almost as long. As a side, Mt St
-Michel is one of my favorite places to visit in France.
+Michel is one of my favourite places to visit in France.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
