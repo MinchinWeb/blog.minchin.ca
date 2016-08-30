@@ -20,3 +20,5 @@ extension, a speed-up in the Ship Pathfinder. And that's all for now; I
 figured that would be enough. The [documentation for
 MetaLibrary](http://minchin.ca/openttd-metalibrary/) has also been
 updated.
+
+<!-- read more -->

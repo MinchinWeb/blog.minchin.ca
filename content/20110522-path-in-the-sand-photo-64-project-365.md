@@ -17,6 +17,8 @@ little more because it opens the question "Where does this path lead?"
 
 Where would you like it to lead?
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: EF-S 18-55mm ƒ/3.5-5.6 IS  

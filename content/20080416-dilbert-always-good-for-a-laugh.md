@@ -6,6 +6,8 @@ Slug: dilbert-always-good-for-a-laugh
 
 ![Dilbert](http://1.bp.blogspot.com/_fWUoqQ2t4Js/SAZZCPI4a3I/AAAAAAAAAj4/yHCtNlo-EC8/s400/Dilbert.gif)
 
+<!-- PELICAN_BEGIN_SUMMARY -->'
+
 Every so often I need a good laugh…and "Dilbert" by Scott Adams so often
 fits the bill. For those of you out of the loop, Dilbert is the engineer
 with the upturned tie who has a rather depressing social life and an
@@ -17,6 +19,8 @@ pull up my all-time favourites. Yesterday I found the solution! This guy,
 [S Anand](http://www.s-anand.net), has put together a collection of
 Dilbert comics stretching back over six years! Check it out --> [Dilbert
 Browser](http://www.s-anand.net/dilbert.html#today)
+
+<!-- read more -->
 
 A couple of my favourites too:
 

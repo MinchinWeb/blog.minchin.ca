@@ -22,6 +22,8 @@ create a snipit of code and then insert it on your site that displays an
 analog clock in the colour scheme, size, and time zone of your choosing.
 I think it's cool. Here's my little gallery of world times:
 
+<!-- read more -->
+
 <center>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>

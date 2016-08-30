@@ -13,6 +13,8 @@ The strawberries and the grape juice make for lovely vibrant colours.
 The angle also allows a little bit of playing with what's in focus and
 what's not quite. :)
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: EF-S18-55mm ƒ/3.5-5.6 IS  

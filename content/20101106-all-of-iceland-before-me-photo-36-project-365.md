@@ -12,6 +12,8 @@ before the next town.
 I love in this picture of the sense of openness, adventure; and freedom
 it alludes to.
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: EF-S18-55mm ƒ/3.5-5.6 IS  

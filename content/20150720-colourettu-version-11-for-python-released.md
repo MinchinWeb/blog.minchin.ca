@@ -12,6 +12,8 @@ Version 1.1.0 of *Colourettu* has been released.
 Colourettu is a Python library I've written for dealing with colours and
 "palettes" (groups of colours).
 
+<!-- read more -->
+
 A quick example:
 
     import colourettu

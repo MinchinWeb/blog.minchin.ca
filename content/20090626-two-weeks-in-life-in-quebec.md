@@ -7,11 +7,15 @@ Slug: two-weeks-in-life-in-quebec
 
 *Monday, May 25, 2009*
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 So I realize according to my blog, I've been stuck in Dallas for the
 last 2 weeks, but I'd like to invoke Jorn Barger's "Inverse Law of
 Usenet Bandwidth;" that is "The more interesting your life becomes, the
 less you post… and vice versa," and my life has been anything but
 boring.
+
+<!-- read more -->
 
 I pulled into Montréal Friday night, but about two hours later than I'd
 hoped, and so I missed supper with the rest of the Group that had come

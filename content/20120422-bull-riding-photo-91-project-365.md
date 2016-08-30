@@ -16,6 +16,8 @@ interesting to note the number of people around the periphery, watching
 attentively and ready to jump into action at the first sign of trouble
 to rescue the bull rider.
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: EF-S 55-250mm ƒ/4-5.6 IS  

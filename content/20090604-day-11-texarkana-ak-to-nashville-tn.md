@@ -13,6 +13,8 @@ it's the byproduct of a late night. The only real downside of it all was
 I found out that breakfast was included in my hotel stay, but only till
 9am! Oops, I guess I missed that one...
 
+<!-- read more -->
+
 I hit the road, stopped at the Arkansas Welcome center where they
 suggested a fun little place in Hope called Sheba's Family Restaurant,
 which turned out to be great breakfast. Even though it was more or less

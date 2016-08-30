@@ -3,7 +3,7 @@ Date: 2011-03-13 15:51
 Author: Wm. Minchin
 Tags: Project 365
 Category: Project 365
-Alias: 2011/03/obliterate-your-ticket-photo-62-project-365.html
+Alias: 2011/03/obliterate-your-ticket-photo-62-project.html
 Slug: obliterate-your-ticket-photo-62-project-365
 Image: images/project-365/2010-11-20a - IMG_3889.JPG
 

@@ -26,6 +26,8 @@ differences between the two places -- California and home. Things that I
 had rarely questioned were questioned, and I wondered the logic of some
 of the things they took for granted.
 
+<!-- read more -->
+
 As I flew home, I came to realize a reason why those who are well
 travelled can offer more than great pictures and crazy stories. Travel,
 and the places and people that the traveller is brought into contact

@@ -12,6 +12,8 @@ Version 1.0.0 of *Colourettu* has been released.
 Colourettu is a Python library I've written for dealing with colours,
 and specifically to determine the contrast between two colours.
 
+<!-- read more -->
+
 A quick example:
 
     import colourettu

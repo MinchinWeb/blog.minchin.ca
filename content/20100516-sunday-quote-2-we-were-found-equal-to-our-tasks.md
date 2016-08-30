@@ -7,6 +7,8 @@ Slug: sunday-quote-2-we-were-found-equal-to-our-tasks
 
 ![Neil A. Maxwell](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S-zcSqn4ZjI/AAAAAAAABUQ/j8ihV6hN7Pk/s1600/Neil+A+Maxwell.jpg)
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 > When, in situations of stress, we wonder if there is any more in us to
 > give, we can be comforted to know that God, who knows our capacities
 > perfectly, placed us here to succeed. No one was foreordained to fail
@@ -16,6 +18,8 @@ Slug: sunday-quote-2-we-were-found-equal-to-our-tasks
 > were measured before and were found equal to our tasks.
 >
 > -- Elder Neal A. Maxwell
+
+<!-- read more -->
 
 These last couple weeks have been really busy - I have a couple of very
 important papers due that I'm trying to get done on a tight schedule,

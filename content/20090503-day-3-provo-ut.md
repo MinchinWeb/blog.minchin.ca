@@ -17,6 +17,8 @@ before me. I guess when I find someplace with a phone and the internet,
 I'll have to spend some time figuring it all out. The goal for tomorrow
 is Vegas!
 
+<!-- read more -->
+
 (I exchanged some Canadian money for American, and the exchange rate I
 got was 78 cents, so that's what I'm using -- at least for now -- for the
 conversion factor between the two.)

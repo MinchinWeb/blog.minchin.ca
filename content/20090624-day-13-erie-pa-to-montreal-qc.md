@@ -12,6 +12,8 @@ Today is the home stretch -- the plan is to make it to Montreal and meet
 up with friends there tonight for dinner. I do wish I was another 2+
 hours closer though...
 
+<!-- read more -->
+
 To start the day, I filled up with gas, and found the dance troop from
 the same school I looked into studying at in Utah there too -- I guess
 they are doing a tour of the north eastern United States. When I got on

@@ -25,5 +25,7 @@ I set up a personal home page yesterday with
 So I decided to try out this blog thing. We'll see how it goes, and
 maybe I'll end up using the two together.
 
+<!-- read more -->
+
 If you want to check out the website, it's at
 [minchinweb.googlepages.com](http://minchinweb.googlepages.com).

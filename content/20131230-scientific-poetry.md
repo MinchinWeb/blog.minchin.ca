@@ -12,5 +12,7 @@ you smile.
 > Through old magnet coils,  
 > He says that it's proof by induction
 
+<!-- read more -->
+
 *Via [Boing
 Boing](http://boingboing.net/2013/12/29/scientists-favourite-jokes.html).*

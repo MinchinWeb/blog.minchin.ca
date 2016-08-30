@@ -23,6 +23,8 @@ playing with Google Maps and I came up with this (potential) itinerary:
 -   Day 3: Palmyra NY -- 674 km -- 6h53
 -   Day 4: Montreal -- 502km -- 5h17
 
+<!-- read more -->
+
 I rather enjoyed a lazy morning and the company at hand, and so it was
 into the afternoon before I got away. The one stop I wanted to make was
 Minchin, Texas ([punch it in

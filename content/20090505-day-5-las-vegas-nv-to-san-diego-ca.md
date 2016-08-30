@@ -11,6 +11,8 @@ Slug: day-5-las-vegas-nv-to-san-diego-ca
 I woke up this morning in Vegas, and the goal is San Diego, with a stop
 at the Hoover Dam since I didn't make it yesterday.
 
+<!-- read more -->
+
 Hoover Dam is only about 30 miles out of Vegas, so it's a short little
 drive. When I got there, the elevators were down and so they weren't
 giving tours inside the dam, so I just walked around on top for a bit.

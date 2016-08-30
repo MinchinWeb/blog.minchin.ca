@@ -22,5 +22,7 @@ dance? Here's the Macarena!
 
 Too funny!
 
+<!-- read more -->
+
 See also [my entry on ASCII
 Art]({filename}20060601-ascii-art.md).

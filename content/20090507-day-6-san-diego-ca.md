@@ -14,6 +14,8 @@ application. In the afternoon, I got the chance to go to the San Diego
 Temple, and then to a movie ("X Men Origins: Wolverine"). Tomorrow the
 plan is to make it to Mesa, Arizona.
 
+<!-- read more -->
+
 <figure markdown=1>
 ![Beautiful View]({filename}images/2009/IMG_7199.JPG)
 <figcaption markdown=1>

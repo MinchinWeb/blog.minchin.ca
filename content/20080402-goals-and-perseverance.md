@@ -15,6 +15,8 @@ I came across I quote this week that really got me thinking.
 >
 > -- Neal Maxwell
 
+<!-- read more -->
+
 I've recently spent a fair bit of effort trying to put my life in its
 proper order after going through what one friend termed as a "burnout"
 at the beginning of the year. As I've thought about it, I realized that

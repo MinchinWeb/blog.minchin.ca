@@ -9,6 +9,8 @@ website.
 
 ## The Problem
 
+<!-- PELICAN_BEGIN_SUMMARY -->'
+
 I go to the store. They say I get a discount if I have their club card.
 So some paperwork and five minutes later, I have a 2" by 4" hunk of
 plastic and more $10 in my pocket than I otherwise would have. But now
@@ -16,6 +18,8 @@ what do I do with it? I already have a collection of similar hunks of
 plastic, making my wallet too fat. My option is to keep them somewhere
 other than my wallet, inevitably, when I want it next, I won't have it
 and will be out $10.
+
+<!-- read more -->
 
 ## The Solution -- [Just One Club Card.com](http://www.justoneclubcard.com/)
 

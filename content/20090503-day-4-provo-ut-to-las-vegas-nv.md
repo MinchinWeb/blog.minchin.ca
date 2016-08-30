@@ -12,6 +12,8 @@ Woke up this morning, ate breakfast, and then hit the road, with the
 goal being Las Vegas, Nevada, and I figure I'll make stops in Fort Cole,
 St. George, Utah and at Hoover Dam.
 
+<!-- read more -->
+
 Civilization petered out pretty quickly after Provo, but southern Utah
 still doesn't seem nears as empty as Montana. The traffic never really
 disappeared, which makes me wonder where they all could be going. My

@@ -12,6 +12,8 @@ The goal today is Provo, Utah, which is a pretty good drive (probably
 11-12 hours), but there really isn't much I want to see in between, and
 besides I have an appointment tomorrow in Provo.
 
+<!-- read more -->
+
 I woke up in the morning to a surprise -- I thought I had driven out of
 the snow, but it had caught up to me during the night. I went outside to
 find 4 inches of heavy wet snow that promises to make the roads

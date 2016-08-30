@@ -17,6 +17,8 @@ things, including:
 -   a potential "miracle pill" that started with figuring out how pot
     works
 
+<!-- read more -->
+
 I guess I want to put up polished things, so I won't have time to look
 at these until probably Friday or next week.
 

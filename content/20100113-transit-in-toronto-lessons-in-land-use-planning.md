@@ -8,6 +8,8 @@ Slug: transit-in-toronto-lessons-in-land-use-planning
 
 ## Abstract
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 Toronto has achieved a unique situation in North America; it is a major
 city that has maintained a dense core of population and employment with
 a well-functioning public transit system. This combination has made
@@ -20,6 +22,8 @@ freeway construction.
 A review of the various policies implanted, as well as their effects
 where appropriate, is presented, along with conclusions about what has
 brought Toronto success and how that can be repeated elsewhere.
+
+<!-- read more -->
 
 ## Introduction
 

@@ -15,10 +15,14 @@ enjoy!
 
 ---
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 The Provo Temple at night is beautiful when lit up at night, and even
 better from above. This was taken from Squaw Peak, just up Provo Canyon.
 This was also taken with my zoom lens - next time I'm taking my tripod
 to improve my odds of getting good night photos.
+
+<!-- read more -->
 
 (For those paying attention to the dates, this one actually falls
 between Photos 17 and 18.)

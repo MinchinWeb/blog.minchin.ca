@@ -10,6 +10,8 @@ Slug: day-7-san-deigo-ca-to-mesa-az
 
 Today's goal was Mesa, Arizona, with a start from San Diego.
 
+<!-- read more -->
+
 I decided to take the I-10 instead of the I-8, which runs almost along
 the Mexican border, as that way I get a better entrance to Phoenix. From
 where I was, I went north to San Bernardino, and then turned east. Maybe

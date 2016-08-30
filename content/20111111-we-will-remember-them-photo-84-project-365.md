@@ -20,6 +20,8 @@ For Remembrance Day -- **Lest We Forget**
 *We will remember them.*
 </div>
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: EF-S 55-250mm ƒ/4-5.6 IS  

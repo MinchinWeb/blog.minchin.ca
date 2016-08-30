@@ -11,6 +11,8 @@ Slug: day-8-mesa-az-to-el-paso-tx
 The plan was to do church in Mesa with the family I was staying with,
 and then drive to El Paso, about 6 hours down the road.
 
+<!-- read more -->
+
 The first thing that threw me off is **Arizona doesn't do daylight
 savings time** and so it's on the same time zone as California, not as
 Edmonton, as I had originally thought. That's a fun way to be confused,

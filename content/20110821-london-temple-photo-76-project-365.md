@@ -13,6 +13,8 @@ weekend trip here.
 
 I loved how the slowly faded daylight came out as this beautiful blue.
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: 50mm ƒ/1.8-23

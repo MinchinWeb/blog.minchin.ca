@@ -19,6 +19,8 @@ into the van:
 - combination locks -- this is really dumb because I bought them
   Saturday for this trip
 
+<!-- read more -->
+
 The first day was mostly uneventful; I made it to Cardston like I'd
 hoped to and made good time. It's kind of ridiculous, but when I left
 Edmonton, it was snowing, and it snowed off and on until I was about

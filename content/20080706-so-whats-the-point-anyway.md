@@ -17,3 +17,5 @@ presents an easy solution. I've been down this road a couple times
 now...
 
 Garrrr! Why does good writing have to be so hard?!?
+
+<!-- read more -->

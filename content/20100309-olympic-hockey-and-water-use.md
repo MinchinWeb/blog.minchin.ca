@@ -7,6 +7,8 @@ Slug: olympic-hockey-and-water-use
 
 This was too priceless to pass up....
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 A little over a week ago the Olympics in Vancouver came to a finish,
 which concluded with the Men's Hockey final between Canada and the
 United States. It promised to be epic, and it delivered. Being away from
@@ -23,6 +25,8 @@ another. To illustrate the effect of this, EPCOR (the water utility in
 Edmonton, Alberta, Canada) release a graph showing the city's water
 demand while the game was on. It's amazing to watch the swings between
 when the game picks up and the end of the periods.
+
+<!-- read more -->
 
 But like I said, amazing game. GO CANADA!
 

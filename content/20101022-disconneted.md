@@ -9,6 +9,8 @@ Slug: disconneted
 (Written on Tuesday October 5, 2010, about a week before I had regular
 internet again.)
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 So it's been two and a half weeks since I've had a steady internet
 connection. In an objective reality, that shouldn't be that big of a
 deal, but in today's fast-paced and always-on internet society, that
@@ -16,6 +18,8 @@ timeframe seems to lie somewhere between an eternity and an epoch. I've
 been travelling (to Iceland and France) and so there's been a lot to do
 and see, and so I haven't felt a particular lack. I haven't been
 travelling alone either, so I haven't been lonely either.
+
+<!-- read more -->
 
 To say I haven't have internet would be a lie as well, but my connection
 has been limited to the free Wi-Fi at cafés and the likes of McDonalds,

@@ -16,3 +16,5 @@ childhood favourite, Transport Tycoon.
 Version 9 brings a couple of bug fixes in the Python build script. The
 [documentation for MetaLibrary](http://minchin.ca/openttd-metalibrary/)
 has also been updated.
+
+<!-- read more -->

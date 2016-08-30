@@ -22,6 +22,8 @@ given up on the tactics long ago. But where do they get email addresses
 to spam? Unlike delivering flyers, where you can just walk down the
 street, you have to actually know someone's email address.
 
+<!-- read more -->
+
 From what I've gathered over the years, spammers gather email address in
 three main ways:
 

@@ -12,6 +12,8 @@ That mark our place; and in the sky
 The larks, still bravely singing, fly  
 Scarce heard amid the guns below.
 
+<!-- read more -->
+
 We are the Dead. Short days ago  
 We lived, felt dawn, saw sunset glow,  
 Loved, and were loved, and now we lie  

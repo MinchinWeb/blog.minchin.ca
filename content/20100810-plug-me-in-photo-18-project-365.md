@@ -13,6 +13,8 @@ magnifies every little movement you make when holding the camera.
 This is uncropped, of the plugin about 4 feet from where I was sitting.
 The orange-ish hue is a result of the low lighting.
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: Canon EF-S 55-250mm ƒ/4-5.6 IS

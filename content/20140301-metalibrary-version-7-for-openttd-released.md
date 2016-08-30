@@ -18,6 +18,8 @@ To recap, *MetaLibrary* is a collection of code I've written to simplify
 writing an AI for [OpenTTD](http://www.openttd.org/), a remake of my
 childhood favorite, Transport Tycoon.
 
+<!-- read more -->
+
 This update particularly focused on adding robustness to the Ship
 Pathfinder. To that end, I wrote *Lakes* as a replacement for *Waterbody
 Check*. Both serve the same purpose of determining if two tiles are

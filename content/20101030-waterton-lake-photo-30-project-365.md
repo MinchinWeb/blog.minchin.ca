@@ -13,7 +13,9 @@ have been stitched together. By holding the settings constant (focal
 distance, f-stop, exposure, etc.), the combined image looks like it's
 one shot.
 
-Clicking on the above image will bring up a larger version of it!
+<!-- read more -->
+
+<!-- Clicking on the above image will bring up a larger version of it! -->
 
 <div markdown=1 class="photo-infobox">
 *Model*:  Canon EOS DIGITAL REBEL XSI  

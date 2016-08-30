@@ -16,6 +16,8 @@ I have 3,900 km between me and Montreal, and 5 days to cover it if I
 want to meet the kids flying in. The goal for today is Dallas area,
 where I have lined up to stay with the friend of a friend.
 
+<!-- read more -->
+
 If I had more time, White Sands, New Mexico is recommended, especially
 at sunset, and the Carsbad Caverns, also in New Mexico, which are one of
 the largest cave systems in North America and are supposed to be

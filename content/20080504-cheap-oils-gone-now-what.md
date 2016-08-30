@@ -17,6 +17,8 @@ price to [keep going
 up](http://blog.wired.com/cars/2008/04/4-a-gallon-gas.html). So what
 does that mean to you and I over the next few years?
 
+<!-- read more -->
+
 ## Oil -- Driving Economics & Politics
 
 Oil for long has been called "Black Gold", and which current prices, a

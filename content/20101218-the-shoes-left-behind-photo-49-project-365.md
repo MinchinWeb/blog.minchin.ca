@@ -18,6 +18,8 @@ there!
 
 Tell me the story this picture coveys to you...
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: EF-S18-55mm ƒ/3.5-5.6 IS  

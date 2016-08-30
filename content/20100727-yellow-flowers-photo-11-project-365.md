@@ -17,6 +17,8 @@ the effect of the muted background behind.
 
 So tomorrow, I bring the lenses and the memory card...
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: Canon EF-S 18-55mm ƒ/3.5-5.6 IS

@@ -6,6 +6,7 @@ Author: Wm. Minchin
 Tags: BibWord, Microsoft Word, TRB, Word 2007
 Alias: 2010/07/trb-transportation-research-board.html
 Slug: trb-transportation-research-board-bibliography-style-for-word-2007-2010
+summary: Introducing my version of the Transportation Research Board (TRB) reference style for use with the reference manager in Microsoft Word 2007 and 2010.
 
 A wonderful citation
 manager was introduced in Microsoft Word 2007 (found on the 'Reference'

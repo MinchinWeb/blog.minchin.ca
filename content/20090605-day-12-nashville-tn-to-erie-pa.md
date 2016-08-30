@@ -12,6 +12,8 @@ Today is pretty unexciting as far as the plan goes -- drive north and
 east, and put me within a short day's drive of Montreal. I wonder if I
 can make Erie, which my GPS tells me is 10½ hours away...
 
+<!-- read more -->
+
 I started by heading north out of Nashville, and so thus across
 Kentucky. There's signs for the huge cave complex, just off the road.
 This is one of the funny things about this trip -- you read about stuff

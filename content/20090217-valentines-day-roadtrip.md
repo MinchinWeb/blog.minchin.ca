@@ -26,3 +26,5 @@ running it off and on to stay warm. So the moral of this adventure:
 <div class="text-center lead" markdown=1>
 **If it's Valentine's Day, get reservations!**
 </div>
+
+<!-- read more -->

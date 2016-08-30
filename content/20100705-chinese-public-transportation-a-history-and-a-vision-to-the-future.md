@@ -8,6 +8,8 @@ Category: Essays
 
 ### Abstract
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 Public transit has existed in China since 1969 with the
 opening of the Beijing Metro. Today, Shanghai has the largest metro
 system in

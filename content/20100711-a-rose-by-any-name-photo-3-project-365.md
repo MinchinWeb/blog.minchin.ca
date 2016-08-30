@@ -14,6 +14,8 @@ The effect of the soft background is created by increasing the f-stop so
 not everything is in focus. The flip side is you need a longer exposure,
 so I had to use a tripod to get this shot.
 
+<!-- read more -->
+
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
 *Lens ID*: Canon EF 50mm f/1.8 MkII  

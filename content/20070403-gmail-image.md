@@ -8,6 +8,8 @@ Slug: gmail-image
 ![My
 Email](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RhMmt8j3__I/AAAAAAAAAAo/Nt_eWgdqwEw/s400/email2.png)
 
+<!-- PELICAN_BEGIN_SUMMARY -->'
+
 Although Nexodyne continues to work well, I came across another site
 that allows me to add the nifity envelope to the image, so I decided to
 change my little "Email me" picture. The site gives you three options,
@@ -18,6 +20,8 @@ Gmail account, get your own image
 [here](http://gizmo967.mgs3.org/Gmail/)! (The only downside is figuring
 out how to get a transparent background - Photoshop doesn't seem to like
 me today)
+
+<!-- read more -->
 
 <small>(This is an update to [Nexodyne Email
 Images]({filename}20060514-nexodyne-email-images.md))</small>

@@ -9,7 +9,8 @@ A blog redesign is a big step, perhaps even bigger than [my
 homepage](http://blog.minchin.ca/2010/03/minchinca-homepage-redesign.html)
 because my blog gets far more traffic. The concern is that people will
 land here and because the look is different, they won't recognize it as
-'my' blog. Well, a blog redesign has been in the works for probably two
+'my' blog. <!-- read more -->
+Well, a blog redesign has been in the works for probably two
 years and I decided it's time to pull the trigger. The immediate push
 was my '[Project
 365]({filename}20100726-project-365-an-introduction.md).' For

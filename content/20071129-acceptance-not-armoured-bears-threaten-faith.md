@@ -15,6 +15,8 @@ don't threaten
 faith](http://www.thegatewayonline.ca/armoured-bears-don-t-threaten-faith-20071126-1466.html)"
 by Ryan Heise.*
 
+<!-- PELICAN_BEGIN_SUMMARY -->'
+
 As a regular reader of the Gateway, I have read a fair share of ideas
 that are a little thought and controversy producing pieces, but thought
 I would add a little to the mix myself. I was reading the Editorial
@@ -22,6 +24,8 @@ entitled "[Armoured bears don't threaten
 faith](http://www.thegatewayonline.ca/armoured-bears-don-t-threaten-faith-20071126-1466.html)"
 by Ryan Heise in the November 26 edition. Although he raises some valid
 points, I think he has been rather simplistic and one-sided.
+
+<!-- read more -->
 
 I think my biggest issue with Heise's conclusion that religion should be
 a private affair. Having lived in France for two years, I would like to
