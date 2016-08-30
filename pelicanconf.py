@@ -3,6 +3,7 @@
 
 import os
 import sys
+from minchin.pelican.themes import minchindotca
 
 AUTHOR = 'Wm. Minchin'
 SITENAME = 'Minchin.ca'
@@ -13,6 +14,11 @@ SITE_ROOT_URL = 'http://minchin.ca'
 TIMEZONE = 'America/Edmonton'
 
 DEFAULT_LANG = 'en'
+
+
+# Caching
+CACHE_CONTENT = True
+#LOAD_CONTENT_CACHE = True
 
 
 # Feed generation is usually not desired when developing
@@ -30,7 +36,9 @@ TRANSLATION_FEED_ATOM = None
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 10
+# USE_PAGER = False
+PAGINATOR_LIMIT = 6
 
 # static paths will be copied under the same name
 # these are relative to the base CONTENT folder
@@ -44,6 +52,7 @@ STATIC_PATHS = ['images',
                 '../.gitignore',
                 '../README.txt',
                 ]
+#STATIC_EXCLUDE = ['theme/less']
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
@@ -51,7 +60,6 @@ EXTRA_PATH_METADATA = {
     '../.gitignore':                {'path': '.gitignore'},
     '../README.txt':                {'path': 'README.txt'},
     '../extras/minchin.ico':        {'path': 'favicon.ico'},
-    '../extras/.nojekyll':          {'path': '.nojekyll'},
     }
 
 
@@ -112,7 +120,7 @@ MENUITEMS_2_AT = 'Blog'
 MENUITEMS_2_AT_LINK = ''  # this is added to SITEURL
 
 MENUITEMS_2 = (('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-archive'),
-               ('Tags',      SITEURL + '/' + TAGS_URL,      'fa fa-tags'),
+               ('Labels',      SITEURL + '/' + TAGS_URL,      'fa fa-tags'),
                )
 
 
@@ -121,7 +129,8 @@ DISPLAY_PAGES_ON_MENU = False
 
 # Theme Related
 TYPOGRIFY = True
-THEME = '../minchinweb.github.io-pelican/themes/pelican-minchin-ca'
+#THEME = '../minchinweb.github.io-pelican/themes/pelican-minchin-ca'
+THEME = minchindotca.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
 SITELOGO_SIZE = '100%'
 PYGMENTS_STYLE = 'friendly'
@@ -133,6 +142,7 @@ USE_OPEN_GRAPH = True
 DOCUTIL_CSS = False
 CUSTOM_JS_LIST = [
                   ]
+INDEX_COPY_DATE = '2006-16'
 
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
@@ -149,6 +159,10 @@ PLUGINS = [
             'assets',
             'neighbors',
             'pelican_alias',
+            'minchin.pelican.plugins.image_process',
+            'minchin.pelican.plugins.cname',
+            'minchin.pelican.plugins.nojekyll',
+            'summary',
           ]
 
 ASSET_CSS = False
@@ -158,6 +172,44 @@ NEIGHBORS = True
 SITEMAP = {
     "format": "xml",
 }
+
+IMAGE_PROCESS = {
+  'example-pict': {'type': 'picture',
+                   'sources': [{'name': 'default',
+                                'media': '(min-width: 640px)',
+                                'srcset': [('640w', ["scale_in 640 480 True"]),
+                                           ('1024w', ["scale_in 1024 683 True"]),
+                                           ('1600w', ["scale_in 1600 1200 True"]),
+                                           ],
+                                'sizes': '100vw',
+                                },
+                               {'name': 'source-1',
+                                'srcset': [('1x', ["crop 100 100 200 200"]),
+                                           ('2x', ["crop 100 100 300 300"]),
+                                           ]
+                                }
+                               ],
+                   'default': ('default', '640w'),
+                   },
+  '9-col':        {'type': 'picture',
+                   'sources': [{'name': 'default',
+                                'srcset': [('768w', ["scale_in 768 576 True"]),  # actually 12 cols (full width) on smallest screens
+                                           ('992w', ["scale_in 744 558 True"]),
+                                           ('1200w', ["scale_in 1200 900 True"]),
+                                           ],
+                                'sizes': '100vw',
+                                },
+                               ],
+                   'default': ('default', '1200w'),
+                   },
+  }
+IMAGE_PROCESS_PARSER = "html5lib"
+
+#SUMMARY_BEGIN_MARKER = '<!-- PELICAN_BEGIN_SUMMARY -->'
+#SUMMARY_END_MARKER = '<!-- PELICAN_END_SUMMARY -->'
+SUMMARY_USE_FIRST_PARAGRAPH = True
+SUMMARY_END_MARKER = '<!-- read more -->'
+
 
 # `assets` sounds good, but I can't figure out how to get it to work for my CSS
 # `better_figures_and_images` didn't seem to do what I wanted (see Projects)
