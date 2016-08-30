@@ -9,7 +9,7 @@ website.
 
 ## The Problem
 
-<!-- PELICAN_BEGIN_SUMMARY -->'
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 I go to the store. They say I get a discount if I have their club card.
 So some paperwork and five minutes later, I have a 2" by 4" hunk of

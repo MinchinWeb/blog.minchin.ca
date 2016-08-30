@@ -8,7 +8,7 @@ Slug: gmail-image
 ![My
 Email](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RhMmt8j3__I/AAAAAAAAAAo/Nt_eWgdqwEw/s400/email2.png)
 
-<!-- PELICAN_BEGIN_SUMMARY -->'
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 Although Nexodyne continues to work well, I came across another site
 that allows me to add the nifity envelope to the image, so I decided to

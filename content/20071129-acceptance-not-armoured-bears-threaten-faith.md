@@ -15,7 +15,7 @@ don't threaten
 faith](http://www.thegatewayonline.ca/armoured-bears-don-t-threaten-faith-20071126-1466.html)"
 by Ryan Heise.*
 
-<!-- PELICAN_BEGIN_SUMMARY -->'
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 As a regular reader of the Gateway, I have read a fair share of ideas
 that are a little thought and controversy producing pieces, but thought
