@@ -140,5 +140,6 @@ $RECYCLE.BIN/
 
 # Project Specific
 _drafts/
+theme/less/
 *.sublime-workspace
 cache/

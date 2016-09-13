@@ -19,7 +19,7 @@ from pathlib import Path
 #env.cloudfiles_container = 'my_cloudfiles_container'
 
 p = Path.cwd()
-deploy_path = p.parents[0] / 'blog.minchin.ca-master'
+deploy_path = p.parents[0] / 'blog.minchin.ca-temp'
 
 INVOKE_SHELL = "C:\Windows\system32\cmd.EXE"
 

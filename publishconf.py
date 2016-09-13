@@ -33,3 +33,5 @@ PLUGINS = PLUGINS + [
             #'sitemap'
             'optimize_images',
           ]
+
+OUTPUT_PATH = '../blog.minchin.ca-master/'

@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-import os
-import sys
 from minchin.pelican.themes import minchindotca
 
 AUTHOR = 'Wm. Minchin'
@@ -74,7 +72,7 @@ MARKUP = (('rst',
            'html',
            'htm'))
 PATH = 'content'
-OUTPUT_PATH = '../blog.minchin.ca-master/'
+OUTPUT_PATH = '../blog.minchin.ca-temp/'
 
 #FORMATTED_FIELDS = ['summary', 'title', ]
 
@@ -142,7 +140,9 @@ INDEX_COPY_DATE = '2006-16'
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-1'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'Minchin.ca Blog'
 
-CATEGORY_IMAGES = {'colourettu': 'images/2015/colourettu-logo-4x.png',
+# list categories here in lowercase
+CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png',
+                   'Minchin dot CA theme':  'images/2016/minchindotca-theme-article.png',
                    }
 
 
