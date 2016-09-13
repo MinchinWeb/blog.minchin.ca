@@ -51,8 +51,7 @@ I imagine many Linux machines would work the same way):
 -   Find a file named "hgrc". Add the following lines:
 
         [path]
-        git =
-        git+ssh://git@github.com/your-username/your-new-github-repo.git
+        git = git+ssh://git@github.com/your-username/your-new-github-repo.git
 
         [extensions]
         hggit =
