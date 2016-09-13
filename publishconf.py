@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://blog.minchin.ca/'
+
+SITEURL = 'http://blog.minchin.ca'
 SITE_ROOT_URL = 'http://minchin.ca'
 RELATIVE_URLS = False
 
@@ -24,4 +25,11 @@ FEED_ALL_ATOM = 'feeds/posts/default'
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
 
-# PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
+PLUGINS = PLUGINS + [
+            'minchin.pelican.plugins.image_process',
+            'minchin.pelican.plugins.cname',
+            'minchin.pelican.plugins.nojekyll',
+            #'mimify',
+            #'sitemap'
+            'optimize_images',
+          ]

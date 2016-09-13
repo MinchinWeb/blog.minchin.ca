@@ -18,13 +18,8 @@ DEFAULT_LANG = 'en'
 
 # Caching
 CACHE_CONTENT = True
-#LOAD_CONTENT_CACHE = True
+LOAD_CONTENT_CACHE = True
 
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 #LINKS =  (('Pelican', 'http://getpelican.com/'),
@@ -144,25 +139,26 @@ CUSTOM_JS_LIST = [
                   ]
 INDEX_COPY_DATE = '2006-16'
 
-GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
-GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
+GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-1'
+GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'Minchin.ca Blog'
 
 CATEGORY_IMAGES = {'colourettu': 'images/2015/colourettu-logo-4x.png',
                    }
 
 
 # Plugins
-#PLUGIN_PATH = '../pelican-plugins'
 PLUGIN_PATHS = ('../pelican-plugins',)
-# PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
 PLUGINS = [
             'assets',
             'neighbors',
             'pelican_alias',
-            'minchin.pelican.plugins.image_process',
-            'minchin.pelican.plugins.cname',
-            'minchin.pelican.plugins.nojekyll',
+            #'minchin.pelican.plugins.image_process',
+            #'minchin.pelican.plugins.cname',
+            #'minchin.pelican.plugins.nojekyll',
             'summary',
+            #'mimify',
+            #'sitemap'
+            #'optimize_images',
           ]
 
 ASSET_CSS = False
@@ -174,6 +170,8 @@ SITEMAP = {
 }
 
 IMAGE_PROCESS = {
+  'article-feature': ["scale_in 848 848 True"],
+  'index-feature': ["scale_in 263 263 True"],
   'example-pict': {'type': 'picture',
                    'sources': [{'name': 'default',
                                 'media': '(min-width: 640px)',
@@ -191,19 +189,33 @@ IMAGE_PROCESS = {
                                ],
                    'default': ('default', '640w'),
                    },
-  '9-col':        {'type': 'picture',
-                   'sources': [{'name': 'default',
-                                'srcset': [('768w', ["scale_in 768 576 True"]),  # actually 12 cols (full width) on smallest screens
-                                           ('992w', ["scale_in 744 558 True"]),
-                                           ('1200w', ["scale_in 1200 900 True"]),
-                                           ],
-                                'sizes': '100vw',
-                                },
-                               ],
-                   'default': ('default', '1200w'),
-                   },
+  '9-col':  {'type': 'picture',
+             'sources': [{'name': 'default',
+                          'srcset': [('768w', ["scale_in 750 562.5 True"]),    # actually 12 cols (full width) on smallest screens
+                                     ('992w', ["scale_in 727.5 545.5 True"]),
+                                     ('1200w', ["scale_in 877.5 658 True"]),
+                                     ],
+                          'sizes': '100vw',
+                          },
+                         ],
+             'default': ('default', '1200w'),
+             },
+  'index-thumbnail':
+            {'type': 'picture',
+             'sources': [{'name': 'default',
+                          'srcset': [('768w', ["scale_in 187.5 140.5 True"]),  # actually 12 cols (full width) on smallest screens
+                          # 157.5
+                                     ('992w', ["scale_in 212.5 182 True"]),
+                                     ('1200w', ["scale_in 262.5 219.5 True"]),
+                                     ],
+                          'sizes': '100vw',
+                          },
+                         ],
+             'default': ('default', '1200w'),
+             },
   }
 IMAGE_PROCESS_PARSER = "html5lib"
+#IMAGE_PROCESS_FORCE = True  # force reproduction of all images
 
 #SUMMARY_BEGIN_MARKER = '<!-- PELICAN_BEGIN_SUMMARY -->'
 #SUMMARY_END_MARKER = '<!-- PELICAN_END_SUMMARY -->'
@@ -225,12 +237,24 @@ SUMMARY_END_MARKER = '<!-- read more -->'
 DISPLAY_CATEGORIES_ON_MENU = False
 HIDE_SITENAME = True
 HIDE_SIDEBAR = True
-FEED_ALL_ATOM = False
-FEED_ALL_RSS = False
 GITHUB_USER = False
 ADDTHIS_PROFILE = False
 DISQUS_SITENAME = False
 PDF_PROCESSOR = False
+# Feed generation is usually not desired when developing
+#FEED_ATOM = None
+#FEED_ALL_ATOM = None
+FEED_RSS = None
+FEED_ALL_RSS = None
+#CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_RSS = None
+#AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+#TAG_FEED_ATOM = None
+TAG_FEED_RSS = None
+TRANSLATION_FEED_ATOM = None
+TRANSLATION_FEED_RSS = None
+#FEED_MAX_ITEMS = 0
 
 
 # Jijna2 filters
@@ -240,13 +264,21 @@ def datetimefilter(value, format='%Y/%m/%d %H:%M'):
     """convert a datetime to a different format."""
     return value.strftime(format)
 
+
 def article_date(value):
     """Converts a date to the format we want it displayed on the article
        template.
     """
     return value.strftime('%A, %B %-d, %Y')
 
+
+def breaking_spaces(value):
+    """Converts non-breaking spaces to regular spaces."""
+    return value.replace('\u00A0', ' ')
+
+
 JINJA_FILTERS = {
   'datetimefilter': datetimefilter,
   'article_date':   article_date,
+  'breaking_spaces': breaking_spaces,
 }
