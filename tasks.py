@@ -21,8 +21,6 @@ from pathlib import Path
 p = Path.cwd()
 deploy_path = p.parents[0] / 'blog.minchin.ca-temp'
 
-INVOKE_SHELL = "C:\Windows\system32\cmd.EXE"
-
 
 def clean(ctx):
     print("You'll have to manually delete the output folder")
@@ -33,12 +31,12 @@ def clean(ctx):
 
 @task
 def build(ctx):
-    ctx.run('pelican -s pelicanconf.py', shell=INVOKE_SHELL)
+    ctx.run('pelican -s pelicanconf.py')
 
 
 @task
 def build_debug(ctx):
-    ctx.run('pelican -s pelicanconf.py --debug', shell=INVOKE_SHELL)
+    ctx.run('pelican -s pelicanconf.py --debug')
 
 
 @task
@@ -49,21 +47,21 @@ def rebuild(ctx):
 
 @task
 def regenerate(ctx):
-    ctx.run('start pelican -r -s pelicanconf.py', shell=INVOKE_SHELL)
+    ctx.run('start pelican -r -s pelicanconf.py')
 
 
 @task
 def serve(ctx):
     # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
     # in Python3000, use  python -m http.server
-    ctx.run('cd {} && start python -m http.server'.format(deploy_path), shell=INVOKE_SHELL)
+    ctx.run('cd {} && start python -m http.server'.format(deploy_path))
 
 
 @task
 def serve_on(ctx, port):
     # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
     # in Python3000, use  python -m http.server
-    ctx.run('cd {} && start python -m http.server {}'.format(deploy_path, port), shell=INVOKE_SHELL)
+    ctx.run('cd {} && start python -m http.server {}'.format(deploy_path, port))
 
 @task
 def reserve(ctx):
@@ -73,21 +71,21 @@ def reserve(ctx):
 
 @task
 def preview(ctx):
-    ctx.run('pelican -s publishconf.py', shell=INVOKE_SHELL)
+    ctx.run('pelican -s publishconf.py')
 
 
 @task
 def upload(ctx):
     publish(ctx)
-    ctx.run('cd {deploy_path}', shell=INVOKE_SHELL)
-    ctx.run('git add -A', shell=INVOKE_SHELL)
-    ctx.run('git commit', shell=INVOKE_SHELL)
-    ctx.run('git push', shell=INVOKE_SHELL)
+    ctx.run('cd {deploy_path}')
+    ctx.run('git add -A')
+    ctx.run('git commit')
+    ctx.run('git push')
 
 
 @task
 def publish(ctx):
-    ctx.run('pelican -s publishconf.py', shell=INVOKE_SHELL)
+    ctx.run('pelican -s publishconf.py')
 
 
 # Add devsever
@@ -105,11 +103,11 @@ def less(ctx):
     #   lessc themes\pelican-minchin-ca\static\less\bootstrap.minchin-ca.min.less > themes\pelican-minchin-ca\static\css\bootstrap.minchin-ca.min.css
     source = p / '..' / 'minchinweb.github.io-pelican/themes\pelican-minchin-ca\static\less\\bootstrap.minchin-ca.min.less'
     dest = p / '..' / 'minchinweb.github.io-pelican/themes\pelican-minchin-ca\static\css\\bootstrap.minchin-ca.min.css'
-    ctx.run('lessc {} > {}'.format(source, dest), shell=INVOKE_SHELL)
+    ctx.run('lessc {} > {}'.format(source, dest))
 
 @task
 def test(ctx):
     #print(ctx)
     print(run)
-    ctx.run('dir', shell=INVOKE_SHELL)
+    ctx.run('dir')
     #run('dir', shell=INVOKE_SHELL)
