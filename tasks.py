@@ -1,3 +1,5 @@
+import time
+
 from invoke import run, task
 from pathlib import Path
 
@@ -20,6 +22,7 @@ from pathlib import Path
 
 p = Path.cwd()
 deploy_path = p.parents[0] / 'blog.minchin.ca-temp'
+publish_path = p.parents[0] / 'blog.minchin.ca-master'
 
 
 def clean(ctx):
@@ -77,10 +80,8 @@ def preview(ctx):
 @task
 def upload(ctx):
     publish(ctx)
-    ctx.run('cd {deploy_path}')
-    ctx.run('git add -A')
-    ctx.run('git commit')
-    ctx.run('git push')
+    ctx.run('cd {} && git add -A && git commit -m "[Generated] {}" && git push'\
+            .format(publish_path, time.strftime("%Y-%m-%d")))
 
 
 @task
