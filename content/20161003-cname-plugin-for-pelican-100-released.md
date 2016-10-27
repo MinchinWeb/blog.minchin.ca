@@ -39,7 +39,7 @@ And that's it! No further configuration is needed.
 ## Usage
 
 No configuration is needed. The value places in the *CNAME* files is based
-on your SITEURL` setting.
+on your `SITEURL` setting.
 
 
 ## Known Issues
