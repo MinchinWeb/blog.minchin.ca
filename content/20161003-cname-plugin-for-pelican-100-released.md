@@ -19,18 +19,18 @@ The easiest way to install **CName** is through the use of pip. This
 will also install the required dependencies automatically.
 
 ~~~~sh
-  pip install minchin.pelican.plugins.cname
+pip install minchin.pelican.plugins.cname
 ~~~~
 
 Then, in your `pelicanconf.py` file, add **CName** to your list of
 plugins:
 
 ~~~python
-  PLUGINS = [
-              # ...
-              'minchin.pelican.plugins.cname',
-              # ...
-            ]
+PLUGINS = [
+          # ...
+          'minchin.pelican.plugins.cname',
+          # ...
+        ]
 ~~~
 
 And that's it! No further configuration is needed.
