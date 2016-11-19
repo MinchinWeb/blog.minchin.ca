@@ -1,7 +1,7 @@
 import time
+from pathlib import Path
 
 from invoke import run, task
-from pathlib import Path
 
 # from fabric.api import *
 # import fabric.contrib.project as project
@@ -21,7 +21,8 @@ from pathlib import Path
 #env.cloudfiles_container = 'my_cloudfiles_container'
 
 p = Path.cwd()
-deploy_path = p.parents[0] / 'blog.minchin.ca-temp'
+deploy_path = p.parents[0] / 'blog.minchin.ca-temp'  # used for local testing
+# used for the version to be put on the wider internet
 publish_path = p.parents[0] / 'blog.minchin.ca-master'
 
 

@@ -121,7 +121,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 
 # Theme Related
-TYPOGRIFY = True
+TYPOGRIFY = True  # breaks the pelican_comment_system
 #THEME = '../minchinweb.github.io-pelican/themes/pelican-minchin-ca'
 THEME = minchindotca.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
@@ -137,9 +137,6 @@ CUSTOM_JS_LIST = [
                   ]
 INDEX_COPY_DATE = '2006-16'
 
-GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-1'
-GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'Minchin.ca Blog'
-
 # list categories here in lowercase
 CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png',
                    'Minchin dot CA theme':  'images/2016/minchindotca-theme-article.png',
@@ -152,9 +149,11 @@ PLUGINS = [
             'assets',
             'neighbors',
             'pelican_alias',
+            'pelican_comment_system',
             #'minchin.pelican.plugins.image_process',
             #'minchin.pelican.plugins.cname',
             #'minchin.pelican.plugins.nojekyll',
+            'minchin.pelican.jinja_filters',
             'summary',
             #'mimify',
             #'sitemap'
@@ -164,6 +163,10 @@ PLUGINS = [
 ASSET_CSS = False
 ASSET_JS = False
 NEIGHBORS = True
+PELICAN_COMMENT_SYSTEM = False
+PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author', 'email')
+PELICAN_COMMENT_SYSTEM_EMAIL_USER = 'minchinweb'
+PELICAN_COMMENT_SYSTEM_EMAIL_DOMAIN = 'gmail.com'
 
 SITEMAP = {
     "format": "xml",
@@ -255,30 +258,3 @@ TAG_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 TRANSLATION_FEED_RSS = None
 #FEED_MAX_ITEMS = 0
-
-
-# Jijna2 filters
-## To-Do: move out to seperate module
-
-def datetimefilter(value, format='%Y/%m/%d %H:%M'):
-    """convert a datetime to a different format."""
-    return value.strftime(format)
-
-
-def article_date(value):
-    """Converts a date to the format we want it displayed on the article
-       template.
-    """
-    return value.strftime('%A, %B %-d, %Y')
-
-
-def breaking_spaces(value):
-    """Converts non-breaking spaces to regular spaces."""
-    return value.replace('\u00A0', ' ')
-
-
-JINJA_FILTERS = {
-  'datetimefilter': datetimefilter,
-  'article_date':   article_date,
-  'breaking_spaces': breaking_spaces,
-}

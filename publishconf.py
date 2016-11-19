@@ -14,6 +14,7 @@ from pelicanconf import *
 SITEURL = 'http://blog.minchin.ca'
 SITE_ROOT_URL = 'http://minchin.ca'
 RELATIVE_URLS = False
+LOAD_CONTENT_CACHE = False
 
 FEED_ALL_ATOM = 'feeds/posts/default'
 #CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -35,3 +36,6 @@ PLUGINS = PLUGINS + [
           ]
 
 OUTPUT_PATH = '../blog.minchin.ca-master/'
+
+GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-1'
+GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'Minchin.ca Blog'
