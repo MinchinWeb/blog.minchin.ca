@@ -72,6 +72,7 @@ MARKUP = (('rst',
            'html',
            'htm'))
 PATH = 'content'
+# PATH = 'content-2'
 OUTPUT_PATH = '../blog.minchin.ca-temp/'
 
 #FORMATTED_FIELDS = ['summary', 'title', ]
