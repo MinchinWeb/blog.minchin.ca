@@ -168,6 +168,14 @@ PELICAN_COMMENT_SYSTEM = False
 PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author', 'email')
 PELICAN_COMMENT_SYSTEM_EMAIL_USER = 'minchinweb'
 PELICAN_COMMENT_SYSTEM_EMAIL_DOMAIN = 'gmail.com'
+PELICAN_COMMENT_SYSTEM_AUTHORS = {
+    ('PROTIK KHAN', 'noreply@blogger.com'): "images/authors/rabiul_karim.webp",
+    ('Matthew Hartzell', 'noreply@blogger.com'): "images/authors/matthew_hartzell.webp",
+    ('Jens-Peter Labus', 'noreply@blogger.com'): "images/authors/jens-peter_labus.png",
+    ('Bridget', 'noreply@blogger.com'): "images/authors/bridget.jpg",
+    ('melissaclee', 'noreply@blogger.com'): "images/authors/melissa_lee.jpg",
+    ('Melissa', 'noreply@blogger.com'): "images/authors/melissa_lee.jpg"
+}
 
 SITEMAP = {
     "format": "xml",
