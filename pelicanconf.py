@@ -72,7 +72,6 @@ MARKUP = (('rst',
            'html',
            'htm'))
 PATH = 'content'
-# PATH = 'content-2'
 OUTPUT_PATH = '../blog.minchin.ca-temp/'
 
 #FORMATTED_FIELDS = ['summary', 'title', ]
@@ -102,19 +101,19 @@ PAGE_SAVE_AS = PAGE_URL
 
 
 # Add Blog to sidebar
-MENUITEMS = (('Blog',        SITEURL + '/',                  'fa fa-pencil'),
+MENUITEMS = (('Blog',        SITEURL + '/',                  'fa fa-fw fa-pencil'),
              ('Genealogy',   'http://minchin.ca/genealogy',  'glyphicon glyphicon-tree-deciduous'),
-             ('My Projects', 'http://minchin.ca/projects/',  'fa fa-flask'),
-             ('Search',      'http://minchin.ca/search/',    'fa fa-search'),
-             ('About',       'http://minchin.ca/about/',     'fa fa-info-circle'),
-             ('Contact Me',  'http://minchin.ca/contact/',   'fa fa-envelope'),
+             ('My Projects', 'http://minchin.ca/projects/',  'fa fa-fw fa-flask'),
+             ('Search',      'http://minchin.ca/search/',    'fa fa-fw fa-search'),
+             ('About',       'http://minchin.ca/about/',     'fa fa-fw fa-info-circle'),
+             ('Contact Me',  'http://minchin.ca/contact/',   'fa fa-fw fa-envelope'),
              )
 
 MENUITEMS_2_AT = 'Blog'
 MENUITEMS_2_AT_LINK = ''  # this is added to SITEURL
 
-MENUITEMS_2 = (('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-archive'),
-               ('Labels',      SITEURL + '/' + TAGS_URL,      'fa fa-tags'),
+MENUITEMS_2 = (('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archive'),
+               ('Labels',    SITEURL + '/' + TAGS_URL,      'fa fa-fw fa-tags'),
                )
 
 

@@ -1,5 +1,6 @@
 title: I Redesigned My Blog
 date: 2016-09-12 19:46
+modified: 2016-12-29 22:33
 stared: False
 tags: blog
 Category: Minchin dot CA theme
@@ -54,7 +55,10 @@ Before, I never really had a back up of my blog contents. Google didn't seem rea
 
 ## Next Steps
 
-Now that it's done, I hope to focus more on writing. I also hope to move over a few notes that I have written elsewhere in Markdown to the blog. There are a few updates still needed to the theme, including re-adding comments. But I very much like the look. I hope you enjoy it as much as I do!
+Now that it's done, I hope to focus more on writing. I also hope to move over a few notes that I have written elsewhere in Markdown to the blog. There are a few updates still needed to the theme, including
+[re-adding comments]({filename}20161229-blogger-comments-exported.rst)
+(completed Decembber 29, 2016).
+But I very much like the look. I hope you enjoy it as much as I do!
 
 
 
