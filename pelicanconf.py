@@ -123,7 +123,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 
 # Theme Related
-TYPOGRIFY = True  # breaks the pelican_comment_system
+TYPOGRIFY = False  # breaks the pelican_comment_system, may be fixed in Pelican 3.7
 #THEME = '../minchinweb.github.io-pelican/themes/pelican-minchin-ca'
 THEME = minchindotca.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
@@ -166,7 +166,7 @@ PLUGINS = [
 ASSET_CSS = False
 ASSET_JS = False
 NEIGHBORS = True
-PELICAN_COMMENT_SYSTEM = False
+PELICAN_COMMENT_SYSTEM = True
 PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author', 'email')
 PELICAN_COMMENT_SYSTEM_EMAIL_USER = 'minchinweb'
 PELICAN_COMMENT_SYSTEM_EMAIL_DOMAIN = 'gmail.com'
