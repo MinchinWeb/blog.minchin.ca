@@ -1,6 +1,6 @@
-invoke==0.13.0
+invoke==0.14.0
 pelican==3.6.3
-markdown==2.6.6
+markdown==2.6.7
 minchin.pelican.themes.minchindotca==1.1.0
 minchin.pelican.plugins.image_process==1.1.0
 minchin.pelican.plugins.cname==1.0.2
