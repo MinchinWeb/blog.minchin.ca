@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+from datetime import datetime
+
 from minchin.pelican.themes import minchindotca
 
 AUTHOR = 'Wm. Minchin'
@@ -135,7 +137,8 @@ USE_OPEN_GRAPH = True
 DOCUTIL_CSS = False
 CUSTOM_JS_LIST = [
                   ]
-INDEX_COPY_DATE = '2006-16'
+# update copyright date automatically
+INDEX_COPY_DATE = '2006-{}'.format(datetime.strftime(datetime.now(), "%y"))
 
 # list categories here in lowercase
 CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png',
