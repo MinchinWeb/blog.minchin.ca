@@ -4,6 +4,12 @@ python:
   - 3.6
 # Cache Dependencies
 cache: pip
+addons:
+  apt:
+    packages:
+    - optipng  # for optimize images plugin
+    - libjpeg-progs  # for jpegtran for optimize images plugin
+
 before_install:
 # command to install dependencies
 install:

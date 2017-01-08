@@ -5,7 +5,8 @@ minchin.pelican.themes.minchindotca==1.1.0
 minchin.pelican.plugins.image_process==1.1.0
 minchin.pelican.plugins.cname==1.0.2
 minchin.pelican.plugins.nojekyll==1.0.1
-minchin.pelican.jinja_filter==1.0.0
+minchin.pelican.jinja_filters==1.0.0
 pelican-alias==1.1
 pelican-neighbors==1.0.0
 webassets==0.12.0
+html5lib==0.999999999
