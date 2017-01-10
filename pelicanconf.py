@@ -3,7 +3,7 @@
 
 from datetime import datetime
 
-from minchin.pelican.themes import minchindotca
+import seafoam
 
 AUTHOR = 'Wm. Minchin'
 SITENAME = 'Minchin.ca'
@@ -124,14 +124,13 @@ DISPLAY_PAGES_ON_MENU = False
 
 # Theme Related
 TYPOGRIFY = False  # breaks the pelican_comment_system, may be fixed in Pelican 3.7
-#THEME = '../minchinweb.github.io-pelican/themes/pelican-minchin-ca'
-THEME = minchindotca.get_path()
+THEME = seafoam.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
 SITELOGO_SIZE = '100%'
 PYGMENTS_STYLE = 'friendly'
 DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
-BOOTSTRAP_THEME = 'minchindotca'
+BOOTSTRAP_THEME = 'seafoam'
 USE_OPEN_GRAPH = True
 #CUSTOM_CSS = 'css/minchin-ca.css'
 DOCUTIL_CSS = False
@@ -153,7 +152,7 @@ PLUGINS = [
             'neighbors',
             'pelican_alias',
             'pelican_comment_system',
-            #'minchin.pelican.plugins.image_process',
+            'minchin.pelican.plugins.image_process',
             #'minchin.pelican.plugins.cname',
             #'minchin.pelican.plugins.nojekyll',
             'minchin.pelican.jinja_filters',
@@ -161,6 +160,7 @@ PLUGINS = [
             #'mimify',
             #'sitemap'
             #'optimize_images',
+            'post_stats',
           ]
 
 ASSET_CSS = False
@@ -269,3 +269,12 @@ TAG_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 TRANSLATION_FEED_RSS = None
 #FEED_MAX_ITEMS = 0
+
+
+## Testing
+#PATH = 'content-2'
+#LUGINS.append("minification")  # currently eats too many spaces
+#                                 try pelican-diminuendo
+#                                 try pelican-minify / minify
+# try pelican-readtime / readtime
+#DISPLAY_PAGES_ON_MENU = True
