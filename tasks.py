@@ -35,51 +35,50 @@ def clean(ctx):
 
 @task
 def build(ctx):
+    """Build a local version of the blog."""
     ctx.run('pelican -s pelicanconf.py')
 
 
 @task
 def build_debug(ctx):
+    """Use debug output to build a local version of the blog."""
     ctx.run('pelican -s pelicanconf.py --debug')
 
 
 @task
 def rebuild(ctx):
+    """clean and build."""
     clean(ctx)
     build(ctx)
 
 
 @task
 def regenerate(ctx):
+    """Rebuild a local version of the blog if files change."""
     ctx.run('start pelican -r -s pelicanconf.py')
 
 
 @task
 def serve(ctx):
-    # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
-    # in Python3000, use  python -m http.server
+    """Serve the local blog output on port 8000."""
     ctx.run('cd {} && start python -m http.server'.format(deploy_path))
 
 
 @task
 def serve_on(ctx, port):
-    # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
-    # in Python3000, use  python -m http.server
+    """Serve the local blog output on a port of your choosing."""
     ctx.run('cd {} && start python -m http.server {}'.format(deploy_path, port))
 
 @task
 def reserve(ctx):
+    """build and serve."""
     build(ctx)
     serve(ctx)
 
 
 @task
-def preview(ctx):
-    ctx.run('pelican -s publishconf.py')
-
-
-@task
 def upload(ctx):
+    """publish and then push the result to GitHub."""
     publish(ctx)
     ctx.run('cd {} && git add -A && git commit -m "[Generated] {}" && git push'\
             .format(publish_path, time.strftime("%Y-%m-%d")))
@@ -87,6 +86,7 @@ def upload(ctx):
 
 @task
 def publish(ctx):
+    """Build a publishcation version of the blog."""
     ctx.run('pelican -s publishconf.py')
 
 
@@ -95,20 +95,14 @@ def publish(ctx):
 #  need to kill the second window manually
 @task
 def devserver(ctx):
+    """regneration and serve."""
     regenerate(ctx)
     serve(ctx)
 
-@task
-def less(ctx):
-    #run('lessc theme\\burst-energy\\less\\bootstrap.burst-energy.less > ' +
-    #    env_deploy_path + '\\css\\style.css')
-    #   lessc themes\pelican-minchin-ca\static\less\bootstrap.minchin-ca.min.less > themes\pelican-minchin-ca\static\css\bootstrap.minchin-ca.min.css
-    source = p / '..' / 'minchinweb.github.io-pelican/themes\pelican-minchin-ca\static\less\\bootstrap.minchin-ca.min.less'
-    dest = p / '..' / 'minchinweb.github.io-pelican/themes\pelican-minchin-ca\static\css\\bootstrap.minchin-ca.min.css'
-    ctx.run('lessc {} > {}'.format(source, dest))
 
 @task
 def test(ctx):
+    """Test invoke is working."""
     #print(ctx)
     print(run)
     ctx.run('dir')
