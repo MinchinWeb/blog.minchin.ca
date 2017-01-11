@@ -21,18 +21,13 @@ FEED_ALL_ATOM = 'feeds/posts/default.xml'
 
 # DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
-
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
-
 PLUGINS = PLUGINS + [
             'minchin.pelican.plugins.image_process',
             'minchin.pelican.plugins.cname',
             'minchin.pelican.plugins.nojekyll',
             #'mimify',
             #'sitemap'
-            'optimize_images',
+            'optimize_images',  # need executables for Linux to do this on Travis-CI
           ]
 
 OUTPUT_PATH = '../blog.minchin.ca-master/'

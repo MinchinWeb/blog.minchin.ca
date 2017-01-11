@@ -21,6 +21,8 @@ script:
   - invoke publish
 after_success:
 
+# see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
+# see https://travis-ci.org/MinchinWeb/blog.minchin.ca
 deploy:
   provider: pages
   local_dir: ..\blog.minchin.ca-master\

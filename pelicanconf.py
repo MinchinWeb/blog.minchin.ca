@@ -152,7 +152,7 @@ PLUGINS = [
             'neighbors',
             'pelican_alias',
             'pelican_comment_system',
-            'minchin.pelican.plugins.image_process',
+            #'minchin.pelican.plugins.image_process',
             #'minchin.pelican.plugins.cname',
             #'minchin.pelican.plugins.nojekyll',
             'minchin.pelican.jinja_filters',
