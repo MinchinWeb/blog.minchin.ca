@@ -84,10 +84,10 @@ TAG_URL = 'label/{slug}/'
 TAG_SAVE_AS = 'label/{slug}/index.html'
 TAGS_URL = 'label/'
 TAGS_SAVE_AS = 'label/index.html'
-CATEGORY_URL = ''
-CATEGORY_SAVE_AS = ''
-CATEGORIES_URL = ''
-CATEGORIES_SAVE_AS = ''
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+CATEGORIES_URL = 'category/'
+CATEGORIES_SAVE_AS = 'category/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
 AUTHORS_URL = ''
@@ -141,6 +141,7 @@ INDEX_COPY_DATE = '2006-{}'.format(datetime.strftime(datetime.now(), "%y"))
 
 # list categories here in lowercase
 CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png',
+                   'seafoam':               'images/2017/seafoam-logo-4x.png',
                    'Minchin dot CA theme':  'images/2016/minchindotca-theme-article.png',
                    }
 
@@ -264,7 +265,7 @@ FEED_ALL_RSS = None
 CATEGORY_FEED_RSS = None
 #AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-#TAG_FEED_ATOM = None
+#TAG_FEED_ATOM = 'tag.{slug}.xml'  # not automatically generated
 TAG_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 TRANSLATION_FEED_RSS = None
