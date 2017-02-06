@@ -2,7 +2,7 @@ Title: TinyURL.com
 Date: 20061218 13:23
 Modified: 2007-04-09 22:43
 Author: Wm. Minchin
-Tags: Java Applet, Series:On-Line Wonders, TinyURL.com, URL, URL's, URLs
+Tags: Java Applet, Series:On-Line Wonders, TinyURL.com, URLs
 Slug: tinyurlcom
 alias: 2006\12\tinyurlcom-on-line-wonders-iii.html
 
