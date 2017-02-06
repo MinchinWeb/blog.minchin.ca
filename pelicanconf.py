@@ -7,7 +7,6 @@ import seafoam
 
 AUTHOR = 'Wm. Minchin'
 SITENAME = 'Minchin.ca'
-#SITEURL = 'http://blog.minchin.ca/'
 SITEURL = ''
 SITE_ROOT_URL = 'http://minchin.ca'
 
@@ -149,18 +148,18 @@ CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png'
 # Plugins
 PLUGIN_PATHS = ('../pelican-plugins',)
 PLUGINS = [
-            'assets',
+            #'assets',  # unused
             'neighbors',
             'pelican_alias',
             'pelican_comment_system',
-            #'minchin.pelican.plugins.image_process',
-            #'minchin.pelican.plugins.cname',
-            #'minchin.pelican.plugins.nojekyll',
+            #'minchin.pelican.plugins.image_process',  # publish only
+            #'minchin.pelican.plugins.cname',  # publish only
+            #'minchin.pelican.plugins.nojekyll',  # publish only
             'minchin.pelican.jinja_filters',
-            'summary',
-            #'mimify',
-            #'sitemap'
-            #'optimize_images',
+            'minchin.pelican.plugins.summary',
+            #'mimify',  # publish only
+            #'sitemap'  # publish only
+            #'optimize_images',  # publish only
             'post_stats',
           ]
 
@@ -265,7 +264,7 @@ FEED_ALL_RSS = None
 CATEGORY_FEED_RSS = None
 #AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-#TAG_FEED_ATOM = 'tag.{slug}.xml'  # not automatically generated
+#TAG_FEED_ATOM = 'label.{slug}.atom.xml'  # not automatically generated  # broken in Pelican 3.6.3?
 TAG_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 TRANSLATION_FEED_RSS = None
@@ -274,8 +273,12 @@ TRANSLATION_FEED_RSS = None
 
 ## Testing
 #PATH = 'content-2'
-#LUGINS.append("minification")  # currently eats too many spaces
+#PLUGINS.append("minification")  # currently eats too many spaces
 #                                 try pelican-diminuendo
 #                                 try pelican-minify / minify
+#PLUGINS.append('pelican_diminuendo')
 # try pelican-readtime / readtime
 #DISPLAY_PAGES_ON_MENU = True
+
+
+# add markdown extras, smart symbols -- https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/
