@@ -1,5 +1,6 @@
 title: Summary Plugin 1.1.0 for Pelican Released
 date: 2017-02-05 15:29
+modified: 2017-02-21 14:51
 tags: pelican, pelican plugins, releases, python
 Category: Pelican Plugins
 
@@ -58,13 +59,19 @@ of the summary.
 
 ## Known Issues
 
-An issue, as such, is that there is no formal test suite. Testing is
+<del>An issue, as such, is that there is no formal test suite. Testing is
 currently limited to my in-use observations. I also run a basic check upon
 uploaded the package to PyPI that it can be downloaded and loaded into
-Python.
+Python.</del>
 
-The package is tested in Python 3.5; compatibility with other version of
-Python is unknown.
+<del>The package is tested in Python 3.5; compatibility with other version of
+Python is unknown.</del>
+
+Tests are actaully included and can be run from the root directory:
+
+~~~sh
+python minchin/pelican/plugins/summary/test_summary.py
+~~~
 
 ## Changes
 
