@@ -15,6 +15,7 @@ before_install:
 install:
   - pip install --upgrade pip
   - pip install -r requirements.txt
+  - pip install "git+https://github.com/MinchinWeb/pelican-plugins.git@pcs-on-pypi#egg=pelican_comment_system&subdirectory=pelican_comment_system"
 before_script:
 # command to run tests
 script:
