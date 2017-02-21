@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-from datetime import datetime
+from datetime import date
 
 import seafoam
 
@@ -136,7 +136,7 @@ DOCUTIL_CSS = False
 CUSTOM_JS_LIST = [
                   ]
 # update copyright date automatically
-INDEX_COPY_DATE = '2006-{}'.format(datetime.strftime(datetime.now(), "%y"))
+INDEX_COPY_DATE = '2006-{}'.format(str(date.today().year)[-2:])
 
 # list categories here in lowercase
 CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png',
@@ -148,19 +148,19 @@ CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png'
 # Plugins
 PLUGIN_PATHS = ('../pelican-plugins',)
 PLUGINS = [
-            #'assets',  # unused
+            # 'assets',  # unused
             'neighbors',
             'pelican_alias',
             'pelican_comment_system',
-            #'minchin.pelican.plugins.image_process',  # publish only
-            #'minchin.pelican.plugins.cname',  # publish only
-            #'minchin.pelican.plugins.nojekyll',  # publish only
+            # 'minchin.pelican.plugins.image_process',  # publish only
+            # 'minchin.pelican.plugins.cname',  # publish only
+            # 'minchin.pelican.plugins.nojekyll',  # publish only
             'minchin.pelican.jinja_filters',
             'minchin.pelican.plugins.summary',
-            #'mimify',  # publish only
-            #'sitemap'  # publish only
-            #'optimize_images',  # publish only
-            'post_stats',
+            # 'mimify',  # publish only
+            # 'sitemap'  # publish only
+            # 'optimize_images',  # publish only
+            'readtime',
           ]
 
 ASSET_CSS = False

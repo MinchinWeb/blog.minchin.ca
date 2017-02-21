@@ -8,6 +8,7 @@ minchin.pelican.plugins.nojekyll==1.0.1
 minchin.pelican.plugins.summary==1.1.0
 pelican-alias==1.1
 pelican-neighbors==1.0.0
+pelican-readtime==0.1.2
 pelican==3.6.3
-seafoam==2.0.4
+seafoam==2.1.0
 webassets==0.12.1
