@@ -12,3 +12,4 @@ pelican-readtime==0.1.2
 pelican==3.6.3
 seafoam==2.1.0
 webassets==0.12.1
+"git+https://github.com/MinchinWeb/pelican-plugins.git@pcs-on-pypi#egg=pelican_comment_system&subdirectory=pelican_comment_system"
