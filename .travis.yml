@@ -25,7 +25,8 @@ after_success:
 # see https://travis-ci.org/MinchinWeb/blog.minchin.ca
 deploy:
   provider: pages
-  local_dir: ..\blog.minchin.ca-master\
+  local_dir: ../blog.minchin.ca-master/
+  target-branch: master
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
   on:
