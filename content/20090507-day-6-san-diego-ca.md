@@ -46,7 +46,7 @@ Travel Days:
 [4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
 [5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
 6 ·
-[7]({filenane}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
+[7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
 [8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
 [9]({filename}20090510-day-9-el-paso-to-dallas-tx.md) ·
 [10]({filename}20090527-day-10-dallas-tx-to-texarkana-ar.md) ·

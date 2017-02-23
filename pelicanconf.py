@@ -280,7 +280,6 @@ TRANSLATION_FEED_RSS = None
 #                                 try pelican-diminuendo
 #                                 try pelican-minify / minify
 #PLUGINS.append('pelican_diminuendo')
-# try pelican-readtime / readtime
 #DISPLAY_PAGES_ON_MENU = True
 
 
