@@ -86,8 +86,14 @@ def upload(ctx):
 
 @task
 def publish(ctx):
-    """Build a publishcation version of the blog."""
+    """Build a publication version of the blog."""
     ctx.run('pelican -s publishconf.py')
+
+
+@task
+def publish_carefully(ctx):
+    """(Carefully) Build a publication version of the blog."""
+    ctx.run('pelican -s publishconf.py --fatal=warnings')
 
 
 # Add devsever

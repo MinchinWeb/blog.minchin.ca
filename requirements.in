@@ -12,3 +12,4 @@ pelican-neighbors
 pelican
 seafoam >= 2.1.0
 webassets >= 0.12.1
+typogrify

@@ -34,7 +34,9 @@ python-dateutil==2.6.0    # via pelican
 pytz==2016.10             # via feedgenerator, pelican
 seafoam==2.1.0
 six==1.10.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, packaging, pelican, python-dateutil, setuptools
+smartypants==2.0.0        # via typogrify
 titlecase==0.8.2          # via minchin.pelican.jinja-filters
+typogrify==2.0.7
 unidecode==0.4.20         # via pelican
 webassets==0.12.1
 webencodings==0.5         # via html5lib

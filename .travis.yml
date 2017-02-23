@@ -18,7 +18,7 @@ install:
 before_script:
 # command to run tests
 script:
-  - invoke publish
+  - invoke publish_carefully
 after_success:
 
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
