@@ -257,23 +257,25 @@ ADDTHIS_PROFILE = False
 DISQUS_SITENAME = False
 PDF_PROCESSOR = False
 # Feed generation is usually not desired when developing
+FEED_DOMAIN = SITEURL
 #FEED_ATOM = None
 #FEED_ALL_ATOM = None
 FEED_RSS = None
 FEED_ALL_RSS = None
 #CATEGORY_FEED_ATOM = None
-CATEGORY_FEED_RSS = None
+# CATEGORY_FEED_RSS = None
 #AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-#TAG_FEED_ATOM = 'label.{slug}.atom.xml'  # not automatically generated  # broken in Pelican 3.6.3?
-TAG_FEED_RSS = None
+AUTHOR_FEED_ATOM = 'feeds/author.%s.atom.xml'
+# AUTHOR_FEED_RSS = None
+TAG_FEED_ATOM = 'feeds/label.%s.atom.xml'  # not automatically generated
+# TAG_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 TRANSLATION_FEED_RSS = None
 #FEED_MAX_ITEMS = 0
 
 
 ## Testing
-# PATH = 'content-3'
+# PATH = 'content-2'
 #PLUGINS.append("minification")  # currently eats too many spaces
 #                                 try pelican-diminuendo
 #                                 try pelican-minify / minify

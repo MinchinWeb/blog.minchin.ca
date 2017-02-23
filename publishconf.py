@@ -16,8 +16,7 @@ SITE_ROOT_URL = 'http://minchin.ca'
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
 
-FEED_ALL_ATOM = 'feeds/posts/default.xml'
-#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+FEED_DOMAIN = SITEURL
 
 # DELETE_OUTPUT_DIRECTORY = True
 
