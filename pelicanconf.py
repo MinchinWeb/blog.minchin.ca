@@ -122,7 +122,8 @@ DISPLAY_PAGES_ON_MENU = False
 
 
 # Theme Related
-TYPOGRIFY = False  # breaks the pelican_comment_system, may be fixed in Pelican 3.7
+# TYPOGRIFY = False  # breaks the pelican_comment_system, may be fixed in Pelican 3.7
+TYPOGRIFY = True
 THEME = seafoam.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
 SITELOGO_SIZE = '100%'
@@ -160,7 +161,7 @@ PLUGINS = [
             # 'mimify',  # publish only
             # 'sitemap'  # publish only
             # 'optimize_images',  # publish only
-            'readtime',
+            'minchin.pelican.plugins.post_stats',
           ]
 
 ASSET_CSS = False
@@ -272,7 +273,7 @@ TRANSLATION_FEED_RSS = None
 
 
 ## Testing
-#PATH = 'content-2'
+# PATH = 'content-3'
 #PLUGINS.append("minification")  # currently eats too many spaces
 #                                 try pelican-diminuendo
 #                                 try pelican-minify / minify

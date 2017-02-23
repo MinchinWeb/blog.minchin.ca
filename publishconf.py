@@ -27,7 +27,7 @@ PLUGINS = PLUGINS + [
             'minchin.pelican.plugins.nojekyll',
             #'mimify',
             #'sitemap'
-            'optimize_images',  # need executables for Linux to do this on Travis-CI
+            'minchin.pelican.plugins.optimize_images',  # need executables for Linux to do this on Travis-CI
           ]
 
 OUTPUT_PATH = '../blog.minchin.ca-master/'
