@@ -92,7 +92,9 @@ def publish(ctx):
 
 @task
 def publish_carefully(ctx):
-    """(Carefully) Build a publication version of the blog."""
+    """(Carefully) Build a publication version of the blog.
+
+    i.e. fail on any warnings from pelican."""
     ctx.run('pelican -s publishconf.py --fatal=warnings')
 
 
