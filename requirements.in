@@ -10,6 +10,6 @@ pelican-alias
 pelican-comment-system
 pelican-neighbors
 pelican
-seafoam >= 2.1.0
+seafoam >= 2.1.1
 webassets >= 0.12.1
 typogrify
