@@ -76,7 +76,7 @@ Some thoughts:
     I guess the note here is you and your home are probably going to be
     separated as part of the bankruptcy process.
 -   Student loans are an interesting note. In the US, student loans are
-    non-dischargable in bankruptcy (meaning if you declare bankruptcy,
+    non-dischargeable in bankruptcy (meaning if you declare bankruptcy,
     you still have to pay your student loans). However, 7 years in a
     long time. In general, Canadian student loans are generally
     amortized over 10 years, with the option to extend that to 15 years.

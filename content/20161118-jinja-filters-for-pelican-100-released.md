@@ -45,7 +45,7 @@ At present, the plugin includes the following filters:
   object. Optionally supply a [datetime format string](https://docs.python.org/3.6/library/datetime.html#strftime-and-strptime-behavior)
   to get a custom format.
 - *article_date* -- a specialized version of *datetime* that returns
-  datetimes as wanted for article dates; speciefically
+  datetimes as wanted for article dates; specifically
   *Friday, November 4, 2016*.
 - *breaking_spaces* -- replaceds non-breaking spaces (HTML code *&nbsp*)
   with normal spaces.
@@ -79,8 +79,8 @@ gives:
     Article Published Nov 04, 2016
 ~~~
 
-Fitlers can also be chained, or applied in sequence. For example to remove
-breaking spaces and then titlecase a catgory name, you might have code like:
+Filters can also be chained, or applied in sequence. For example to remove
+breaking spaces and then titlecase a category name, you might have code like:
 
 ~~~html+jinja
 <a href="{{ SITEURL }}/{{ article.category.url }}">

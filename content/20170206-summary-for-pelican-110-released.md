@@ -67,7 +67,7 @@ Python.</del>
 <del>The package is tested in Python 3.5; compatibility with other version of
 Python is unknown.</del>
 
-Tests are actaully included and can be run from the root directory:
+Tests are actually included and can be run from the root directory:
 
 ~~~sh
 python minchin/pelican/plugins/summary/test_summary.py

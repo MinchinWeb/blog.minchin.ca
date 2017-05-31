@@ -8,7 +8,7 @@ Version 2.0.4 of *Seafoam* has been released.
 
 Seafoam is the Pelican theme I use for this site, but published to PyPI in the hope that it will be useful to others.
 
-This release changes the name of the project to *seafoam* from to unwieldly
+This release changes the name of the project to *seafoam* from to unwieldy
 *[minchin.pelican.themes.minchindotca]({filename}20160912-minchin-dot-ca-pelican-theme-version-110-released.md)*.
 It also add support for the
 [Pelican Comment System](https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/),
@@ -81,8 +81,8 @@ blog post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and 2.0.4:
 
 #### Version 2.0.1 -- January 10, 2017
 
-- *bug*: pluarization of "1 comment" now correct (see [issue 8](https://github.com/MinchinWeb/seafoam/issues/8))
-- *bug*: fix pagation code to work with Jinja2 v2.9.0 (see [issue 9](https://github.com/MinchinWeb/seafoam/issues/9))
+- *bug*: pluralization of "1 comment" now correct (see [issue 8](https://github.com/MinchinWeb/seafoam/issues/8))
+- *bug*: fix pagination code to work with Jinja2 v2.9.0 (see [issue 9](https://github.com/MinchinWeb/seafoam/issues/9))
 
 #### Version 2.0.2 -- January 11, 2017
 

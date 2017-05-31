@@ -8,7 +8,7 @@ Category: Genealogy
 I have been continuing my research of the Bunbury line. For the 18th
 century and earlier, *Burke's Peerage* has proved incredibly useful. As
 *Burke's* is serves mainly for showing how someone inherited their title
-or lands, it tends to be patrilinial (meaning descent is calculated
+or lands, it tends to be patrilineal (meaning descent is calculated
 through men). However, the wives are often well noted, including the
 wife's father. Such is the link between the Bunbury's and the
 Birkenhead's.

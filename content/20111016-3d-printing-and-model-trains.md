@@ -88,7 +88,7 @@ The other cost is that of materials. With many professional printers,
 they use proprietary powders or epoxies. Prices are hard to pin down,
 but the few prices I could find suggest $500-1000 per litre or more. In
 contrast, many of the hobby printers use plastic that runs $50 per
-kilogram or a couple of cents per cubic centimetre. Although not free,
+kilogram or a couple of cents per cubic centimeter. Although not free,
 if it defendant within reach (like how we don't think about paper in our
 inkjet printers today).
 
@@ -101,9 +101,9 @@ printers is based on the size of the nozzle. For the Thing-O-Matic, I
 found a quote that the "stock 0.4mm nozzles allows printing at a layer
 height of 0.32 and 0.27mm right out of the box"
 ([link](http://store.makerbot.com/stepstruder-mk7-complete.html)). That
-works out to 3 or 4 layers per millimetre or 79 to 94 layers per inch.
+works out to 3 or 4 layers per millimeter or 79 to 94 layers per inch.
 [The record](http://wiki.makerbot.com/hall-of-fame-highest-resolution),
-according to Makerbot, is 10 layers per millimetre, or about 250 layers
+according to Makerbot, is 10 layers per millimeter, or about 250 layers
 per inch. That record has stood for over a year, so I have hope that
 that could be improved by myself or others soon.
 

@@ -102,6 +102,6 @@ their Blogger export.
 The code has also been posted as a
 `gist on GitHub <https://gist.github.com/MinchinWeb/7b2e4cf4d1b935c62ce8d6d1968270ff>`_,
 so you're welcome to submit improvements as well. If you want to download
-the code, this may be the simplist place to get it from.
+the code, this may be the simplest place to get it from.
 
 Code is under the MIT license.

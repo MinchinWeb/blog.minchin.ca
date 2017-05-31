@@ -13,7 +13,7 @@ an article.stats dictionary:
 - `wc`: how many words (i.e. word count)
 - `read_mins`: how many minutes would it take to read this article, based
   on [250 wpm](http://en.wikipedia.org/wiki/Words_per_minute#Reading_and_comprehension)
-- `word_counts`: frquency count of all the words in the article; can be
+- `word_counts`: frequency count of all the words in the article; can be
   used for tag/word clouds
 - `fi`: Flesch-kincaid Index/ Reading Ease
   ([more info](http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests>))
@@ -47,7 +47,7 @@ generated.
 ## Requirements
 
 *Post Stats* depends on (and is really only useful with) Pelican. The
-plugin also requries Beautiful Soup 4 to process your content. If the plugin
+plugin also requires Beautiful Soup 4 to process your content. If the plugin
 is installed from pip, these will automatically be installed. These can also
 be manually installed with pip:
 
