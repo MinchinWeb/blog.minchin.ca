@@ -8,7 +8,7 @@ file, such that can be used with the [Pelican Comment System]
 
 May be simple to extend to export posts as well.
 
-For a more detailed desciption, read my blog post at
+For a more detailed description, read my blog post at
     http://blog.minchin.ca/2016/12/blogger-comments-exported.html
 
 Author: Wm. Minchin -- minchinweb@gmail.com
