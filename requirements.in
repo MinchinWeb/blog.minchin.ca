@@ -1,5 +1,5 @@
 html5lib
-invoke
+invoke >= 0.20.2
 markdown
 minchin.pelican.plugins.cname
 minchin.pelican.plugins.nojekyll

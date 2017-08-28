@@ -18,7 +18,7 @@ install:
 before_script:
   - invoke --list
 script:
-  - invoke publish_carefully
+  - invoke publish-carefully
 after_success:
 
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
