@@ -6,12 +6,12 @@
 #
 beautifulsoup4==4.6.0     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
 blinker==1.4              # via pelican
-docutils==0.13.1          # via pelican
+docutils==0.14            # via pelican
 feedgenerator==1.9        # via pelican
 html5lib==0.999999999
-invoke==0.17.0
+invoke==0.20.4
 jinja2==2.9.6             # via pelican
-markdown==2.6.8
+markdown==2.6.9
 markupsafe==1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.cname==1.0.4
@@ -25,15 +25,15 @@ pelican-alias==1.1
 pelican-comment-system==1.4.0
 pelican-neighbors==1.0.0
 pelican==3.7.1
-pillow==4.1.1             # via minchin.pelican.plugins.image-process, pelican-comment-system
+pillow==4.2.1             # via minchin.pelican.plugins.image-process, pelican-comment-system
 pygments==2.2.0           # via pelican
-python-dateutil==2.6.0    # via pelican
+python-dateutil==2.6.1    # via pelican
 pytz==2017.2              # via feedgenerator, pelican
 seafoam==2.1.5
 six==1.10.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, python-dateutil
 smartypants==2.0.0        # via typogrify
-titlecase==0.10.0         # via minchin.pelican.jinja-filters
+titlecase==0.11.0         # via minchin.pelican.jinja-filters
 typogrify==2.0.7
-unidecode==0.4.20         # via pelican
+unidecode==0.4.21         # via pelican
 webassets==0.12.1
 webencodings==0.5.1       # via html5lib
