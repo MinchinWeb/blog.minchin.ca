@@ -16,7 +16,7 @@ install:
   - pip install --upgrade pip
   - pip install -r requirements.txt
 before_script:
-# command to run tests
+  - invoke --list
 script:
   - invoke publish_carefully
 after_success:

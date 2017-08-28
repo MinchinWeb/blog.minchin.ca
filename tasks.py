@@ -103,7 +103,7 @@ def publish_carefully(ctx):
 #  need to kill the second window manually
 @task
 def devserver(ctx):
-    """regneration and serve."""
+    """regeneration and serve."""
     regenerate(ctx)
     serve(ctx)
 
