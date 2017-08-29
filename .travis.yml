@@ -9,6 +9,7 @@ addons:
     packages:
     - optipng  # for optimize images plugin
     - libjpeg-progs  # for jpegtran for optimize images plugin
+    - tree  # for directory listing
 
 before_install:
 # command to install dependencies
@@ -19,8 +20,6 @@ before_script:
   - invoke --list
 script:
   - invoke publish-carefully
-after_success:
-
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
 # see https://travis-ci.org/MinchinWeb/blog.minchin.ca
 deploy:
@@ -31,3 +30,5 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
   on:
     branch: pelican
+after_script:
+  - tree -aC ../blog.minchin.ca-master
