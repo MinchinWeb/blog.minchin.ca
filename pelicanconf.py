@@ -158,8 +158,8 @@ PLUGINS = [
             # 'minchin.pelican.plugins.nojekyll',  # publish only
             'minchin.pelican.jinja_filters',
             'minchin.pelican.plugins.summary',
-            # 'mimify',  # publish only
-            # 'sitemap'  # publish only
+            'minify',  # publish only
+            # 'extended_sitemap'  # publish only
             # 'optimize_images',  # publish only
             'minchin.pelican.plugins.post_stats',
           ]
@@ -178,10 +178,6 @@ PELICAN_COMMENT_SYSTEM_AUTHORS = {
     ('Bridget', 'noreply@blogger.com'): "images/authors/bridget.jpg",
     ('melissaclee', 'noreply@blogger.com'): "images/authors/melissa_lee.jpg",
     ('Melissa', 'noreply@blogger.com'): "images/authors/melissa_lee.jpg"
-}
-
-SITEMAP = {
-    "format": "xml",
 }
 
 IMAGE_PROCESS = {

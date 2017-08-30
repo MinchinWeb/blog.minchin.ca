@@ -24,8 +24,8 @@ PLUGINS = PLUGINS + [
             'minchin.pelican.plugins.image_process',
             'minchin.pelican.plugins.cname',
             'minchin.pelican.plugins.nojekyll',
-            #'mimify',
-            #'sitemap'
+            'minify',  # pelican-minify
+            'extended_sitemap',  # pelican-extended-sitemap
             'minchin.pelican.plugins.optimize_images',  # need executables for Linux to do this on Travis-CI
           ]
 
