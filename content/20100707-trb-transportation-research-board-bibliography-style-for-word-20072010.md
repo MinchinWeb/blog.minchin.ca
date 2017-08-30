@@ -1,9 +1,10 @@
 Title: TRB (Transportation Research Board) Bibliography Style for Word 2007/2010
 Date: 2010-07-07 11:34
 Modified_1: 2012-06-28 7:17
-Modified: 2016-08-08 21:25
+Modified_2: 2016-08-08 21:25
+Modified: 2017-08-30 12:27
 Author: Wm. Minchin
-Tags: BibWord, Microsoft Word, TRB, Word 2007
+Tags: BibWord, Microsoft Word, TRB, Word 2007, releases
 Alias: 2010/07/trb-transportation-research-board.html
 Slug: trb-transportation-research-board-bibliography-style-for-word-2007-2010
 summary: Introducing my version of the Transportation Research Board (TRB) reference style for use with the reference manager in Microsoft Word 2007 and 2010.
@@ -98,3 +99,9 @@ It would appear that changes made in recent version of Word
 similar, but I haven't (yet) had time to investigate what's changed.
 
 So, for now, this sadly doesn't work with Word 2016.
+
+### Update 2 (August 30, 2017)
+
+[An updated version]({filename}20170830-trb-bibliography-style-for-word-updated.md)
+has been provided by a blog reader, Maggie McNamara, that will work with Word
+2013 and 2016! Thanks so much Maggie!
