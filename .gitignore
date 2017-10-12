@@ -144,3 +144,4 @@ theme/less/
 *.sublime-workspace
 cache/
 content-2/
+settings.json
