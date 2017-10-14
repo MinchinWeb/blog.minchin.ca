@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Git</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.git.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2016-07-26T17:26:00-06:00</updated><entry><title>Push a Hg Repo to GitHub</title><link href="http://blog.minchin.ca/2012/10/push-hg-repo-to-github.html" rel="alternate"></link><published>2012-10-24T19:25:00-06:00</published><updated>2012-10-24T19:25:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2012-10-24:/2012/10/push-hg-repo-to-github.html</id><summary type="html">So the scenario is thus: There is a project that I want to contribute to
+that is a Mercurial (Hg) repository (or &amp;#8216;repo&amp;#8217; for short). I&amp;#8217;ve taken a
+liking to Git; &lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt; in particular with
+&lt;a href="http://windows.github.com/"&gt;their new and beautiful Windows frontend&lt;/a&gt;.
+So how do I take a remote Hg repo and push it to GitHub. As follows (the
+following assumes you have a Ubuntu box available to play with, although
+I imagine many Linux machines would work the same&amp;nbsp;way):</summary><content type="html">&lt;p&gt;So the scenario is thus: There is a project that I want to contribute to
+that is a Mercurial (Hg) repository (or &amp;#8216;repo&amp;#8217; for short). I&amp;#8217;ve taken a
+liking to Git; &lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt; in particular with
+&lt;a href="http://windows.github.com/"&gt;their new and beautiful Windows frontend&lt;/a&gt;.
+So how do I take a remote Hg repo and push it to GitHub. As follows (the
+following assumes you have a Ubuntu box available to play with, although
+I imagine many Linux machines would work the same&amp;nbsp;way):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;So first, &lt;a href="https://github.com/repositories/new"&gt;create your repo on
+    GitHub&lt;/a&gt;. You don&amp;#8217;t have to do
+    anything more with it at this time, just make a note of its&amp;nbsp;name.&lt;/li&gt;
+&lt;li&gt;Next, add your machine&amp;#8217;s &lt;span class="caps"&gt;RSA&lt;/span&gt; public key to GitHub. I won&amp;#8217;t go
+    through that here, but if you walk through &lt;a href="https://help.github.com/articles/generating-ssh-keys"&gt;GitHub&amp;#8217;s setup steps for
+    Linux&lt;/a&gt;, it
+    will explain all of&amp;nbsp;this.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ok next, install Git and&amp;nbsp;Mercurial:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo apt-get install git mercurial
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Next, we install a little program that will link Mercurial to&amp;nbsp;Git&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo apt-get install python-setuptools
+$ sudo easy_install hggit
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now, create a folder as needed (for example, an &amp;#8216;hgrepo&amp;#8217; folder in
+    your home&amp;nbsp;folder)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; ~
+$ mkdir hgrepo
+$ &lt;span class="nb"&gt;cd&lt;/span&gt; hgrepo
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now pull down the existing hg&amp;nbsp;repo.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ hg clone http://web.address.of.hp.repo/repo-name
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I might make a subfolder and put your repo there. That&amp;#8217;s alright.
+    Move to that new&amp;nbsp;directory.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; new-hg-repo-folder
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now we&amp;#8217;re going to add the info we need to push to&amp;nbsp;GitHub&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; .hg&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find a file named &amp;#8220;hgrc&amp;#8221;. Add the following&amp;nbsp;lines:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;[path]&lt;/span&gt;
+&lt;span class="na"&gt;git&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;git+ssh://git@github.com/your-username/your-new-github-repo.git&lt;/span&gt;
+
+&lt;span class="k"&gt;[extensions]&lt;/span&gt;
+&lt;span class="na"&gt;hggit&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There will probably be a line in there pointing to your original hg
+repo. It&amp;#8217;s fine. Leave it&amp;nbsp;there.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now push your repo to&amp;nbsp;GitHub!&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ hg push git
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If everything worked right, your repo should now be available on&amp;nbsp;GitHub!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;One issue I didn&amp;#8217;t address was contributor names. See the &lt;a href="https://confluence.atlassian.com/pages/viewpage.action?pageId=269982882"&gt;bottom of
+this
+page&lt;/a&gt;
+for an example of how to fix&amp;nbsp;that.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hgtip.com/tips/advanced/2009-11-09-create-a-git-mirror/"&gt;This
+page&lt;/a&gt; on
+&lt;em&gt;hg tip&lt;/em&gt; was also very&amp;nbsp;helpful.&lt;/p&gt;</content><category term="Git"></category><category term="GitHub"></category><category term="Mercurial"></category></entry><entry><title>Free Hosting for Static Websites</title><link href="http://blog.minchin.ca/2012/03/free-hosting-for-static-websites.html" rel="alternate"></link><published>2012-03-23T22:10:00-06:00</published><updated>2016-07-26T17:26:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2012-03-23:/2012/03/free-hosting-for-static-websites.html</id><summary type="html">In addition to my blog, I have a couple of static webpages that I host
+at &lt;a href="http://minchin.ca/"&gt;Minchin.ca&lt;/a&gt;. Sadly, they&amp;#8217;ve been a little
+neglected of late, but I&amp;#8217;ve enjoyed being able to put a few pages and
+play around with &lt;span class="caps"&gt;HTML&lt;/span&gt;. Since I don&amp;#8217;t run any ads on them, or run a
+business from them, I&amp;#8217;ve trying to avoid having to pay for hosting. In
+the almost 5 years they&amp;#8217;ve been online, I&amp;#8217;ve managed to find a place to
+host them for free: first at Google Pages, and then at Microsoft Office
+Small Business. Google closed &lt;em&gt;Pages&lt;/em&gt; in 2009 and Microsoft&amp;#8217;s offering
+will start charging for hosting the end of next month. So I&amp;#8217;ve been
+looking for a new place to host them. Today I completed the move to
+&lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt;!</summary><content type="html">&lt;p&gt;In addition to my blog, I have a couple of static webpages that I host
+at &lt;a href="http://minchin.ca/"&gt;Minchin.ca&lt;/a&gt;. Sadly, they&amp;#8217;ve been a little
+neglected of late, but I&amp;#8217;ve enjoyed being able to put a few pages and
+play around with &lt;span class="caps"&gt;HTML&lt;/span&gt;. Since I don&amp;#8217;t run any ads on them, or run a
+business from them, I&amp;#8217;ve trying to avoid having to pay for hosting. In
+the almost 5 years they&amp;#8217;ve been online, I&amp;#8217;ve managed to find a place to
+host them for free: first at Google Pages, and then at Microsoft Office
+Small Business. Google closed &lt;em&gt;Pages&lt;/em&gt; in 2009 and Microsoft&amp;#8217;s offering
+will start charging for hosting the end of next month. So I&amp;#8217;ve been
+looking for a new place to host them. Today I completed the move to
+&lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Github offers hosting for static webpages for free. I think the idea is
+to provide developers and programmers a space to showcase their open
+source programming projects, but you can use it from other personal
+websites too. To get up and running with&amp;nbsp;GitHub:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a user account on &lt;a href="http://www.github.com/"&gt;GitHub.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you&amp;#8217;re not familiar with Git, read through the &lt;a href="http://help.github.com/set-up-git-redirect"&gt;GitHub Help
+pages&lt;/a&gt;. This will walk you
+through installing any software you might need to work with&amp;nbsp;GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.github.com/create-a-repo"&gt;Create a repository&lt;/a&gt; named
+&lt;em&gt;{your_username}.github.com&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Push the static files of your website to your new repository.&lt;ol&gt;
+&lt;li&gt;Your page will go live at &lt;em&gt;http://{your_username}.github.io&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;If you want to use a different web address (and you own the domain),
+    include a file called &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; that lists that other web address in
+    your repository. You will also need to create a A record for that
+    domain pointing to &lt;code&gt;192.30.252.153&lt;/code&gt; and &lt;code&gt;192.30.252.154&lt;/code&gt; (Get your domain name registrar
+    to help you with that&amp;nbsp;one).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;You might have to wait 10 minutes for it to go&amp;nbsp;live&amp;#8230;&lt;/li&gt;
+&lt;li&gt;You have a free&amp;nbsp;website!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While I admit that using GitHub might seem a little involved, it is
+rather simple (for web hosting), it works, and it&amp;#8217;s free! And I think
+they&amp;#8217;ll continue to host my page for the foreseeable future. If you get
+stuck, GitHub has a &lt;a href="http://pages.github.com/"&gt;good introduction to GitHub
+Pages&lt;/a&gt;.&lt;/p&gt;</content><category term="Git"></category><category term="GitHub"></category><category term="Web Hosting"></category><category term="Web Services"></category></entry></feed>

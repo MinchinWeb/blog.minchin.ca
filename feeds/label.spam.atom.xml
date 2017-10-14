@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Spam</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.spam.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2007-04-09T22:28:00-06:00</updated><entry><title>Nexodyne Email Images</title><link href="http://blog.minchin.ca/2006/05/nexodyne-email-images.html" rel="alternate"></link><published>2006-05-14T22:07:00-06:00</published><updated>2007-04-09T22:28:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-05-14:/2006/05/nexodyne-email-images.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Technological progress is like an axe in the hands of a pathological&amp;nbsp;criminal.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Albert&amp;nbsp;Einstein&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With new technology, comes new concerns. In the case of electronic mail,
+it is that of spam. At least when we get junk mail at home, we can
+quickly sort through it and drop it into the recycle bin. The fact that
+you have to pay someone to print and deliver the flyers does serve to
+deter companies from filling up everyone&amp;#8217;s mailbox with non-addressed
+mail. Spam, on the other hand, can be sent for almost free. I guess they
+must make some sales out of it, or you would think that they would have
+given up on the tactics long ago. But where do they get email addresses
+to spam? Unlike delivering flyers, where you can just walk down the
+street, you have to actually know someone&amp;#8217;s email&amp;nbsp;address.&lt;/p&gt;
+</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;Technological progress is like an axe in the hands of a pathological&amp;nbsp;criminal.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Albert&amp;nbsp;Einstein&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With new technology, comes new concerns. In the case of electronic mail,
+it is that of spam. At least when we get junk mail at home, we can
+quickly sort through it and drop it into the recycle bin. The fact that
+you have to pay someone to print and deliver the flyers does serve to
+deter companies from filling up everyone&amp;#8217;s mailbox with non-addressed
+mail. Spam, on the other hand, can be sent for almost free. I guess they
+must make some sales out of it, or you would think that they would have
+given up on the tactics long ago. But where do they get email addresses
+to spam? Unlike delivering flyers, where you can just walk down the
+street, you have to actually know someone&amp;#8217;s email&amp;nbsp;address.&lt;/p&gt;
+
+
+&lt;p&gt;From what I&amp;#8217;ve gathered over the years, spammers gather email address in
+three main&amp;nbsp;ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ask you for it &amp;#8212; You are thinking, &amp;#8220;I would never give my address to
+    a spammer!&amp;#8221; and you probably wouldn&amp;#8217;t, if you knew what you were
+    doing. Sometimes websites will ask for your email address for
+    mailing lists or registration, and then sell it over to spammers.
+    Reading website&amp;#8217;s privacy policies can be helpful, and respectable
+    websites realize this isn&amp;#8217;t a good way to keep up a&amp;nbsp;reputation.&lt;/li&gt;
+&lt;li&gt;Find it on the web &amp;#8212; In much the same way that search engines go
+    over the web, spammers can write little programs, called robots,
+    that &amp;#8220;crawl&amp;#8221; the web, following the links on pages and sending the
+    email address they find back. These addresses can be in the text you
+    read when you view the web page, or it can be hidden away in the
+    &lt;span class="caps"&gt;HTML&lt;/span&gt; coding that typically only web programmers, web browsers and
+    robots care to look at. This is why many sites warn you not to post
+    your email address on the&amp;nbsp;web.&lt;/li&gt;
+&lt;li&gt;Buy it off someone else &amp;#8212; Sometimes spammers with a little money and
+    less technical know-how or time will buy lists of email addresses.
+    The advantage to this, for the spammer, is that you can get lists of
+    &amp;#8220;confirmed&amp;#8221;&amp;nbsp;emails.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So how do you get around this? The simplest way is just not to have an
+email address, but for most of us, this isn&amp;#8217;t a practical solution.
+Another option, as I did when I set up this website, is to have a
+&amp;#8220;public&amp;#8221; email. But I came across an ingenious solution this last week -
+put your email in an image. This works much the same way as &amp;#8220;word
+verification&amp;#8221; does on this site. As long as you don&amp;#8217;t put your email in
+the name of the image or the alternate text, your email is safely hidden
+away. Nexodyne provides a free service to do this
+(&lt;a href="http://services.nexodyne.com/email/"&gt;http://services.nexodyne.com/email/&lt;/a&gt;). One of the cool things about
+this website is that it will allow you to generate the image and save it
+locally, and they provide an encrypted link that allows you to serve the
+image directly off their&amp;nbsp;server.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the copy from their&amp;nbsp;server:&lt;/p&gt;
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Served
+Copy" src="http://services.nexodyne.com/email/icon/W16xUebD%2B5ICdw%3D%3D/MZ.X8AU%3D/R01haWw%3D/0/image.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;and the local&amp;nbsp;copy:&lt;/p&gt;
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Local Copy" src="http://blog.minchin.ca/images/2006/mail.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Very cool&amp;nbsp;idea!&lt;/p&gt;
+&lt;p&gt;(This post was also updated on &lt;a href="http://minchinweb.blogspot.com/2007/04/gmail-image.html"&gt;April 3,
+2007&lt;/a&gt;)&lt;/p&gt;</content><category term="Email"></category><category term="Nexodyne"></category><category term="Privacy"></category><category term="Quotables"></category><category term="Series:On-Line Wonders"></category><category term="Spam"></category></entry></feed>

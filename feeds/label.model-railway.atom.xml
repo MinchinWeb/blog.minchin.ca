@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Model Railway</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.model-railway.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2011-10-16T11:04:00-06:00</updated><entry><title>3D Printing and Model Trains</title><link href="http://blog.minchin.ca/2011/10/3d-printing-and-model-trains.html" rel="alternate"></link><published>2011-10-16T11:04:00-06:00</published><updated>2011-10-16T11:04:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2011-10-16:/2011/10/3d-printing-and-model-trains.html</id><summary type="html">While in France, the combination of being somewhere near &amp;#8216;church mouse
+poor&amp;#8217; and living in a small (32 square metres / 350 sq ft) 1 bedroom
+apartment, I looked for hobbies that took up little space and so settled
+on photography (i.e. my &lt;a href="http://blog.minchin.ca/search/label/Project%20365"&gt;Project
+365&lt;/a&gt; here) and
+dabbling in computer programming and to a lesser degree, artificial
+intelligence (my &lt;a href="http://openttd-noai-wmdot.googlecode.com/"&gt;WmDOT&lt;/a&gt; for
+OpenTTD). It was quite enjoyable, but on my return to North America, I
+found myself with a lot more space and more geographically stable. I
+wanted to make things that were a little more physical and so with the
+encouragement of my Honey, I started into Model Railroading, a childhood
+dream. One of my shocks was the cost of models! A regular-ish building,
+measuring maybe 2x3x3 inches would cost $60! There had to be a better&amp;nbsp;way&amp;#8230;</summary><content type="html">&lt;p&gt;While in France, the combination of being somewhere near &amp;#8216;church mouse
+poor&amp;#8217; and living in a small (32 square metres / 350 sq ft) 1 bedroom
+apartment, I looked for hobbies that took up little space and so settled
+on photography (i.e. my &lt;a href="http://blog.minchin.ca/search/label/Project%20365"&gt;Project
+365&lt;/a&gt; here) and
+dabbling in computer programming and to a lesser degree, artificial
+intelligence (my &lt;a href="http://openttd-noai-wmdot.googlecode.com/"&gt;WmDOT&lt;/a&gt; for
+OpenTTD). It was quite enjoyable, but on my return to North America, I
+found myself with a lot more space and more geographically stable. I
+wanted to make things that were a little more physical and so with the
+encouragement of my Honey, I started into Model Railroading, a childhood
+dream. One of my shocks was the cost of models! A regular-ish building,
+measuring maybe 2x3x3 inches would cost $60! There had to be a better&amp;nbsp;way&amp;#8230;&lt;/p&gt;
+&lt;h3&gt;Enter 3D&amp;nbsp;Printing&lt;/h3&gt;
+&lt;p&gt;Various technologies exist but the most popular,
+at least at the hobby level, basically consists of a hot metal nozzle
+that melts a &amp;#8216;thread&amp;#8217; of plastic and then uses this melted plastic to
+paint, layer by layer, your desired object. A kit for a printer like
+this can be had for \~$1300 which would be about the same price as 20
+buildings. And with a 3D printer, most of the time is spent creating the
+computer model rather than in physical model building, so I started
+wondering if I could sell some models and let someone else pay for my
+printer and railway&amp;nbsp;modelling&amp;#8230;&lt;/p&gt;
+&lt;!-- Read More --&gt;
+
+&lt;h3&gt;Literature&amp;nbsp;Review&lt;/h3&gt;
+&lt;p&gt;Good research starts with a review of those who
+have already worked on the problem. My Google searches turned up a few
+sites of&amp;nbsp;note.&lt;/p&gt;
+&lt;p&gt;The first is &lt;a href="http://fabbaloo.com/blog/2008/7/16/tiny-3d-trains.html"&gt;a note from
+2008&lt;/a&gt; talking
+about the feasibility of using a 3D printer for model railroading. There
+were two comments of interest: one, 3D printers are expensive, and two,
+the resolution isn&amp;#8217;t there&amp;nbsp;yet.&lt;/p&gt;
+&lt;p&gt;Next is a series of posts
+(&lt;a href="http://www.shapeways.com/blog/archives/126-Marleen-and-model-trains.html"&gt;1&lt;/a&gt;,
+&lt;a href="http://www.shapeways.com/blog/archives/194-Shapeways-at-Rail-2009-The-long-train.html"&gt;2&lt;/a&gt;,
+&lt;a href="http://fabbaloo.com/blog/2008/11/10/take-the-train-from-shapeways.html"&gt;3&lt;/a&gt;)
+from about the New Years of 2009 when Shapeways, a 3D manufacturing
+company, was invited to a model train conference in the Benelux
+(Belgium, Netherlands, and Luxembourg). Not much was written as follow
+up, so I don&amp;#8217;t think the effort worked as&amp;nbsp;hoped.&lt;/p&gt;
+&lt;p&gt;Lastly, a came across &lt;a href="http://makerbot216.blogspot.com/"&gt;the blog of Robert
+Bowdidge&lt;/a&gt;, who owns a 3D printer and a
+model railway. His printer arrived in October of 2009 and he starts
+writing about trying to create a custom building for his model railway
+two months later. His concerns are again about resolution, but mostly in
+regards to getting &lt;a href="http://makerbot216.blogspot.com/2010/01/theres-skeinforge-setting-for-that.html"&gt;a flat
+surface&lt;/a&gt;
+on the finished printed part and
+&lt;a href="http://makerbot216.blogspot.com/2009/12/i-trust-my-makerbot-making-model.html"&gt;warping&lt;/a&gt;
+during cooling. With a little bit of tweaking, he decides that the
+result is acceptable from a three feet back (which is where most of the
+observing of the railway will be done anyway). He mentions some of the
+&lt;a href="http://vasonabranch.blogspot.com/2010/01/printing-1920s-drive-in-market.html"&gt;benefits&lt;/a&gt;
+too: easy to create duplicate parts and easy to create parts with
+complex&amp;nbsp;geometries.&lt;/p&gt;
+&lt;p&gt;So the two issues that stand out are cost (of the printer) and&amp;nbsp;resolution.&lt;/p&gt;
+&lt;h3&gt;Cost&lt;/h3&gt;
+&lt;p&gt;Professional 3D printers don&amp;#8217;t come cheap. Searching online
+does not also show prices, but from what I can gather, professional
+printer lines start at $10-15,000 and can run to $60,000 or more and
+many also require maintenance contracts. The hobby printers are
+cheaper - $800 for the parts of a RepRap or $1300 for an unassembled
+Thing-O-Matic. Without someone else paying for it, I don&amp;#8217;t think I can
+afford the professional level&amp;nbsp;machines.&lt;/p&gt;
+&lt;p&gt;The other cost is that of materials. With many professional printers,
+they use proprietary powders or epoxies. Prices are hard to pin down,
+but the few prices I could find suggest $500-1000 per litre or more. In
+contrast, many of the hobby printers use plastic that runs $50 per
+kilogram or a couple of cents per cubic centimeter. Although not free,
+if it defendant within reach (like how we don&amp;#8217;t think about paper in our
+inkjet printers&amp;nbsp;today).&lt;/p&gt;
+&lt;h3&gt;Resolution&lt;/h3&gt;
+&lt;p&gt;Resolution is a measure of how fine of thing can be
+printed and still be seen. Ignoring the professional printers (already
+ruled out on the basis of cost), the basic resolution of the hobby
+printers is based on the size of the nozzle. For the Thing-O-Matic, I
+found a quote that the &amp;#8220;stock 0.4mm nozzles allows printing at a layer
+height of 0.32 and 0.27mm right out of the box&amp;#8221;
+(&lt;a href="http://store.makerbot.com/stepstruder-mk7-complete.html"&gt;link&lt;/a&gt;). That
+works out to 3 or 4 layers per millimeter or 79 to 94 layers per inch.
+&lt;a href="http://wiki.makerbot.com/hall-of-fame-highest-resolution"&gt;The record&lt;/a&gt;,
+according to Makerbot, is 10 layers per millimeter, or about 250 layers
+per inch. That record has stood for over a year, so I have hope that
+that could be improved by myself or others&amp;nbsp;soon.&lt;/p&gt;
+&lt;p&gt;My feeling is that if I could get 150 layers per inch (approximately 150
+dpi or dots per inch), I would have something workable. I remember when
+laser printers used to give you 150 dpi and it seemed rough, but very
+workable. So I think resolution is workable, although I will keep my
+eyes open for upgrades to&amp;nbsp;that.&lt;/p&gt;
+&lt;h3&gt;Competition&lt;/h3&gt;
+&lt;p&gt;Competition is good and bad. On the one hand, if there
+is some competition, it means the idea isn&amp;#8217;t too crazy and someone else
+may have developed a market for you; if there&amp;#8217;s too much competition,
+it&amp;#8217;s hard to stand&amp;nbsp;out.&lt;/p&gt;
+&lt;p&gt;I found two competitors: Shapeways and MakeMyModel.
+&lt;a href="http://www.shapeways.com/"&gt;Shapeways&lt;/a&gt; is a print-on-demand service that
+allows you to upload a model and then they print it and send it to you.
+So Shapeways itself isn&amp;#8217;t a competitor, but their community might serve
+as competition (like eBay). Their search brings up a couple of things
+(&lt;a href="http://www.shapeways.com/shops/zrailways"&gt;1&lt;/a&gt;,
+&lt;a href="http://www.shapeways.com/shops/originaltrainandrail"&gt;2&lt;/a&gt;),  but not a
+huge selection and nothing in N scale (which is what I am modelling in).
+As a side, depending on the margin I could generate using their service,
+this might work as a drop-ship service for my own&amp;nbsp;projects.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.makemymodel.com/"&gt;MakeMyModel&lt;/a&gt; appears to have the same idea
+I do: create railway models and then produce them on a 3D printer. I
+wasn&amp;#8217;t able to figure out what kind of printer they use, but anything I
+added to my cart was out of stock, so I&amp;#8217;m not sure they&amp;#8217;re in business&amp;nbsp;anymore.&lt;/p&gt;
+&lt;h3&gt;Conclusions&lt;/h3&gt;
+&lt;p&gt;3D printing is still a developing technology and as
+such is not &amp;#8220;state-of-the-art&amp;#8221; for model making. However, it is
+available at an accessible price point and allows creation of models at
+home! As a plus, I don&amp;#8217;t think it&amp;#8217;s unreasonable to turn it into a small
+side business. One of the big bonuses of having the manufacturing
+in-house like this is that the inventory I need to keep on hand is very
+minimal. And even if the business side fails, I still get to use it to
+build my own&amp;nbsp;railway!&lt;/p&gt;
+&lt;h3&gt;Other&amp;nbsp;Reading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.explainingthefuture.com/3dprinting.html"&gt;Overview of 3D printing&amp;nbsp;technologies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.kitforums.com/viewtopic.php?f=6&amp;amp;t=5593&amp;amp;start=10"&gt;Some 3D printed model railroad&amp;nbsp;parts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.makerbot.com/blog/2011/02/22/dead-simple-printer-calibration/"&gt;A tool to help with Makerbot&amp;nbsp;configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="3D Printing"></category><category term="Model Railway"></category><category term="Trains"></category></entry></feed>

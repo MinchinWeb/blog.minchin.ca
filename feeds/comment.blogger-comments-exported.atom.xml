@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Comments: Blogger Comments Exported</title><link href="http://blog.minchin.ca/2016/12/blogger-comments-exported.html/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/comment.blogger-comments-exported.atom.xml" rel="self"></link><id>http://blog.minchin.ca/2016/12/blogger-comments-exported.html/</id><updated>2017-01-10T19:04:00-07:00</updated><entry><title>Posted by: Wm. Minchin</title><link href="http://blog.minchin.ca/2016/12/blogger-comments-exported.html/#comment-2md" rel="alternate"></link><published>2017-01-10T19:04:00-07:00</published><updated>2017-01-10T19:04:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-01-10:/2016/12/blogger-comments-exported.html//comment-2md</id><summary type="html">&lt;p&gt;&lt;a href="https://github.com/getpelican/pelican-plugins/pull/835"&gt;Pull request&lt;/a&gt;&amp;nbsp;created! &lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://github.com/getpelican/pelican-plugins/pull/835"&gt;Pull request&lt;/a&gt;&amp;nbsp;created! &lt;/p&gt;</content></entry><entry><title>Posted by: Bernhard Scheirle</title><link href="http://blog.minchin.ca/2016/12/blogger-comments-exported.html/#comment-1md" rel="alternate"></link><published>2017-01-08T07:30:00+01:00</published><updated>2017-01-08T07:30:00+01:00</updated><author><name>Bernhard Scheirle</name></author><id>tag:blog.minchin.ca,2017-01-08:/2016/12/blogger-comments-exported.html//comment-1md</id><summary type="html">&lt;p&gt;To make this nice script more discoverable for new Pelican Comment System users,
+why don&amp;#8217;t you add it to the &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system"&gt;plug-in repository&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Maybe like this would be&amp;nbsp;sensible:&lt;/p&gt;
+&lt;!-- Using pre here and not a markdown code block, so I can add bold to the output --&gt;
+
+&lt;pre&gt;
+.
+├── doc
+│   ├── ...
+│   └── &lt;b&gt;import.md&lt;/b&gt;
+├── identicon
+&lt;b&gt;├── import&lt;/b&gt;
+│   └── &lt;b&gt;blogger_comment_export.py&lt;/b&gt;
+└── theme
+&lt;/pre&gt;
+
+&lt;p&gt;And by the way nice&amp;nbsp;theme!&lt;/p&gt;</summary><content type="html">&lt;p&gt;To make this nice script more discoverable for new Pelican Comment System users,
+why don&amp;#8217;t you add it to the &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system"&gt;plug-in repository&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Maybe like this would be&amp;nbsp;sensible:&lt;/p&gt;
+&lt;!-- Using pre here and not a markdown code block, so I can add bold to the output --&gt;
+
+&lt;pre&gt;
+.
+├── doc
+│   ├── ...
+│   └── &lt;b&gt;import.md&lt;/b&gt;
+├── identicon
+&lt;b&gt;├── import&lt;/b&gt;
+│   └── &lt;b&gt;blogger_comment_export.py&lt;/b&gt;
+└── theme
+&lt;/pre&gt;
+
+&lt;p&gt;And by the way nice&amp;nbsp;theme!&lt;/p&gt;</content></entry></feed>

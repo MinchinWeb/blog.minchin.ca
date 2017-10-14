@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - pelican plugins</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.pelican-plugins.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2017-05-31T19:50:00-06:00</updated><entry><title>Advanced Pelican: Automated Site Updates with Travis-CI and GitHub Pages</title><link href="http://blog.minchin.ca/2017/05/deploying-pelican-with-travis-to-github.html" rel="alternate"></link><published>2017-05-31T19:50:00-06:00</published><updated>2017-05-31T19:50:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-05-31:/2017/05/deploying-pelican-with-travis-to-github.html</id><summary type="html">In this article I&amp;#8217;ll talk about how I automated updating my &lt;a href="http://docs.getpelican.com/en/stable/"&gt;Pelican&lt;/a&gt;-generated blog using a combination of &lt;a href="https://pypi.org/"&gt;PyPI&lt;/a&gt;, &lt;a href="https://travis-ci.org/"&gt;Travis-&lt;span class="caps"&gt;CI&lt;/span&gt;&lt;/a&gt;, and &lt;a href="https://pages.github.com/"&gt;GitHub pages&lt;/a&gt;. This is something that has been in the works since I first switched by blog to&amp;nbsp;Pelican.</summary><content type="html">&lt;p&gt;In this article I&amp;#8217;ll talk about how I automated updating my &lt;a href="http://docs.getpelican.com/en/stable/"&gt;Pelican&lt;/a&gt;-generated blog using a combination of &lt;a href="https://pypi.org/"&gt;PyPI&lt;/a&gt;, &lt;a href="https://travis-ci.org/"&gt;Travis-&lt;span class="caps"&gt;CI&lt;/span&gt;&lt;/a&gt;, and &lt;a href="https://pages.github.com/"&gt;GitHub pages&lt;/a&gt;. This is something that has been in the works since I first switched by blog to&amp;nbsp;Pelican.&lt;/p&gt;
+&lt;p&gt;If you are wanting to follow along and do this yourself, I will assume that you have a Pelican blog that you can generate locally. (Even if you move to this method for your public version of your blog, it can be helpful to be able to generate your blog locally to preview theme changes and new articles.) Many of these principals will apply if you use a different static site generator, but I&amp;#8217;ll focus on using&amp;nbsp;Pelican.&lt;/p&gt;
+&lt;h2&gt;Static vs Dynamic&amp;nbsp;Websites&lt;/h2&gt;
+&lt;p&gt;Static site generators (including Pelican) are fundamentally different from dynamic websites (such as those run on WordPress) in when the pages of your website are generated, or rendered. With a static site, all the pages are completed rendered beforehand, and the resulting &lt;span class="caps"&gt;HTML&lt;/span&gt; is uploaded to the webserver. Dynamic websites, on the other hand, generate the page (and that one only) as you request it. For static websites, the advantages&amp;nbsp;include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;web hosting is simple: you only need a web&amp;nbsp;server.&lt;/li&gt;
+&lt;li&gt;web hosting is secure: no databases or scripting providers to secure or&amp;nbsp;scale.&lt;/li&gt;
+&lt;li&gt;web hosting scales well: on a dynamic website, your capacity constraint is almost always either database access or your ability to run the script that is your website; neither of these are used by a static site at display&amp;nbsp;time.&lt;/li&gt;
+&lt;li&gt;generally, no database: with Pelican, all site content (like this post) is stored in text files, greatly simplifying backups and the ability to use version control (like &lt;a href="https://git-scm.com/"&gt;Git&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the flip side, the disadvantages (or trade-offs) of static sites&amp;nbsp;are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;no dynamic content from the server: some dynamic content can be provided client-side (i.e. in the web browser) through the use of JavaScript, but you&amp;#8217;re not going to be able to do anything that requires real-time server data or updates. For certain sites, this will be a deal-breaker, but in my case, I designed my site around&amp;nbsp;this.&lt;/li&gt;
+&lt;li&gt;two computers: with static site generators, you generally end up having two computers &amp;#8212; one used to edit the site and its content, and a second webserver. In general, this is a small concern because you can use your existing desktop to edit the site and the webserver is much simpler than it would be for a comparable dynamic site. Although not the primary focus of this post, by the end, we will be able to update our static site from the web, similar to a dynamic&amp;nbsp;site.&lt;/li&gt;
+&lt;li&gt;the server can&amp;#8217;t update itself: most dynamic sites allow you to update them directly, with immediate effect. This is the disadvantage that this blog post is about&amp;nbsp;remedying.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My solution to being able to update my Pelican site auto-magically is what this post details. We will use GitHub for storage, PyPI for Pelican extras, Travis-&lt;span class="caps"&gt;CI&lt;/span&gt; for processing (site-generation), and GitHub Pages for site&amp;nbsp;hosting.&lt;/p&gt;
+&lt;h2&gt;GitHub for&amp;nbsp;Storage&lt;/h2&gt;
+&lt;p&gt;My setup stores the site data and configuration as &lt;a href="https://github.com/MinchinWeb/blog.minchin.ca"&gt;a repo on GitHub&lt;/a&gt;. This does require some understanding of Git, but GitHub makes it very&amp;nbsp;approachable.&lt;/p&gt;
+&lt;p&gt;Configuration consists of the Pelican configuration (two Python files), my &lt;code&gt;requirements.txt&lt;/code&gt; file which will tell Travis-&lt;span class="caps"&gt;CI&lt;/span&gt; which packages to install, and the Travis configuration file (&lt;code&gt;.travis.yml&lt;/code&gt;)&amp;nbsp;itself.&lt;/p&gt;
+&lt;p&gt;The theme of the site (which is sometimes stored next to the site content) is actually uploaded as a module to PyPI (see the next&amp;nbsp;section).&lt;/p&gt;
+&lt;p&gt;The posts are stored as &amp;#8220;flat&amp;#8221; text files, mostly written in&amp;nbsp;Markdown.&lt;/p&gt;
+&lt;p&gt;Comments are also stored in per-post folders, also written in&amp;nbsp;Markdown.&lt;/p&gt;
+&lt;p&gt;One thing to be aware of is that your source material is publicly available on the free version of GitHub. I don&amp;#8217;t consider this an issue as my blog is publicly available with the same content. However, this might be an issue if you store pre-publication drafts or un-watermarked images as part of your blog. Also consider whether you want email addresses on comments to be publicly available. You can create private (i.e. not publicly viewable) repos if you are on one of GitHub&amp;#8217;s paid plans, but then you&amp;#8217;ll also have to pay to use Travis-&lt;span class="caps"&gt;CI&lt;/span&gt;.&lt;/p&gt;
+&lt;h2&gt;Pelican Extras on&amp;nbsp;PyPI&lt;/h2&gt;
+&lt;p&gt;Because we are automating the generation of our site, we want to make sure we have replicate-able builds. One way I did this was I pushed a copy of all the plugins I used, plus my theme, to the Python package index, &lt;a href="https://pypi.org/"&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pelican, historically, has used communal repos (on GitHub) to host &lt;a href="https://github.com/getpelican/pelican-plugins"&gt;plugins&lt;/a&gt; and &lt;a href="https://github.com/getpelican/pelican-themes"&gt;themes&lt;/a&gt;. To use these themes and plugins, you would clone these two repos to your local machine, and then point your Pelican configuration to these local folders. However, maintaining these local paths becomes extra complicated on Travis-&lt;span class="caps"&gt;CI&lt;/span&gt;, where the filesystem is mostly out-of-sight and if you get the link wrong, your build will just crash. Furthermore, versioning is complicated because you have to specify a Git commit hash (which looks like this &amp;#8212;&amp;gt; &lt;code&gt;0d4b2c26f8703fe9665fd4e94bba31be02e51fc8&lt;/code&gt;), and if you upgrade one plugin (by selecting a later commit), you end up upgrading all plugins. Python modules, uploaded to PyPI, is an established solution that works well for both these&amp;nbsp;issues.&lt;/p&gt;
+&lt;p&gt;But many pelican plugins aren&amp;#8217;t available on PyPI (although a surprising number are). So my first order of business was to check PyPI, and upload any missing&amp;nbsp;ones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;four plugins (&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.image_process"&gt;image_process&lt;/a&gt;, &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.summary"&gt;summary&lt;/a&gt;, &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.post_stats/"&gt;post_stats&lt;/a&gt;, and &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.optimize_images"&gt;optimize_images&lt;/a&gt;) were existing plugins that I packaged on put on PyPI&amp;nbsp;myself,&lt;/li&gt;
+&lt;li&gt;one plugin (&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.cname"&gt;CName&lt;/a&gt;) is based on code I found languishing in a &lt;a href="https://github.com/getpelican/pelican-plugins/pull/566/files"&gt;pull request&lt;/a&gt; to the original Pelican Plugin&amp;nbsp;repo,&lt;/li&gt;
+&lt;li&gt;two plugins (&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.nojekyll/"&gt;nojekyll&lt;/a&gt; and &lt;a href="https://github.com/MinchinWeb/minchin.pelican.jinja_filters"&gt;jinja_filters&lt;/a&gt;) I wrote myself, and then posted to&amp;nbsp;PyPI,&lt;/li&gt;
+&lt;li&gt;one plugin (&lt;a href="https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/"&gt;pelican_comment_system&lt;/a&gt;) I worked with the author to post on PyPI himself,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;two plugins (&lt;a href="https://github.com/Nitron/pelican-alias"&gt;pelican-alias&lt;/a&gt; and &lt;a href="https://pypi.python.org/pypi/pelican-neighbors"&gt;pelican-neighbors&lt;/a&gt;) were already on&amp;nbsp;PyPI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Packaging other&amp;#8217;s code and posting it to PyPI felt kind of wierd. I wasn&amp;#8217;t so much worried about licensing, but sometime people (me, at least) are more attached to their project than the text of the license might suggest. To this end, I decided to name all the plugins I posted to PyPI in my own &amp;#8216;namespace&amp;#8217; (i.e. &lt;code&gt;minchin.pelican.plugin.[something]&lt;/code&gt;); if the original author does post the plugin to PyPI themselves, I can always point mine to their &amp;#8220;official&amp;#8221;&amp;nbsp;version.&lt;/p&gt;
+&lt;p&gt;Packaging the theme was less of an emotional issue &amp;#8212; although it is based on DandyDev&amp;#8217;s &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;Bootstrap3&lt;/a&gt; theme, I have modified it considerably, beyond what I though would be accepted back upstream. In other words, I feel like the theme design is&amp;nbsp;&amp;#8220;mine&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;In specifying a Pelican theme, the Pelican configuration file expects a folder location. Installing the theme as a Python module means that I can&amp;#8217;t know the file location ahead of time, but I can ask Python at run time! So my theme has a short&amp;nbsp;function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# seafoam/__init__.py&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pathlib&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Path&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get_path&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Shortcut for users whose theme is not next to their pelicanconf.py.&lt;/span&gt;
+
+&lt;span class="sd"&gt;    Returns:&lt;/span&gt;
+&lt;span class="sd"&gt;        str: file path to folder containing theme&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="c1"&gt;# Theme directory is defined as our parent directory&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Path&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vm"&gt;__file__&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;resolve&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;parent&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;that is called in the pelican configuration&amp;nbsp;file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# pelicanconf.py&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;seafoam&lt;/span&gt;
+&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;seafoam&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;BOOTSTRAP_THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;seafoam&amp;#39;&lt;/span&gt;
+
+&lt;span class="c1"&gt;# ... other settings&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;(Please feel free to copy this coding pattern! I borrowed it from a Sphinx&amp;nbsp;theme.)&lt;/p&gt;
+&lt;p&gt;Things posted by me to PyPI, as a community resource, I feel should have some utility beyond my own. The theme is perfectly usable, as is, for other site, but doesn&amp;#8217;t give you any simple options for changing the colour scheme, but I&amp;#8217;m working to change that&amp;nbsp;too.&lt;/p&gt;
+&lt;h2&gt;Travis-&lt;span class="caps"&gt;CI&lt;/span&gt; for&amp;nbsp;Processing&lt;/h2&gt;
+&lt;p&gt;Travis-&lt;span class="caps"&gt;CI&lt;/span&gt; really is a wonder. At it&amp;#8217;s core, what it sets out to do is make it simple to run automated tests for open source software. (The &amp;#8220;&lt;span class="caps"&gt;CI&lt;/span&gt;&amp;#8221; stands for &amp;#8220;Continuous Integration&amp;#8221;, which is just the fancy way of saying &amp;#8220;run the tests all the time!&amp;#8221;) At its core though, Travis provides a Linux virtual machine, and therefore, we can have Travis build and publish our blog, if we can figure out the automation steps. In Travis-land, we configure building our blog as the &amp;#8220;test&amp;#8221; and uploading as the &amp;#8220;deployment&amp;#8221;. Travis even has a built-in (&lt;del&gt;though experimental&lt;/del&gt;) deployment procedure to &lt;a href="https://docs.travis-ci.com/user/deployment/pages/"&gt;push a static site to GitHub Pages&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Several other articles exist online explaining how to publish your Pelican blog like this via Travis, but the vast majority rely on a bash script rather than Travis&amp;#8217; build-in deployment method. I didn&amp;#8217;t want to deal with bash; working on a Windows machine at home makes debugging bash scripts a slow and painful process done on Travis directly. I do use &lt;a href="http://www.pyinvoke.org/"&gt;Invoke&lt;/a&gt; (a Python library) to store the command I use to build the blog (mostly so I don&amp;#8217;t have to remember it and type it out each time), which specifies the Pelican preference file to use, and stops the build if a Pelican warning is encountered. The actual commend&amp;nbsp;is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican -s publishconf.py --fatal&lt;span class="o"&gt;=&lt;/span&gt;warnings
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So my final Travis script (below) does four&amp;nbsp;things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;set up Travis for a Python&amp;nbsp;project,&lt;/li&gt;
+&lt;li&gt;installs my (frozen) Python requirements for building the&amp;nbsp;blog,&lt;/li&gt;
+&lt;li&gt;builds my Pelican blog,&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;pushes (&amp;#8220;deploys&amp;#8221;) my published blog to GitHub&amp;nbsp;Pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# .travis.yml&lt;/span&gt;
+
+&lt;span class="c1"&gt;# build using Python 3.6&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;language&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;python&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;python&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;3.6&lt;/span&gt;
+&lt;span class="c1"&gt;# Cache Dependencies&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;cache&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;pip&lt;/span&gt;
+&lt;span class="c1"&gt;# we need two Linux packages for the optimize_images plugin&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;addons&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;apt&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;packages&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;optipng&lt;/span&gt;
+    &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;libjpeg-progs&lt;/span&gt;
+
+&lt;span class="c1"&gt;# install dependencies&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;install&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;pip install --upgrade pip&lt;/span&gt;
+  &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;pip install -r requirements.txt&lt;/span&gt;
+&lt;span class="c1"&gt;# build our blog&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;script&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="p p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;invoke publish_carefully&lt;/span&gt;
+
+&lt;span class="c1"&gt;# deploy to GitHub pages&lt;/span&gt;
+&lt;span class="l l-Scalar l-Scalar-Plain"&gt;deploy&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;provider&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;pages&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;local_dir&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;../blog.minchin.ca-master/&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;target-branch&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;master&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;skip_cleanup&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;true&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;github_token&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;$GITHUB_TOKEN&lt;/span&gt;  &lt;span class="c1"&gt;# Set in travis-ci.org dashboard&lt;/span&gt;
+  &lt;span class="c1"&gt;# only deploy on &amp;quot;main&amp;quot; branch&lt;/span&gt;
+  &lt;span class="l l-Scalar l-Scalar-Plain"&gt;on&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="l l-Scalar l-Scalar-Plain"&gt;branch&lt;/span&gt;&lt;span class="p p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;pelican&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;As long as your code is publicly available on GitHub, Travis-&lt;span class="caps"&gt;CI&lt;/span&gt; is free to&amp;nbsp;use.&lt;/p&gt;
+&lt;h2&gt;GitHub Pages for Site&amp;nbsp;Hosting&lt;/h2&gt;
+&lt;p&gt;The actual hosting is done by GitHub Pages. There are a few settings we need set up to get this to work the way we&amp;nbsp;want:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Travis-&lt;span class="caps"&gt;CI&lt;/span&gt; requires a GitHub Token to be able to push the generated blog to GitHub. &lt;a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/"&gt;GitHub help&lt;/a&gt; explains how to create it, and &lt;a href="https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token"&gt;Travis&amp;#8217; help&lt;/a&gt; explains what to do with&amp;nbsp;it.&lt;/li&gt;
+&lt;li&gt;I am publishing from the &lt;em&gt;master&lt;/em&gt; branch of my repo. Be aware that Travis is going to destroy the history of this branch each time it publishes your site, so don&amp;#8217;t store anything else in this Git&amp;nbsp;branch.&lt;/li&gt;
+&lt;li&gt;I am publishing to a custom domain (&lt;a href="http://blog.minchin.ca/"&gt;blog.minchin.ca&lt;/a&gt;), so I set this up here, and use my &lt;em&gt;CName&lt;/em&gt; plugin automatically to create the appropriate &lt;code&gt;CNAME&lt;/code&gt; file in my generated&amp;nbsp;site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="GitHub Pages settings" src="http://blog.minchin.ca/images/2017/github-pages-settings.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Closing&amp;nbsp;Thoughts&lt;/h2&gt;
+&lt;p&gt;Yes, this is more work to set up, that just publishing your blog from your desktop computer. But the advantage is now, anytime you push a change to GitHub, your blog will automatically be updated. This change can come from your home computer, or &lt;em&gt;you can do it directly from the GitHub website&lt;/em&gt;. This means that you can update your website from anywhere you have an internet connection! You now have a static site that you can update from the internet.&amp;nbsp;Congratulations!&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="python"></category></entry><entry><title>Image Process Plugin 1.1.3 for Pelican Released</title><link href="http://blog.minchin.ca/2017/05/image-processing-for-pelican-113-released.html" rel="alternate"></link><published>2017-05-27T16:00:00-06:00</published><updated>2017-05-27T16:00:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-05-27:/2017/05/image-processing-for-pelican-113-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; let you automate the processing of images based on their
+class attribute. Use this plugin to minimize the overall page weight and
+to save you a trip to Gimp or Photoshop each time you include an image
+in your&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; also makes it easy to create responsive images using the
+new &lt;span class="caps"&gt;HTML5&lt;/span&gt; &lt;code&gt;srcset&lt;/code&gt; attribute and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag. It does this by
+generating multiple derivative images from one or more sources.
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; let you automate the processing of images based on their
+class attribute. Use this plugin to minimize the overall page weight and
+to save you a trip to Gimp or Photoshop each time you include an image
+in your&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; also makes it easy to create responsive images using the
+new &lt;span class="caps"&gt;HTML5&lt;/span&gt; &lt;code&gt;srcset&lt;/code&gt; attribute and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag. It does this by
+generating multiple derivative images from one or more sources.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; will not overwrite your original&amp;nbsp;images.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; is used by
+&lt;a href="https://github.com/MinchinWeb/seafoam"&gt;this blog&amp;#8217;s theme&lt;/a&gt; to resize the source
+images so they are the correct size for thumbnails on the main index page and
+the larger size they are displayed at on top of the&amp;nbsp;articles.&lt;/p&gt;
+&lt;h2&gt;This&amp;nbsp;Release&lt;/h2&gt;
+&lt;p&gt;This post is up because version 1.1.3 of the plugin has been released and posted
+&lt;a href="https://pypi.org/project/minchin.pelican.plugins.image-process/"&gt;PyPI&lt;/a&gt;. This
+version was released because version 1.1.2, as posted to PyPI, was broken; among
+other issues I couldn&amp;#8217;t generated my&amp;nbsp;blog!&lt;/p&gt;
+&lt;p&gt;To upgrade simply use &lt;code&gt;pip&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.image_process --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The bulk of the &lt;span class="caps"&gt;README&lt;/span&gt; is included below as I haven&amp;#8217;t posted it to the blog 
+before. This plugin is a rather powerful, but as such is more involved to
+configure than many other Pelican&amp;nbsp;plugins.&lt;/p&gt;
+&lt;p&gt;A special thanks to the team at &lt;a href="https://github.com/whiskyechobravo/image_process"&gt;Whisky Echo
+Bravo&lt;/a&gt; who developed the code
+of the&amp;nbsp;plugin.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;em&gt;Image Process&lt;/em&gt; is through the use of pip.
+This will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.image_process
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;code&gt;Image Process&lt;/code&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+            &lt;span class="c1"&gt;# ...&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.image_process&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You will also need to configure your desired transformations (see
+&lt;em&gt;Usage&lt;/em&gt; below) and add the appropriate class to images you want&amp;nbsp;processed.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; requires Beautiful Soup, Pillow, Six, and Pelican. All
+these can be manually installed with&amp;nbsp;pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pillow beautifulsoup4 six pelican
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you encounter errors while processing &lt;span class="caps"&gt;JPEG&lt;/span&gt; files (on Linux), you may need to
+install the &lt;span class="caps"&gt;JPEG&lt;/span&gt; development&amp;nbsp;library:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip uninstall pillow
+apt-get install libjpeg-dev
+pip install pillow
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; scans your content for &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags with special
+classes. It then maps the classes to a set of image processing
+instructions, computes new images and modifies &lt;span class="caps"&gt;HTML&lt;/span&gt; code according to
+the&amp;nbsp;instructions.&lt;/p&gt;
+&lt;h3&gt;Define&amp;nbsp;transformations&lt;/h3&gt;
+&lt;p&gt;The first step in using this module is to define some image
+transformations in your Pelican configuration file. Transformations are
+defined in the &lt;code&gt;IMAGE_PROCESS&lt;/code&gt; dictionary, mapping a transformation name
+to a list of operations. There are three kinds of transformations: image
+replacement, responsive image and picture&amp;nbsp;set.&lt;/p&gt;
+&lt;h4&gt;Image&amp;nbsp;replacement&lt;/h4&gt;
+&lt;p&gt;The simplest image processing will replace the original image by a new,
+transformed image computed from the original. You may use this, for
+example, to ensure that all images are of the same size, or to compute a
+thumbnail from a larger&amp;nbsp;image:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;article-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 300 300 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;thumb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 0 0 50&lt;/span&gt;&lt;span class="si"&gt;% 50%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;scale_out 150 150 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;crop 0 0 150 150&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;These transformations tell &lt;em&gt;Image process&lt;/em&gt; to transform the image
+referred by the &lt;code&gt;src&lt;/code&gt; attribute of an &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; according to the list of
+operations specified and replace the &lt;code&gt;src&lt;/code&gt; attribute by the &lt;span class="caps"&gt;URL&lt;/span&gt; of the
+transformed&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;For consistency with the other type of transformations described below,
+there is an alternative syntax for the processing&amp;nbsp;instructions:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;thumb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;&amp;#39;ops&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 0 0 50&lt;/span&gt;&lt;span class="si"&gt;% 50%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;scale_out 150 150 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;crop 0 0 150 150&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+              &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;article-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                      &lt;span class="s1"&gt;&amp;#39;ops&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 300 300 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+                      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To apply image replacement to the images in your articles, you must add
+them the special class &lt;code&gt;image-process-&lt;/code&gt; followed by the name of the
+transformation you wish to apply. For example, let&amp;#39;s pretend you have
+defined the transformation described above. If you write your content in
+&lt;span class="caps"&gt;HTML&lt;/span&gt; or in Markdown, do something like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image-process-article-image&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican.jpg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In reStructuredText, use the &lt;code&gt;:class:&lt;/code&gt; attribute of the &lt;code&gt;image&lt;/code&gt; or the
+&lt;code&gt;figure&lt;/code&gt; directive:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;image&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-article-image&lt;/span&gt;
+
+&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-article-image&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="admonition note"&gt;
+
+The reStructuredText reader will convert underscores (`_`) to dashes
+(`-`) in class names. To make sure everything runs smoothly, do not use
+underscores in your transformation names.
+
+&lt;/div&gt;
+
+&lt;h4&gt;Responsive&amp;nbsp;Images&lt;/h4&gt;
+&lt;p&gt;You can use &lt;em&gt;Image process&lt;/em&gt; to automatically generate a set of images
+that will be selected for display by browsers according to the viewport
+width or according to the device resolution. To accomplish this,
+&lt;em&gt;Image process&lt;/em&gt; will add a &lt;code&gt;srcset&lt;/code&gt; attribute (and maybe a &lt;code&gt;media&lt;/code&gt; and a
+&lt;code&gt;sizes&lt;/code&gt; attribute) to the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;Note that the &lt;code&gt;srcset&lt;/code&gt; syntax is currently not supported by all
+browsers. However, browsers who do not support the &lt;code&gt;srcset&lt;/code&gt; attribute
+will fall back to a default image specified by the still-present &lt;code&gt;src&lt;/code&gt;
+attribute. See &lt;a href="http://caniuse.com/#feat=srcset"&gt;Can I Use&lt;/a&gt; for the
+current status on &lt;code&gt;srcset&lt;/code&gt; support.&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;HTML5&lt;/span&gt; supports two types of responsive image set. The first one is
+device-pixel-ratio-based, selecting higher resolution images for higher
+resolution devices; the second one is viewport-based, selecting images
+according to the viewport width. If you want to know more about &lt;span class="caps"&gt;HTML5&lt;/span&gt;
+responsive images, I recommend
+&lt;a href="http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/"&gt;this
+article&lt;/a&gt;
+for a gentle introduction to the &lt;code&gt;srcset&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntaxes.&lt;/p&gt;
+&lt;p&gt;To tell &lt;em&gt;Image process&lt;/em&gt; to generate a responsive image, add a
+&lt;code&gt;responsive-image&lt;/code&gt; transformation to your your &lt;code&gt;IMAGE_PROCESS&lt;/code&gt;
+dictionary, with the following&amp;nbsp;syntax:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;crisp&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;responsive-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 800 600 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;2x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1600 1200 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;4x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 3200 2400 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                         &lt;span class="p"&gt;],&lt;/span&gt;
+               &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+             &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;large-photo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;responsive-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="s1"&gt;&amp;#39;sizes&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;(min-width: 1200px) 800px, (min-width: 992px) 650px, &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="s1"&gt;                              (min-width: 768px) 718px, 100vw&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;600w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 600 450 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;800w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 800 600 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1600w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1600 1200 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                               &lt;span class="p"&gt;],&lt;/span&gt;
+                    &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;800w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                   &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;crisp&lt;/code&gt; transformation is an example of a transformation enabling
+device-pixel-ratio-based selection. The &lt;code&gt;srcset&lt;/code&gt; is a list of tuple,
+each tuple containing the image description (&lt;code&gt;'1x'&lt;/code&gt;, &lt;code&gt;'2x'&lt;/code&gt;, etc.) and
+the list of operations to generate the derivative image from the
+original image (the original image is the value of the &lt;code&gt;src&lt;/code&gt; attribute
+of the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;). Image descriptions are hints about the resolution of
+the associated image and must have the suffix &lt;code&gt;x&lt;/code&gt;. The &lt;code&gt;default&lt;/code&gt; names
+the image to use to replace the &lt;code&gt;src&lt;/code&gt; attribute of the image. This is
+the image that will be displayed by browsers that do not support the
+&lt;code&gt;srcset&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;large-photo&lt;/code&gt; transformation is an example of a transformation
+enabling viewport-based selection. The &lt;code&gt;sizes&lt;/code&gt; contains a rule to
+compute the width of the displayed image from the width of the viewport.
+Once the browser knows the image width, it will select an image source
+from the &lt;code&gt;srcset&lt;/code&gt;. The &lt;code&gt;srcset&lt;/code&gt; is a list of tuple, each tuple
+containing the image description (&lt;code&gt;'600w'&lt;/code&gt;, &lt;code&gt;'800w'&lt;/code&gt;, etc.) and the list
+of operations to generate the derivative image from the original image
+(the original image is the value of the &lt;code&gt;src&lt;/code&gt; attribute of the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;).
+Image descriptions are hints about the width in pixels of the associated
+image and must have the suffix &lt;code&gt;w&lt;/code&gt;. The &lt;code&gt;default&lt;/code&gt; names the image to use
+to replace the &lt;code&gt;src&lt;/code&gt; attribute of the image. This is the image that will
+be displayed by browsers that do not support the &lt;code&gt;srcset&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;p&gt;In the two examples above, the &lt;code&gt;default&lt;/code&gt; is a string referring to one of
+the images in the &lt;code&gt;srcset&lt;/code&gt;. However, the &lt;code&gt;default&lt;/code&gt; value could also be a
+list of operations to generate a different derivative&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;To make the images in your article responsive, you must add them the
+special class &lt;code&gt;image-process-&lt;/code&gt; followed by the name of the
+transformation you wish to apply, exactly like you would do for the
+image replacement case, described above. So, if you write your content
+in &lt;span class="caps"&gt;HTML&lt;/span&gt; or in Markdown, do something like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image-process-large-photo&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican.jpg&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In reStructuredText, use the &lt;code&gt;:class:&lt;/code&gt; attribute of the &lt;code&gt;image&lt;/code&gt; of the
+&lt;code&gt;figure&lt;/code&gt; directive:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;image&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-large-photo&lt;/span&gt;
+
+&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-large-photo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Picture&amp;nbsp;Set&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Image process&lt;/em&gt; can be use to generate the images used by a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;
+tag. The &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntax allows for more flexibility in providing a
+choice of image to the browser. Again, if you want to know more about
+&lt;span class="caps"&gt;HTML5&lt;/span&gt; responsive images, see &lt;a href="http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/"&gt;this
+article&lt;/a&gt;
+for a gentle introduction to the &lt;code&gt;srcset&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntaxes.&lt;/p&gt;
+&lt;p&gt;To tell &lt;em&gt;Image process&lt;/em&gt; to generate the images for a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;, add a
+&lt;code&gt;picture&lt;/code&gt; entry to your &lt;code&gt;IMAGE_PROCESS&lt;/code&gt; dictionary with the following&amp;nbsp;syntax:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;example-pict&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;picture&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                   &lt;span class="s1"&gt;&amp;#39;sources&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;name&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;media&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;(min-width: 640px)&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;640w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 640 480 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1024w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1024 683 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1600w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1600 1200 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;],&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;sizes&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;100vw&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="p"&gt;},&lt;/span&gt;
+                               &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;name&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;source-1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 100 100 200 200&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;2x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 100 100 300 300&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;]&lt;/span&gt;
+                                &lt;span class="p"&gt;}&lt;/span&gt;
+                               &lt;span class="p"&gt;],&lt;/span&gt;
+                   &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;640w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+                   &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Each of the &lt;code&gt;sources&lt;/code&gt; entry is very similar to the &lt;code&gt;responsive image&lt;/code&gt;
+describe above. Here, each source must have a &lt;code&gt;name&lt;/code&gt;, which will be used
+to find the &lt;span class="caps"&gt;URL&lt;/span&gt; of the original image for this source in your article.
+The source may also have a &lt;code&gt;media&lt;/code&gt;, which contains a rule used by the
+browser to select the active source. The &lt;code&gt;default&lt;/code&gt; names the image to
+use to replace the &lt;code&gt;src&lt;/code&gt; attribute of the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; inside the
+&lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;. This is the image that will be displayed by browsers that
+do not support the &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntax. In this example, it will use the
+image &lt;code&gt;640w&lt;/code&gt; from the source &lt;code&gt;default&lt;/code&gt;. A list of operations could have
+been specified instead of &lt;code&gt;640w&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To generate a responsive &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; for the images in your articles,
+you must add to your article a pseudo &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag that looks like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;picture&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;source&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;source-1&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican-closeup.jpg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;source&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image-process-example-pict&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican.jpg&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;picture&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Each &lt;code&gt;&amp;lt;source&amp;gt;&lt;/code&gt; tag maps a source name (the &lt;code&gt;class&lt;/code&gt; attribute) to a file
+(the &lt;code&gt;src&lt;/code&gt; attribute). The &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; must have the special class
+&lt;code&gt;image-process-&lt;/code&gt; followed by the name of the transformation you wish to
+apply. The file referenced by the &lt;code&gt;src&lt;/code&gt; attribute of the &lt;code&gt;&amp;lt;img&amp;gt;&amp;gt;&lt;/code&gt; will
+be used as the special &lt;code&gt;default&lt;/code&gt; source in your transformation&amp;nbsp;definition.&lt;/p&gt;
+&lt;p&gt;The pseudo &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag above can be used in articles written in
+&lt;span class="caps"&gt;HTML&lt;/span&gt;, Markdown or restructuredText. In reStructuredText, however, you
+can also use the &lt;code&gt;figure&lt;/code&gt; directive to generate a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;. The
+figure image file will be used as the special &lt;code&gt;default&lt;/code&gt; source; other
+sources must be added in the the legend section of the &lt;code&gt;figure&lt;/code&gt; as
+&lt;code&gt;image&lt;/code&gt; directives. The figure class must be &lt;code&gt;image-process-&lt;/code&gt; followed
+by the name of the transformation you wish to apply, while the other
+images must have two classes: &lt;code&gt;image-process&lt;/code&gt; and the name of the source
+they provide an image&amp;nbsp;for:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-large-photo&lt;/span&gt;
+
+    Test picture
+
+&lt;span class="p"&gt;    ..&lt;/span&gt; &lt;span class="ow"&gt;image&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican-closeup.jpg
+       &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process source-1&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The images in the legend section that are used as source for the
+&lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; will be removed from the image legend, so that they do not
+appear in your final&amp;nbsp;article.&lt;/p&gt;
+&lt;h2&gt;Transformations&lt;/h2&gt;
+&lt;p&gt;Available operations for transformations&amp;nbsp;are:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;crop &lt;em&gt;top&lt;/em&gt; &lt;em&gt;left&lt;/em&gt; &lt;em&gt;right&lt;/em&gt; &lt;em&gt;bottom&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Crop the image to the box (&lt;em&gt;left&lt;/em&gt;, &lt;em&gt;top&lt;/em&gt;)-(&lt;em&gt;right&lt;/em&gt;, &lt;em&gt;bottom&lt;/em&gt;).
+Values can be absolute (a number) or relative to the size of the
+image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;).&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;flip_horizontal&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Flip the image&amp;nbsp;horizontally.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;flip_vertical&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Flip the image&amp;nbsp;vertically.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;grayscale&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Convert the image to&amp;nbsp;grayscale.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;resize &lt;em&gt;width&lt;/em&gt; &lt;em&gt;height&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Resize the image. This operation does &lt;em&gt;not&lt;/em&gt; preserve the image
+aspect ratio. Values can be absolute (a number) or relative to the
+size of the image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;).&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;rotate&amp;nbsp;degree&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Rotate the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;scale_in &lt;em&gt;width&lt;/em&gt; &lt;em&gt;height&lt;/em&gt; &lt;em&gt;upscale&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Resize the image. This operation preserves the image aspect ratio
+and the resulting image will be no larger than &lt;em&gt;width&lt;/em&gt; x &lt;em&gt;height&lt;/em&gt;.
+Values can be absolute (a number) or relative to the size of the
+image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;). If &lt;em&gt;upscale&lt;/em&gt; is
+False, smaller images will not be&amp;nbsp;enlarged.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;scale_out &lt;em&gt;width&lt;/em&gt; &lt;em&gt;height&lt;/em&gt; &lt;em&gt;upscale&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Resize the image. This operation preserves the image aspect ratio
+and the resulting image will be no smaller than &lt;em&gt;width&lt;/em&gt; x &lt;em&gt;height&lt;/em&gt;.
+Values can be absolute (a number) or relative to the size of the
+image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;). If &lt;em&gt;upscale&lt;/em&gt; is
+False, smaller images will not be&amp;nbsp;enlarged.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;blur&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.BLUR&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;contour&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.CONTOUR&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;detail&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.DETAIL&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;edge_enhance&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.EDGE_ENHANCE&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;edge_enhance_more&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.EDGE_ENHANCE_MORE&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;emboss&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.EMBOSS&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;find_edges&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.FIND_EDGES&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;smooth&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.SMOOTH filter&lt;/code&gt; to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;smooth_more&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.SMOOTH_MORE&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;sharpen&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.SHARPEN&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can also define your own operations; the only requirement is that
+your operation should be a callable object expecting a &lt;code&gt;pillow.Image&lt;/code&gt; as
+its first parameter and it should return the transformed&amp;nbsp;image:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;crop_face&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Detect face in image and crop around it.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="c1"&gt;# TODO: Fancy algorithm.&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;
+
+&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;face-thumbnail&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;crop_face&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;scale_out 150 150 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Additional&amp;nbsp;settings&lt;/h3&gt;
+&lt;h4&gt;Destination&amp;nbsp;directory&lt;/h4&gt;
+&lt;p&gt;By default, the new images will be stored in a directory named
+&lt;code&gt;derivative/&amp;lt;TRANSFORMATION_NAME&amp;gt;&lt;/code&gt; in the output folder at the same
+location as the original image. For example if the original image is
+located in the &lt;code&gt;content/images&lt;/code&gt; folder. The computed images will be
+stored in the &lt;code&gt;output/images/derivative/&amp;lt;TRANSFORMATION_NAME&amp;gt;&lt;/code&gt;. All the
+transformations are done in the output directory in order to avoid
+confusion with the source files or if we test multiple transformations.
+You can replace &lt;code&gt;derivative&lt;/code&gt; by something else using the
+&lt;code&gt;IMAGE_PROCESS_DIR&lt;/code&gt; setting in your Pelican configuration&amp;nbsp;file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_DIR&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;derivees&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Force image&amp;nbsp;processing&lt;/h4&gt;
+&lt;p&gt;If the transformed image already exists and is newer than the original
+image, the plugin assumes that it should not recompute it again. You can
+force the plugin to recompute all images by setting
+&lt;code&gt;IMAGE_PROCESS_FORCE&lt;/code&gt; to &lt;code&gt;True&lt;/code&gt; in your Pelican configuration&amp;nbsp;file.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_FORCE&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Selecting a &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;parser&lt;/h4&gt;
+&lt;p&gt;You may select the &lt;span class="caps"&gt;HTML&lt;/span&gt; parser which is used. The default is the builtin
+&lt;code&gt;html.parser&lt;/code&gt; but you may also select &lt;code&gt;html5lib&lt;/code&gt; or &lt;code&gt;lxml&lt;/code&gt; by setting
+&lt;code&gt;IMAGE_PROCESS_PARSER&lt;/code&gt; in your pelican configuration file ,&amp;nbsp;e.g.:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_PARSER&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;html5lib&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For details, refer to the &lt;a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser"&gt;BeautifulSoup documentation on
+parsers&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;File&amp;nbsp;Encoding&lt;/h4&gt;
+&lt;p&gt;You may select a different file encoding to be used by BeautifulSoup as
+it opens your files. The default is &lt;code&gt;uft-8&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_ENCODING&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;uft-8&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pillow, when resizing animated &lt;span class="caps"&gt;GIF&lt;/span&gt; files, does not return an
+    animated&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;setup.py&lt;/code&gt; file for this project does not run on Python 2.7.
+    However, wheels of this project are &amp;#34;universal&amp;#34; and so can be
+    generated by Python 3 and subsequently installed by Python&amp;nbsp;2.7.&lt;/li&gt;
+&lt;li&gt;test require access to the &lt;code&gt;pelican.tests&lt;/code&gt; module, which isn&amp;#39;t
+    included in the pelican distribution on&amp;nbsp;PyPI.&lt;/li&gt;
+&lt;li&gt;version 1.1.2, as uploaded to PyPI, is broken; use a different
+    version. (see &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.image_process/issues/2"&gt;issue
+    #2&lt;/a&gt;
+    for&amp;nbsp;details)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Credits&lt;/h3&gt;
+&lt;p&gt;Pelican image in test data by Jon Sullivan. Source:
+&lt;a href="http://www.pdphoto.org/PictureDetail.php?mat=&amp;amp;pg=5726"&gt;http://www.pdphoto.org/PictureDetail.php?mat=&amp;amp;pg=5726&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Original Plugin developed by the team at &lt;a href="https://github.com/whiskyechobravo/image_process"&gt;Whisky Echo
+Bravo&lt;/a&gt;.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Pelican Trove Classifiers Added to PyPI</title><link href="http://blog.minchin.ca/2017/04/pelican-trove-classifiers.html" rel="alternate"></link><published>2017-04-18T10:04:00-06:00</published><updated>2017-04-18T10:04:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-04-18:/2017/04/pelican-trove-classifiers.html</id><summary type="html">&lt;a href="https://pypi.python.org/pypi"&gt;PyPI&lt;/a&gt; is the &amp;#8220;package index&amp;#8221; for Python and a wonderful tool for finding and sharing Python&amp;nbsp;libraries.</summary><content type="html">&lt;p&gt;&lt;a href="https://pypi.python.org/pypi"&gt;PyPI&lt;/a&gt; is the &amp;#8220;package index&amp;#8221; for Python and a wonderful tool for finding and sharing Python&amp;nbsp;libraries.&lt;/p&gt;
+&lt;p&gt;On the index, there is a system of &lt;em&gt;trove classifiers&lt;/em&gt; (see the &lt;a href="https://pypi.python.org/pypi?%3Aaction=list_classifiers"&gt;full list here&lt;/a&gt;) that serve to allow package authors to tag their projects to help user find them. Some groups classifiers cover the Python version targeted, the &amp;#8220;development status&amp;#8221; (alpha, beta, stable, etc.), the license, the framework used, as so&amp;nbsp;on.&lt;/p&gt;
+&lt;p&gt;Recently, trove classifiers for Pelican were added! This is great because it will allow for better discover-ability of Pelican themes and plugins. So I&amp;#8217;ve re-released my collection of Pelican plugins and themes with the new classifiers, so the following&amp;nbsp;releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.jinja_filters"&gt;minchin.pelican.jinja_filters&lt;/a&gt;&amp;nbsp;v1.0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.cname"&gt;minchin.pelican.plugins.cname&lt;/a&gt;&amp;nbsp;v1.0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.image_process"&gt;minchin.pelican.plugins.image_process&lt;/a&gt; v1.1.2 (this release is broken, &lt;a href="http://blog.minchin.ca/2017/05/image-processing-for-pelican-113-released.html"&gt;version 1.1.3 has been released&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.nojekyll"&gt;minchin.pelican.plugins.nojekyll&lt;/a&gt;&amp;nbsp;v1.0.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.optimize_images"&gt;minchin.pelican.plugins.optimize_images&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.post_stats"&gt;minchin.pelican.plugins.post_stats&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.summary"&gt;minchin.pelican.plugins.summary&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/seafoam"&gt;seafoam&lt;/a&gt;&amp;nbsp;v2.1.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyPI also has the ability to show you &lt;a href="https://pypi.python.org/pypi?:action=browse&amp;amp;c=635"&gt;everything tagged with Pelican&lt;/a&gt;.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category><category term="seafoam"></category></entry><entry><title>Post Stats Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/post-stats-for-pelican-110-released.html" rel="alternate"></link><published>2017-02-26T20:52:00-07:00</published><updated>2017-02-26T20:52:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-26:/2017/02/post-stats-for-pelican-110-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; calculates various statistics about a post and store them in
+an article.stats dictionary:
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; calculates various statistics about a post and store them in
+an article.stats dictionary:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;wc&lt;/code&gt;: how many words (i.e. word&amp;nbsp;count)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;read_mins&lt;/code&gt;: how many minutes would it take to read this article, based
+  on &lt;a href="http://en.wikipedia.org/wiki/Words_per_minute#Reading_and_comprehension"&gt;250&amp;nbsp;wpm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;word_counts&lt;/code&gt;: frequency count of all the words in the article; can be
+  used for tag/word&amp;nbsp;clouds&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fi&lt;/code&gt;: Flesch-kincaid Index/ Reading Ease
+  (&lt;a href="http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests&amp;gt;"&gt;more info&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fk&lt;/code&gt;: Flesch-kincaid Grade&amp;nbsp;Level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;em&gt;Post Stats&lt;/em&gt; is through the use of pip. This
+will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.post_stats
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;code&gt;Post Stats&lt;/code&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.post_stats&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You may also need to configure your template to make use of the statistics&amp;nbsp;generated.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; depends on (and is really only useful with) Pelican. The
+plugin also requires Beautiful Soup 4 to process your content. If the plugin
+is installed from pip, these will automatically be installed. These can also
+be manually installed with&amp;nbsp;pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pelican
+pip install beautifulsoup4
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Configuration and&amp;nbsp;Usage&lt;/h2&gt;
+&lt;p&gt;This plugin calculates various statistics about a post and store them in
+an article.stats&amp;nbsp;dictionary.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;wc&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2760&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;fi&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;65.94&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;fk&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;7.65&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;word_counts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Counter&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;to&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;98&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;90&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;the&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;83&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;}),&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;read_mins&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This allows you to output these values in your templates, like this, for&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;~&lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;wc&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="s"&gt; words&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;~&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;read_mins&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt; min read&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Flesch-kincaid Index/ Reading Ease: &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;fi&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Flesch-kincaid Grade Level: &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;fk&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;word_counts&lt;/code&gt; variable is a Python &lt;code&gt;Counter&lt;/code&gt; dictionary and looks
+something like this, with each unique word and it&amp;#8217;s&amp;nbsp;frequency:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Counter&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;to&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;98&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;90&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;the&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;83&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;of&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;karma&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;.....&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and can be used to create a tag/word cloud for a&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;There are no user-configurable&amp;nbsp;settings.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The package is tested in Python 3.6; compatibility with other version of
+Python is unknown, but there should be nothing particular keeping it from working with other &amp;#8220;modern&amp;#8221; versions of&amp;nbsp;Python.&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://duncanlock.net/blog/2013/06/23/post-statistics-plugin-for-pelican/"&gt;Original plugin&lt;/a&gt;
+by Duncan Lock (&lt;a href="https://github.com/dflock"&gt;@dflock&lt;/a&gt;) and
+posted to the
+&lt;a href="https://github.com/getpelican/pelican-plugins"&gt;Pelican-Plugins repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;The plugin code is assumed to be under the AGPLv3 license (this is the
+license of the Pelican-Plugins&amp;nbsp;repo).&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Optimize Images Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/optimize-images-for-pelican-110-released.html" rel="alternate"></link><published>2017-02-26T20:00:00-07:00</published><updated>2017-02-26T20:00:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-26:/2017/02/optimize-images-for-pelican-110-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; applies lossless compression on &lt;span class="caps"&gt;JPEG&lt;/span&gt; and &lt;span class="caps"&gt;PNG&lt;/span&gt; images, with
+no effect on image quality. It uses &lt;a href="http://jpegclub.org/jpegtran/"&gt;jpegtran&lt;/a&gt; and &lt;a href="http://optipng.sourceforge.net/"&gt;OptiPNG&lt;/a&gt;.
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; applies lossless compression on &lt;span class="caps"&gt;JPEG&lt;/span&gt; and &lt;span class="caps"&gt;PNG&lt;/span&gt; images, with
+no effect on image quality. It uses &lt;a href="http://jpegclub.org/jpegtran/"&gt;jpegtran&lt;/a&gt; and &lt;a href="http://optipng.sourceforge.net/"&gt;OptiPNG&lt;/a&gt;.
+&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;em&gt;Optimize Images&lt;/em&gt; is through the use of pip. This
+will also install the required Python dependencies automatically (currently none beyond Pelican&amp;nbsp;itself).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.optimize_images
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It is assumed both jpegtran and OptiPNG are installed and available on the
+system&amp;nbsp;path.&lt;/p&gt;
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;code&gt;Optimize Images&lt;/code&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.optimize_images&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; depends on (and is really only useful with) Pelican. This can
+be manually installed with&amp;nbsp;pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pelican
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It is assumed both jpegtran and OptiPNG are installed on system path. On Windows, installers are available at each respective website. On Ubuntu systems (including Travis-&lt;span class="caps"&gt;CI&lt;/span&gt;), the two can be installed via &lt;em&gt;apt-get&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt-get install optipng libjpeg-progs
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Configuration and&amp;nbsp;Usage&lt;/h2&gt;
+&lt;p&gt;The plugin will activate and optimize images upon &lt;em&gt;finalized&lt;/em&gt; signal of&amp;nbsp;Pelican.&lt;/p&gt;
+&lt;p&gt;The plugin has no user&amp;nbsp;settings.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;Image manipulation like this can take some time to run. You may consider
+only adding this plugin to your &lt;code&gt;publishconf.py&lt;/code&gt; (rather than your base
+&lt;code&gt;pelicanconf.py&lt;/code&gt;), which will then only run this image optimization in
+preparation for site&amp;nbsp;publication.&lt;/p&gt;
+&lt;p&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The package is tested in Python 3.6; compatibility with other version of
+Python is unknown, but there should be nothing particular keeping it from working with other &amp;#8220;modern&amp;#8221; versions of&amp;nbsp;Python.&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;Original plugin from the &lt;a href="https://github.com/getpelican/pelican-plugins"&gt;Pelican-Plugins repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;The plugin code is assumed to be under the AGPLv3 license (this is the
+license of the Pelican-Plugins&amp;nbsp;repo).&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Summary Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/summary-for-pelican-110-released.html" rel="alternate"></link><published>2017-02-05T15:29:00-07:00</published><updated>2017-02-21T14:51:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-05:/2017/02/summary-for-pelican-110-released.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; allows easy, variable length summaries directly embedded into
+the body of your articles.
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; allows easy, variable length summaries directly embedded into
+the body of your articles.
+&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;strong&gt;Summary&lt;/strong&gt; is through the use of pip. This
+will also install the required dependencies automatically (currently
+none beyond&amp;nbsp;Pelican).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.summary
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;strong&gt;Summary&lt;/strong&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.summary&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+        &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You may also need to configure the summary start and end markers (see
+Configuration&amp;nbsp;below).&lt;/p&gt;
+&lt;h2&gt;Configuration and&amp;nbsp;Usage&lt;/h2&gt;
+&lt;p&gt;This plugin introduces two new settings: &lt;code&gt;SUMMARY_BEGIN_MARKER&lt;/code&gt; and
+&lt;code&gt;SUMMARY_END_MARKER&lt;/code&gt;: strings which can be placed directly into an
+article to mark the beginning and end of a summary. When found, the
+standard &lt;code&gt;SUMMARY_MAX_LENGTH&lt;/code&gt; setting will be ignored. The markers
+themselves will also be removed from your articles before they are
+published. The default values are &lt;code&gt;&amp;lt;!-- PELICAN_BEGIN_SUMMARY --&amp;gt;&lt;/code&gt; and
+&lt;code&gt;&amp;lt;!-- PELICAN_END_SUMMARY --&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If no beginning or end marker is found, and if
+&lt;code&gt;SUMMARY_USE_FIRST_PARAGRAPH&lt;/code&gt; is enabled in the settings, the summary
+will be the first paragraph of the&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;The plugin also sets a &lt;code&gt;has_summary&lt;/code&gt; attribute on every article. It is
+True for articles with an explicitly-defined summary, and False otherwise.
+(It is also False for an article truncated by &lt;code&gt;SUMMARY_MAX_LENGTH&lt;/code&gt;.)
+Your templates can use this e.g. to add a link to the full text at the end
+of the&amp;nbsp;summary.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;&lt;del&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into
+Python.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;The package is tested in Python 3.5; compatibility with other version of
+Python is unknown.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Tests are actually included and can be run from the root&amp;nbsp;directory:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python minchin/pelican/plugins/summary/test_summary.py
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;p&gt;This version is basically just repackaging the plugin and making it available
+on&amp;nbsp;pip.&lt;/p&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.summary"&gt;GitHub&lt;/a&gt;. Contributions are&amp;nbsp;welcome!&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;Original plugin from the &lt;a href="https://github.com/getpelican/pelican-plugins"&gt;Pelican-Plugins repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;The plugin code is assumed to be under the AGPLv3 license (this is the
+license of the Pelican-Plugins&amp;nbsp;repo).&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Jinja Filters 1.0.0 for Pelican Released</title><link href="http://blog.minchin.ca/2016/11/jinja-filters-for-pelican-100-released.html" rel="alternate"></link><published>2016-11-18T17:41:00-07:00</published><updated>2016-11-18T17:41:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-11-18:/2016/11/jinja-filters-for-pelican-100-released.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; provides a selection of functions (called &lt;em&gt;filters&lt;/em&gt;) for
+templates to use when building your website. They are packaged for Pelican, but
+may prove useful for other projects that make use of
+&lt;a href="http://jinja.pocoo.org/"&gt;Jinja2&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; provides a selection of functions (called &lt;em&gt;filters&lt;/em&gt;) for
+templates to use when building your website. They are packaged for Pelican, but
+may prove useful for other projects that make use of
+&lt;a href="http://jinja.pocoo.org/"&gt;Jinja2&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;strong&gt;Jinja Filters&lt;/strong&gt; is through the use of pip. This
+will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.jinja_filters
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;strong&gt;Jinja Filters&lt;/strong&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="s1"&gt;&amp;#39;minchin.pelican.jinja_filters&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+        &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that&amp;#8217;s it! The filters are now available for use in your&amp;nbsp;templates.&lt;/p&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;At present, the plugin includes the following&amp;nbsp;filters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;datetime&lt;/em&gt; &amp;#8212; allows you to change to format displayed for a datetime
+  object. Optionally supply a &lt;a href="https://docs.python.org/3.6/library/datetime.html#strftime-and-strptime-behavior"&gt;datetime format string&lt;/a&gt;
+  to get a custom&amp;nbsp;format.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;article_date&lt;/em&gt; &amp;#8212; a specialized version of &lt;em&gt;datetime&lt;/em&gt; that returns
+  datetimes as wanted for article dates; specifically
+  &lt;em&gt;Friday, November 4, 2016&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;breaking_spaces&lt;/em&gt; &amp;#8212; replaceds non-breaking spaces (&lt;span class="caps"&gt;HTML&lt;/span&gt; code &lt;em&gt;&amp;amp;nbsp&lt;/em&gt;)
+  with normal&amp;nbsp;spaces.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;titlecase&lt;/em&gt; &amp;#8212; Titlecases the supplied&amp;nbsp;string&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, within your theme templates, you might have code&amp;nbsp;like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;published&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    Article Published &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.date&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;article_date&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;gives:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    Article Published Friday, November 4, 2016
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or with your own&amp;nbsp;dateformat:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;published&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    Article Published &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.date&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%b %d, %Y&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;gives:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    Article Published Nov 04, 2016
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Filters can also be chained, or applied in sequence. For example to remove
+breaking spaces and then titlecase a category name, you might have code&amp;nbsp;like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;SITEURL&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="s"&gt;/&lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.category.url&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.category&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;breaking_spaces&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;titlecase&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The package is tested in Python 3.5; compatibility with other version of
+Python is&amp;nbsp;unknown.&lt;/p&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/MinchinWeb/minchin.pelican.jinja_filters"&gt;GitHub&lt;/a&gt;. Contributions are&amp;nbsp;welcome!&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>CName Pelican Plugin 1.0.0 Released</title><link href="http://blog.minchin.ca/2016/10/cname-plugin-for-pelican-100-released.html" rel="alternate"></link><published>2016-10-03T20:39:00-06:00</published><updated>2016-10-03T20:39:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-10-03:/2016/10/cname-plugin-for-pelican-100-released.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; creates a &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; file in the root of your output directory. This
+is useful when you are publishing your site to
+&lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; on a
+&lt;a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/"&gt;custom domain&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; creates a &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; file in the root of your output directory. This
+is useful when you are publishing your site to
+&lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; on a
+&lt;a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/"&gt;custom domain&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;strong&gt;CName&lt;/strong&gt; is through the use of pip. This
+will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.cname
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;strong&gt;CName&lt;/strong&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.cname&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+        &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that&amp;#8217;s it! No further configuration is&amp;nbsp;needed.&lt;/p&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;No configuration is needed. The value places in the &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; files is based
+on your &lt;code&gt;SITEURL&lt;/code&gt; setting.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;As the plugin makes use of the &lt;code&gt;SITEURL&lt;/code&gt; plugin, if you are using both
+a &lt;code&gt;pelicanconf.py&lt;/code&gt; and a &lt;code&gt;publishconf.py&lt;/code&gt; settings file, &lt;strong&gt;CName&lt;/strong&gt; will
+likely generate different results for when you are testing your site locally
+and when you push it to&amp;nbsp;production.&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;I can&amp;#8217;t claim I came up with the original idea. It is based on the
+&lt;a href="https://github.com/getpelican/pelican-plugins/pull/566"&gt;original code&lt;/a&gt;
+by &lt;a href="http://lazycoder.ru/"&gt;Dmitriy Kalinin&lt;/a&gt;, that has languished as an
+open pull request in the &lt;code&gt;pelican-plugins&lt;/code&gt; repo for the last&amp;nbsp;year.&lt;/p&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.cname"&gt;GitHub&lt;/a&gt;. Contributions are&amp;nbsp;welcome!&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry></feed>

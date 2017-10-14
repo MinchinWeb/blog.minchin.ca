@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Web Services</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.web-services.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2016-07-26T17:26:00-06:00</updated><entry><title>Free Hosting for Static Websites</title><link href="http://blog.minchin.ca/2012/03/free-hosting-for-static-websites.html" rel="alternate"></link><published>2012-03-23T22:10:00-06:00</published><updated>2016-07-26T17:26:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2012-03-23:/2012/03/free-hosting-for-static-websites.html</id><summary type="html">In addition to my blog, I have a couple of static webpages that I host
+at &lt;a href="http://minchin.ca/"&gt;Minchin.ca&lt;/a&gt;. Sadly, they&amp;#8217;ve been a little
+neglected of late, but I&amp;#8217;ve enjoyed being able to put a few pages and
+play around with &lt;span class="caps"&gt;HTML&lt;/span&gt;. Since I don&amp;#8217;t run any ads on them, or run a
+business from them, I&amp;#8217;ve trying to avoid having to pay for hosting. In
+the almost 5 years they&amp;#8217;ve been online, I&amp;#8217;ve managed to find a place to
+host them for free: first at Google Pages, and then at Microsoft Office
+Small Business. Google closed &lt;em&gt;Pages&lt;/em&gt; in 2009 and Microsoft&amp;#8217;s offering
+will start charging for hosting the end of next month. So I&amp;#8217;ve been
+looking for a new place to host them. Today I completed the move to
+&lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt;!</summary><content type="html">&lt;p&gt;In addition to my blog, I have a couple of static webpages that I host
+at &lt;a href="http://minchin.ca/"&gt;Minchin.ca&lt;/a&gt;. Sadly, they&amp;#8217;ve been a little
+neglected of late, but I&amp;#8217;ve enjoyed being able to put a few pages and
+play around with &lt;span class="caps"&gt;HTML&lt;/span&gt;. Since I don&amp;#8217;t run any ads on them, or run a
+business from them, I&amp;#8217;ve trying to avoid having to pay for hosting. In
+the almost 5 years they&amp;#8217;ve been online, I&amp;#8217;ve managed to find a place to
+host them for free: first at Google Pages, and then at Microsoft Office
+Small Business. Google closed &lt;em&gt;Pages&lt;/em&gt; in 2009 and Microsoft&amp;#8217;s offering
+will start charging for hosting the end of next month. So I&amp;#8217;ve been
+looking for a new place to host them. Today I completed the move to
+&lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Github offers hosting for static webpages for free. I think the idea is
+to provide developers and programmers a space to showcase their open
+source programming projects, but you can use it from other personal
+websites too. To get up and running with&amp;nbsp;GitHub:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a user account on &lt;a href="http://www.github.com/"&gt;GitHub.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you&amp;#8217;re not familiar with Git, read through the &lt;a href="http://help.github.com/set-up-git-redirect"&gt;GitHub Help
+pages&lt;/a&gt;. This will walk you
+through installing any software you might need to work with&amp;nbsp;GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.github.com/create-a-repo"&gt;Create a repository&lt;/a&gt; named
+&lt;em&gt;{your_username}.github.com&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Push the static files of your website to your new repository.&lt;ol&gt;
+&lt;li&gt;Your page will go live at &lt;em&gt;http://{your_username}.github.io&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;If you want to use a different web address (and you own the domain),
+    include a file called &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; that lists that other web address in
+    your repository. You will also need to create a A record for that
+    domain pointing to &lt;code&gt;192.30.252.153&lt;/code&gt; and &lt;code&gt;192.30.252.154&lt;/code&gt; (Get your domain name registrar
+    to help you with that&amp;nbsp;one).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;You might have to wait 10 minutes for it to go&amp;nbsp;live&amp;#8230;&lt;/li&gt;
+&lt;li&gt;You have a free&amp;nbsp;website!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While I admit that using GitHub might seem a little involved, it is
+rather simple (for web hosting), it works, and it&amp;#8217;s free! And I think
+they&amp;#8217;ll continue to host my page for the foreseeable future. If you get
+stuck, GitHub has a &lt;a href="http://pages.github.com/"&gt;good introduction to GitHub
+Pages&lt;/a&gt;.&lt;/p&gt;</content><category term="Git"></category><category term="GitHub"></category><category term="Web Hosting"></category><category term="Web Services"></category></entry><entry><title>Free Phone Calls: GrandCentral</title><link href="http://blog.minchin.ca/2007/09/free-phone-calls-grandcentral.html" rel="alternate"></link><published>2007-09-29T12:07:00-06:00</published><updated>2007-11-29T21:55:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2007-09-29:/2007/09/free-phone-calls-grandcentral.html</id><summary type="html">I have to admit I&amp;#8217;m a bit of a fan of Google&amp;#8217;s services, and tend to pay
+a fair bit of attention when Google decides to pick up a company - to
+me, founded or not, it signals that the service will stick around and
+has the financial backing to continue offering a good service on the&amp;nbsp;cheap.</summary><content type="html">&lt;p&gt;I have to admit I&amp;#8217;m a bit of a fan of Google&amp;#8217;s services, and tend to pay
+a fair bit of attention when Google decides to pick up a company - to
+me, founded or not, it signals that the service will stick around and
+has the financial backing to continue offering a good service on the&amp;nbsp;cheap.&lt;/p&gt;
+&lt;h2&gt;GrandCentral - What it&amp;nbsp;is&lt;/h2&gt;
+&lt;p&gt;Take the example of &lt;a href="http://www.grandcentral.com"&gt;GrandCentral&lt;/a&gt;. The
+site was established by Craig Walker &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Vincent Paquet with the goal of
+creating one number that would never change that you could be reached at
+any time (no more having to tell people when you&amp;#8217;re in the office, when
+you&amp;#8217;re on your cell, etc). It does that by assigning you a new phone
+number, and then you set up forwarding rules to forward your calls to
+another phone. The other thing it allows you to do is call out using
+their webpage - select your phone and who you want to call and it will
+ring your phone and then ring up your&amp;nbsp;friend.&lt;/p&gt;
+&lt;h2&gt;Why I Love&amp;nbsp;It&lt;/h2&gt;
+&lt;p&gt;I have a number of friends living in the United States and calling south
+of the boarder can quickly become expensive. I set up my GrandCentral
+number so that my friends could call me (most of them have free
+States-wide long distance on their cell phones) and I could it turn call
+them. Incoming calls will always be free and outgoing calls remain free
+during the beta period, according to their website. It&amp;#8217;s totally free
+for me, because I have free incoming calls on my cell phone. That&amp;#8217;s what
+I set it up for, and it works great for&amp;nbsp;that.&lt;/p&gt;
+&lt;p&gt;There&amp;#8217;s other cool features&amp;nbsp;too:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A &amp;#8220;Web Call&amp;#8221; button&lt;/strong&gt;: Put a little bit of code on the web and
+    anyone can call you, without even giving out your phone number. It&amp;#8217;s
+    supposed to be great for blogs or eBay listings or the&amp;nbsp;like.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Call Screening&lt;/strong&gt;: You never have to worry about getting unwanted
+    calls. When someone call you, after you pick up, you&amp;#8217;re given the
+    option of 1) accepting the call, 2) sending the call to voicemail,
+    3) send to voicemail, but listen in (like we used to do with the
+    answering machine at home), or 4) record the call. On the website,
+    you can set up forwarding rules, including sending certain callers
+    to a &amp;#8220;This number is no longer available&amp;#8221; message - great for
+    telemarketers or ex-girlfriends that won&amp;#8217;t leave you&amp;nbsp;alone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There&amp;#8217;s a number of other options that let you do a number of really
+cool things, but these are the few that I&amp;#8217;ve found particularly&amp;nbsp;useful.&lt;/p&gt;
+&lt;h2&gt;What I Wish It&amp;nbsp;Had&lt;/h2&gt;
+&lt;p&gt;For all the wonders of the service, there are still a few things I wish
+the service had. My wishlist&amp;nbsp;included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Better Sound Quality&lt;/strong&gt;: The sound quality varies, but is often
+    sub-par. That being said, it&amp;#8217;s been worse when I&amp;#8217;m on my cell phone
+    and so is my friend - cell phones are exactly noted for sound&amp;nbsp;quality.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Canadian numbers&lt;/strong&gt;: Although GrandCentral will ring on a Canadian
+    number, they offer no Canadian numbers to serve as your GrandCentral
+    number. For me, this is a fairly big hindrance to using the service
+    to as designed - my friends will send me an email or find out my
+    cell number before making an international call to get a hold of&amp;nbsp;me.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To Call Without Internet Access&lt;/strong&gt;: I don&amp;#8217;t see a good solution to
+    this, but as it sits right now, it order to call out, you need to go
+    to GrandCentral&amp;#8217;s website. Most of the time, I&amp;#8217;m close to a
+    computer, but the great thing about a phone is it stands alone, and
+    it doesn&amp;#8217;t if you have to rely on a website (I&amp;#8217;m too cheap to pay
+    for mobile internet on my cell phone). Maybe placing calls by
+    sending a &lt;span class="caps"&gt;SMS&lt;/span&gt; would be a&amp;nbsp;solution&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Canadian&amp;nbsp;Access&lt;/h2&gt;
+&lt;p&gt;I know I&amp;#8217;ve stated this above, but to recap: Although no Canadian
+numbers are offered by GrandCentral, you can forward your calls to
+Canadian numbers and make calls from Canadian numbers (for example, by
+using the web button above), so the service isn&amp;#8217;t a complete write off
+it you live north of the&amp;nbsp;49th!&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I signed up for the service because it was free, and it gave me an
+American number, so for me it has worked very well. Due to the sound
+quality issues, and having to place calls though the website to use my
+GrandCentral number (and the lack of Canadian numbers), I&amp;#8217;m not likely
+to use the service for it&amp;#8217;s intended purpose - &amp;#8220;One number for Life&amp;#8221; -
+anytime soon. For recreational uses, I highly&amp;nbsp;recommend!&lt;/p&gt;</content><category term="Google"></category><category term="GrandCentral"></category><category term="Phone"></category><category term="Series:On-Line Wonders"></category><category term="Web Services"></category></entry></feed>

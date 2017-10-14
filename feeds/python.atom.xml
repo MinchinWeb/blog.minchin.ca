@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Python</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/python.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2017-08-28T15:16:00-06:00</updated><entry><title>PhotoSorter Python script 2.1.0 Released</title><link href="http://blog.minchin.ca/2017/08/photosorter-210-released.html" rel="alternate"></link><published>2017-08-28T15:16:00-06:00</published><updated>2017-08-28T15:16:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-08-28:/2017/08/photosorter-210-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Photosorter&lt;/em&gt; is a little Python script to keep my photos from Dropbox&amp;nbsp;organized.&lt;/p&gt;
+&lt;p&gt;It watches a &lt;em&gt;source directory&lt;/em&gt; for modifications and moves new image files to
+a &lt;em&gt;target directory&lt;/em&gt; depending on when the photo was taken, using &lt;span class="caps"&gt;EXIF&lt;/span&gt; data and
+creation date as a fallback. There is also an option to move existing photos.
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Photosorter&lt;/em&gt; is a little Python script to keep my photos from Dropbox&amp;nbsp;organized.&lt;/p&gt;
+&lt;p&gt;It watches a &lt;em&gt;source directory&lt;/em&gt; for modifications and moves new image files to
+a &lt;em&gt;target directory&lt;/em&gt; depending on when the photo was taken, using &lt;span class="caps"&gt;EXIF&lt;/span&gt; data and
+creation date as a fallback. There is also an option to move existing photos.
+&lt;/p&gt;
+&lt;p&gt;Directory and file names follow a simple naming convention
+(&lt;code&gt;YYYY-MM/YYY_MM_DD/YYYY-MM-DD hh:mm:ss.ext&lt;/code&gt;) that keeps everything neatly
+organized. Duplicates are detected and ignored based on their &lt;span class="caps"&gt;SHA1&lt;/span&gt; hash and
+folder path. Photos taken in the same instant get de-duplicated by adding a
+suffix (&lt;code&gt;-1&lt;/code&gt;, &lt;code&gt;-2&lt;/code&gt;, etc) to their&amp;nbsp;filenames.&lt;/p&gt;
+&lt;p&gt;The result looks somewhat like&amp;nbsp;this::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;├── 2013-01
+│   ├── 2013_01_05
+│   │   ├── 2013-01-05\ 13.24.45.jpg
+│   │   ├── 2013-01-05\ 14.25.54.jpg
+│   │   └── 2013-01-05\ 21.28.48-1.jpg
+│   ├── 2013_01_06
+│   │   ├── 2013-01-06\ 16.05.02.jpg
+│   │   ├── 2013-01-06\ 19.59.25.jpg
+│   │   ├── 2013-01-06\ 20.40.28.jpg
+│   │   └── 2013-01-06\ 21.14.38.jpg
+│   └── 2013_01_08
+│       └── 2013-01-08\ 11.45.51.jpg
+├── 2013-02
+|   └─ ...
+├── ...
+├── 2013-12
+├── 2014-01
+├── 2014-02
+├── ...
+├── 2014-12
+├── ...
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I use &lt;code&gt;C:\Users\[windows username]\Dropbox\Camera Uploads&lt;/code&gt; as the source
+directory and &lt;code&gt;Z:\Photos&lt;/code&gt; as the target. This allows me to move my photo from
+Dropbox to a local drive, and merge them with the rest of my photo&amp;nbsp;collection.&lt;/p&gt;
+&lt;h2&gt;Impletmentation&amp;nbsp;Notes&lt;/h2&gt;
+&lt;p&gt;I use a different folder set-up that Dan (in his original scirpt) used. The one
+I&amp;#8217;m using matches the default folder set-up for my Canon&amp;nbsp;camera.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install the script is through&amp;nbsp;pip::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.scripts.photosorter
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;The script&amp;#8217;s requirements will be automatically installed in the script is
+installed via &lt;em&gt;pip&lt;/em&gt; as recommended above. They can also be installed manually,
+if&amp;nbsp;required::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install argcomplete&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.3.0
+pip install exifread&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;.1.2
+pip install watchdog&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.8.3
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;Watch &lt;code&gt;src_dir&lt;/code&gt; and sort incoming photos into &lt;code&gt;dest_dir&lt;/code&gt;::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;photosorter src_dir dest_dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When you&amp;#8217;re done with it, &lt;code&gt;Ctrl + C&lt;/code&gt; will end the&amp;nbsp;program.&lt;/p&gt;
+&lt;p&gt;If you also want to move the existing files in &lt;code&gt;src_dir&lt;/code&gt; (which are, by
+default,&amp;nbsp;ignored)::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;photosorter src_dir dest_dir --move-existing
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the tests do not currently&amp;nbsp;run.&lt;/li&gt;
+&lt;li&gt;matching (to provide de-duplication) is based on full filepaths matching.
+  I.e. if the per day folder is renamed, the script will not look in the
+  renamed folder for photo&amp;nbsp;matches.&lt;/li&gt;
+&lt;li&gt;Linux deamon setup is untested by&amp;nbsp;myself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;h3&gt;2.1.0 &amp;#8212;&amp;nbsp;2017-08-28&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;also move &lt;span class="caps"&gt;MP4&lt;/span&gt;&amp;nbsp;files&lt;/li&gt;
+&lt;li&gt;add changelog to&amp;nbsp;readme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2.0.0 &amp;#8212;&amp;nbsp;2017-08-27&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;move to &lt;code&gt;minchin.scripts.photosorter&lt;/code&gt; namespace&lt;/li&gt;
+&lt;li&gt;do releases via &lt;code&gt;minchin.releaser&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;changed generated file folder&amp;nbsp;layout&lt;/li&gt;
+&lt;li&gt;add option to move existing&amp;nbsp;files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;Distributed under the &lt;span class="caps"&gt;MIT&lt;/span&gt; license. See
+&lt;a href="https://raw.githubusercontent.com/MinchinWeb/minchin.scripts.photosorter/master/LICENSE.txt"&gt;&lt;span class="caps"&gt;LICENSE&lt;/span&gt;.txt&lt;/a&gt;
+for more&amp;nbsp;information.&lt;/p&gt;
+&lt;h2&gt;Credit&lt;/h2&gt;
+&lt;p&gt;This script is a modified version of the one put together by
+&lt;a href="https://dbader.org/blog/how-to-store-photos-in-the-cloud-and-avoid-vendor-lock-in"&gt;Dan Bader&lt;/a&gt;.
+Thanks for providing a great template&amp;nbsp;Dan!&lt;/p&gt;</content><category term="dropbox"></category><category term="python"></category><category term="releases"></category></entry></feed>

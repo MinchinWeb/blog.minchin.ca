@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - OpenTTD</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.openttd.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2015-08-14T08:11:00-06:00</updated><entry><title>MetaLibrary 9 for OpenTTD released</title><link href="http://blog.minchin.ca/2015/01/metalibrary-9-for-openttd.html" rel="alternate"></link><published>2015-01-14T22:54:00-07:00</published><updated>2015-08-14T08:11:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2015-01-14:/2015/01/metalibrary-9-for-openttd.html</id><summary type="html">&lt;p&gt;Version 9 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 9 brings a couple of bug fixes in the Python build script. The
+&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for MetaLibrary&lt;/a&gt;
+has also been&amp;nbsp;updated.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 9 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 9 brings a couple of bug fixes in the Python build script. The
+&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for MetaLibrary&lt;/a&gt;
+has also been&amp;nbsp;updated.&lt;/p&gt;
+</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category><category term="releases"></category></entry><entry><title>MetaLibrary 8 for OpenTTD released</title><link href="http://blog.minchin.ca/2014/03/metalibrary-8-for-openttd.html" rel="alternate"></link><published>2014-03-10T21:12:00-06:00</published><updated>2015-08-14T08:11:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-03-10:/2014/03/metalibrary-8-for-openttd.html</id><summary type="html">&lt;p&gt;Quick on the heals of the &lt;a href="http://blog.minchin.ca/2014/03/metalibrary-7-for-openttd.html"&gt;release of version
+7&lt;/a&gt;,
+version 8 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 8 brings a 9-30x improvement in the speed of &lt;em&gt;Lakes&lt;/em&gt;, and by
+extension, a speed-up in the Ship Pathfinder. And that&amp;#8217;s all for now; I
+figured that would be enough. The &lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for
+MetaLibrary&lt;/a&gt; has also been&amp;nbsp;updated.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Quick on the heals of the &lt;a href="http://blog.minchin.ca/2014/03/metalibrary-7-for-openttd.html"&gt;release of version
+7&lt;/a&gt;,
+version 8 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 8 brings a 9-30x improvement in the speed of &lt;em&gt;Lakes&lt;/em&gt;, and by
+extension, a speed-up in the Ship Pathfinder. And that&amp;#8217;s all for now; I
+figured that would be enough. The &lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for
+MetaLibrary&lt;/a&gt; has also been&amp;nbsp;updated.&lt;/p&gt;
+</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category><category term="releases"></category></entry><entry><title>MetaLibrary 7 for OpenTTD released</title><link href="http://blog.minchin.ca/2014/03/metalibrary-7-for-openttd.html" rel="alternate"></link><published>2014-03-01T22:43:00-07:00</published><updated>2015-08-14T08:11:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-03-01:/2014/03/metalibrary-7-for-openttd.html</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;MetaLibrary&lt;/a&gt;&lt;/em&gt; moves forward&amp;nbsp;again!&lt;/p&gt;
+&lt;p&gt;Building off my recent announcement that &lt;a href="http://blog.minchin.ca/2014/02/metalibrary-documentation-live.html"&gt;documentation is now
+live&lt;/a&gt;,
+I have completed a fairly major update to &lt;em&gt;MetaLibrary&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;em&gt;&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;MetaLibrary&lt;/a&gt;&lt;/em&gt; moves forward&amp;nbsp;again!&lt;/p&gt;
+&lt;p&gt;Building off my recent announcement that &lt;a href="http://blog.minchin.ca/2014/02/metalibrary-documentation-live.html"&gt;documentation is now
+live&lt;/a&gt;,
+I have completed a fairly major update to &lt;em&gt;MetaLibrary&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+
+
+&lt;p&gt;This update particularly focused on adding robustness to the Ship
+Pathfinder. To that end, I wrote &lt;em&gt;Lakes&lt;/em&gt; as a replacement for &lt;em&gt;Waterbody
+Check&lt;/em&gt;. Both serve the same purpose of determining if two tiles are
+within the same waterbody, i.e. if a ship could sail between the two
+tiles. What sets &lt;em&gt;Lakes&lt;/em&gt; apart from its predecessor is &lt;em&gt;Lakes&lt;/em&gt; maintains
+a &amp;#8216;memory&amp;#8217; of the tiles it has already considered, therefore increasing
+the speed of subsequent requests. Subsequent requests on an already
+checked route run in the order of 4 ticks, or about half of a game&amp;nbsp;day.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Lakes&lt;/em&gt; has already seen a ten-fold increase in speed, although it, at
+least for the first run, is slower than the old &lt;em&gt;Waterbody&lt;/em&gt; &lt;em&gt;Check&lt;/em&gt;. New
+versions of &lt;em&gt;MetaLibrary&lt;/em&gt; will likely continue to see speed ups and
+tweaks to &lt;em&gt;Lakes&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Other improvements&amp;nbsp;include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ship Pathfinder now uses Lakes rather than&amp;nbsp;WaterBodyCheck&lt;/li&gt;
+&lt;li&gt;Ship Pathfinder now makes sure every point is in the same waterbody
+    before adding it to the&amp;nbsp;path&lt;/li&gt;
+&lt;li&gt;WaterBodyCheck is now deprecated in favour of&amp;nbsp;Lakes&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;Documentation for
+    MetaLibrary&lt;/a&gt; is now online
+    at&amp;nbsp;Minchin.ca&lt;/li&gt;
+&lt;li&gt;Fix array creation bugs in Array.Create2D(),&amp;nbsp;Array.Create3D()&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Array.RemoveDuplicates(Array)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Array.ToAIList(Array)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Extras.MinDistance(TileID, TargetArray)&lt;/code&gt;; can be used as a&amp;nbsp;valuator&lt;/li&gt;
+&lt;li&gt;Split Constants from Extras (file only, function access remains the&amp;nbsp;same)&lt;/li&gt;
+&lt;li&gt;Split Industry from Extras (file only, function access remains the&amp;nbsp;same)&lt;/li&gt;
+&lt;li&gt;Split Station from Extras (file only, function access remains the&amp;nbsp;same)&lt;/li&gt;
+&lt;li&gt;Bumped maximum Log &lt;code&gt;Debug_Level&lt;/code&gt; to&amp;nbsp;8&lt;/li&gt;
+&lt;li&gt;Added separate Changelog&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;Rename &lt;code&gt;Readme.txt&lt;/code&gt; to &lt;code&gt;Readme.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update requirement to Fibonacci Heap,&amp;nbsp;v.3&lt;/li&gt;
+&lt;li&gt;Automated creation of tar files for upload to&amp;nbsp;BaNaNaS&lt;/li&gt;
+&lt;li&gt;Automated translation for the Game Script&amp;nbsp;version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href="http://www.tt-forums.net/viewtopic.php?f=65&amp;amp;t=57903"&gt;forum thread for &lt;em&gt;MetaLibrary&lt;/em&gt;
+discussion&lt;/a&gt; is on
+&lt;span class="caps"&gt;TT&lt;/span&gt;-Forums, the &lt;a href="https://github.com/MinchinWeb/openttd-metalibrary/"&gt;code for
+&lt;em&gt;MetaLibrary&lt;/em&gt;&lt;/a&gt; is
+available on GitHub, the &lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for
+&lt;em&gt;MetaLibrary&lt;/em&gt;&lt;/a&gt; is now online at
+Minchin.ca, and &lt;em&gt;MetaLibrary&lt;/em&gt; can be downloaded from BaNaNaS (&lt;a href="http://bananas.openttd.org/en/ailibrary/"&gt;&lt;span class="caps"&gt;AI&lt;/span&gt;
+version&lt;/a&gt;, &lt;a href="http://bananas.openttd.org/en/gslibrary/"&gt;&lt;span class="caps"&gt;GS&lt;/span&gt;
+version&lt;/a&gt;) or the in-game
+downloader&amp;nbsp;(recommended).&lt;/p&gt;</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category><category term="releases"></category></entry><entry><title>MetaLibrary Documentation Live</title><link href="http://blog.minchin.ca/2014/02/metalibrary-documentation-live.html" rel="alternate"></link><published>2014-02-01T18:13:00-07:00</published><updated>2014-02-01T18:13:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-02-01:/2014/02/metalibrary-documentation-live.html</id><summary type="html">Over the last four years, I&amp;#8217;ve been working on an &lt;span class="caps"&gt;AI&lt;/span&gt; called WmDOT for
+OpenTTD, a remake of the classic Transport Tycoon, a beloved game from
+my childhood. To support WmDOT, I&amp;#8217;ve built a library of support
+functions. Over the last three days, I have written up documentation for
+the included functions and the result can be seen live at my site at
+&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;http://minchin.ca/openttd-metalibrary/&lt;/a&gt; I&amp;#8217;m excited to have it up. I
+hope it will help others make use of my&amp;nbsp;library.</summary><content type="html">&lt;p&gt;Over the last four years, I&amp;#8217;ve been working on an &lt;span class="caps"&gt;AI&lt;/span&gt; called WmDOT for
+OpenTTD, a remake of the classic Transport Tycoon, a beloved game from
+my childhood. To support WmDOT, I&amp;#8217;ve built a library of support
+functions. Over the last three days, I have written up documentation for
+the included functions and the result can be seen live at my site at
+&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;http://minchin.ca/openttd-metalibrary/&lt;/a&gt; I&amp;#8217;m excited to have it up. I
+hope it will help others make use of my&amp;nbsp;library.&lt;/p&gt;
+&lt;p&gt;Metalibrary is currently at version&amp;nbsp;6.&lt;/p&gt;</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category></entry></feed>

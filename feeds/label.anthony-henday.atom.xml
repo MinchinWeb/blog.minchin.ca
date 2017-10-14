@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Anthony Henday</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.anthony-henday.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2011-05-19T18:30:00-06:00</updated><entry><title>Bretona Corner</title><link href="http://blog.minchin.ca/2010/04/bretona-corner.html" rel="alternate"></link><published>2010-04-17T21:42:00-06:00</published><updated>2011-05-19T18:30:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2010-04-17:/2010/04/bretona-corner.html</id><summary type="html">School projects make for interesting things to post. This time, it&amp;#8217;s the
+presentation from a class I took in traffic modelling. I started playing
+with the images I wanted to use in PowerPoint and I realized that it
+would probably be easier (and more fun) to just put everything into a
+video! So I played my in-class presentation from YouTube! The
+presentation is on the junction of Highway 14 and the Anthony Henday
+(Highway 216) on the southeast corner of&amp;nbsp;Edmonton.</summary><content type="html">&lt;p&gt;School projects make for interesting things to post. This time, it&amp;#8217;s the
+presentation from a class I took in traffic modelling. I started playing
+with the images I wanted to use in PowerPoint and I realized that it
+would probably be easier (and more fun) to just put everything into a
+video! So I played my in-class presentation from YouTube! The
+presentation is on the junction of Highway 14 and the Anthony Henday
+(Highway 216) on the southeast corner of&amp;nbsp;Edmonton.&lt;/p&gt;
+&lt;!-- 870px with the max width of 9cols in Bootstrp --&gt;
+
+&lt;div class="embed-responsive embed-responsive-4by3"&gt;
+    &lt;iframe class="embed-responsive-item" src="//www.youtube.com/embed/EqWIFxEb0cE" type="text/html" width="870px" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the technical side, the video was put together using Microsoft
+PhotoStory 3 for the image sequences, the base map put together of
+screenshots from Google Maps in Adobe Photoshop, the music videos pulled
+from YouTube, and everything put together in Windows Movie Maker 2.6.
+I&amp;#8217;m a little disappointed in the quality of the YouTube video, but I&amp;#8217;m
+not sure how much of that to blame on the export settings I used in
+Movie Maker and how much is YouTube&amp;#8217;s compression. Truth be told, it
+doesn&amp;#8217;t look too bad at this size (as&amp;nbsp;above).&lt;/p&gt;
+&lt;p&gt;The simulation was completed in &lt;span class="caps"&gt;VISSIM&lt;/span&gt; 5.10 using many of the built-in
+parameters, traffic volumes provided by Alberta Transportation&amp;#8217;s 2008
+manual turning movement counts (i.e. real world data), but I set the
+speed distribution to (cumulative) 35% slower than 100km/h, 65% slower
+than 110km/h, and 85% slower than 130km/h. I suppose I could play with
+&lt;span class="caps"&gt;VISSIM&lt;/span&gt; to get nicer output, but even if it reminds me of a ten year old
+video game, it&amp;#8217;s fun to think I made&amp;nbsp;it!&lt;/p&gt;
+&lt;p&gt;Many pleasant trails to&amp;nbsp;you!&lt;/p&gt;</content><category term="Anthony Henday"></category><category term="Series:Personal Bits"></category><category term="Transportation"></category><category term="YouTube"></category></entry></feed>

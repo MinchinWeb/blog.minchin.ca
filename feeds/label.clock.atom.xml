@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Clock</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.clock.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2007-04-09T15:38:00-06:00</updated><entry><title>What Time Is It?</title><link href="http://blog.minchin.ca/2006/09/what-time-is-it.html" rel="alternate"></link><published>2006-09-12T12:14:00-06:00</published><updated>2007-04-09T15:38:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-09-12:/2006/09/what-time-is-it.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Time is an illusion. Lunchtime doubly&amp;nbsp;so.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Douglas&amp;nbsp;Adams&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As life goes by, it seems more and more important to know what time it
+is. Your bus comes at this time, your flight leaves at this time and
+your meeting across town is at this time. In theory, the better you know
+the time, the better you are at being on time, right? I&amp;nbsp;wish!&lt;/p&gt;
+&lt;p&gt;Besides the practical aspects of knowing the time, I always thought it
+was cool to see the row of clocks behind the reception desk of big
+companies in the movies. Now I found a way to add that to my blog!
+&lt;a href="http://www.worldtimeserver.com/"&gt;World Time Server.com&lt;/a&gt; allows you to
+create a snipit of code and then insert it on your site that displays an
+analog clock in the colour scheme, size, and time zone of your choosing.
+I think it&amp;#8217;s cool. Here&amp;#8217;s my little gallery of world&amp;nbsp;times:&lt;/p&gt;
+</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;Time is an illusion. Lunchtime doubly&amp;nbsp;so.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Douglas&amp;nbsp;Adams&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As life goes by, it seems more and more important to know what time it
+is. Your bus comes at this time, your flight leaves at this time and
+your meeting across town is at this time. In theory, the better you know
+the time, the better you are at being on time, right? I&amp;nbsp;wish!&lt;/p&gt;
+&lt;p&gt;Besides the practical aspects of knowing the time, I always thought it
+was cool to see the row of clocks behind the reception desk of big
+companies in the movies. Now I found a way to add that to my blog!
+&lt;a href="http://www.worldtimeserver.com/"&gt;World Time Server.com&lt;/a&gt; allows you to
+create a snipit of code and then insert it on your site that displays an
+analog clock in the colour scheme, size, and time zone of your choosing.
+I think it&amp;#8217;s cool. Here&amp;#8217;s my little gallery of world&amp;nbsp;times:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;center&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0"&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;amp;wtsid=JP" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash"&gt;
+&lt;/embed&gt;
+&lt;/td&gt;&lt;/p&gt;
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;amp;wtsid=CA-AB" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash"&gt;
+&lt;/embed&gt;
+&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+Kyoto
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+Calgary
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;amp;wtsid=FR" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash"&gt;
+&lt;/embed&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;amp;wtsid=RU-MOW" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash"&gt;
+&lt;/embed&gt;
+&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;td&gt;
+Paris
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+Moscow
+&lt;/td&gt;
+
+&lt;p&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/center&gt;&lt;/p&gt;</content><category term="Clock"></category><category term="Clocks"></category><category term="Java Applet"></category><category term="Quotables"></category><category term="Series:On-Line Wonders"></category><category term="Time"></category><category term="WorldTimeServer.com"></category></entry></feed>

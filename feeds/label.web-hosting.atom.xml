@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Web Hosting</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.web-hosting.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2016-07-26T17:26:00-06:00</updated><entry><title>Free Hosting for Static Websites</title><link href="http://blog.minchin.ca/2012/03/free-hosting-for-static-websites.html" rel="alternate"></link><published>2012-03-23T22:10:00-06:00</published><updated>2016-07-26T17:26:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2012-03-23:/2012/03/free-hosting-for-static-websites.html</id><summary type="html">In addition to my blog, I have a couple of static webpages that I host
+at &lt;a href="http://minchin.ca/"&gt;Minchin.ca&lt;/a&gt;. Sadly, they&amp;#8217;ve been a little
+neglected of late, but I&amp;#8217;ve enjoyed being able to put a few pages and
+play around with &lt;span class="caps"&gt;HTML&lt;/span&gt;. Since I don&amp;#8217;t run any ads on them, or run a
+business from them, I&amp;#8217;ve trying to avoid having to pay for hosting. In
+the almost 5 years they&amp;#8217;ve been online, I&amp;#8217;ve managed to find a place to
+host them for free: first at Google Pages, and then at Microsoft Office
+Small Business. Google closed &lt;em&gt;Pages&lt;/em&gt; in 2009 and Microsoft&amp;#8217;s offering
+will start charging for hosting the end of next month. So I&amp;#8217;ve been
+looking for a new place to host them. Today I completed the move to
+&lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt;!</summary><content type="html">&lt;p&gt;In addition to my blog, I have a couple of static webpages that I host
+at &lt;a href="http://minchin.ca/"&gt;Minchin.ca&lt;/a&gt;. Sadly, they&amp;#8217;ve been a little
+neglected of late, but I&amp;#8217;ve enjoyed being able to put a few pages and
+play around with &lt;span class="caps"&gt;HTML&lt;/span&gt;. Since I don&amp;#8217;t run any ads on them, or run a
+business from them, I&amp;#8217;ve trying to avoid having to pay for hosting. In
+the almost 5 years they&amp;#8217;ve been online, I&amp;#8217;ve managed to find a place to
+host them for free: first at Google Pages, and then at Microsoft Office
+Small Business. Google closed &lt;em&gt;Pages&lt;/em&gt; in 2009 and Microsoft&amp;#8217;s offering
+will start charging for hosting the end of next month. So I&amp;#8217;ve been
+looking for a new place to host them. Today I completed the move to
+&lt;a href="http://www.github.com/"&gt;GitHub&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Github offers hosting for static webpages for free. I think the idea is
+to provide developers and programmers a space to showcase their open
+source programming projects, but you can use it from other personal
+websites too. To get up and running with&amp;nbsp;GitHub:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a user account on &lt;a href="http://www.github.com/"&gt;GitHub.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you&amp;#8217;re not familiar with Git, read through the &lt;a href="http://help.github.com/set-up-git-redirect"&gt;GitHub Help
+pages&lt;/a&gt;. This will walk you
+through installing any software you might need to work with&amp;nbsp;GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.github.com/create-a-repo"&gt;Create a repository&lt;/a&gt; named
+&lt;em&gt;{your_username}.github.com&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Push the static files of your website to your new repository.&lt;ol&gt;
+&lt;li&gt;Your page will go live at &lt;em&gt;http://{your_username}.github.io&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;If you want to use a different web address (and you own the domain),
+    include a file called &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; that lists that other web address in
+    your repository. You will also need to create a A record for that
+    domain pointing to &lt;code&gt;192.30.252.153&lt;/code&gt; and &lt;code&gt;192.30.252.154&lt;/code&gt; (Get your domain name registrar
+    to help you with that&amp;nbsp;one).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;You might have to wait 10 minutes for it to go&amp;nbsp;live&amp;#8230;&lt;/li&gt;
+&lt;li&gt;You have a free&amp;nbsp;website!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While I admit that using GitHub might seem a little involved, it is
+rather simple (for web hosting), it works, and it&amp;#8217;s free! And I think
+they&amp;#8217;ll continue to host my page for the foreseeable future. If you get
+stuck, GitHub has a &lt;a href="http://pages.github.com/"&gt;good introduction to GitHub
+Pages&lt;/a&gt;.&lt;/p&gt;</content><category term="Git"></category><category term="GitHub"></category><category term="Web Hosting"></category><category term="Web Services"></category></entry></feed>

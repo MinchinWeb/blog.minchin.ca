@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Comments: Summary Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/summary-for-pelican-110-released.html/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/comment.summary-for-pelican-110-released.atom.xml" rel="self"></link><id>http://blog.minchin.ca/2017/02/summary-for-pelican-110-released.html/</id><updated>2017-02-21T14:56:00-07:00</updated><entry><title>Posted by: Wm. Minchin</title><link href="http://blog.minchin.ca/2017/02/summary-for-pelican-110-released.html/#comment-201702211431md" rel="alternate"></link><published>2017-02-21T14:56:00-07:00</published><updated>2017-02-21T14:56:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-21:/2017/02/summary-for-pelican-110-released.html//comment-201702211431md</id><summary type="html">&lt;p&gt;Jorge, I agree, it does sometimes seem a little overkill to me to package such a simple package as this and post in on PyPI; perhaps that&amp;#8217;s the reason it hasn&amp;#8217;t been done before now. However there are two big reasons I&amp;#8217;ve packaged these plugins&amp;nbsp;up:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;wget …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Jorge, I agree, it does sometimes seem a little overkill to me to package such a simple package as this and post in on PyPI; perhaps that&amp;#8217;s the reason it hasn&amp;#8217;t been done before now. However there are two big reasons I&amp;#8217;ve packaged these plugins&amp;nbsp;up:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;wget&lt;/code&gt; isn&amp;#8217;t available, by default, on Windows, but if you&amp;#8217;ve managed to get Python installed, &lt;code&gt;pip&lt;/code&gt; is;&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pip&lt;/code&gt; allows for better, easier repeatability in installing. This is important because I&amp;#8217;m working to automate the build process for my&amp;nbsp;blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It turns out the original test suite was copied over with the rest of the code, and the tests there still pass. I&amp;#8217;ve updated the article accordingly. Thanks for pointing me in that&amp;nbsp;direction!&lt;/p&gt;
+&lt;p&gt;As for the comment system, I should figure out what better to display if JavaScript is&amp;nbsp;disabled&amp;#8230;.&lt;/p&gt;</content></entry><entry><title>Posted by: Jorge</title><link href="http://blog.minchin.ca/2017/02/summary-for-pelican-110-released.html/#comment-201702210746md" rel="alternate"></link><published>2017-02-21T07:56:00-07:00</published><updated>2017-02-21T07:56:00-07:00</updated><author><name>Jorge</name></author><id>tag:blog.minchin.ca,2017-02-21:/2017/02/summary-for-pelican-110-released.html//comment-201702210746md</id><summary type="html">&lt;p&gt;I don&amp;#8217;t think that it is very useful to package such a simple plugin for
+pypi. In my case, I just have to download the Python files with wget,
+place them in a folder called summary inside the plugin&amp;#8217;s folder and
+change the pelicanconf.py file. Anyway, it …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I don&amp;#8217;t think that it is very useful to package such a simple plugin for
+pypi. In my case, I just have to download the Python files with wget,
+place them in a folder called summary inside the plugin&amp;#8217;s folder and
+change the pelicanconf.py file. Anyway, it&amp;#8217;s great that you&amp;#8217;ve done that
+for people who prefer using&amp;nbsp;pip.&lt;/p&gt;
+&lt;p&gt;You can use the &lt;code&gt;test_summary.py&lt;/code&gt; script from the &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/summary"&gt;original summary
+plugin&lt;/a&gt;,
+so I don&amp;#8217;t see why you cannot use that for the&amp;nbsp;tests.&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;PD&lt;/span&gt;. It&amp;#8217;s a shame that the comment system doesn&amp;#8217;t work without&amp;nbsp;JavaScript.&lt;/p&gt;</content></entry></feed>

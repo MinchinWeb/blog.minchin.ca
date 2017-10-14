@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Weather</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.weather.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2007-04-09T22:54:00-06:00</updated><entry><title>The Weather Network</title><link href="http://blog.minchin.ca/2006/05/the-weather-network.html" rel="alternate"></link><published>2006-05-02T13:43:00-06:00</published><updated>2007-04-09T22:54:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-05-02:/2006/05/the-weather-network.html</id><summary type="html">The Weather Network claims that 80% of the population checks the weather
+forecast, so they ask why not put the forecast on your site. Best of all
+it&amp;#8217;s free! They have several options for shapes and sizes, but
+basically, you put a little bit of code in your page, and voila. To hook
+up, go&amp;nbsp;to</summary><content type="html">&lt;p&gt;The Weather Network claims that 80% of the population checks the weather
+forecast, so they ask why not put the forecast on your site. Best of all
+it&amp;#8217;s free! They have several options for shapes and sizes, but
+basically, you put a little bit of code in your page, and voila. To hook
+up, go&amp;nbsp;to&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s an example, useful for the bottom of a&amp;nbsp;webpage:&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;
+
+&lt;iframe marginheight="0" marginwidth="0" name="wxButtonFrame" id="wxButtonFrame" src="http://btn.weather.ca/weatherbutton/template4.php?placeCode=CABC0402&amp;amp;category0=Cities&amp;amp;placeCode1=CAAB0103&amp;amp;category1=Cities&amp;amp;placeCode2=CAMB0244&amp;amp;category2=Cities&amp;amp;placeCode3=CAON0696&amp;amp;category3=Cities&amp;amp;placeCode4=CANS0057&amp;amp;category4=Cities&amp;amp;containerWidth=384&amp;amp;%09btnNo=3367&amp;amp;backgroundColor=yellow&amp;amp;multipleCity=1&amp;amp;citySearch=1&amp;amp;celsiusF=C" align="top" frameborder="0" height="20" scrolling="no" width="384"&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Or add the Canadian map and see what the weather is like across the
+country (clicking on a city will take you to the 4 day forecast on The
+Weather Network&amp;#8217;s site). However, Blogger won&amp;#8217;t let me add the Java
+Script tag needed to show you&amp;nbsp;here.&lt;/p&gt;
+&lt;p&gt;You can go to
+&lt;a link="http://www.weathernetwork.com/inter/weathercentre/weatherbutton/index.htm"&gt;The
+Weather Network&lt;/a&gt; hook your own webpage&amp;nbsp;up.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ll leave you with another fun quote I&amp;nbsp;found:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Being powerful is like being a lady. If you have to tell people you
+are, you&amp;nbsp;aren&amp;#8217;t.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Margaret&amp;nbsp;Thatcher&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="Forecast"></category><category term="Quotables"></category><category term="Series:On-Line Wonders"></category><category term="TheWeatherNetwork.com"></category><category term="Weather"></category></entry></feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - TinyURL.com</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.tinyurlcom.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2007-04-09T22:43:00-06:00</updated><entry><title>TinyURL.com</title><link href="http://blog.minchin.ca/2006/12/tinyurlcom.html" rel="alternate"></link><published>2006-12-18T13:23:00-07:00</published><updated>2007-04-09T22:43:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-12-18:/2006/12/tinyurlcom.html</id><summary type="html">Back when the internet started and you wanted to find something,
+websites had simple names. As more and more people have moved onto the
+internet, most of the simple names were snapped up and now sell for a
+small fortune. Adding to the confusion is that is that many websites
+will pass information back to their server using what appears to be
+random gibberish to the rest of us (check out the &lt;span class="caps"&gt;URL&lt;/span&gt; next time you do a
+search at Google or the like). Someone got smart and came up with a
+solution! Enter &lt;a href="http://tinyurl.com/"&gt;tinyurl.com&lt;/a&gt;. Enter your long,
+convoluted &lt;span class="caps"&gt;URL&lt;/span&gt; in and they spit out a much shorter. For example, start
+with &lt;a href="http://minchinweb.blogspot.com"&gt;MinchinWeb.BlogSpot.com&lt;/a&gt; and end
+up with &lt;a href="http://tinyurl.com/y6xxef"&gt;tinyURL.com/y6xxef&lt;/a&gt;, which granted
+isn&amp;#8217;t a ton shorter, but it shows up a lot better is we go with
+something longer, like &lt;a href="http://minchinweb.blogspot.com/2006/12/tinyurlcom-on-line-wonders-iii.html"&gt;http:// minchinweb.blogspot.com/ 2006/12/
+tinyurlcom-on-line-wonders-iii.html&lt;/a&gt;,
+the perment link for this post, and you get
+&lt;a href="http://tinyurl.com/y3lvrh"&gt;tinyURL.com/y3lvrh&lt;/a&gt;. Not so shabby! Give it
+a try for&amp;nbsp;yourself:</summary><content type="html">&lt;p&gt;Back when the internet started and you wanted to find something,
+websites had simple names. As more and more people have moved onto the
+internet, most of the simple names were snapped up and now sell for a
+small fortune. Adding to the confusion is that is that many websites
+will pass information back to their server using what appears to be
+random gibberish to the rest of us (check out the &lt;span class="caps"&gt;URL&lt;/span&gt; next time you do a
+search at Google or the like). Someone got smart and came up with a
+solution! Enter &lt;a href="http://tinyurl.com/"&gt;tinyurl.com&lt;/a&gt;. Enter your long,
+convoluted &lt;span class="caps"&gt;URL&lt;/span&gt; in and they spit out a much shorter. For example, start
+with &lt;a href="http://minchinweb.blogspot.com"&gt;MinchinWeb.BlogSpot.com&lt;/a&gt; and end
+up with &lt;a href="http://tinyurl.com/y6xxef"&gt;tinyURL.com/y6xxef&lt;/a&gt;, which granted
+isn&amp;#8217;t a ton shorter, but it shows up a lot better is we go with
+something longer, like &lt;a href="http://minchinweb.blogspot.com/2006/12/tinyurlcom-on-line-wonders-iii.html"&gt;http:// minchinweb.blogspot.com/ 2006/12/
+tinyurlcom-on-line-wonders-iii.html&lt;/a&gt;,
+the perment link for this post, and you get
+&lt;a href="http://tinyurl.com/y3lvrh"&gt;tinyURL.com/y3lvrh&lt;/a&gt;. Not so shabby! Give it
+a try for&amp;nbsp;yourself:&lt;/p&gt;
+&lt;form action="http://tinyurl.com/create.php" method="post" target="_blank"&gt;
+&lt;p&gt;&lt;strong&gt;Enter a long &lt;span class="caps"&gt;URL&lt;/span&gt; to make &lt;a href="http://tinyurl.com"&gt;tiny&lt;/a&gt;:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type="text" name="url" size="30"&gt;&lt;input type="submit" name="submit" value="Make TinyURL!"&gt; 
+&lt;/p&gt;
+&lt;/form&gt;</content><category term="Java Applet"></category><category term="Series:On-Line Wonders"></category><category term="TinyURL.com"></category><category term="URLs"></category></entry></feed>

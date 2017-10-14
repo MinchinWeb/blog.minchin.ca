@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - FeedBurner.com</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.feedburnercom.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2016-08-08T22:23:00-06:00</updated><entry><title>The Googlized Feedburner</title><link href="http://blog.minchin.ca/2007/06/the-googlized-feedburner.html" rel="alternate"></link><published>2007-06-04T12:38:00-06:00</published><updated>2007-08-27T22:48:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2007-06-04:/2007/06/the-googlized-feedburner.html</id><summary type="html">In case you took a weekend away from the computer, which I apparently
+didn&amp;#8217;t, Google has just bought out
+&lt;a href="http://minchinweb.blogspot.com/2007/04/feedburner-fun.html"&gt;Feedburner&lt;/a&gt;.
+I&amp;#8217;m not sure what this will mean for me, although they have promised to
+keep the service up and running. I imagine there will be some
+re-branding, and I&amp;#8217;m hoping for better integration with my other Google
+services, like Blogger, Analytics, and AdSense. I&amp;#8217;ll keep my eyes open,
+and let you know if something really crazy&amp;nbsp;happens.</summary><content type="html">&lt;p&gt;In case you took a weekend away from the computer, which I apparently
+didn&amp;#8217;t, Google has just bought out
+&lt;a href="http://minchinweb.blogspot.com/2007/04/feedburner-fun.html"&gt;Feedburner&lt;/a&gt;.
+I&amp;#8217;m not sure what this will mean for me, although they have promised to
+keep the service up and running. I imagine there will be some
+re-branding, and I&amp;#8217;m hoping for better integration with my other Google
+services, like Blogger, Analytics, and AdSense. I&amp;#8217;ll keep my eyes open,
+and let you know if something really crazy&amp;nbsp;happens.&lt;/p&gt;</content><category term="FeedBurner.com"></category><category term="Google"></category><category term="Series:On-Line Wonders"></category></entry><entry><title>FeedBurner Fun</title><link href="http://blog.minchin.ca/2007/04/feedburner-fun.html" rel="alternate"></link><published>2007-04-03T19:42:00-06:00</published><updated>2016-08-08T22:23:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2007-04-03:/2007/04/feedburner-fun.html</id><summary type="html">A service I&amp;#8217;ve known about for a while that I finally decided to check
+out is &lt;a href="http://www.FeedBurner.com"&gt;FeedBurner&lt;/a&gt;. It seems to be the ideal
+set of tool for dealing with your &lt;span class="caps"&gt;RSS&lt;/span&gt; and Atom feeds from your site. For
+those unfamiliar, &lt;span class="caps"&gt;RSS&lt;/span&gt; and Atom are a simple way for people to see if
+your site has updated recently. Bloggers and news web sites are among
+the most common users, but its use has spread a lot further than that.
+You can either view the feeds through a desktop program, often your
+email client, or through an online reader, like
+&lt;a href="http://reader.google.com"&gt;Google&lt;/a&gt; (that&amp;#8217;s what I&amp;nbsp;use).</summary><content type="html">&lt;p&gt;A service I&amp;#8217;ve known about for a while that I finally decided to check
+out is &lt;a href="http://www.FeedBurner.com"&gt;FeedBurner&lt;/a&gt;. It seems to be the ideal
+set of tool for dealing with your &lt;span class="caps"&gt;RSS&lt;/span&gt; and Atom feeds from your site. For
+those unfamiliar, &lt;span class="caps"&gt;RSS&lt;/span&gt; and Atom are a simple way for people to see if
+your site has updated recently. Bloggers and news web sites are among
+the most common users, but its use has spread a lot further than that.
+You can either view the feeds through a desktop program, often your
+email client, or through an online reader, like
+&lt;a href="http://reader.google.com"&gt;Google&lt;/a&gt; (that&amp;#8217;s what I&amp;nbsp;use).&lt;/p&gt;
+&lt;p&gt;As a result of picking up FeedBurner, I&amp;#8217;m going to make a number of
+changes to my blog, although I suppose most will be under the hood.
+These will include changing the automatic &lt;span class="caps"&gt;RSS&lt;/span&gt; feed to FeedBurner&amp;#8217;s,
+adding a &amp;#8220;subscribe&amp;#8221; and &lt;a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=824735"&gt;&amp;#8220;subscribe by
+email&amp;#8221;&lt;/a&gt;
+link on the side, as well as a counter will the number of subscribers
+(which I fear for the moment is probably depressing low). One of the
+cool things I can do is create an image that rolls over the last few
+headlines - very cool, I think! (I like the banner size one, but it
+throws off the alignment of the whole blog, so we&amp;#8217;ll go with the little&amp;nbsp;one)&lt;/p&gt;
+&lt;p&gt;Another thing you can do is check out my &lt;span class="caps"&gt;RSS&lt;/span&gt; feed online at FeedBurner&amp;#8217;s
+site at
+&lt;a href="http://feeds.feedburner.com/MinchinWeb"&gt;feeds.feedburner.com/MinchinWeb&lt;/a&gt;.
+So yeah, that&amp;#8217;s my latest&amp;nbsp;fun.&lt;/p&gt;
+&lt;!-- (I like the 468x60 banner most, which now
+sits at the bottom of each page [that might yet change], so I can't have
+an image in the post as it will mess up the formating of my blog, so
+look down or click below to get the code)
+
+[↑ Grab the Minchin Web Headline
+Animator](http://www.feedburner.com/fb/a/headlineanimator/install?id=824735)
+--&gt;</content><category term="Atom"></category><category term="FeedBurner.com"></category><category term="Headline Animator"></category><category term="RRS"></category><category term="Series:On-Line Wonders"></category></entry></feed>

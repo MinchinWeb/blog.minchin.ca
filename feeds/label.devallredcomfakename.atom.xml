@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - dev.allred.com/fakename</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.devallredcomfakename.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2007-04-09T22:35:00-06:00</updated><entry><title>Fake ID Generator</title><link href="http://blog.minchin.ca/2006/06/fake-id-generator.html" rel="alternate"></link><published>2006-06-26T12:23:00-06:00</published><updated>2007-04-09T22:35:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-06-26:/2006/06/fake-id-generator.html</id><summary type="html">In something that reminds me of the movie &lt;em&gt;Catch Me If You Can&lt;/em&gt;, I came
+across this website that generates Fake &lt;span class="caps"&gt;ID&lt;/span&gt;&amp;#8217;s. Over the last week, the
+site has improved already, so there might be more features on the way.
+At the end of last week, it would give&amp;nbsp;you:</summary><content type="html">&lt;p&gt;In something that reminds me of the movie &lt;em&gt;Catch Me If You Can&lt;/em&gt;, I came
+across this website that generates Fake &lt;span class="caps"&gt;ID&lt;/span&gt;&amp;#8217;s. Over the last week, the
+site has improved already, so there might be more features on the way.
+At the end of last week, it would give&amp;nbsp;you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a weighed random name (male / female) with first name, middle
+    initial, and last&amp;nbsp;name,&lt;/li&gt;
+&lt;li&gt;a street address in the &lt;span class="caps"&gt;US&lt;/span&gt; with &lt;span class="caps"&gt;ZIP&lt;/span&gt;&amp;nbsp;code,&lt;/li&gt;
+&lt;li&gt;a phone&amp;nbsp;number,&lt;/li&gt;
+&lt;li&gt;a &amp;#8220;disposable&amp;#8221; email address with
+    &lt;a href="http://www.pookmail.com"&gt;Pookmail.com&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;a credit card number (&lt;span class="caps"&gt;VISA&lt;/span&gt; or MasterCard),&amp;nbsp;and&lt;/li&gt;
+&lt;li&gt;a permanent &lt;span class="caps"&gt;URL&lt;/span&gt; for the &lt;span class="caps"&gt;ID&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The idea is to provide an address that will pass a quick validation
+check. They point out a number of uses for this sort of information,
+including protecting your privacy online, or using the data in checking
+a database program. I just think it&amp;#8217;s cool that someone&amp;#8217;s gone to the
+effort to go from the raw data to get addresses that pass a quick&amp;nbsp;check.&lt;/p&gt;
+&lt;p&gt;Over the weekend, a couple more cool features have been added,&amp;nbsp;including&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Canadian and Australian&amp;nbsp;address&lt;/li&gt;
+&lt;li&gt;disposable email addresses from a number of&amp;nbsp;providers&lt;/li&gt;
+&lt;li&gt;a pop up bubble that tells you how old your alter ego&amp;nbsp;is&lt;/li&gt;
+&lt;li&gt;a&amp;nbsp;disclaimer&lt;/li&gt;
+&lt;li&gt;uncommon names&amp;nbsp;option&lt;/li&gt;
+&lt;li&gt;save as vCard&amp;nbsp;option&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and this morning, he keeps reworking the formatting. I don&amp;#8217;t know what
+he&amp;#8217;ll add from here, but it looks pretty good right&amp;nbsp;now.&lt;/p&gt;
+&lt;p&gt;Check it out at
+&lt;a href="http://dev.allredtech.com/fakename/"&gt;dev.allredtech.com/fakename&lt;/a&gt;.&lt;/p&gt;</content><category term="dev.allred.com/fakename"></category><category term="Fake ID"></category><category term="ID"></category><category term="Identification"></category><category term="Online Privacy"></category><category term="Pookmail.com"></category><category term="Privacy"></category><category term="Series:Web Site-seeing"></category></entry></feed>

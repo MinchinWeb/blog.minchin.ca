@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - seafoam</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.seafoam.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2017-04-18T10:04:00-06:00</updated><entry><title>Pelican Trove Classifiers Added to PyPI</title><link href="http://blog.minchin.ca/2017/04/pelican-trove-classifiers.html" rel="alternate"></link><published>2017-04-18T10:04:00-06:00</published><updated>2017-04-18T10:04:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-04-18:/2017/04/pelican-trove-classifiers.html</id><summary type="html">&lt;a href="https://pypi.python.org/pypi"&gt;PyPI&lt;/a&gt; is the &amp;#8220;package index&amp;#8221; for Python and a wonderful tool for finding and sharing Python&amp;nbsp;libraries.</summary><content type="html">&lt;p&gt;&lt;a href="https://pypi.python.org/pypi"&gt;PyPI&lt;/a&gt; is the &amp;#8220;package index&amp;#8221; for Python and a wonderful tool for finding and sharing Python&amp;nbsp;libraries.&lt;/p&gt;
+&lt;p&gt;On the index, there is a system of &lt;em&gt;trove classifiers&lt;/em&gt; (see the &lt;a href="https://pypi.python.org/pypi?%3Aaction=list_classifiers"&gt;full list here&lt;/a&gt;) that serve to allow package authors to tag their projects to help user find them. Some groups classifiers cover the Python version targeted, the &amp;#8220;development status&amp;#8221; (alpha, beta, stable, etc.), the license, the framework used, as so&amp;nbsp;on.&lt;/p&gt;
+&lt;p&gt;Recently, trove classifiers for Pelican were added! This is great because it will allow for better discover-ability of Pelican themes and plugins. So I&amp;#8217;ve re-released my collection of Pelican plugins and themes with the new classifiers, so the following&amp;nbsp;releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.jinja_filters"&gt;minchin.pelican.jinja_filters&lt;/a&gt;&amp;nbsp;v1.0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.cname"&gt;minchin.pelican.plugins.cname&lt;/a&gt;&amp;nbsp;v1.0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.image_process"&gt;minchin.pelican.plugins.image_process&lt;/a&gt; v1.1.2 (this release is broken, &lt;a href="http://blog.minchin.ca/2017/05/image-processing-for-pelican-113-released.html"&gt;version 1.1.3 has been released&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.nojekyll"&gt;minchin.pelican.plugins.nojekyll&lt;/a&gt;&amp;nbsp;v1.0.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.optimize_images"&gt;minchin.pelican.plugins.optimize_images&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.post_stats"&gt;minchin.pelican.plugins.post_stats&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.summary"&gt;minchin.pelican.plugins.summary&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/seafoam"&gt;seafoam&lt;/a&gt;&amp;nbsp;v2.1.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyPI also has the ability to show you &lt;a href="https://pypi.python.org/pypi?:action=browse&amp;amp;c=635"&gt;everything tagged with Pelican&lt;/a&gt;.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category><category term="seafoam"></category></entry><entry><title>Seafoam 2.0.4 Pelican Theme Released</title><link href="http://blog.minchin.ca/2017/01/seafoam-2-released.html" rel="alternate"></link><published>2017-01-11T13:33:00-07:00</published><updated>2017-01-11T13:33:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-01-11:/2017/01/seafoam-2-released.html</id><summary type="html">&lt;p&gt;Version 2.0.4 of &lt;em&gt;Seafoam&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Seafoam is the Pelican theme I use for this site, but published to PyPI in the hope that it will be useful to&amp;nbsp;others.&lt;/p&gt;
+&lt;p&gt;This release changes the name of the project to &lt;em&gt;seafoam&lt;/em&gt; from to unwieldy
+&lt;em&gt;&lt;a href="http://blog.minchin.ca/2016/09/minchin-dot-ca-pelican-theme-version-110-released.html"&gt;minchin.pelican.themes.minchindotca&lt;/a&gt;&lt;/em&gt;.
+It also add support for the
+&lt;a href="https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/"&gt;Pelican Comment System&lt;/a&gt;,
+removes the need to define Jinja2 filters in your configuration file,
+updates to  Font Awesome v4.7, and several design fixes as well. Code is
+updated to work with Pelican v3.7 and Jinja&amp;nbsp;v2.9.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 2.0.4 of &lt;em&gt;Seafoam&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Seafoam is the Pelican theme I use for this site, but published to PyPI in the hope that it will be useful to&amp;nbsp;others.&lt;/p&gt;
+&lt;p&gt;This release changes the name of the project to &lt;em&gt;seafoam&lt;/em&gt; from to unwieldy
+&lt;em&gt;&lt;a href="http://blog.minchin.ca/2016/09/minchin-dot-ca-pelican-theme-version-110-released.html"&gt;minchin.pelican.themes.minchindotca&lt;/a&gt;&lt;/em&gt;.
+It also add support for the
+&lt;a href="https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/"&gt;Pelican Comment System&lt;/a&gt;,
+removes the need to define Jinja2 filters in your configuration file,
+updates to  Font Awesome v4.7, and several design fixes as well. Code is
+updated to work with Pelican v3.7 and Jinja&amp;nbsp;v2.9.&lt;/p&gt;
+
+
+&lt;h3&gt;Quickstart&lt;/h3&gt;
+&lt;p&gt;To use this theme, first install it via &lt;code&gt;pip&lt;/code&gt;: (as a side, this is the only
+Pelican theme I know of that is installable from&amp;nbsp;PyPI.)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install seafoam
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Next, update your &lt;code&gt;pelicanconf.py&lt;/code&gt; to use the theme, with its default&amp;nbsp;settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;seafoam&lt;/span&gt;
+
+&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;seafoam&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;BOOTSTRAP_THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;seafoam&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;minchin.pelican.jinja_filters&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.image_process&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="c1"&gt;# others, as desired...&lt;/span&gt;
+           &lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;article-feature&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 848 848 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;index-feature&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 263 263 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And then regenerate your&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;The theme depends on the pathlib library, that was introduced in Python 3.4, so the theme won&amp;#8217;t work on earlier versions of Python. Installing the pathlib2 library should provide the necessary functionality for the theme to work, but this is currently untested by&amp;nbsp;me.&lt;/p&gt;
+&lt;h3&gt;Settings&lt;/h3&gt;
+&lt;p&gt;The full settings are not particularly well documented (by me anyway), although the the &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;ReadMe&lt;/a&gt; for the base theme goes over most of the&amp;nbsp;settings.&lt;/p&gt;
+&lt;h3&gt;Changelog&lt;/h3&gt;
+&lt;p&gt;I&amp;#8217;ve built a release script that automates pushing releases to PyPI, and so
+it makes it very easy to make a release. In fact, writing these release blog
+posts is probably the most involved part of cutting a release! Therefore, this
+blog post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and&amp;nbsp;2.0.4:&lt;/p&gt;
+&lt;h4&gt;Version 2.0.0 &amp;#8212; January 9,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;span class="caps"&gt;BREAKING&lt;/span&gt;&lt;/em&gt;: rename from &lt;code&gt;minchin.pelican.themes.minchindotca&lt;/code&gt;
+  to &lt;code&gt;seafoam&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add support for Pelican Blog&amp;nbsp;System&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add Seafoam&amp;nbsp;logo&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: switch to &lt;code&gt;minchin.pelican.jinja_filters&lt;/code&gt; to provide
+  the required Jinja filters, rather than requiring them to be manually
+  added to the user&amp;#8217;s configuration&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: upgrade to FontAwesome&amp;nbsp;4.7.0&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: upgrade to jQuery&amp;nbsp;3.1.0&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add support for reading time via
+  &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/post_stats"&gt;post stats&lt;/a&gt;&amp;nbsp;plugin&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add support for &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system"&gt;pelican comment&amp;nbsp;system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: restyle comments with bootstrap&amp;#8217;s &lt;code&gt;media&lt;/code&gt; class (much
+  cleaner template code) (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/6"&gt;issue 6&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: switch template variable from &lt;code&gt;PAGES&lt;/code&gt; to &lt;code&gt;pages&lt;/code&gt; to
+  support Pelican v3.7 (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/5"&gt;issue 5&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: don&amp;#8217;t print section for next and previous posts in a category if
+  the article is the only one in that&amp;nbsp;category&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.1 &amp;#8212; January 10,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: pluralization of &amp;#8220;1 comment&amp;#8221; now correct (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/8"&gt;issue 8&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix pagination code to work with Jinja2 v2.9.0 (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/9"&gt;issue 9&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.2 &amp;#8212; January 11,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix link color on&amp;nbsp;panel-primary&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: improve layout of generated &lt;span class="caps"&gt;HTML&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.3 &amp;#8212; January 11,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix link color in body area of panel-primary (fixes regression
+  from version&amp;nbsp;2.0.2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.4 &amp;#8212; January 11,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix archive page template code to work with Jinja2 v2.9.0 (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/10"&gt;issue 10&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="seafoam"></category><category term="Python"></category><category term="releases"></category></entry></feed>

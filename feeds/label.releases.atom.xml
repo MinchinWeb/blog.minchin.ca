@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - releases</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.releases.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2017-08-30T12:27:00-06:00</updated><entry><title>TRB (Transportation Research Board) Bibliography Style Updated for Word 2013/2016</title><link href="http://blog.minchin.ca/2017/08/trb-bibliography-style-for-word-updated.html" rel="alternate"></link><published>2017-08-30T12:04:00-06:00</published><updated>2017-08-30T12:04:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-08-30:/2017/08/trb-bibliography-style-for-word-updated.html</id><summary type="html">&lt;p&gt;Updating my version of the Transportation Research Board (&lt;span class="caps"&gt;TRB&lt;/span&gt;) reference style for use with the reference manager in Microsoft Word 2013 and&amp;nbsp;2016.&lt;/p&gt;</summary><content type="html">&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Word 2016 Reference Tab" src="http://blog.minchin.ca/images/2017/word-2016-reference-tab.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Seven years ago, I released a
+&lt;a href="http://blog.minchin.ca/2010/07/trb-transportation-research-board-bibliography-style-for-word-2007-2010.html"&gt;&lt;span class="caps"&gt;TRB&lt;/span&gt; (Transportation Research Board) Bibliography Style for Word 2010&lt;/a&gt;.
+In the years since, that post has proved to be one of my most popular. However,
+after the initial project I needed it for, I haven&amp;#8217;t needed it again, and so it
+just let it lie. Then, internal changes in Word made the style un-usable with
+the 2013 release. I was disappointed, but unsure of how to fix&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;So imagine my delight last week to receive an email, out of the blue, from
+Maggie McNamara saying that she&amp;#8217;d found a way to update the Bibiliography style
+for Word 2013! As a bonus, she&amp;#8217;s also added &lt;span class="caps"&gt;DOI&lt;/span&gt; support (which I&amp;#8217;d never heard
+of when I first created the&amp;nbsp;style).&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;This updated version should work with all versions of Word after 2007 (although
+I haven&amp;#8217;t personally been able to test them all). One thing that does change
+between Word versions is where to put the &lt;span class="caps"&gt;XSL&lt;/span&gt;&amp;nbsp;file:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Word 2007&amp;nbsp;(Windows)&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;&amp;lt;winword.exe directory&amp;gt;\Bibliography\Style&lt;/code&gt;&lt;/dd&gt;
+&lt;dt&gt;Word 2010&amp;nbsp;(Windows)&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;&amp;lt;winword.exe directory&amp;gt;\Bibliography\Style&lt;/code&gt;&lt;/dd&gt;
+&lt;dt&gt;Word 2010 (32 bit systems)&amp;nbsp;(Windows)&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;%programfiles%\Microsoft Office\Office14\Bibliography\Style&lt;/code&gt;&lt;/dd&gt;
+&lt;dt&gt;Word 2016 and Office 365&amp;nbsp;(Windows)&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;C:\Users\&amp;lt;currentusername&amp;gt;\AppData\Roaming\Microsoft\Bibliography\Style&lt;/code&gt;, or
+&lt;code&gt;%AppData%\Microsoft\Templates\LiveContent\15\Managed\Word Document Bibliography Styles&lt;/code&gt;&lt;/dd&gt;
+&lt;dt&gt;Word 2008 and Word 2011 (Mac &lt;span class="caps"&gt;OS&lt;/span&gt;)&lt;/dt&gt;
+&lt;dd&gt;To use the bibliography styles, right-click on Microsoft Word 2008 and
+select show package contents. Put the files in &lt;code&gt;Contents/Resources/Style/&lt;/code&gt;.
+On most Macs with Microsoft Word 2008 this will be
+&lt;code&gt;/Applications/Microsoft Office 2008/Microsoft Word.app/Contents/Resources/Style/&lt;/code&gt;&lt;/dd&gt;
+&lt;dt&gt;Word 2016 for Mac (version 15.17.0 and&amp;nbsp;up)&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;/Library/AppSupport/Microsoft/Office365/Citations/&lt;/code&gt;&lt;/dd&gt;
+&lt;dt&gt;Office 365 (Mas &lt;span class="caps"&gt;OS&lt;/span&gt;)&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;/Applications/Microsoft Word.app/Contents/Resources/Style&lt;/code&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h3&gt;Example&amp;nbsp;Output&lt;/h3&gt;
+&lt;p&gt;In-text references are numeric, based on reference&amp;nbsp;order.&lt;/p&gt;
+&lt;p&gt;Repeated references reuse the original&amp;nbsp;number.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8230; Different pedestrian behaviour is associated not only
+with different physical characteristics but also the differing purpose
+of
+pedestrians (&lt;em&gt;1, 2&lt;/em&gt;). Studies have been
+carried out for crowds associated with transportation systems (&lt;em&gt;3, 4,
+5&lt;/em&gt;), sporting and
+general spectator occasions (&lt;em&gt;6&lt;/em&gt;), holy sites (&lt;em&gt;7, 8&lt;/em&gt;), political
+demonstrations (&lt;em&gt;9&lt;/em&gt;),
+and fire escapes (&lt;em&gt;10&lt;/em&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The bibliography output is as&amp;nbsp;follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Polus, A., &lt;span class="caps"&gt;J.L.
+&lt;/span&gt;Schofer, and A. Ushpi. Pedestrian flow and level of service.
+&lt;i&gt;Journal of
+Transportation Engineering Proceedings, &lt;span class="caps"&gt;ASCE&lt;/span&gt;&lt;/i&gt;, Vol. 109, 1983, pp.&amp;nbsp;46-57.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Toshiyuki, A.
+Prediction system of passenger flow, in &lt;em&gt;Engineering for Crowd
+Safety&lt;/em&gt;,
+Smith, R.A., and &lt;span class="caps"&gt;J.F.&lt;/span&gt; Dickie. Amsterdam: Elsevier, 1993, pp.&amp;nbsp;249-258.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Smith, R.A., and &lt;span class="caps"&gt;J.F.
+&lt;/span&gt;Dickie. &lt;em&gt;Engineering for Crowd Safety&lt;/em&gt;. Amsterdam,&amp;nbsp;1993.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tanaka, T. A study for
+performance based design of means of escape in fire, in &lt;i&gt;Fire Safety
+Science
+&amp;#8212; Proceedings of the 3rd International Symposium&lt;/i&gt;, Cox, G., and B.
+Langford.
+Amsterdam: Elsevier, 1991, pp.&amp;nbsp;729-738.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wikipedia
+contributors. List of metro systems. &lt;em&gt;Wikipedia, The Free
+Encyclopedia&lt;/em&gt;,
+June 17, 2010.
+&lt;a href="http://en.wikipedia.org/w/index.php?title=List_of_metro_systems&amp;amp;oldid=368658114"&gt;http://en.wikipedia.org/w/index.php?title=List_of_metro_systems&amp;amp;oldid=368658114&lt;/a&gt;.
+Accessed June 17,&amp;nbsp;2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Known&amp;nbsp;Issues&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;in Word 2016, it lists the style as &lt;em&gt;First Edition&lt;/em&gt;, and I haven&amp;#8217;t figured
+  out how to change this&amp;nbsp;yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Download&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://minchin.ca/TRB_Minchin.ca.2013.XSL"&gt;&lt;span class="caps"&gt;TRB&lt;/span&gt; Bibliography format for Word
+2007/2010/2013/2016&lt;/a&gt; (right-click and select
+&amp;#8220;Save Link&amp;nbsp;As&amp;#8230;&amp;#8221;)&lt;/p&gt;
+&lt;p&gt;Thanks again Maggie for the&amp;nbsp;update!&lt;/p&gt;
+&lt;h3&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.minchin.ca/2010/07/trb-transportation-research-board-bibliography-style-for-word-2007-2010.html"&gt;Original Release Post&lt;/a&gt;
+  (July 7,&amp;nbsp;2010)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codingo/BibWord"&gt;BibWord source code&lt;/a&gt; &amp;#8212; This is the
+  original project for creating custom Bibliography styles for Word. If you
+  need a style other than &lt;span class="caps"&gt;TRB&lt;/span&gt; and the built-in styles, this may provide a
+  starting point for you to build your own custom&amp;nbsp;style.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="BibWord"></category><category term="Microsoft Word"></category><category term="TRB"></category><category term="Word 2013"></category><category term="Word 2016"></category><category term="releases"></category></entry><entry><title>PhotoSorter Python script 2.1.0 Released</title><link href="http://blog.minchin.ca/2017/08/photosorter-210-released.html" rel="alternate"></link><published>2017-08-28T15:16:00-06:00</published><updated>2017-08-28T15:16:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-08-28:/2017/08/photosorter-210-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Photosorter&lt;/em&gt; is a little Python script to keep my photos from Dropbox&amp;nbsp;organized.&lt;/p&gt;
+&lt;p&gt;It watches a &lt;em&gt;source directory&lt;/em&gt; for modifications and moves new image files to
+a &lt;em&gt;target directory&lt;/em&gt; depending on when the photo was taken, using &lt;span class="caps"&gt;EXIF&lt;/span&gt; data and
+creation date as a fallback. There is also an option to move existing photos.
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Photosorter&lt;/em&gt; is a little Python script to keep my photos from Dropbox&amp;nbsp;organized.&lt;/p&gt;
+&lt;p&gt;It watches a &lt;em&gt;source directory&lt;/em&gt; for modifications and moves new image files to
+a &lt;em&gt;target directory&lt;/em&gt; depending on when the photo was taken, using &lt;span class="caps"&gt;EXIF&lt;/span&gt; data and
+creation date as a fallback. There is also an option to move existing photos.
+&lt;/p&gt;
+&lt;p&gt;Directory and file names follow a simple naming convention
+(&lt;code&gt;YYYY-MM/YYY_MM_DD/YYYY-MM-DD hh:mm:ss.ext&lt;/code&gt;) that keeps everything neatly
+organized. Duplicates are detected and ignored based on their &lt;span class="caps"&gt;SHA1&lt;/span&gt; hash and
+folder path. Photos taken in the same instant get de-duplicated by adding a
+suffix (&lt;code&gt;-1&lt;/code&gt;, &lt;code&gt;-2&lt;/code&gt;, etc) to their&amp;nbsp;filenames.&lt;/p&gt;
+&lt;p&gt;The result looks somewhat like&amp;nbsp;this::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;├── 2013-01
+│   ├── 2013_01_05
+│   │   ├── 2013-01-05\ 13.24.45.jpg
+│   │   ├── 2013-01-05\ 14.25.54.jpg
+│   │   └── 2013-01-05\ 21.28.48-1.jpg
+│   ├── 2013_01_06
+│   │   ├── 2013-01-06\ 16.05.02.jpg
+│   │   ├── 2013-01-06\ 19.59.25.jpg
+│   │   ├── 2013-01-06\ 20.40.28.jpg
+│   │   └── 2013-01-06\ 21.14.38.jpg
+│   └── 2013_01_08
+│       └── 2013-01-08\ 11.45.51.jpg
+├── 2013-02
+|   └─ ...
+├── ...
+├── 2013-12
+├── 2014-01
+├── 2014-02
+├── ...
+├── 2014-12
+├── ...
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I use &lt;code&gt;C:\Users\[windows username]\Dropbox\Camera Uploads&lt;/code&gt; as the source
+directory and &lt;code&gt;Z:\Photos&lt;/code&gt; as the target. This allows me to move my photo from
+Dropbox to a local drive, and merge them with the rest of my photo&amp;nbsp;collection.&lt;/p&gt;
+&lt;h2&gt;Impletmentation&amp;nbsp;Notes&lt;/h2&gt;
+&lt;p&gt;I use a different folder set-up that Dan (in his original scirpt) used. The one
+I&amp;#8217;m using matches the default folder set-up for my Canon&amp;nbsp;camera.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install the script is through&amp;nbsp;pip::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.scripts.photosorter
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;The script&amp;#8217;s requirements will be automatically installed in the script is
+installed via &lt;em&gt;pip&lt;/em&gt; as recommended above. They can also be installed manually,
+if&amp;nbsp;required::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install argcomplete&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.3.0
+pip install exifread&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;.1.2
+pip install watchdog&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.8.3
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;Watch &lt;code&gt;src_dir&lt;/code&gt; and sort incoming photos into &lt;code&gt;dest_dir&lt;/code&gt;::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;photosorter src_dir dest_dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When you&amp;#8217;re done with it, &lt;code&gt;Ctrl + C&lt;/code&gt; will end the&amp;nbsp;program.&lt;/p&gt;
+&lt;p&gt;If you also want to move the existing files in &lt;code&gt;src_dir&lt;/code&gt; (which are, by
+default,&amp;nbsp;ignored)::&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;photosorter src_dir dest_dir --move-existing
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the tests do not currently&amp;nbsp;run.&lt;/li&gt;
+&lt;li&gt;matching (to provide de-duplication) is based on full filepaths matching.
+  I.e. if the per day folder is renamed, the script will not look in the
+  renamed folder for photo&amp;nbsp;matches.&lt;/li&gt;
+&lt;li&gt;Linux deamon setup is untested by&amp;nbsp;myself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;h3&gt;2.1.0 &amp;#8212;&amp;nbsp;2017-08-28&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;also move &lt;span class="caps"&gt;MP4&lt;/span&gt;&amp;nbsp;files&lt;/li&gt;
+&lt;li&gt;add changelog to&amp;nbsp;readme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2.0.0 &amp;#8212;&amp;nbsp;2017-08-27&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;move to &lt;code&gt;minchin.scripts.photosorter&lt;/code&gt; namespace&lt;/li&gt;
+&lt;li&gt;do releases via &lt;code&gt;minchin.releaser&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;changed generated file folder&amp;nbsp;layout&lt;/li&gt;
+&lt;li&gt;add option to move existing&amp;nbsp;files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;Distributed under the &lt;span class="caps"&gt;MIT&lt;/span&gt; license. See
+&lt;a href="https://raw.githubusercontent.com/MinchinWeb/minchin.scripts.photosorter/master/LICENSE.txt"&gt;&lt;span class="caps"&gt;LICENSE&lt;/span&gt;.txt&lt;/a&gt;
+for more&amp;nbsp;information.&lt;/p&gt;
+&lt;h2&gt;Credit&lt;/h2&gt;
+&lt;p&gt;This script is a modified version of the one put together by
+&lt;a href="https://dbader.org/blog/how-to-store-photos-in-the-cloud-and-avoid-vendor-lock-in"&gt;Dan Bader&lt;/a&gt;.
+Thanks for providing a great template&amp;nbsp;Dan!&lt;/p&gt;</content><category term="dropbox"></category><category term="python"></category><category term="releases"></category></entry><entry><title>Image Process Plugin 1.1.3 for Pelican Released</title><link href="http://blog.minchin.ca/2017/05/image-processing-for-pelican-113-released.html" rel="alternate"></link><published>2017-05-27T16:00:00-06:00</published><updated>2017-05-27T16:00:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-05-27:/2017/05/image-processing-for-pelican-113-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; let you automate the processing of images based on their
+class attribute. Use this plugin to minimize the overall page weight and
+to save you a trip to Gimp or Photoshop each time you include an image
+in your&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; also makes it easy to create responsive images using the
+new &lt;span class="caps"&gt;HTML5&lt;/span&gt; &lt;code&gt;srcset&lt;/code&gt; attribute and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag. It does this by
+generating multiple derivative images from one or more sources.
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; let you automate the processing of images based on their
+class attribute. Use this plugin to minimize the overall page weight and
+to save you a trip to Gimp or Photoshop each time you include an image
+in your&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; also makes it easy to create responsive images using the
+new &lt;span class="caps"&gt;HTML5&lt;/span&gt; &lt;code&gt;srcset&lt;/code&gt; attribute and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag. It does this by
+generating multiple derivative images from one or more sources.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; will not overwrite your original&amp;nbsp;images.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; is used by
+&lt;a href="https://github.com/MinchinWeb/seafoam"&gt;this blog&amp;#8217;s theme&lt;/a&gt; to resize the source
+images so they are the correct size for thumbnails on the main index page and
+the larger size they are displayed at on top of the&amp;nbsp;articles.&lt;/p&gt;
+&lt;h2&gt;This&amp;nbsp;Release&lt;/h2&gt;
+&lt;p&gt;This post is up because version 1.1.3 of the plugin has been released and posted
+&lt;a href="https://pypi.org/project/minchin.pelican.plugins.image-process/"&gt;PyPI&lt;/a&gt;. This
+version was released because version 1.1.2, as posted to PyPI, was broken; among
+other issues I couldn&amp;#8217;t generated my&amp;nbsp;blog!&lt;/p&gt;
+&lt;p&gt;To upgrade simply use &lt;code&gt;pip&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.image_process --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The bulk of the &lt;span class="caps"&gt;README&lt;/span&gt; is included below as I haven&amp;#8217;t posted it to the blog 
+before. This plugin is a rather powerful, but as such is more involved to
+configure than many other Pelican&amp;nbsp;plugins.&lt;/p&gt;
+&lt;p&gt;A special thanks to the team at &lt;a href="https://github.com/whiskyechobravo/image_process"&gt;Whisky Echo
+Bravo&lt;/a&gt; who developed the code
+of the&amp;nbsp;plugin.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;em&gt;Image Process&lt;/em&gt; is through the use of pip.
+This will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.image_process
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;code&gt;Image Process&lt;/code&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+            &lt;span class="c1"&gt;# ...&lt;/span&gt;
+            &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.image_process&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You will also need to configure your desired transformations (see
+&lt;em&gt;Usage&lt;/em&gt; below) and add the appropriate class to images you want&amp;nbsp;processed.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; requires Beautiful Soup, Pillow, Six, and Pelican. All
+these can be manually installed with&amp;nbsp;pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pillow beautifulsoup4 six pelican
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you encounter errors while processing &lt;span class="caps"&gt;JPEG&lt;/span&gt; files (on Linux), you may need to
+install the &lt;span class="caps"&gt;JPEG&lt;/span&gt; development&amp;nbsp;library:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip uninstall pillow
+apt-get install libjpeg-dev
+pip install pillow
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Image Process&lt;/em&gt; scans your content for &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags with special
+classes. It then maps the classes to a set of image processing
+instructions, computes new images and modifies &lt;span class="caps"&gt;HTML&lt;/span&gt; code according to
+the&amp;nbsp;instructions.&lt;/p&gt;
+&lt;h3&gt;Define&amp;nbsp;transformations&lt;/h3&gt;
+&lt;p&gt;The first step in using this module is to define some image
+transformations in your Pelican configuration file. Transformations are
+defined in the &lt;code&gt;IMAGE_PROCESS&lt;/code&gt; dictionary, mapping a transformation name
+to a list of operations. There are three kinds of transformations: image
+replacement, responsive image and picture&amp;nbsp;set.&lt;/p&gt;
+&lt;h4&gt;Image&amp;nbsp;replacement&lt;/h4&gt;
+&lt;p&gt;The simplest image processing will replace the original image by a new,
+transformed image computed from the original. You may use this, for
+example, to ensure that all images are of the same size, or to compute a
+thumbnail from a larger&amp;nbsp;image:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;article-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 300 300 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;thumb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 0 0 50&lt;/span&gt;&lt;span class="si"&gt;% 50%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;scale_out 150 150 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;crop 0 0 150 150&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;These transformations tell &lt;em&gt;Image process&lt;/em&gt; to transform the image
+referred by the &lt;code&gt;src&lt;/code&gt; attribute of an &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; according to the list of
+operations specified and replace the &lt;code&gt;src&lt;/code&gt; attribute by the &lt;span class="caps"&gt;URL&lt;/span&gt; of the
+transformed&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;For consistency with the other type of transformations described below,
+there is an alternative syntax for the processing&amp;nbsp;instructions:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;thumb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;&amp;#39;ops&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 0 0 50&lt;/span&gt;&lt;span class="si"&gt;% 50%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;scale_out 150 150 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;crop 0 0 150 150&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+              &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;article-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                      &lt;span class="s1"&gt;&amp;#39;ops&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 300 300 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+                      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To apply image replacement to the images in your articles, you must add
+them the special class &lt;code&gt;image-process-&lt;/code&gt; followed by the name of the
+transformation you wish to apply. For example, let&amp;#39;s pretend you have
+defined the transformation described above. If you write your content in
+&lt;span class="caps"&gt;HTML&lt;/span&gt; or in Markdown, do something like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image-process-article-image&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican.jpg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In reStructuredText, use the &lt;code&gt;:class:&lt;/code&gt; attribute of the &lt;code&gt;image&lt;/code&gt; or the
+&lt;code&gt;figure&lt;/code&gt; directive:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;image&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-article-image&lt;/span&gt;
+
+&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-article-image&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="admonition note"&gt;
+
+The reStructuredText reader will convert underscores (`_`) to dashes
+(`-`) in class names. To make sure everything runs smoothly, do not use
+underscores in your transformation names.
+
+&lt;/div&gt;
+
+&lt;h4&gt;Responsive&amp;nbsp;Images&lt;/h4&gt;
+&lt;p&gt;You can use &lt;em&gt;Image process&lt;/em&gt; to automatically generate a set of images
+that will be selected for display by browsers according to the viewport
+width or according to the device resolution. To accomplish this,
+&lt;em&gt;Image process&lt;/em&gt; will add a &lt;code&gt;srcset&lt;/code&gt; attribute (and maybe a &lt;code&gt;media&lt;/code&gt; and a
+&lt;code&gt;sizes&lt;/code&gt; attribute) to the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;Note that the &lt;code&gt;srcset&lt;/code&gt; syntax is currently not supported by all
+browsers. However, browsers who do not support the &lt;code&gt;srcset&lt;/code&gt; attribute
+will fall back to a default image specified by the still-present &lt;code&gt;src&lt;/code&gt;
+attribute. See &lt;a href="http://caniuse.com/#feat=srcset"&gt;Can I Use&lt;/a&gt; for the
+current status on &lt;code&gt;srcset&lt;/code&gt; support.&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;HTML5&lt;/span&gt; supports two types of responsive image set. The first one is
+device-pixel-ratio-based, selecting higher resolution images for higher
+resolution devices; the second one is viewport-based, selecting images
+according to the viewport width. If you want to know more about &lt;span class="caps"&gt;HTML5&lt;/span&gt;
+responsive images, I recommend
+&lt;a href="http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/"&gt;this
+article&lt;/a&gt;
+for a gentle introduction to the &lt;code&gt;srcset&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntaxes.&lt;/p&gt;
+&lt;p&gt;To tell &lt;em&gt;Image process&lt;/em&gt; to generate a responsive image, add a
+&lt;code&gt;responsive-image&lt;/code&gt; transformation to your your &lt;code&gt;IMAGE_PROCESS&lt;/code&gt;
+dictionary, with the following&amp;nbsp;syntax:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;crisp&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;responsive-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 800 600 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;2x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1600 1200 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;4x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 3200 2400 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                         &lt;span class="p"&gt;],&lt;/span&gt;
+               &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+             &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;large-photo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;responsive-image&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="s1"&gt;&amp;#39;sizes&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;(min-width: 1200px) 800px, (min-width: 992px) 650px, &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="s1"&gt;                              (min-width: 768px) 718px, 100vw&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;600w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 600 450 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;800w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 800 600 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1600w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1600 1200 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                               &lt;span class="p"&gt;],&lt;/span&gt;
+                    &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;800w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                   &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;crisp&lt;/code&gt; transformation is an example of a transformation enabling
+device-pixel-ratio-based selection. The &lt;code&gt;srcset&lt;/code&gt; is a list of tuple,
+each tuple containing the image description (&lt;code&gt;'1x'&lt;/code&gt;, &lt;code&gt;'2x'&lt;/code&gt;, etc.) and
+the list of operations to generate the derivative image from the
+original image (the original image is the value of the &lt;code&gt;src&lt;/code&gt; attribute
+of the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;). Image descriptions are hints about the resolution of
+the associated image and must have the suffix &lt;code&gt;x&lt;/code&gt;. The &lt;code&gt;default&lt;/code&gt; names
+the image to use to replace the &lt;code&gt;src&lt;/code&gt; attribute of the image. This is
+the image that will be displayed by browsers that do not support the
+&lt;code&gt;srcset&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;large-photo&lt;/code&gt; transformation is an example of a transformation
+enabling viewport-based selection. The &lt;code&gt;sizes&lt;/code&gt; contains a rule to
+compute the width of the displayed image from the width of the viewport.
+Once the browser knows the image width, it will select an image source
+from the &lt;code&gt;srcset&lt;/code&gt;. The &lt;code&gt;srcset&lt;/code&gt; is a list of tuple, each tuple
+containing the image description (&lt;code&gt;'600w'&lt;/code&gt;, &lt;code&gt;'800w'&lt;/code&gt;, etc.) and the list
+of operations to generate the derivative image from the original image
+(the original image is the value of the &lt;code&gt;src&lt;/code&gt; attribute of the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;).
+Image descriptions are hints about the width in pixels of the associated
+image and must have the suffix &lt;code&gt;w&lt;/code&gt;. The &lt;code&gt;default&lt;/code&gt; names the image to use
+to replace the &lt;code&gt;src&lt;/code&gt; attribute of the image. This is the image that will
+be displayed by browsers that do not support the &lt;code&gt;srcset&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;p&gt;In the two examples above, the &lt;code&gt;default&lt;/code&gt; is a string referring to one of
+the images in the &lt;code&gt;srcset&lt;/code&gt;. However, the &lt;code&gt;default&lt;/code&gt; value could also be a
+list of operations to generate a different derivative&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;To make the images in your article responsive, you must add them the
+special class &lt;code&gt;image-process-&lt;/code&gt; followed by the name of the
+transformation you wish to apply, exactly like you would do for the
+image replacement case, described above. So, if you write your content
+in &lt;span class="caps"&gt;HTML&lt;/span&gt; or in Markdown, do something like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image-process-large-photo&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican.jpg&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In reStructuredText, use the &lt;code&gt;:class:&lt;/code&gt; attribute of the &lt;code&gt;image&lt;/code&gt; of the
+&lt;code&gt;figure&lt;/code&gt; directive:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;image&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-large-photo&lt;/span&gt;
+
+&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-large-photo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Picture&amp;nbsp;Set&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Image process&lt;/em&gt; can be use to generate the images used by a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;
+tag. The &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntax allows for more flexibility in providing a
+choice of image to the browser. Again, if you want to know more about
+&lt;span class="caps"&gt;HTML5&lt;/span&gt; responsive images, see &lt;a href="http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/"&gt;this
+article&lt;/a&gt;
+for a gentle introduction to the &lt;code&gt;srcset&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntaxes.&lt;/p&gt;
+&lt;p&gt;To tell &lt;em&gt;Image process&lt;/em&gt; to generate the images for a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;, add a
+&lt;code&gt;picture&lt;/code&gt; entry to your &lt;code&gt;IMAGE_PROCESS&lt;/code&gt; dictionary with the following&amp;nbsp;syntax:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;example-pict&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;picture&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                   &lt;span class="s1"&gt;&amp;#39;sources&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;name&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;media&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;(min-width: 640px)&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;640w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 640 480 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1024w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1024 683 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1600w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 1600 1200 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;],&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;sizes&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;100vw&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="p"&gt;},&lt;/span&gt;
+                               &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;name&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;source-1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                &lt;span class="s1"&gt;&amp;#39;srcset&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 100 100 200 200&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;2x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;crop 100 100 300 300&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+                                           &lt;span class="p"&gt;]&lt;/span&gt;
+                                &lt;span class="p"&gt;}&lt;/span&gt;
+                               &lt;span class="p"&gt;],&lt;/span&gt;
+                   &lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;640w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+                   &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Each of the &lt;code&gt;sources&lt;/code&gt; entry is very similar to the &lt;code&gt;responsive image&lt;/code&gt;
+describe above. Here, each source must have a &lt;code&gt;name&lt;/code&gt;, which will be used
+to find the &lt;span class="caps"&gt;URL&lt;/span&gt; of the original image for this source in your article.
+The source may also have a &lt;code&gt;media&lt;/code&gt;, which contains a rule used by the
+browser to select the active source. The &lt;code&gt;default&lt;/code&gt; names the image to
+use to replace the &lt;code&gt;src&lt;/code&gt; attribute of the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; inside the
+&lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;. This is the image that will be displayed by browsers that
+do not support the &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; syntax. In this example, it will use the
+image &lt;code&gt;640w&lt;/code&gt; from the source &lt;code&gt;default&lt;/code&gt;. A list of operations could have
+been specified instead of &lt;code&gt;640w&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To generate a responsive &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; for the images in your articles,
+you must add to your article a pseudo &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag that looks like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;picture&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;source&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;source-1&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican-closeup.jpg&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;source&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image-process-example-pict&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/images/pelican.jpg&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;picture&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Each &lt;code&gt;&amp;lt;source&amp;gt;&lt;/code&gt; tag maps a source name (the &lt;code&gt;class&lt;/code&gt; attribute) to a file
+(the &lt;code&gt;src&lt;/code&gt; attribute). The &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; must have the special class
+&lt;code&gt;image-process-&lt;/code&gt; followed by the name of the transformation you wish to
+apply. The file referenced by the &lt;code&gt;src&lt;/code&gt; attribute of the &lt;code&gt;&amp;lt;img&amp;gt;&amp;gt;&lt;/code&gt; will
+be used as the special &lt;code&gt;default&lt;/code&gt; source in your transformation&amp;nbsp;definition.&lt;/p&gt;
+&lt;p&gt;The pseudo &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; tag above can be used in articles written in
+&lt;span class="caps"&gt;HTML&lt;/span&gt;, Markdown or restructuredText. In reStructuredText, however, you
+can also use the &lt;code&gt;figure&lt;/code&gt; directive to generate a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;. The
+figure image file will be used as the special &lt;code&gt;default&lt;/code&gt; source; other
+sources must be added in the the legend section of the &lt;code&gt;figure&lt;/code&gt; as
+&lt;code&gt;image&lt;/code&gt; directives. The figure class must be &lt;code&gt;image-process-&lt;/code&gt; followed
+by the name of the transformation you wish to apply, while the other
+images must have two classes: &lt;code&gt;image-process&lt;/code&gt; and the name of the source
+they provide an image&amp;nbsp;for:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican.png
+   &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process-large-photo&lt;/span&gt;
+
+    Test picture
+
+&lt;span class="p"&gt;    ..&lt;/span&gt; &lt;span class="ow"&gt;image&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; /images/pelican-closeup.jpg
+       &lt;span class="nc"&gt;:class:&lt;/span&gt; &lt;span class="nf"&gt;image-process source-1&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The images in the legend section that are used as source for the
+&lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; will be removed from the image legend, so that they do not
+appear in your final&amp;nbsp;article.&lt;/p&gt;
+&lt;h2&gt;Transformations&lt;/h2&gt;
+&lt;p&gt;Available operations for transformations&amp;nbsp;are:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;crop &lt;em&gt;top&lt;/em&gt; &lt;em&gt;left&lt;/em&gt; &lt;em&gt;right&lt;/em&gt; &lt;em&gt;bottom&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Crop the image to the box (&lt;em&gt;left&lt;/em&gt;, &lt;em&gt;top&lt;/em&gt;)-(&lt;em&gt;right&lt;/em&gt;, &lt;em&gt;bottom&lt;/em&gt;).
+Values can be absolute (a number) or relative to the size of the
+image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;).&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;flip_horizontal&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Flip the image&amp;nbsp;horizontally.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;flip_vertical&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Flip the image&amp;nbsp;vertically.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;grayscale&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Convert the image to&amp;nbsp;grayscale.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;resize &lt;em&gt;width&lt;/em&gt; &lt;em&gt;height&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Resize the image. This operation does &lt;em&gt;not&lt;/em&gt; preserve the image
+aspect ratio. Values can be absolute (a number) or relative to the
+size of the image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;).&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;rotate&amp;nbsp;degree&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Rotate the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;scale_in &lt;em&gt;width&lt;/em&gt; &lt;em&gt;height&lt;/em&gt; &lt;em&gt;upscale&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Resize the image. This operation preserves the image aspect ratio
+and the resulting image will be no larger than &lt;em&gt;width&lt;/em&gt; x &lt;em&gt;height&lt;/em&gt;.
+Values can be absolute (a number) or relative to the size of the
+image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;). If &lt;em&gt;upscale&lt;/em&gt; is
+False, smaller images will not be&amp;nbsp;enlarged.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;scale_out &lt;em&gt;width&lt;/em&gt; &lt;em&gt;height&lt;/em&gt; &lt;em&gt;upscale&lt;/em&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Resize the image. This operation preserves the image aspect ratio
+and the resulting image will be no smaller than &lt;em&gt;width&lt;/em&gt; x &lt;em&gt;height&lt;/em&gt;.
+Values can be absolute (a number) or relative to the size of the
+image (a number followed by a percent sign &lt;code&gt;%&lt;/code&gt;). If &lt;em&gt;upscale&lt;/em&gt; is
+False, smaller images will not be&amp;nbsp;enlarged.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;blur&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.BLUR&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;contour&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.CONTOUR&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;detail&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.DETAIL&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;edge_enhance&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.EDGE_ENHANCE&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;edge_enhance_more&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.EDGE_ENHANCE_MORE&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;emboss&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.EMBOSS&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;find_edges&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.FIND_EDGES&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;smooth&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.SMOOTH filter&lt;/code&gt; to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;smooth_more&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.SMOOTH_MORE&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;sharpen&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Apply the &lt;code&gt;pillow.ImageFilter.SHARPEN&lt;/code&gt; filter to the&amp;nbsp;image.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can also define your own operations; the only requirement is that
+your operation should be a callable object expecting a &lt;code&gt;pillow.Image&lt;/code&gt; as
+its first parameter and it should return the transformed&amp;nbsp;image:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;crop_face&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Detect face in image and crop around it.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="c1"&gt;# TODO: Fancy algorithm.&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;image&lt;/span&gt;
+
+&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;face-thumbnail&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;crop_face&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;scale_out 150 150 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Additional&amp;nbsp;settings&lt;/h3&gt;
+&lt;h4&gt;Destination&amp;nbsp;directory&lt;/h4&gt;
+&lt;p&gt;By default, the new images will be stored in a directory named
+&lt;code&gt;derivative/&amp;lt;TRANSFORMATION_NAME&amp;gt;&lt;/code&gt; in the output folder at the same
+location as the original image. For example if the original image is
+located in the &lt;code&gt;content/images&lt;/code&gt; folder. The computed images will be
+stored in the &lt;code&gt;output/images/derivative/&amp;lt;TRANSFORMATION_NAME&amp;gt;&lt;/code&gt;. All the
+transformations are done in the output directory in order to avoid
+confusion with the source files or if we test multiple transformations.
+You can replace &lt;code&gt;derivative&lt;/code&gt; by something else using the
+&lt;code&gt;IMAGE_PROCESS_DIR&lt;/code&gt; setting in your Pelican configuration&amp;nbsp;file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_DIR&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;derivees&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Force image&amp;nbsp;processing&lt;/h4&gt;
+&lt;p&gt;If the transformed image already exists and is newer than the original
+image, the plugin assumes that it should not recompute it again. You can
+force the plugin to recompute all images by setting
+&lt;code&gt;IMAGE_PROCESS_FORCE&lt;/code&gt; to &lt;code&gt;True&lt;/code&gt; in your Pelican configuration&amp;nbsp;file.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_FORCE&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Selecting a &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;parser&lt;/h4&gt;
+&lt;p&gt;You may select the &lt;span class="caps"&gt;HTML&lt;/span&gt; parser which is used. The default is the builtin
+&lt;code&gt;html.parser&lt;/code&gt; but you may also select &lt;code&gt;html5lib&lt;/code&gt; or &lt;code&gt;lxml&lt;/code&gt; by setting
+&lt;code&gt;IMAGE_PROCESS_PARSER&lt;/code&gt; in your pelican configuration file ,&amp;nbsp;e.g.:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_PARSER&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;html5lib&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For details, refer to the &lt;a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser"&gt;BeautifulSoup documentation on
+parsers&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;File&amp;nbsp;Encoding&lt;/h4&gt;
+&lt;p&gt;You may select a different file encoding to be used by BeautifulSoup as
+it opens your files. The default is &lt;code&gt;uft-8&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;IMAGE_PROCESS_ENCODING&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;uft-8&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pillow, when resizing animated &lt;span class="caps"&gt;GIF&lt;/span&gt; files, does not return an
+    animated&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;setup.py&lt;/code&gt; file for this project does not run on Python 2.7.
+    However, wheels of this project are &amp;#34;universal&amp;#34; and so can be
+    generated by Python 3 and subsequently installed by Python&amp;nbsp;2.7.&lt;/li&gt;
+&lt;li&gt;test require access to the &lt;code&gt;pelican.tests&lt;/code&gt; module, which isn&amp;#39;t
+    included in the pelican distribution on&amp;nbsp;PyPI.&lt;/li&gt;
+&lt;li&gt;version 1.1.2, as uploaded to PyPI, is broken; use a different
+    version. (see &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.image_process/issues/2"&gt;issue
+    #2&lt;/a&gt;
+    for&amp;nbsp;details)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Credits&lt;/h3&gt;
+&lt;p&gt;Pelican image in test data by Jon Sullivan. Source:
+&lt;a href="http://www.pdphoto.org/PictureDetail.php?mat=&amp;amp;pg=5726"&gt;http://www.pdphoto.org/PictureDetail.php?mat=&amp;amp;pg=5726&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Original Plugin developed by the team at &lt;a href="https://github.com/whiskyechobravo/image_process"&gt;Whisky Echo
+Bravo&lt;/a&gt;.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Pelican Trove Classifiers Added to PyPI</title><link href="http://blog.minchin.ca/2017/04/pelican-trove-classifiers.html" rel="alternate"></link><published>2017-04-18T10:04:00-06:00</published><updated>2017-04-18T10:04:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-04-18:/2017/04/pelican-trove-classifiers.html</id><summary type="html">&lt;a href="https://pypi.python.org/pypi"&gt;PyPI&lt;/a&gt; is the &amp;#8220;package index&amp;#8221; for Python and a wonderful tool for finding and sharing Python&amp;nbsp;libraries.</summary><content type="html">&lt;p&gt;&lt;a href="https://pypi.python.org/pypi"&gt;PyPI&lt;/a&gt; is the &amp;#8220;package index&amp;#8221; for Python and a wonderful tool for finding and sharing Python&amp;nbsp;libraries.&lt;/p&gt;
+&lt;p&gt;On the index, there is a system of &lt;em&gt;trove classifiers&lt;/em&gt; (see the &lt;a href="https://pypi.python.org/pypi?%3Aaction=list_classifiers"&gt;full list here&lt;/a&gt;) that serve to allow package authors to tag their projects to help user find them. Some groups classifiers cover the Python version targeted, the &amp;#8220;development status&amp;#8221; (alpha, beta, stable, etc.), the license, the framework used, as so&amp;nbsp;on.&lt;/p&gt;
+&lt;p&gt;Recently, trove classifiers for Pelican were added! This is great because it will allow for better discover-ability of Pelican themes and plugins. So I&amp;#8217;ve re-released my collection of Pelican plugins and themes with the new classifiers, so the following&amp;nbsp;releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.jinja_filters"&gt;minchin.pelican.jinja_filters&lt;/a&gt;&amp;nbsp;v1.0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.cname"&gt;minchin.pelican.plugins.cname&lt;/a&gt;&amp;nbsp;v1.0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.image_process"&gt;minchin.pelican.plugins.image_process&lt;/a&gt; v1.1.2 (this release is broken, &lt;a href="http://blog.minchin.ca/2017/05/image-processing-for-pelican-113-released.html"&gt;version 1.1.3 has been released&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.nojekyll"&gt;minchin.pelican.plugins.nojekyll&lt;/a&gt;&amp;nbsp;v1.0.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.optimize_images"&gt;minchin.pelican.plugins.optimize_images&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.post_stats"&gt;minchin.pelican.plugins.post_stats&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.summary"&gt;minchin.pelican.plugins.summary&lt;/a&gt;&amp;nbsp;v1.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MinchinWeb/seafoam"&gt;seafoam&lt;/a&gt;&amp;nbsp;v2.1.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyPI also has the ability to show you &lt;a href="https://pypi.python.org/pypi?:action=browse&amp;amp;c=635"&gt;everything tagged with Pelican&lt;/a&gt;.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category><category term="seafoam"></category></entry><entry><title>Post Stats Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/post-stats-for-pelican-110-released.html" rel="alternate"></link><published>2017-02-26T20:52:00-07:00</published><updated>2017-02-26T20:52:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-26:/2017/02/post-stats-for-pelican-110-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; calculates various statistics about a post and store them in
+an article.stats dictionary:
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; calculates various statistics about a post and store them in
+an article.stats dictionary:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;wc&lt;/code&gt;: how many words (i.e. word&amp;nbsp;count)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;read_mins&lt;/code&gt;: how many minutes would it take to read this article, based
+  on &lt;a href="http://en.wikipedia.org/wiki/Words_per_minute#Reading_and_comprehension"&gt;250&amp;nbsp;wpm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;word_counts&lt;/code&gt;: frequency count of all the words in the article; can be
+  used for tag/word&amp;nbsp;clouds&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fi&lt;/code&gt;: Flesch-kincaid Index/ Reading Ease
+  (&lt;a href="http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests&amp;gt;"&gt;more info&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fk&lt;/code&gt;: Flesch-kincaid Grade&amp;nbsp;Level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;em&gt;Post Stats&lt;/em&gt; is through the use of pip. This
+will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.post_stats
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;code&gt;Post Stats&lt;/code&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.post_stats&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You may also need to configure your template to make use of the statistics&amp;nbsp;generated.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Post Stats&lt;/em&gt; depends on (and is really only useful with) Pelican. The
+plugin also requires Beautiful Soup 4 to process your content. If the plugin
+is installed from pip, these will automatically be installed. These can also
+be manually installed with&amp;nbsp;pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pelican
+pip install beautifulsoup4
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Configuration and&amp;nbsp;Usage&lt;/h2&gt;
+&lt;p&gt;This plugin calculates various statistics about a post and store them in
+an article.stats&amp;nbsp;dictionary.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;wc&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2760&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;fi&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;65.94&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;fk&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;7.65&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;word_counts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Counter&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;to&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;98&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;90&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;the&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;83&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;}),&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;read_mins&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This allows you to output these values in your templates, like this, for&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;~&lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;wc&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="s"&gt; words&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;~&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;read_mins&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt; min read&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Flesch-kincaid Index/ Reading Ease: &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;fi&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Flesch-kincaid Grade Level: &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.stats&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;fk&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;word_counts&lt;/code&gt; variable is a Python &lt;code&gt;Counter&lt;/code&gt; dictionary and looks
+something like this, with each unique word and it&amp;#8217;s&amp;nbsp;frequency:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Counter&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;to&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;98&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;90&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;the&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;83&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;of&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;karma&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;.....&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and can be used to create a tag/word cloud for a&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;There are no user-configurable&amp;nbsp;settings.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The package is tested in Python 3.6; compatibility with other version of
+Python is unknown, but there should be nothing particular keeping it from working with other &amp;#8220;modern&amp;#8221; versions of&amp;nbsp;Python.&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://duncanlock.net/blog/2013/06/23/post-statistics-plugin-for-pelican/"&gt;Original plugin&lt;/a&gt;
+by Duncan Lock (&lt;a href="https://github.com/dflock"&gt;@dflock&lt;/a&gt;) and
+posted to the
+&lt;a href="https://github.com/getpelican/pelican-plugins"&gt;Pelican-Plugins repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;The plugin code is assumed to be under the AGPLv3 license (this is the
+license of the Pelican-Plugins&amp;nbsp;repo).&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Optimize Images Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/optimize-images-for-pelican-110-released.html" rel="alternate"></link><published>2017-02-26T20:00:00-07:00</published><updated>2017-02-26T20:00:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-26:/2017/02/optimize-images-for-pelican-110-released.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; applies lossless compression on &lt;span class="caps"&gt;JPEG&lt;/span&gt; and &lt;span class="caps"&gt;PNG&lt;/span&gt; images, with
+no effect on image quality. It uses &lt;a href="http://jpegclub.org/jpegtran/"&gt;jpegtran&lt;/a&gt; and &lt;a href="http://optipng.sourceforge.net/"&gt;OptiPNG&lt;/a&gt;.
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; applies lossless compression on &lt;span class="caps"&gt;JPEG&lt;/span&gt; and &lt;span class="caps"&gt;PNG&lt;/span&gt; images, with
+no effect on image quality. It uses &lt;a href="http://jpegclub.org/jpegtran/"&gt;jpegtran&lt;/a&gt; and &lt;a href="http://optipng.sourceforge.net/"&gt;OptiPNG&lt;/a&gt;.
+&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;em&gt;Optimize Images&lt;/em&gt; is through the use of pip. This
+will also install the required Python dependencies automatically (currently none beyond Pelican&amp;nbsp;itself).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.optimize_images
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It is assumed both jpegtran and OptiPNG are installed and available on the
+system&amp;nbsp;path.&lt;/p&gt;
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;code&gt;Optimize Images&lt;/code&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.optimize_images&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="c1"&gt;# ...&lt;/span&gt;
+           &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Optimize Images&lt;/em&gt; depends on (and is really only useful with) Pelican. This can
+be manually installed with&amp;nbsp;pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install pelican
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It is assumed both jpegtran and OptiPNG are installed on system path. On Windows, installers are available at each respective website. On Ubuntu systems (including Travis-&lt;span class="caps"&gt;CI&lt;/span&gt;), the two can be installed via &lt;em&gt;apt-get&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt-get install optipng libjpeg-progs
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Configuration and&amp;nbsp;Usage&lt;/h2&gt;
+&lt;p&gt;The plugin will activate and optimize images upon &lt;em&gt;finalized&lt;/em&gt; signal of&amp;nbsp;Pelican.&lt;/p&gt;
+&lt;p&gt;The plugin has no user&amp;nbsp;settings.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;Image manipulation like this can take some time to run. You may consider
+only adding this plugin to your &lt;code&gt;publishconf.py&lt;/code&gt; (rather than your base
+&lt;code&gt;pelicanconf.py&lt;/code&gt;), which will then only run this image optimization in
+preparation for site&amp;nbsp;publication.&lt;/p&gt;
+&lt;p&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The package is tested in Python 3.6; compatibility with other version of
+Python is unknown, but there should be nothing particular keeping it from working with other &amp;#8220;modern&amp;#8221; versions of&amp;nbsp;Python.&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;Original plugin from the &lt;a href="https://github.com/getpelican/pelican-plugins"&gt;Pelican-Plugins repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;The plugin code is assumed to be under the AGPLv3 license (this is the
+license of the Pelican-Plugins&amp;nbsp;repo).&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Summary Plugin 1.1.0 for Pelican Released</title><link href="http://blog.minchin.ca/2017/02/summary-for-pelican-110-released.html" rel="alternate"></link><published>2017-02-05T15:29:00-07:00</published><updated>2017-02-21T14:51:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-02-05:/2017/02/summary-for-pelican-110-released.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; allows easy, variable length summaries directly embedded into
+the body of your articles.
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; allows easy, variable length summaries directly embedded into
+the body of your articles.
+&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;strong&gt;Summary&lt;/strong&gt; is through the use of pip. This
+will also install the required dependencies automatically (currently
+none beyond&amp;nbsp;Pelican).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.summary
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;strong&gt;Summary&lt;/strong&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.summary&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+        &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You may also need to configure the summary start and end markers (see
+Configuration&amp;nbsp;below).&lt;/p&gt;
+&lt;h2&gt;Configuration and&amp;nbsp;Usage&lt;/h2&gt;
+&lt;p&gt;This plugin introduces two new settings: &lt;code&gt;SUMMARY_BEGIN_MARKER&lt;/code&gt; and
+&lt;code&gt;SUMMARY_END_MARKER&lt;/code&gt;: strings which can be placed directly into an
+article to mark the beginning and end of a summary. When found, the
+standard &lt;code&gt;SUMMARY_MAX_LENGTH&lt;/code&gt; setting will be ignored. The markers
+themselves will also be removed from your articles before they are
+published. The default values are &lt;code&gt;&amp;lt;!-- PELICAN_BEGIN_SUMMARY --&amp;gt;&lt;/code&gt; and
+&lt;code&gt;&amp;lt;!-- PELICAN_END_SUMMARY --&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If no beginning or end marker is found, and if
+&lt;code&gt;SUMMARY_USE_FIRST_PARAGRAPH&lt;/code&gt; is enabled in the settings, the summary
+will be the first paragraph of the&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;The plugin also sets a &lt;code&gt;has_summary&lt;/code&gt; attribute on every article. It is
+True for articles with an explicitly-defined summary, and False otherwise.
+(It is also False for an article truncated by &lt;code&gt;SUMMARY_MAX_LENGTH&lt;/code&gt;.)
+Your templates can use this e.g. to add a link to the full text at the end
+of the&amp;nbsp;summary.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;&lt;del&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into
+Python.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;The package is tested in Python 3.5; compatibility with other version of
+Python is unknown.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Tests are actually included and can be run from the root&amp;nbsp;directory:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python minchin/pelican/plugins/summary/test_summary.py
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;p&gt;This version is basically just repackaging the plugin and making it available
+on&amp;nbsp;pip.&lt;/p&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.summary"&gt;GitHub&lt;/a&gt;. Contributions are&amp;nbsp;welcome!&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;Original plugin from the &lt;a href="https://github.com/getpelican/pelican-plugins"&gt;Pelican-Plugins repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;The plugin code is assumed to be under the AGPLv3 license (this is the
+license of the Pelican-Plugins&amp;nbsp;repo).&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Seafoam 2.0.4 Pelican Theme Released</title><link href="http://blog.minchin.ca/2017/01/seafoam-2-released.html" rel="alternate"></link><published>2017-01-11T13:33:00-07:00</published><updated>2017-01-11T13:33:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2017-01-11:/2017/01/seafoam-2-released.html</id><summary type="html">&lt;p&gt;Version 2.0.4 of &lt;em&gt;Seafoam&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Seafoam is the Pelican theme I use for this site, but published to PyPI in the hope that it will be useful to&amp;nbsp;others.&lt;/p&gt;
+&lt;p&gt;This release changes the name of the project to &lt;em&gt;seafoam&lt;/em&gt; from to unwieldy
+&lt;em&gt;&lt;a href="http://blog.minchin.ca/2016/09/minchin-dot-ca-pelican-theme-version-110-released.html"&gt;minchin.pelican.themes.minchindotca&lt;/a&gt;&lt;/em&gt;.
+It also add support for the
+&lt;a href="https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/"&gt;Pelican Comment System&lt;/a&gt;,
+removes the need to define Jinja2 filters in your configuration file,
+updates to  Font Awesome v4.7, and several design fixes as well. Code is
+updated to work with Pelican v3.7 and Jinja&amp;nbsp;v2.9.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 2.0.4 of &lt;em&gt;Seafoam&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Seafoam is the Pelican theme I use for this site, but published to PyPI in the hope that it will be useful to&amp;nbsp;others.&lt;/p&gt;
+&lt;p&gt;This release changes the name of the project to &lt;em&gt;seafoam&lt;/em&gt; from to unwieldy
+&lt;em&gt;&lt;a href="http://blog.minchin.ca/2016/09/minchin-dot-ca-pelican-theme-version-110-released.html"&gt;minchin.pelican.themes.minchindotca&lt;/a&gt;&lt;/em&gt;.
+It also add support for the
+&lt;a href="https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/"&gt;Pelican Comment System&lt;/a&gt;,
+removes the need to define Jinja2 filters in your configuration file,
+updates to  Font Awesome v4.7, and several design fixes as well. Code is
+updated to work with Pelican v3.7 and Jinja&amp;nbsp;v2.9.&lt;/p&gt;
+
+
+&lt;h3&gt;Quickstart&lt;/h3&gt;
+&lt;p&gt;To use this theme, first install it via &lt;code&gt;pip&lt;/code&gt;: (as a side, this is the only
+Pelican theme I know of that is installable from&amp;nbsp;PyPI.)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install seafoam
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Next, update your &lt;code&gt;pelicanconf.py&lt;/code&gt; to use the theme, with its default&amp;nbsp;settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;seafoam&lt;/span&gt;
+
+&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;seafoam&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;BOOTSTRAP_THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;seafoam&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;minchin.pelican.jinja_filters&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.image_process&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+           &lt;span class="c1"&gt;# others, as desired...&lt;/span&gt;
+           &lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;article-feature&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 848 848 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;index-feature&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 263 263 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And then regenerate your&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;The theme depends on the pathlib library, that was introduced in Python 3.4, so the theme won&amp;#8217;t work on earlier versions of Python. Installing the pathlib2 library should provide the necessary functionality for the theme to work, but this is currently untested by&amp;nbsp;me.&lt;/p&gt;
+&lt;h3&gt;Settings&lt;/h3&gt;
+&lt;p&gt;The full settings are not particularly well documented (by me anyway), although the the &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;ReadMe&lt;/a&gt; for the base theme goes over most of the&amp;nbsp;settings.&lt;/p&gt;
+&lt;h3&gt;Changelog&lt;/h3&gt;
+&lt;p&gt;I&amp;#8217;ve built a release script that automates pushing releases to PyPI, and so
+it makes it very easy to make a release. In fact, writing these release blog
+posts is probably the most involved part of cutting a release! Therefore, this
+blog post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and&amp;nbsp;2.0.4:&lt;/p&gt;
+&lt;h4&gt;Version 2.0.0 &amp;#8212; January 9,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;span class="caps"&gt;BREAKING&lt;/span&gt;&lt;/em&gt;: rename from &lt;code&gt;minchin.pelican.themes.minchindotca&lt;/code&gt;
+  to &lt;code&gt;seafoam&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add support for Pelican Blog&amp;nbsp;System&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add Seafoam&amp;nbsp;logo&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: switch to &lt;code&gt;minchin.pelican.jinja_filters&lt;/code&gt; to provide
+  the required Jinja filters, rather than requiring them to be manually
+  added to the user&amp;#8217;s configuration&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: upgrade to FontAwesome&amp;nbsp;4.7.0&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: upgrade to jQuery&amp;nbsp;3.1.0&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add support for reading time via
+  &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/post_stats"&gt;post stats&lt;/a&gt;&amp;nbsp;plugin&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;feature&lt;/em&gt;: add support for &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system"&gt;pelican comment&amp;nbsp;system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: restyle comments with bootstrap&amp;#8217;s &lt;code&gt;media&lt;/code&gt; class (much
+  cleaner template code) (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/6"&gt;issue 6&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: switch template variable from &lt;code&gt;PAGES&lt;/code&gt; to &lt;code&gt;pages&lt;/code&gt; to
+  support Pelican v3.7 (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/5"&gt;issue 5&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: don&amp;#8217;t print section for next and previous posts in a category if
+  the article is the only one in that&amp;nbsp;category&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.1 &amp;#8212; January 10,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: pluralization of &amp;#8220;1 comment&amp;#8221; now correct (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/8"&gt;issue 8&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix pagination code to work with Jinja2 v2.9.0 (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/9"&gt;issue 9&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.2 &amp;#8212; January 11,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix link color on&amp;nbsp;panel-primary&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: improve layout of generated &lt;span class="caps"&gt;HTML&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.3 &amp;#8212; January 11,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix link color in body area of panel-primary (fixes regression
+  from version&amp;nbsp;2.0.2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Version 2.0.4 &amp;#8212; January 11,&amp;nbsp;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;bug&lt;/em&gt;: fix archive page template code to work with Jinja2 v2.9.0 (see &lt;a href="https://github.com/MinchinWeb/seafoam/issues/10"&gt;issue 10&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="seafoam"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>Colourettu 2.0.0 for Python Released</title><link href="http://blog.minchin.ca/2016/11/colourettu-2-released.html" rel="alternate"></link><published>2016-11-28T17:51:00-07:00</published><updated>2016-11-28T17:51:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-11-28:/2016/11/colourettu-2-released.html</id><summary type="html">&lt;p&gt;Version 2.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 2.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Colour&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Palette&lt;/span&gt;
+
+&lt;span class="n"&gt;p1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Palette&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;p1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;blend&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;p1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_image&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;p1_blended.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;vertical&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Colourettu p1 Blended" src="http://blog.minchin.ca/images/2016/p1_blended.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;c1 = Colour(&amp;#39;#fff&amp;#39;)
+c2 = Colour(&amp;#39;#7e1e9c&amp;#39;)
+p3 = Palette(c1, c3)
+p3.blend(cycles=5)
+p3.to_image(&amp;#39;p3.png&amp;#39;, max_width=360, vertical=False)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Colourettu p3" src="http://blog.minchin.ca/images/2016/p3.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The easiest to install (or upgrade) &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already
+have Python installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Additions for this version include the &lt;em&gt;blend&lt;/em&gt; functionality, both as a stand-alone function and as a Palette&amp;nbsp;method.&lt;/p&gt;
+&lt;p&gt;Breaking changes in this version are the fact that the &lt;em&gt;Colour&lt;/em&gt; and &lt;em&gt;Palette&lt;/em&gt; class have been renamed to the CapWords&amp;nbsp;capitialization.&lt;/p&gt;
+&lt;p&gt;Other changes&amp;nbsp;include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the tests are now included by default at the &lt;em&gt;colourettu.test&lt;/em&gt; namespace. This allows the tests to be run on a system with Colourettu installed by running &lt;code&gt;green colourettu.test&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;updated documentation build&amp;nbsp;system&lt;/li&gt;
+&lt;li&gt;better&amp;nbsp;documentation&lt;/li&gt;
+&lt;li&gt;fix bug where using the &lt;em&gt;max_width&lt;/em&gt; parameter with &lt;code&gt;Palette.to_image()&lt;/code&gt; would result ina  black strip on the bottom/left of the generated&amp;nbsp;image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://minchin.ca/colourettu/"&gt;&lt;em&gt;Colourettu&lt;/em&gt; documentation&lt;/a&gt; is now
+online. A &lt;a href="http://minchin.ca/colourettu/changelog.html"&gt;full changelog&lt;/a&gt;
+is online as part of that. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>Jinja Filters 1.0.0 for Pelican Released</title><link href="http://blog.minchin.ca/2016/11/jinja-filters-for-pelican-100-released.html" rel="alternate"></link><published>2016-11-18T17:41:00-07:00</published><updated>2016-11-18T17:41:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-11-18:/2016/11/jinja-filters-for-pelican-100-released.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; provides a selection of functions (called &lt;em&gt;filters&lt;/em&gt;) for
+templates to use when building your website. They are packaged for Pelican, but
+may prove useful for other projects that make use of
+&lt;a href="http://jinja.pocoo.org/"&gt;Jinja2&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jinja Filters&lt;/strong&gt; provides a selection of functions (called &lt;em&gt;filters&lt;/em&gt;) for
+templates to use when building your website. They are packaged for Pelican, but
+may prove useful for other projects that make use of
+&lt;a href="http://jinja.pocoo.org/"&gt;Jinja2&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;strong&gt;Jinja Filters&lt;/strong&gt; is through the use of pip. This
+will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.jinja_filters
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;strong&gt;Jinja Filters&lt;/strong&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="s1"&gt;&amp;#39;minchin.pelican.jinja_filters&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+        &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that&amp;#8217;s it! The filters are now available for use in your&amp;nbsp;templates.&lt;/p&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;At present, the plugin includes the following&amp;nbsp;filters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;datetime&lt;/em&gt; &amp;#8212; allows you to change to format displayed for a datetime
+  object. Optionally supply a &lt;a href="https://docs.python.org/3.6/library/datetime.html#strftime-and-strptime-behavior"&gt;datetime format string&lt;/a&gt;
+  to get a custom&amp;nbsp;format.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;article_date&lt;/em&gt; &amp;#8212; a specialized version of &lt;em&gt;datetime&lt;/em&gt; that returns
+  datetimes as wanted for article dates; specifically
+  &lt;em&gt;Friday, November 4, 2016&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;breaking_spaces&lt;/em&gt; &amp;#8212; replaceds non-breaking spaces (&lt;span class="caps"&gt;HTML&lt;/span&gt; code &lt;em&gt;&amp;amp;nbsp&lt;/em&gt;)
+  with normal&amp;nbsp;spaces.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;titlecase&lt;/em&gt; &amp;#8212; Titlecases the supplied&amp;nbsp;string&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, within your theme templates, you might have code&amp;nbsp;like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;published&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    Article Published &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.date&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;article_date&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;gives:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    Article Published Friday, November 4, 2016
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or with your own&amp;nbsp;dateformat:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;published&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    Article Published &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.date&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%b %d, %Y&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;span&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;gives:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    Article Published Nov 04, 2016
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Filters can also be chained, or applied in sequence. For example to remove
+breaking spaces and then titlecase a category name, you might have code&amp;nbsp;like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;SITEURL&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="s"&gt;/&lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.category.url&lt;/span&gt; &lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="cp"&gt;{{&lt;/span&gt; &lt;span class="nv"&gt;article.category&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;breaking_spaces&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nf"&gt;titlecase&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;An issue, as such, is that there is no formal test suite. Testing is
+currently limited to my in-use observations. I also run a basic check upon
+uploaded the package to PyPI that it can be downloaded and loaded into&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;The package is tested in Python 3.5; compatibility with other version of
+Python is&amp;nbsp;unknown.&lt;/p&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/MinchinWeb/minchin.pelican.jinja_filters"&gt;GitHub&lt;/a&gt;. Contributions are&amp;nbsp;welcome!&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>CName Pelican Plugin 1.0.0 Released</title><link href="http://blog.minchin.ca/2016/10/cname-plugin-for-pelican-100-released.html" rel="alternate"></link><published>2016-10-03T20:39:00-06:00</published><updated>2016-10-03T20:39:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-10-03:/2016/10/cname-plugin-for-pelican-100-released.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; creates a &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; file in the root of your output directory. This
+is useful when you are publishing your site to
+&lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; on a
+&lt;a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/"&gt;custom domain&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; is a plugin for &lt;a href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;,
+a static site generator written in&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CName&lt;/strong&gt; creates a &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; file in the root of your output directory. This
+is useful when you are publishing your site to
+&lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; on a
+&lt;a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/"&gt;custom domain&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install &lt;strong&gt;CName&lt;/strong&gt; is through the use of pip. This
+will also install the required dependencies&amp;nbsp;automatically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.plugins.cname
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then, in your &lt;code&gt;pelicanconf.py&lt;/code&gt; file, add &lt;strong&gt;CName&lt;/strong&gt; to your list of&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+          &lt;span class="s1"&gt;&amp;#39;minchin.pelican.plugins.cname&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+          &lt;span class="c1"&gt;# ...&lt;/span&gt;
+        &lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that&amp;#8217;s it! No further configuration is&amp;nbsp;needed.&lt;/p&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;No configuration is needed. The value places in the &lt;em&gt;&lt;span class="caps"&gt;CNAME&lt;/span&gt;&lt;/em&gt; files is based
+on your &lt;code&gt;SITEURL&lt;/code&gt; setting.&lt;/p&gt;
+&lt;h2&gt;Known&amp;nbsp;Issues&lt;/h2&gt;
+&lt;p&gt;As the plugin makes use of the &lt;code&gt;SITEURL&lt;/code&gt; plugin, if you are using both
+a &lt;code&gt;pelicanconf.py&lt;/code&gt; and a &lt;code&gt;publishconf.py&lt;/code&gt; settings file, &lt;strong&gt;CName&lt;/strong&gt; will
+likely generate different results for when you are testing your site locally
+and when you push it to&amp;nbsp;production.&lt;/p&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;I can&amp;#8217;t claim I came up with the original idea. It is based on the
+&lt;a href="https://github.com/getpelican/pelican-plugins/pull/566"&gt;original code&lt;/a&gt;
+by &lt;a href="http://lazycoder.ru/"&gt;Dmitriy Kalinin&lt;/a&gt;, that has languished as an
+open pull request in the &lt;code&gt;pelican-plugins&lt;/code&gt; repo for the last&amp;nbsp;year.&lt;/p&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/MinchinWeb/minchin.pelican.plugins.cname"&gt;GitHub&lt;/a&gt;. Contributions are&amp;nbsp;welcome!&lt;/p&gt;</content><category term="pelican"></category><category term="pelican plugins"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Minchin dot CA Pelican Theme 1.1.0 Released</title><link href="http://blog.minchin.ca/2016/09/minchin-dot-ca-pelican-theme-version-110-released.html" rel="alternate"></link><published>2016-09-12T19:29:00-06:00</published><updated>2016-09-12T19:29:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-09-12:/2016/09/minchin-dot-ca-pelican-theme-version-110-released.html</id><summary type="html">This update was the final touches needed to make my site go&amp;nbsp;live.</summary><content type="html">&lt;p&gt;This update was the final touches needed to make my site go&amp;nbsp;live.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve been in the process of redesigning my blog and so as part of that I&amp;#8217;ve tried to make as many pieces as possible installable from &lt;code&gt;pip&lt;/code&gt;. To that end, I&amp;#8217;ve packaged my website theme and uploaded it to&amp;nbsp;PyPI.&lt;/p&gt;
+&lt;p&gt;The theme is based on &lt;a href="http://dandydev.net/"&gt;Daan Debie&lt;/a&gt;&amp;#8216;s wonderful &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;Bootstrap 3 theme&lt;/a&gt;, although heavily modified. Because of the heavy modifications, I&amp;#8217;m not sure how useful this will be to others, but I think it is still a useful proof-of-concept as I am aware of no other Pelican themes available on&amp;nbsp;PyPI.&lt;/p&gt;
+&lt;p&gt;To use this theme, first install it via &lt;code&gt;pip&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.themes.minchindotca
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Next, update your &lt;code&gt;pelicanconf.py&lt;/code&gt; to use the theme, with its default&amp;nbsp;settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;minchin.pelican.themes&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;minchindotca&lt;/span&gt;
+
+&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;minchindotca&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;BOOTSTRAP_THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;minchindotca&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;IMAGE_PROCESS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;article-feature&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 848 848 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;index-feature&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;scale_in 263 263 True&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Jijna2 filters&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;datetimefilter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%Y/%m/&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s1"&gt; %H:%M&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;convert a datetime to a different format.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;article_date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Converts a date to the format we want it displayed on the article&lt;/span&gt;
+&lt;span class="sd"&gt;       template.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%A, %B &lt;/span&gt;&lt;span class="si"&gt;%-d&lt;/span&gt;&lt;span class="s1"&gt;, %Y&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;breaking_spaces&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Converts non-breaking spaces to regular spaces.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="se"&gt;\u00A0&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="n"&gt;JINJA_FILTERS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;datetimefilter&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;datetimefilter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;article_date&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;   &lt;span class="n"&gt;article_date&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;breaking_spaces&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;breaking_spaces&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And then regenerate your&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;The theme depends on the pathlib library, that was introduced in Python 3.4, so the theme won&amp;#8217;t work on earlier versions of Python. Installing the pathlib2 library should provide the necessary functionality for the theme to work, but this is currently untested by&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;The full settings are not particularly well documented (by me anyway), although the the &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;ReadMe&lt;/a&gt; for the base theme goes over most of the&amp;nbsp;settings.&lt;/p&gt;
+&lt;p&gt;For future updates, I would like to simplify the adding the required settings,
+move the Jinja filters to their own package, work on the documentation of
+all the various settings, and add a proper&amp;nbsp;changelog.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican themes"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Minchin dot CA Pelican Theme 1.0.0 Released</title><link href="http://blog.minchin.ca/2016/08/minchin-dot-ca-pelican-theme-version-100-released.html" rel="alternate"></link><published>2016-08-15T11:19:00-06:00</published><updated>2016-08-15T11:19:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-08-15:/2016/08/minchin-dot-ca-pelican-theme-version-100-released.html</id><summary type="html">I&amp;#8217;ve been in the process of redesigning my blog and so as part of that I&amp;#8217;ve tried to make as many pieces as possible installable from &lt;code&gt;pip&lt;/code&gt;. To that end, I&amp;#8217;ve packaged my website theme and uploaded it to&amp;nbsp;PyPI.</summary><content type="html">&lt;p&gt;I&amp;#8217;ve been in the process of redesigning my blog and so as part of that I&amp;#8217;ve tried to make as many pieces as possible installable from &lt;code&gt;pip&lt;/code&gt;. To that end, I&amp;#8217;ve packaged my website theme and uploaded it to&amp;nbsp;PyPI.&lt;/p&gt;
+&lt;p&gt;The theme is based on &lt;a href="http://dandydev.net/"&gt;Daan Debie&lt;/a&gt;&amp;#8216;s wonderful &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;Bootstrap 3 theme&lt;/a&gt;, although heavily modified. Because of the heavy modifications, I&amp;#8217;m not sure how useful this will be to others, but I think it is still a useful proof-of-concept as I am aware of no other Pelican themes available on&amp;nbsp;PyPI.&lt;/p&gt;
+&lt;p&gt;To use this theme, first install it via &lt;code&gt;pip&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install minchin.pelican.themes.minchindotca
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Next, update your &lt;code&gt;pelicanconf.py&lt;/code&gt; to use the theme, with its default&amp;nbsp;settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;minchin.pelican.themes&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;minchindotca&lt;/span&gt;
+
+&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;minchindotca&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;BOOTSTRAP_THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;minchindotca&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And then regenerate your&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;The theme depends on the pathlib library, that was introduced in Python 3.4, so the theme won&amp;#8217;t work on earlier versions of Python. Installing the pathlib2 library should provide the necessary functionality for the theme to work, but this is currently untested by&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;The full settings are not particularly well documented (by me anyway), although the the &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;ReadMe&lt;/a&gt; for the base theme goes over most of the&amp;nbsp;settings.&lt;/p&gt;</content><category term="pelican"></category><category term="pelican themes"></category><category term="releases"></category><category term="python"></category></entry><entry><title>Colourettu 1.1.0 for Python released</title><link href="http://blog.minchin.ca/2015/07/colourettu-1-1-0-for-python.html" rel="alternate"></link><published>2015-07-20T09:25:00-06:00</published><updated>2015-08-15T14:23:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2015-07-20:/2015/07/colourettu-1-1-0-for-python.html</id><summary type="html">&lt;p&gt;Version 1.1.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 1.1.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt;
+&lt;span class="n"&gt;c1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;                &lt;span class="c1"&gt;# defaults to #FFF&lt;/span&gt;
+&lt;span class="n"&gt;c2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#eee&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# equivalent to #EEEEEE&lt;/span&gt;
+&lt;span class="n"&gt;c3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#456bda&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c4&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;129&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;    &lt;span class="c1"&gt;# as an RGB tuple or list&lt;/span&gt;
+&lt;span class="n"&gt;c5&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;199&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;c6&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mf"&gt;0.242&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.434&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.165&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;normalized_rgb&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;all_colours&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;c1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c6&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;p2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;palette&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;p2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;from_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;all_colours&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;p2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_image&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;p2.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;max_width&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;360&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;vertical&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Colourettu p2" src="http://blog.minchin.ca/images/2015/p2.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The easiest to install (or upgrade) &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already
+have Python installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The changes for this version include a project logo (above), and the
+addition of the &lt;em&gt;palette&lt;/em&gt;&amp;nbsp;class.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://minchin.ca/colourettu/"&gt;&lt;em&gt;Colourettu&lt;/em&gt; documentation&lt;/a&gt; is now
+online. A &lt;a href="http://minchin.ca/colourettu/changelog.html"&gt;full changelog&lt;/a&gt;
+is online as part of that. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>Colourettu 1.0.0 for Python released</title><link href="http://blog.minchin.ca/2015/01/colourettu-1-0-0-for-python.html" rel="alternate"></link><published>2015-01-17T09:21:00-07:00</published><updated>2015-08-15T14:25:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2015-01-17:/2015/01/colourettu-1-0-0-for-python.html</id><summary type="html">&lt;p&gt;Version 1.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 1.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt;
+&lt;span class="n"&gt;c1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;                &lt;span class="c1"&gt;# defaults to #FFF&lt;/span&gt;
+&lt;span class="n"&gt;c2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#eee&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# equivalent to #EEEEEE&lt;/span&gt;
+&lt;span class="n"&gt;c3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#456bda&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c4&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;129&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;    &lt;span class="c1"&gt;# as an RGB tuple or list&lt;/span&gt;
+&lt;span class="n"&gt;c5&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;199&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# white on white&lt;/span&gt;
+&lt;span class="mf"&gt;1.0&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#000&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;     &lt;span class="c1"&gt;# black on white&lt;/span&gt;
+&lt;span class="mf"&gt;20.999999999999996&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mf"&gt;4.363552233203198&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The easiest to install (or upgrade) &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already
+have Python installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The biggest change with this release is that &lt;a href="http://minchin.ca/colourettu/"&gt;&lt;em&gt;Colourettu&lt;/em&gt;
+documentation&lt;/a&gt; is now online. A &lt;a href="http://minchin.ca/colourettu/changelog.html"&gt;full
+changelog&lt;/a&gt; is online as
+part of that. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>MetaLibrary 9 for OpenTTD released</title><link href="http://blog.minchin.ca/2015/01/metalibrary-9-for-openttd.html" rel="alternate"></link><published>2015-01-14T22:54:00-07:00</published><updated>2015-08-14T08:11:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2015-01-14:/2015/01/metalibrary-9-for-openttd.html</id><summary type="html">&lt;p&gt;Version 9 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 9 brings a couple of bug fixes in the Python build script. The
+&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for MetaLibrary&lt;/a&gt;
+has also been&amp;nbsp;updated.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 9 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 9 brings a couple of bug fixes in the Python build script. The
+&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for MetaLibrary&lt;/a&gt;
+has also been&amp;nbsp;updated.&lt;/p&gt;
+</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category><category term="releases"></category></entry><entry><title>Colourettu 0.1.1 for Python released</title><link href="http://blog.minchin.ca/2014/12/colourettu-0-1-1-for-python.html" rel="alternate"></link><published>2014-12-11T17:20:00-07:00</published><updated>2015-08-15T14:26:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-12-11:/2014/12/colourettu-0-1-1-for-python.html</id><summary type="html">&lt;p&gt;Version 0.1.1 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 0.1.1 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt;
+&lt;span class="n"&gt;c1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;                &lt;span class="c1"&gt;# defaults to #FFF&lt;/span&gt;
+&lt;span class="n"&gt;c2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#eee&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# equivalent to #EEEEEE&lt;/span&gt;
+&lt;span class="n"&gt;c3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#456bda&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c4&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;129&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;    &lt;span class="c1"&gt;# as an RGB tuple or list&lt;/span&gt;
+&lt;span class="n"&gt;c5&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;199&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# white on white&lt;/span&gt;
+&lt;span class="mf"&gt;1.0&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#000&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;     &lt;span class="c1"&gt;# black on white&lt;/span&gt;
+&lt;span class="mf"&gt;20.999999999999996&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mf"&gt;4.363552233203198&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The easiest to install &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already have Python
+installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This is the first release of this library. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>MetaLibrary 8 for OpenTTD released</title><link href="http://blog.minchin.ca/2014/03/metalibrary-8-for-openttd.html" rel="alternate"></link><published>2014-03-10T21:12:00-06:00</published><updated>2015-08-14T08:11:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-03-10:/2014/03/metalibrary-8-for-openttd.html</id><summary type="html">&lt;p&gt;Quick on the heals of the &lt;a href="http://blog.minchin.ca/2014/03/metalibrary-7-for-openttd.html"&gt;release of version
+7&lt;/a&gt;,
+version 8 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 8 brings a 9-30x improvement in the speed of &lt;em&gt;Lakes&lt;/em&gt;, and by
+extension, a speed-up in the Ship Pathfinder. And that&amp;#8217;s all for now; I
+figured that would be enough. The &lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for
+MetaLibrary&lt;/a&gt; has also been&amp;nbsp;updated.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Quick on the heals of the &lt;a href="http://blog.minchin.ca/2014/03/metalibrary-7-for-openttd.html"&gt;release of version
+7&lt;/a&gt;,
+version 8 of &lt;em&gt;MetaLibrary&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+&lt;p&gt;Version 8 brings a 9-30x improvement in the speed of &lt;em&gt;Lakes&lt;/em&gt;, and by
+extension, a speed-up in the Ship Pathfinder. And that&amp;#8217;s all for now; I
+figured that would be enough. The &lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for
+MetaLibrary&lt;/a&gt; has also been&amp;nbsp;updated.&lt;/p&gt;
+</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category><category term="releases"></category></entry><entry><title>MetaLibrary 7 for OpenTTD released</title><link href="http://blog.minchin.ca/2014/03/metalibrary-7-for-openttd.html" rel="alternate"></link><published>2014-03-01T22:43:00-07:00</published><updated>2015-08-14T08:11:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-03-01:/2014/03/metalibrary-7-for-openttd.html</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;MetaLibrary&lt;/a&gt;&lt;/em&gt; moves forward&amp;nbsp;again!&lt;/p&gt;
+&lt;p&gt;Building off my recent announcement that &lt;a href="http://blog.minchin.ca/2014/02/metalibrary-documentation-live.html"&gt;documentation is now
+live&lt;/a&gt;,
+I have completed a fairly major update to &lt;em&gt;MetaLibrary&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;em&gt;&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;MetaLibrary&lt;/a&gt;&lt;/em&gt; moves forward&amp;nbsp;again!&lt;/p&gt;
+&lt;p&gt;Building off my recent announcement that &lt;a href="http://blog.minchin.ca/2014/02/metalibrary-documentation-live.html"&gt;documentation is now
+live&lt;/a&gt;,
+I have completed a fairly major update to &lt;em&gt;MetaLibrary&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To recap, &lt;em&gt;MetaLibrary&lt;/em&gt; is a collection of code I&amp;#8217;ve written to simplify
+writing an &lt;span class="caps"&gt;AI&lt;/span&gt; for &lt;a href="http://www.openttd.org/"&gt;OpenTTD&lt;/a&gt;, a remake of my
+childhood favorite, Transport&amp;nbsp;Tycoon.&lt;/p&gt;
+
+
+&lt;p&gt;This update particularly focused on adding robustness to the Ship
+Pathfinder. To that end, I wrote &lt;em&gt;Lakes&lt;/em&gt; as a replacement for &lt;em&gt;Waterbody
+Check&lt;/em&gt;. Both serve the same purpose of determining if two tiles are
+within the same waterbody, i.e. if a ship could sail between the two
+tiles. What sets &lt;em&gt;Lakes&lt;/em&gt; apart from its predecessor is &lt;em&gt;Lakes&lt;/em&gt; maintains
+a &amp;#8216;memory&amp;#8217; of the tiles it has already considered, therefore increasing
+the speed of subsequent requests. Subsequent requests on an already
+checked route run in the order of 4 ticks, or about half of a game&amp;nbsp;day.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Lakes&lt;/em&gt; has already seen a ten-fold increase in speed, although it, at
+least for the first run, is slower than the old &lt;em&gt;Waterbody&lt;/em&gt; &lt;em&gt;Check&lt;/em&gt;. New
+versions of &lt;em&gt;MetaLibrary&lt;/em&gt; will likely continue to see speed ups and
+tweaks to &lt;em&gt;Lakes&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Other improvements&amp;nbsp;include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ship Pathfinder now uses Lakes rather than&amp;nbsp;WaterBodyCheck&lt;/li&gt;
+&lt;li&gt;Ship Pathfinder now makes sure every point is in the same waterbody
+    before adding it to the&amp;nbsp;path&lt;/li&gt;
+&lt;li&gt;WaterBodyCheck is now deprecated in favour of&amp;nbsp;Lakes&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;Documentation for
+    MetaLibrary&lt;/a&gt; is now online
+    at&amp;nbsp;Minchin.ca&lt;/li&gt;
+&lt;li&gt;Fix array creation bugs in Array.Create2D(),&amp;nbsp;Array.Create3D()&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Array.RemoveDuplicates(Array)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Array.ToAIList(Array)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Extras.MinDistance(TileID, TargetArray)&lt;/code&gt;; can be used as a&amp;nbsp;valuator&lt;/li&gt;
+&lt;li&gt;Split Constants from Extras (file only, function access remains the&amp;nbsp;same)&lt;/li&gt;
+&lt;li&gt;Split Industry from Extras (file only, function access remains the&amp;nbsp;same)&lt;/li&gt;
+&lt;li&gt;Split Station from Extras (file only, function access remains the&amp;nbsp;same)&lt;/li&gt;
+&lt;li&gt;Bumped maximum Log &lt;code&gt;Debug_Level&lt;/code&gt; to&amp;nbsp;8&lt;/li&gt;
+&lt;li&gt;Added separate Changelog&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;Rename &lt;code&gt;Readme.txt&lt;/code&gt; to &lt;code&gt;Readme.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update requirement to Fibonacci Heap,&amp;nbsp;v.3&lt;/li&gt;
+&lt;li&gt;Automated creation of tar files for upload to&amp;nbsp;BaNaNaS&lt;/li&gt;
+&lt;li&gt;Automated translation for the Game Script&amp;nbsp;version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href="http://www.tt-forums.net/viewtopic.php?f=65&amp;amp;t=57903"&gt;forum thread for &lt;em&gt;MetaLibrary&lt;/em&gt;
+discussion&lt;/a&gt; is on
+&lt;span class="caps"&gt;TT&lt;/span&gt;-Forums, the &lt;a href="https://github.com/MinchinWeb/openttd-metalibrary/"&gt;code for
+&lt;em&gt;MetaLibrary&lt;/em&gt;&lt;/a&gt; is
+available on GitHub, the &lt;a href="http://minchin.ca/openttd-metalibrary/"&gt;documentation for
+&lt;em&gt;MetaLibrary&lt;/em&gt;&lt;/a&gt; is now online at
+Minchin.ca, and &lt;em&gt;MetaLibrary&lt;/em&gt; can be downloaded from BaNaNaS (&lt;a href="http://bananas.openttd.org/en/ailibrary/"&gt;&lt;span class="caps"&gt;AI&lt;/span&gt;
+version&lt;/a&gt;, &lt;a href="http://bananas.openttd.org/en/gslibrary/"&gt;&lt;span class="caps"&gt;GS&lt;/span&gt;
+version&lt;/a&gt;) or the in-game
+downloader&amp;nbsp;(recommended).&lt;/p&gt;</content><category term="MetaLibrary"></category><category term="NoAI"></category><category term="OpenTTD"></category><category term="releases"></category></entry><entry><title>TRB (Transportation Research Board) Bibliography Style for Word 2007/2010</title><link href="http://blog.minchin.ca/2010/07/trb-transportation-research-board-bibliography-style-for-word-2007-2010.html" rel="alternate"></link><published>2010-07-07T11:34:00-06:00</published><updated>2017-08-30T12:27:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2010-07-07:/2010/07/trb-transportation-research-board-bibliography-style-for-word-2007-2010.html</id><summary type="html">&lt;p&gt;Introducing my version of the Transportation Research Board (&lt;span class="caps"&gt;TRB&lt;/span&gt;) reference style for use with the reference manager in Microsoft Word 2007 and&amp;nbsp;2010.&lt;/p&gt;</summary><content type="html">&lt;p&gt;A wonderful citation
+manager was introduced in Microsoft Word 2007 (found on the &amp;#8216;Reference&amp;#8217;
+tab, see&amp;nbsp;below).&lt;/p&gt;
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Reference in Word" src="http://blog.minchin.ca/images/2010/References_in_Word.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It allows one to add
+sources to a paper or report as it is being typed in a nearly automated
+fashion and will then compile your reference list too. For me, it&amp;#8217;s been
+a godsend; I like writing papers (well enough,
+anyway) but get annoyed when &amp;#8216;minor&amp;#8217; details, like what referencing
+styles should
+be used, start taking up major time. Great as it is, the one problem
+that remained
+was Word was limited to a few built-in styles; if the required style
+wasn&amp;#8217;t on
+the list, you were just out of luck. Well, it turns out that the Word
+system is
+actually quite extendable. The open source project
+&lt;a href="http://bibword.codeplex.com/"&gt;BibWord&lt;/a&gt; has
+provided a framework to quickly add new styles and has generated a
+number of new
+ones. Based on that work, I here present my version of the &lt;span class="caps"&gt;TRB&lt;/span&gt; reference
+style based on their &lt;a href="http://onlinepubs.trb.org/onlinepubs/AM/InfoForAuthors.pdf"&gt;Guide for
+Authors&lt;/a&gt; (&lt;span class="caps"&gt;PDF&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;In-text references are numeric, based on reference&amp;nbsp;order.&lt;/p&gt;
+&lt;p&gt;Repeated references reuse the original&amp;nbsp;number.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8230; Different pedestrian behaviour is associated not only
+with different physical characteristics but also the differing purpose
+of
+pedestrians (&lt;em&gt;1, 2&lt;/em&gt;). Studies have been
+carried out for crowds associated with transportation systems (&lt;em&gt;3, 4,
+5&lt;/em&gt;), sporting and
+general spectator occasions (&lt;em&gt;6&lt;/em&gt;), holy sites (&lt;em&gt;7, 8&lt;/em&gt;), political
+demonstrations (&lt;em&gt;9&lt;/em&gt;),
+and fire escapes (&lt;em&gt;10&lt;/em&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The bibliography output is as&amp;nbsp;follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Polus, A., &lt;span class="caps"&gt;J.L.
+&lt;/span&gt;Schofer, and A. Ushpi. Pedestrian flow and level of service.
+&lt;i&gt;Journal of
+Transportation Engineering Proceedings, &lt;span class="caps"&gt;ASCE&lt;/span&gt;&lt;/i&gt;, Vol. 109, 1983, pp.&amp;nbsp;46-57.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Toshiyuki, A.
+Prediction system of passenger flow, in &lt;em&gt;Engineering for Crowd
+Safety&lt;/em&gt;,
+Smith, R.A., and &lt;span class="caps"&gt;J.F.&lt;/span&gt; Dickie. Amsterdam: Elsevier, 1993, pp.&amp;nbsp;249-258.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Smith, R.A., and &lt;span class="caps"&gt;J.F.
+&lt;/span&gt;Dickie. &lt;em&gt;Engineering for Crowd Safety&lt;/em&gt;. Amsterdam,&amp;nbsp;1993.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tanaka, T. A study for
+performance based design of means of escape in fire, in &lt;i&gt;Fire Safety
+Science
+&amp;#8212; Proceedings of the 3rd International Symposium&lt;/i&gt;, Cox, G., and B.
+Langford.
+Amsterdam: Elsevier, 1991, pp.&amp;nbsp;729-738.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wikipedia
+contributors. List of metro systems. &lt;em&gt;Wikipedia, The Free
+Encyclopedia&lt;/em&gt;,
+June 17, 2010.
+&lt;a href="http://en.wikipedia.org/w/index.php?title=List_of_metro_systems&amp;amp;oldid=368658114"&gt;http://en.wikipedia.org/w/index.php?title=List_of_metro_systems&amp;amp;oldid=368658114&lt;/a&gt;.
+Accessed June 17,&amp;nbsp;2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To use this, download the file below and place it in the
+&lt;code&gt;&amp;lt;winword.exe directory&amp;gt;\Bibliography\Style&lt;/code&gt;
+directory. Reopen Word and it should show up in the list of available
+styles as &amp;#8220;&lt;span class="caps"&gt;TRB&lt;/span&gt; [Minchin.ca]&amp;#8221;. This remains a work in progress, and so if
+you find this
+useful or find something that needs to be corrected, please contact&amp;nbsp;me!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href="http://minchin.ca/TRB_Minchin.ca.XSL"&gt;&lt;span class="caps"&gt;TRB&lt;/span&gt; Bibliography format for Word
+2007/2010&lt;/a&gt; (right-click and select
+&amp;#8220;Save Link&amp;nbsp;As&amp;#8230;&amp;#8221;)&lt;/p&gt;
+&lt;h3&gt;Update (August 8,&amp;nbsp;2016)&lt;/h3&gt;
+&lt;p&gt;It would appear that changes made in recent version of Word
+(Word 2016, at least) have broken this. The format appears to be
+similar, but I haven&amp;#8217;t (yet) had time to investigate what&amp;#8217;s&amp;nbsp;changed.&lt;/p&gt;
+&lt;p&gt;So, for now, this sadly doesn&amp;#8217;t work with Word&amp;nbsp;2016.&lt;/p&gt;
+&lt;h3&gt;Update 2 (August 30,&amp;nbsp;2017)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://blog.minchin.ca/2017/08/trb-bibliography-style-for-word-updated.html"&gt;An updated version&lt;/a&gt;
+has been provided by a blog reader, Maggie McNamara, that will work with Word
+2013 and 2016! Thanks so much&amp;nbsp;Maggie!&lt;/p&gt;</content><category term="BibWord"></category><category term="Microsoft Word"></category><category term="TRB"></category><category term="Word 2007"></category><category term="releases"></category></entry></feed>

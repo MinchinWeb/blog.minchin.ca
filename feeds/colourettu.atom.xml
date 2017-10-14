@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Colourettu</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/colourettu.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2016-11-28T17:51:00-07:00</updated><entry><title>Colourettu 2.0.0 for Python Released</title><link href="http://blog.minchin.ca/2016/11/colourettu-2-released.html" rel="alternate"></link><published>2016-11-28T17:51:00-07:00</published><updated>2016-11-28T17:51:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2016-11-28:/2016/11/colourettu-2-released.html</id><summary type="html">&lt;p&gt;Version 2.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 2.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Colour&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Palette&lt;/span&gt;
+
+&lt;span class="n"&gt;p1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Palette&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;p1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;blend&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;p1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_image&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;p1_blended.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;vertical&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Colourettu p1 Blended" src="http://blog.minchin.ca/images/2016/p1_blended.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;c1 = Colour(&amp;#39;#fff&amp;#39;)
+c2 = Colour(&amp;#39;#7e1e9c&amp;#39;)
+p3 = Palette(c1, c3)
+p3.blend(cycles=5)
+p3.to_image(&amp;#39;p3.png&amp;#39;, max_width=360, vertical=False)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Colourettu p3" src="http://blog.minchin.ca/images/2016/p3.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The easiest to install (or upgrade) &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already
+have Python installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Additions for this version include the &lt;em&gt;blend&lt;/em&gt; functionality, both as a stand-alone function and as a Palette&amp;nbsp;method.&lt;/p&gt;
+&lt;p&gt;Breaking changes in this version are the fact that the &lt;em&gt;Colour&lt;/em&gt; and &lt;em&gt;Palette&lt;/em&gt; class have been renamed to the CapWords&amp;nbsp;capitialization.&lt;/p&gt;
+&lt;p&gt;Other changes&amp;nbsp;include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the tests are now included by default at the &lt;em&gt;colourettu.test&lt;/em&gt; namespace. This allows the tests to be run on a system with Colourettu installed by running &lt;code&gt;green colourettu.test&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;updated documentation build&amp;nbsp;system&lt;/li&gt;
+&lt;li&gt;better&amp;nbsp;documentation&lt;/li&gt;
+&lt;li&gt;fix bug where using the &lt;em&gt;max_width&lt;/em&gt; parameter with &lt;code&gt;Palette.to_image()&lt;/code&gt; would result ina  black strip on the bottom/left of the generated&amp;nbsp;image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://minchin.ca/colourettu/"&gt;&lt;em&gt;Colourettu&lt;/em&gt; documentation&lt;/a&gt; is now
+online. A &lt;a href="http://minchin.ca/colourettu/changelog.html"&gt;full changelog&lt;/a&gt;
+is online as part of that. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>Colourettu 1.1.0 for Python released</title><link href="http://blog.minchin.ca/2015/07/colourettu-1-1-0-for-python.html" rel="alternate"></link><published>2015-07-20T09:25:00-06:00</published><updated>2015-08-15T14:23:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2015-07-20:/2015/07/colourettu-1-1-0-for-python.html</id><summary type="html">&lt;p&gt;Version 1.1.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 1.1.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours and
+&amp;#8220;palettes&amp;#8221; (groups of&amp;nbsp;colours).&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt;
+&lt;span class="n"&gt;c1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;                &lt;span class="c1"&gt;# defaults to #FFF&lt;/span&gt;
+&lt;span class="n"&gt;c2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#eee&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# equivalent to #EEEEEE&lt;/span&gt;
+&lt;span class="n"&gt;c3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#456bda&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c4&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;129&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;    &lt;span class="c1"&gt;# as an RGB tuple or list&lt;/span&gt;
+&lt;span class="n"&gt;c5&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;199&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;c6&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mf"&gt;0.242&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.434&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.165&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;normalized_rgb&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;all_colours&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;c1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c6&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;p2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;palette&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;p2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;from_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;all_colours&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;p2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_image&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;p2.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;max_width&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;360&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;vertical&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="text-center"&gt;
+&lt;p&gt;&lt;img alt="Colourettu p2" src="http://blog.minchin.ca/images/2015/p2.png"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The easiest to install (or upgrade) &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already
+have Python installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The changes for this version include a project logo (above), and the
+addition of the &lt;em&gt;palette&lt;/em&gt;&amp;nbsp;class.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://minchin.ca/colourettu/"&gt;&lt;em&gt;Colourettu&lt;/em&gt; documentation&lt;/a&gt; is now
+online. A &lt;a href="http://minchin.ca/colourettu/changelog.html"&gt;full changelog&lt;/a&gt;
+is online as part of that. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>Colourettu 1.0.0 for Python released</title><link href="http://blog.minchin.ca/2015/01/colourettu-1-0-0-for-python.html" rel="alternate"></link><published>2015-01-17T09:21:00-07:00</published><updated>2015-08-15T14:25:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2015-01-17:/2015/01/colourettu-1-0-0-for-python.html</id><summary type="html">&lt;p&gt;Version 1.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 1.0.0 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt;
+&lt;span class="n"&gt;c1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;                &lt;span class="c1"&gt;# defaults to #FFF&lt;/span&gt;
+&lt;span class="n"&gt;c2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#eee&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# equivalent to #EEEEEE&lt;/span&gt;
+&lt;span class="n"&gt;c3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#456bda&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c4&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;129&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;    &lt;span class="c1"&gt;# as an RGB tuple or list&lt;/span&gt;
+&lt;span class="n"&gt;c5&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;199&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# white on white&lt;/span&gt;
+&lt;span class="mf"&gt;1.0&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#000&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;     &lt;span class="c1"&gt;# black on white&lt;/span&gt;
+&lt;span class="mf"&gt;20.999999999999996&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mf"&gt;4.363552233203198&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The easiest to install (or upgrade) &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already
+have Python installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu --upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The biggest change with this release is that &lt;a href="http://minchin.ca/colourettu/"&gt;&lt;em&gt;Colourettu&lt;/em&gt;
+documentation&lt;/a&gt; is now online. A &lt;a href="http://minchin.ca/colourettu/changelog.html"&gt;full
+changelog&lt;/a&gt; is online as
+part of that. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry><entry><title>Colourettu 0.1.1 for Python released</title><link href="http://blog.minchin.ca/2014/12/colourettu-0-1-1-for-python.html" rel="alternate"></link><published>2014-12-11T17:20:00-07:00</published><updated>2015-08-15T14:26:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2014-12-11:/2014/12/colourettu-0-1-1-for-python.html</id><summary type="html">&lt;p&gt;Version 0.1.1 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Version 0.1.1 of &lt;em&gt;Colourettu&lt;/em&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;p&gt;Colourettu is a Python library I&amp;#8217;ve written for dealing with colours,
+and specifically to determine the contrast between two&amp;nbsp;colours.&lt;/p&gt;
+
+
+&lt;p&gt;A quick&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;colourettu&lt;/span&gt;
+&lt;span class="n"&gt;c1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;                &lt;span class="c1"&gt;# defaults to #FFF&lt;/span&gt;
+&lt;span class="n"&gt;c2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#eee&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# equivalent to #EEEEEE&lt;/span&gt;
+&lt;span class="n"&gt;c3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#456bda&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c4&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;56&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;129&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;    &lt;span class="c1"&gt;# as an RGB tuple or list&lt;/span&gt;
+&lt;span class="n"&gt;c5&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;colour&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;199&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;233&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#FFF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# white on white&lt;/span&gt;
+&lt;span class="mf"&gt;1.0&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#000&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;     &lt;span class="c1"&gt;# black on white&lt;/span&gt;
+&lt;span class="mf"&gt;20.999999999999996&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;colourettu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;contrast&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mf"&gt;4.363552233203198&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The easiest to install &lt;em&gt;Colourettu&lt;/em&gt; (assuming you already have Python
+installed) is to use &lt;em&gt;pip&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install colourettu
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This is the first release of this library. &lt;a href="https://github.com/MinchinWeb/colourettu/"&gt;The code for
+&lt;em&gt;Colourettu&lt;/em&gt;&lt;/a&gt; is hosted on&amp;nbsp;Github.&lt;/p&gt;</content><category term="Colourettu"></category><category term="Python"></category><category term="releases"></category></entry></feed>

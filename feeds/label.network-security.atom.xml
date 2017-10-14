@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Network Security</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.network-security.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2009-10-29T11:25:00-06:00</updated><entry><title>Network Security Flaws</title><link href="http://blog.minchin.ca/2009/10/network-security-flaws.html" rel="alternate"></link><published>2009-10-29T11:25:00-06:00</published><updated>2009-10-29T11:25:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2009-10-29:/2009/10/network-security-flaws.html</id><summary type="html">One of the problems with security, especially as it pertains to
+computers and computer networks, is that it is often not done well. If
+the rules are too loose, they become trivial to ignore, and so then the
+security procedures are annoying and ineffective; set the rules too
+tight and they constrain the users to the point where the user can&amp;#8217;t
+really use the computer or network in question. (This second situation
+is perhaps more annoying than the first&amp;#8230;) Done well, security should
+be such that it is hardly noticed, at least it my humble&amp;nbsp;opinion.</summary><content type="html">&lt;p&gt;One of the problems with security, especially as it pertains to
+computers and computer networks, is that it is often not done well. If
+the rules are too loose, they become trivial to ignore, and so then the
+security procedures are annoying and ineffective; set the rules too
+tight and they constrain the users to the point where the user can&amp;#8217;t
+really use the computer or network in question. (This second situation
+is perhaps more annoying than the first&amp;#8230;) Done well, security should
+be such that it is hardly noticed, at least it my humble&amp;nbsp;opinion.&lt;/p&gt;
+&lt;p&gt;I ran into the second situation (too tight of rules) the other day
+trying to log on to the campus security network. To allow you access to
+the network, you have to run a little Java app that confirms two things
+1) that Windows is up-to-date, and 2) that you have an active anti-virus
+program that&amp;#8217;s up-to-date (definitions no more than 10 days old). So
+that was all fine and dandy until last week when I updated my &lt;span class="caps"&gt;AVG&lt;/span&gt; to the
+latest version, the newly-released Version 9. The next day, the network
+would not allow me to log on &amp;#8212; it said that my antivirus wasn&amp;#8217;t up to
+date. After struggling for a bit, I decided to call up the network
+administrator. It turns out that the Java app has yet to be updated and
+probably won&amp;#8217;t for updated for two weeks! So the irony is that I can&amp;#8217;t
+log on the network because my computer is &lt;strong&gt;&lt;span class="caps"&gt;TOO&lt;/span&gt;&lt;/strong&gt; up-to-date! So much
+for useful network&amp;nbsp;security&amp;#8230;&lt;/p&gt;</content><category term="Network Security"></category><category term="Series:Random Bits"></category></entry></feed>

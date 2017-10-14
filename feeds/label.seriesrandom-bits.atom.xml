@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minchin.ca - Series:Random Bits</title><link href="http://blog.minchin.ca/" rel="alternate"></link><link href="http://blog.minchin.ca/feeds/label.seriesrandom-bits.atom.xml" rel="self"></link><id>http://blog.minchin.ca/</id><updated>2011-05-23T05:33:00-06:00</updated><entry><title>Post-Rapture</title><link href="http://blog.minchin.ca/2011/05/post-rapture.html" rel="alternate"></link><published>2011-05-22T23:33:00-06:00</published><updated>2011-05-23T05:33:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2011-05-22:/2011/05/post-rapture.html</id><summary type="html">So I don&amp;#8217;t know who he uses for &lt;span class="caps"&gt;PR&lt;/span&gt;, but some guy in California figured
+May 21 was the &amp;#8220;end of the world.&amp;#8221; Amh, that was yesterday, for those
+keeping track. But the &lt;span class="caps"&gt;PR&lt;/span&gt; guy deserves a raise because the story seems
+to have hit all the major papers. Never mind that the same guy predicted
+the end of the world in&amp;nbsp;1994&amp;#8230;.</summary><content type="html">&lt;p&gt;So I don&amp;#8217;t know who he uses for &lt;span class="caps"&gt;PR&lt;/span&gt;, but some guy in California figured
+May 21 was the &amp;#8220;end of the world.&amp;#8221; Amh, that was yesterday, for those
+keeping track. But the &lt;span class="caps"&gt;PR&lt;/span&gt; guy deserves a raise because the story seems
+to have hit all the major papers. Never mind that the same guy predicted
+the end of the world in&amp;nbsp;1994&amp;#8230;.&lt;/p&gt;
+&lt;p&gt;Anyway, there&amp;#8217;s nothing quite like being shut down with scripture (see&amp;nbsp;above).&lt;/p&gt;
+&lt;p&gt;Anyway, I thought I&amp;#8217;d share; it made me laugh&amp;nbsp;:)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;via &lt;a href="https://i.imgur.com/obytk.jpg"&gt;Imgur&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><category term="Rapture"></category><category term="Series:Random Bits"></category></entry><entry><title>Network Security Flaws</title><link href="http://blog.minchin.ca/2009/10/network-security-flaws.html" rel="alternate"></link><published>2009-10-29T11:25:00-06:00</published><updated>2009-10-29T11:25:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2009-10-29:/2009/10/network-security-flaws.html</id><summary type="html">One of the problems with security, especially as it pertains to
+computers and computer networks, is that it is often not done well. If
+the rules are too loose, they become trivial to ignore, and so then the
+security procedures are annoying and ineffective; set the rules too
+tight and they constrain the users to the point where the user can&amp;#8217;t
+really use the computer or network in question. (This second situation
+is perhaps more annoying than the first&amp;#8230;) Done well, security should
+be such that it is hardly noticed, at least it my humble&amp;nbsp;opinion.</summary><content type="html">&lt;p&gt;One of the problems with security, especially as it pertains to
+computers and computer networks, is that it is often not done well. If
+the rules are too loose, they become trivial to ignore, and so then the
+security procedures are annoying and ineffective; set the rules too
+tight and they constrain the users to the point where the user can&amp;#8217;t
+really use the computer or network in question. (This second situation
+is perhaps more annoying than the first&amp;#8230;) Done well, security should
+be such that it is hardly noticed, at least it my humble&amp;nbsp;opinion.&lt;/p&gt;
+&lt;p&gt;I ran into the second situation (too tight of rules) the other day
+trying to log on to the campus security network. To allow you access to
+the network, you have to run a little Java app that confirms two things
+1) that Windows is up-to-date, and 2) that you have an active anti-virus
+program that&amp;#8217;s up-to-date (definitions no more than 10 days old). So
+that was all fine and dandy until last week when I updated my &lt;span class="caps"&gt;AVG&lt;/span&gt; to the
+latest version, the newly-released Version 9. The next day, the network
+would not allow me to log on &amp;#8212; it said that my antivirus wasn&amp;#8217;t up to
+date. After struggling for a bit, I decided to call up the network
+administrator. It turns out that the Java app has yet to be updated and
+probably won&amp;#8217;t for updated for two weeks! So the irony is that I can&amp;#8217;t
+log on the network because my computer is &lt;strong&gt;&lt;span class="caps"&gt;TOO&lt;/span&gt;&lt;/strong&gt; up-to-date! So much
+for useful network&amp;nbsp;security&amp;#8230;&lt;/p&gt;</content><category term="Network Security"></category><category term="Series:Random Bits"></category></entry><entry><title>Dance, Dance Stickman!</title><link href="http://blog.minchin.ca/2006/07/dance-dance-stickman.html" rel="alternate"></link><published>2006-07-06T21:41:00-06:00</published><updated>2007-04-09T22:36:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-07-06:/2006/07/dance-dance-stickman.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Some painters transform the sun into a yellow spot; others transform a
+yellow spot into the&amp;nbsp;sun.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Pabloe&amp;nbsp;Picasso&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I was looking up &lt;span class="caps"&gt;ACSII&lt;/span&gt; art on
+&lt;a href="http://en.wikipedia.org/wiki/Ascii_art"&gt;Wikipedia&lt;/a&gt; the other day and I
+came across this, which is too funny to pass up. Who says stickmen can&amp;#8217;t
+dance? Here&amp;#8217;s the&amp;nbsp;Macarena!&lt;/p&gt;
+ o      o     o    o     o    &amp;lt;o     &amp;lt;o&amp;gt;    o&amp;gt;    o
+.|.    \|.   \|/   //    X     \      |    &amp;lt;|    &amp;lt;|&amp;gt;
+ /\     &amp;gt;\   /&amp;lt;    &amp;gt;\   /&amp;lt;     &amp;gt;\    /&amp;lt;     &amp;gt;\   /&amp;lt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;Too&amp;nbsp;funny!&lt;/p&gt;
+</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;Some painters transform the sun into a yellow spot; others transform a
+yellow spot into the&amp;nbsp;sun.&lt;/p&gt;
+&lt;p&gt;&amp;#8212; Pabloe&amp;nbsp;Picasso&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I was looking up &lt;span class="caps"&gt;ACSII&lt;/span&gt; art on
+&lt;a href="http://en.wikipedia.org/wiki/Ascii_art"&gt;Wikipedia&lt;/a&gt; the other day and I
+came across this, which is too funny to pass up. Who says stickmen can&amp;#8217;t
+dance? Here&amp;#8217;s the&amp;nbsp;Macarena!&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; o      o     o    o     o    &amp;lt;o     &amp;lt;o&amp;gt;    o&amp;gt;    o
+.|.    \|.   \|/   //    X     \      |    &amp;lt;|    &amp;lt;|&amp;gt;
+ /\     &amp;gt;\   /&amp;lt;    &amp;gt;\   /&amp;lt;     &amp;gt;\    /&amp;lt;     &amp;gt;\   /&amp;lt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Too&amp;nbsp;funny!&lt;/p&gt;
+
+
+&lt;p&gt;See also &lt;a href="http://blog.minchin.ca/2006/06/ascii-art.html"&gt;my entry on &lt;span class="caps"&gt;ASCII&lt;/span&gt;
+Art&lt;/a&gt;.&lt;/p&gt;</content><category term="ASCII Art"></category><category term="Macarena"></category><category term="Quotables"></category><category term="Series:Random Bits"></category><category term="Wikipedia"></category></entry><entry><title>ASCII Art</title><link href="http://blog.minchin.ca/2006/06/ascii-art.html" rel="alternate"></link><published>2006-06-01T13:39:00-06:00</published><updated>2007-04-09T22:34:00-06:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-06-01:/2006/06/ascii-art.html</id><summary type="html">Every so often you come across something really cool on the internet.
+Today, that cool thing was a little program that generates &lt;span class="caps"&gt;ASCII&lt;/span&gt;&amp;nbsp;art.</summary><content type="html">&lt;p&gt;Every so often you come across something really cool on the internet.
+Today, that cool thing was a little program that generates &lt;span class="caps"&gt;ASCII&lt;/span&gt;&amp;nbsp;art.&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;ASCII&lt;/span&gt; art is a rather old form of computer art. Before computers had
+graphic displays, people would sometimes form little pictures by using
+the different characters they could generate using the keyboard. I&amp;#8217;m
+sure you&amp;#8217;ve seen &amp;#8220;smilies&amp;#8221;, some of the simpler of this breed, that have
+taken new life with instant&amp;nbsp;messaging.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;:-)&lt;/span&gt;  &lt;span class="nv"&gt;Smilie&lt;/span&gt;
+&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="s s-Atom"&gt;-&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="nv"&gt;Wink&lt;/span&gt;
+&lt;span class="p"&gt;:-(&lt;/span&gt;  &lt;span class="nv"&gt;Sad&lt;/span&gt;
+&lt;span class="p"&gt;:-&lt;/span&gt;&lt;span class="nv"&gt;O&lt;/span&gt;  &lt;span class="nv"&gt;Surprise&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Some of them can get more complicated, but the only one I remember off
+the top of my head is a&amp;nbsp;rose:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@-&amp;gt;--
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;As these &amp;#8220;images&amp;#8221; grow to more that one line, they rely on the
+mono-spaced characteristic fonts used on these early computers. Luckily
+for us, Courier is still included as a basic font on almost every&amp;nbsp;computer.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   /\
+  /  \
+ /    \
+/------\
+ |    |
+ |    |
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;My attempt at a little&amp;nbsp;house.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;+-----------------+
+|   Minchin Web   |
++-----------------+
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or as a text&amp;nbsp;decoration.&lt;/p&gt;
+&lt;p&gt;These decorations can go even a step further, using the relative amounts
+of white space in the characters to form the image my shading, like you
+would in a black and white image. I, unfortunately, am not that skilled
+to produce an example, but these are the ones that I&amp;#8217;ve always thought
+are really cool. (I found some cool examples at
+&lt;a rhef="http://www.chris.com/ascii/"&gt;www.chirs.com/ascii&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;With modern computers, this is more or less a lost art, as now, it&amp;#8217;s so
+easy to open up a graphics editor, and get something that looks exactly
+like what you are trying to recreate. However, modern computer also
+allow you to use colour as you create this &lt;span class="caps"&gt;ASCII&lt;/span&gt; creations. The coolest
+one I&amp;#8217;ve seen was the Linux penguin, created using a combination of
+these two techniques. Check it out at
+&lt;a href="http://www.100mb.nl/"&gt;www.100mb.nl&lt;/a&gt;. It&amp;#8217;s pretty big so you might have
+to scroll back an forth to get the full&amp;nbsp;effect.&lt;/p&gt;
+&lt;p&gt;The site that actually directed me there was another blog -
+&lt;a href="http://www.noteme.com/"&gt;www.noteme.com&lt;/a&gt;. Øyvind Østlund ran an article
+about this little program that I believe he had written that converts an
+image to such &lt;span class="caps"&gt;ACSII&lt;/span&gt; art (Read the full article at
+&lt;a href="http://www.noteme.com/comment.php?article=75"&gt;http://www.noteme.com/comment.php?article=75&lt;/a&gt;). Another very cool
+picture was posted on an Italian blog at
+&lt;a href="http://www.nikotra.it/test/img2html/"&gt;www.nikotra.it/test/img2html&lt;/a&gt;. If
+I didn&amp;#8217;t know better, I might think it was actually a &lt;span class="caps"&gt;JPEG&lt;/span&gt;&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;If you manage to do something really cool like this, let me&amp;nbsp;know.&lt;/p&gt;</content><category term="100mb.nl"></category><category term="ASCII Art"></category><category term="Computer Art"></category><category term="Corrier"></category><category term="Emoticons"></category><category term="NoteMe.com"></category><category term="Series:Random Bits"></category><category term="Smilies"></category></entry><entry><title>The Shortest Distance is…</title><link href="http://blog.minchin.ca/2006/05/the-shortest-distance-is.html" rel="alternate"></link><published>2006-05-02T14:32:00-06:00</published><updated>2008-02-05T21:55:00-07:00</updated><author><name>Wm. Minchin</name></author><id>tag:blog.minchin.ca,2006-05-02:/2006/05/the-shortest-distance-is.html</id><summary type="html">The time-old adage is that &amp;#8220;The shortest distance between two points is
+a straight line.&amp;#8221; Most of what we see day-to-day would confirm that. On
+paper, you use a ruler, sometimes called a &amp;#8220;straight edge,&amp;#8221; to connect
+two dots. In a field, it&amp;#8217;s easy to apply the same principle and cut
+straight across. But then why do the network maps for the airlines
+always have those funny looking arcs? What happened to those straight&amp;nbsp;lines?</summary><content type="html">&lt;p&gt;The time-old adage is that &amp;#8220;The shortest distance between two points is
+a straight line.&amp;#8221; Most of what we see day-to-day would confirm that. On
+paper, you use a ruler, sometimes called a &amp;#8220;straight edge,&amp;#8221; to connect
+two dots. In a field, it&amp;#8217;s easy to apply the same principle and cut
+straight across. But then why do the network maps for the airlines
+always have those funny looking arcs? What happened to those straight&amp;nbsp;lines?&lt;/p&gt;
+&lt;p&gt;Well, it turns out there&amp;#8217;s at least a couple of things at play. The
+first is that the earth is a globe, so things are a little different
+than that piece of paper you put the ruler across. This is called map
+projections, or how to turn something round (the earth) to something
+flat (a map). It is something that cartographers (map makers) have
+struggled with since navigators first started seriously exploring the
+globe. Depending on the purpose, maps are drawn using different
+projections. Some are set up to keep the longitude lines (the ones that
+run north - south) straight, others to preserve relative land mass area
+proportional, others to keep ocean shipping lines obvious. So, depending
+on how you draw the map, a &amp;#8220;straight&amp;#8221; line might not be drawn&amp;nbsp;straight.&lt;/p&gt;
+&lt;p&gt;Another property of a sphere, is as you go towards the top (or bottom
+for the matter), the distance to go around the globe greatly decrease,
+until you get to the very top and you can just turn around on the spot.
+The Russians and the Americans were well aware of this during the Cold
+War. That&amp;#8217;s why &lt;span class="caps"&gt;NORAD&lt;/span&gt; was set up - basically an early warning system for
+Russian bombers coming over the North Pole heading for American&amp;nbsp;cities.&lt;/p&gt;
+&lt;p&gt;When you take to the skies, the concept of &amp;#8220;airspeed&amp;#8221;, which is not the
+same as &amp;#8220;ground speed,&amp;#8221; can become important. If you&amp;#8217;ve been out on a
+really windy day, you can feel the difference of walking with or against
+the wind. A little further up, where airplanes fly, there&amp;#8217;s a constant
+wind that&amp;#8217;s determined by the jet stream. As the article in the Chicago
+Tribune points out, these winds can vary greatly between&amp;nbsp;latitudes.&lt;/p&gt;
+&lt;p&gt;Add these things all up, and find, as the Chicago Tribune reports, that
+the fastest way to go from Chicago to Hong Kong is over Northern Canada,
+and the pole and then down across China (which takes about 15 hours),
+rather than across the Pacific (about 16 ½ hours flying time), as your
+straight edge might suggest, or even east across Russia (about 16 hours
+flying time). As well, as the flights get shorter, the planes need less
+fuel, which means that that weight can be used instead to haul&amp;nbsp;passenger.&lt;/p&gt;
+&lt;p&gt;I remember running into this when I flew from Paris to Dallas - we flew
+over Labrador. Labrador, by the way, was just as they describe the
+Canadian Shield - lots of little lakes in the creases in the rocks and
+not much&amp;nbsp;else.&lt;/p&gt;
+&lt;p&gt;So next time you hop a flight across the ocean, now you have a clue why
+all the flights &amp;#8220;go north.&amp;#8221; Happy&amp;nbsp;flying!&lt;/p&gt;
+&lt;h2&gt;&lt;span class="caps"&gt;REFERENCE&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chicago Tribune. United take polar express on flights to China,
+    Japan. Published April 7, 2006. Available on-line at
+    &lt;a href="http://www.chicagotribune.com/business/chi-0604040271apr04,1,1640385.story?ctrack=1&amp;amp;cset=true%20"&gt;http://www.chicagotribune.com/business/
+    chi-0604040271apr04,1,1640385.story?
+    ctrack=1&amp;amp;cset=true&lt;/a&gt;
+    Accessed May 2,&amp;nbsp;2006.&lt;/li&gt;
+&lt;li&gt;For further reading on Map Projections, try
+    &lt;a href="http://en.wikipedia.org/wiki/Map_projections"&gt;Wikipedia&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Air Travel"></category><category term="Maps"></category><category term="Map Projections"></category><category term="NORAD"></category><category term="Polar Flights"></category><category term="Series:Random Bits"></category></entry></feed>
