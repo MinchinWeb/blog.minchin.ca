@@ -10,7 +10,7 @@ click==6.7                # via pip-tools
 docutils==0.14            # via pelican
 feedgenerator==1.9        # via pelican
 first==2.0.1              # via pip-tools
-html5lib==0.999999999
+html5lib==1.0.1
 htmlmin==0.1.11           # via pelican-minify
 invoke==0.21.0
 jinja2==2.9.6             # via pelican
