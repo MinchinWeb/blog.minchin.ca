@@ -36,7 +36,7 @@ pip-tools==1.10.1
 pygments==2.2.0           # via pelican
 python-dateutil==2.6.1    # via pelican
 pytz==2017.2              # via feedgenerator, pelican
-seafoam==2.1.5
+seafoam==2.3.2
 six==1.11.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.0        # via typogrify
 titlecase==0.12.0         # via minchin.pelican.jinja-filters
