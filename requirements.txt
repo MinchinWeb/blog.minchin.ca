@@ -15,7 +15,7 @@ htmlmin==0.1.11           # via pelican-minify
 invoke==0.21.0
 jinja2==2.9.6             # via pelican
 joblib==0.11              # via pelican-minify
-markdown==2.6.9
+markdown==2.6.11
 markupsafe==1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.cname==1.0.4
