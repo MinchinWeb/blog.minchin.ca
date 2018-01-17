@@ -21,9 +21,11 @@ from invoke import run, task
 #env.cloudfiles_container = 'my_cloudfiles_container'
 
 p = Path.cwd()
-deploy_path = p.parents[0] / 'blog.minchin.ca-temp'  # used for local testing
+# deploy_path = p.parents[0] / 'blog.minchin.ca-temp'  # used for local testing
+deploy_path = p / 'output'
 # used for the version to be put on the wider internet
-publish_path = p.parents[0] / 'blog.minchin.ca-master'
+# publish_path = p.parents[0] / 'blog.minchin.ca-master'
+publish_path = p / 'output'
 
 
 def clean(ctx):

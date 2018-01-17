@@ -73,7 +73,7 @@ MARKUP = (('rst',
            'html',
            'htm'))
 PATH = 'content'
-OUTPUT_PATH = '../blog.minchin.ca-temp/'
+# OUTPUT_PATH = '../blog.minchin.ca-temp/'  # default is 'output/'
 
 #FORMATTED_FIELDS = ['summary', 'title', ]
 
@@ -108,14 +108,14 @@ MENUITEMS = (('Blog',        SITEURL + '/',                  'fa fa-fw fa-pencil
              ('Search',      'http://minchin.ca/search/',    'fa fa-fw fa-search'),
              ('About',       'http://minchin.ca/about/',     'fa fa-fw fa-info-circle'),
              ('Contact Me',  'http://minchin.ca/contact/',   'fa fa-fw fa-envelope'),
-             )
+            )
 
 MENUITEMS_2_AT = 'Blog'
 MENUITEMS_2_AT_LINK = ''  # this is added to SITEURL
 
 MENUITEMS_2 = (('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archive'),
                ('Labels',    SITEURL + '/' + TAGS_URL,      'fa fa-fw fa-tags'),
-               )
+              )
 
 
 DISPLAY_PAGES_ON_MENU = False
@@ -135,7 +135,7 @@ USE_OPEN_GRAPH = True
 #CUSTOM_CSS = 'css/minchin-ca.css'
 DOCUTIL_CSS = False
 CUSTOM_JS_LIST = [
-                  ]
+                 ]
 # update copyright date automatically
 INDEX_COPY_DATE = '2006-{}'.format(str(date.today().year)[-2:])
 
@@ -143,7 +143,7 @@ INDEX_COPY_DATE = '2006-{}'.format(str(date.today().year)[-2:])
 CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png',
                    'seafoam':               'images/2017/seafoam-logo-4x.png',
                    'Minchin dot CA theme':  'images/2016/minchindotca-theme-article.png',
-                   }
+                  }
 
 
 # Plugins
@@ -224,7 +224,7 @@ IMAGE_PROCESS = {
                          ],
              'default': ('default', '1200w'),
              },
-  }
+}
 IMAGE_PROCESS_PARSER = "html5lib"
 #IMAGE_PROCESS_FORCE = True  # force reproduction of all images
 
