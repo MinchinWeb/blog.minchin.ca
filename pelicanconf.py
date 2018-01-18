@@ -120,9 +120,13 @@ MENUITEMS_2 = (#('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archiv
 
 DISPLAY_PAGES_ON_MENU = False
 
+# see http://www.voidynullness.net/blog/2015/06/25/add-recent-posts-list-to-pelican-blog/
+TEMPLATE_PAGES = {
+    '404.html':     '404.html',
+}
+
 
 # Theme Related
-# TYPOGRIFY = False  # breaks the pelican_comment_system, may be fixed in Pelican 3.7
 TYPOGRIFY = True
 THEME = seafoam.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
@@ -158,7 +162,7 @@ PLUGINS = [
             # 'minchin.pelican.plugins.nojekyll',  # publish only
             'minchin.pelican.jinja_filters',
             'minchin.pelican.plugins.summary',
-            'minify',  # publish only
+            # 'minify',  # publish only
             # 'extended_sitemap'  # publish only
             # 'optimize_images',  # publish only
             'minchin.pelican.plugins.post_stats',

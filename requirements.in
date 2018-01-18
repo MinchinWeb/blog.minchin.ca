@@ -13,6 +13,6 @@ pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
 pip-tools
-seafoam >= 2.3.3
+seafoam >= 2.3.4
 typogrify
 webassets >= 0.12.1
