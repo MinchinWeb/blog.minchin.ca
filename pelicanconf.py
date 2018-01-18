@@ -113,7 +113,7 @@ MENUITEMS = (('Blog',        SITEURL + '/',                  'fa fa-fw fa-pencil
 MENUITEMS_2_AT = 'Blog'
 MENUITEMS_2_AT_LINK = ''  # this is added to SITEURL
 
-MENUITEMS_2 = (('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archive'),
+MENUITEMS_2 = (#('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archive'),
                ('Labels',    SITEURL + '/' + TAGS_URL,      'fa fa-fw fa-tags'),
               )
 
