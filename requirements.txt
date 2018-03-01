@@ -12,7 +12,7 @@ feedgenerator==1.9        # via pelican
 first==2.0.1              # via pip-tools
 html5lib==1.0.1
 htmlmin==0.1.12           # via pelican-minify
-invoke==0.22.0
+invoke==0.22.1
 jinja2==2.10              # via pelican
 joblib==0.11              # via pelican-minify
 markdown==2.6.11
@@ -26,7 +26,7 @@ minchin.pelican.plugins.post-stats==1.1.1
 minchin.pelican.plugins.summary==1.1.1
 pelican-alias==1.1
 pelican-comment-system==1.4.0
-pelican-extended-sitemap==1.0.4
+pelican-extended-sitemap==1.0.5
 pelican-minify==0.9
 pelican-neighbors==1.0.0
 pelican==3.7.1
@@ -34,8 +34,8 @@ pillow==5.0.0             # via minchin.pelican.plugins.image-process, pelican-c
 pip-tools==1.11.0
 pygments==2.2.0           # via pelican
 python-dateutil==2.6.1    # via pelican
-pytz==2017.3              # via feedgenerator, pelican
-seafoam==2.3.4
+pytz==2018.3              # via feedgenerator, pelican
+seafoam==2.4.0
 six==1.11.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
 titlecase==0.12.0         # via minchin.pelican.jinja-filters
