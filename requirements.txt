@@ -33,7 +33,7 @@ pelican==3.7.1
 pillow==5.0.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
 pip-tools==1.11.0
 pygments==2.2.0           # via pelican
-python-dateutil==2.6.1    # via pelican
+python-dateutil==2.7.2    # via pelican
 pytz==2017.3              # via feedgenerator, pelican
 seafoam==2.3.4
 six==1.11.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
