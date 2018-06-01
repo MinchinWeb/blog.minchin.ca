@@ -31,7 +31,7 @@ pelican-minify==0.9
 pelican-neighbors==1.0.0
 pelican==3.7.1
 pillow==5.1.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
-pip-tools==1.11.0
+pip-tools==2.0.2
 pygments==2.2.0           # via pelican
 python-dateutil==2.6.1    # via pelican
 pytz==2017.3              # via feedgenerator, pelican
