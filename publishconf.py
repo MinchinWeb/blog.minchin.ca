@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 
-SITEURL = 'http://blog.minchin.ca'
+SITEURL = '//blog.minchin.ca'
 SITE_ROOT_URL = 'http://minchin.ca'
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
