@@ -40,10 +40,10 @@ while I were there, the joggers weren't deterred by the rain, the trees and
 plants seemed greener, and I ate some of the best Fish & Chips I've eaten (and
 I like Fish and Chips).
 
-One of our days there, I joined a tour up the coast. The boat was a catamaran
-and fast (25-ish knots) and so we were able to travel relatively far. I'd hoped
-to see whales, but it turned out to be the wrong season. But we were luckly
-enough to see some Grizzly bears in the wild!
+One of my days there, I joined a tour up the coast. The boat was a catamaran
+and thus fast (25-ish knots) and so we were able to travel relatively far. I'd
+hoped to see whales, but it turned out to be the wrong season. But we were
+luckly enough to see some Grizzly bears in the wild!
 
 <div markdown=1 class="text-center">
 ![Grizzly Bears]({filename}images/2018/grizzley_bears_2.jpg)
