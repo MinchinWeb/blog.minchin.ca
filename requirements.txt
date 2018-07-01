@@ -34,7 +34,7 @@ pillow==5.1.0             # via minchin.pelican.plugins.image-process, pelican-c
 pip-tools==2.0.2
 pygments==2.2.0           # via pelican
 python-dateutil==2.7.3    # via pelican
-pytz==2018.4              # via feedgenerator, pelican
+pytz==2018.5              # via feedgenerator, pelican
 seafoam==2.4.0
 six==1.11.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
