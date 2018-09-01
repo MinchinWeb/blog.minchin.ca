@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file ./requirements.txt ./requirements.in
 #
-beautifulsoup4==4.6.0     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
+beautifulsoup4==4.6.3     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
 blinker==1.4              # via pelican
 click==6.7                # via pip-tools
 docutils==0.14            # via pelican
@@ -12,9 +12,9 @@ feedgenerator==1.9        # via pelican
 first==2.0.1              # via pip-tools
 html5lib==1.0.1
 htmlmin==0.1.12           # via pelican-minify
-invoke==1.0.0
+invoke==1.1.1
 jinja2==2.10              # via pelican
-joblib==0.11              # via pelican-minify
+joblib==0.12.3              # via pelican-minify
 markdown==2.6.11
 markupsafe==1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
@@ -30,11 +30,11 @@ pelican-extended-sitemap==1.0.5
 pelican-minify==0.9
 pelican-neighbors==1.0.0
 pelican==3.7.1
-pillow==5.1.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
+pillow==5.2.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
 pip-tools==2.0.2
 pygments==2.2.0           # via pelican
 python-dateutil==2.7.3    # via pelican
-pytz==2018.4              # via feedgenerator, pelican
+pytz==2018.5              # via feedgenerator, pelican
 seafoam==2.4.0
 six==1.11.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
