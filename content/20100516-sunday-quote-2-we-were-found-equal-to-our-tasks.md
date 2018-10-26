@@ -1,11 +1,12 @@
 Title: Sunday Quote #2: "We Were Found Equal to Our Tasks"
 Date: 2010-05-16 02:00
+Modified: 2018-10-25 21:35
 Author: Wm. Minchin
 Tags: Motivation, Neal Maxwell, Series:Sunday Quotes
 Alias: 2010/05/sunday-quote-2-we-were-found-equal-to.html
 Slug: sunday-quote-2-we-were-found-equal-to-our-tasks
 
-![Neil A. Maxwell](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S-zcSqn4ZjI/AAAAAAAABUQ/j8ihV6hN7Pk/s1600/Neil+A+Maxwell.jpg)
+![Neil A. Maxwell]({filename}images/2010/Neil_A_Maxwell.jpg)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
@@ -13,7 +14,7 @@ Slug: sunday-quote-2-we-were-found-equal-to-our-tasks
 > give, we can be comforted to know that God, who knows our capacities
 > perfectly, placed us here to succeed. No one was foreordained to fail
 > or to be wicked.
-> 
+>
 > When we have been weighed and found wanting, let us remember that we
 > were measured before and were found equal to our tasks.
 >

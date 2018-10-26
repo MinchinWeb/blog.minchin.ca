@@ -11,22 +11,24 @@ is useful when you are publishing your site to
 [GitHub Pages](https://pages.github.com/) on a
 [custom domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 
-<!-- read more -->
-
 ## Updates
+
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 Writing these posts about the new releases is often a little funny becuase the
 changes made are often so small that they don't really feel worthy of their own
 post, but collectively, they start adding up. So this post actually covers five
 releases combined: 1.0.3, 1.0.4, 1.1.0, 1.2.0, 1.2.1.
 
+<!-- read more -->
+
 - **v1.0.3** was updated to include the [Framework :: Pelican ::
   Plugins](https://pypi.org/search/?c=Framework+%3A%3A+Pelican+%3A%3A+Plugins)
   classifier that had been added to PyPI. Sadly, there hasn't been much uptake
   of the classifer: I have 6 of the 7 packages listed. But maybe I should be so
-  surprised: Pelican plugins have traditionally be distributed via a large
+  surprised: Pelican plugins have traditionally been distributed via a large
   [shared repository](https://github.com/getpelican/pelican-plugins) rather
-  than through PyPI.
+  than via PyPI.
 - **v1.0.4** was released to make sure the license file was included in the
   distrubtion uploaded to PyPI.
 - **v1.1.0** was me reworking the release process to be based on my

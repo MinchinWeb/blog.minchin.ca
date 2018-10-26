@@ -1,14 +1,15 @@
 Title: Nexodyne Email Images
 Date: 2006-05-14 22:07
 Modified_1: 2004-04-03
-Modified: 2007-04-09 22:28
+Modified_2: 2007-04-09 22:28
+Modified: 2018-10-25 21:18
 Author: Wm. Minchin
 Tags: Email, Nexodyne, Privacy, Quotables, Series:On-Line Wonders, Spam
 Slug: nexodyne-email-images
 
 > Technological progress is like an axe in the hands of a pathological
 > criminal.
-> 
+>
 > -- Albert Einstein
 
 With new technology, comes new concerns. In the case of electronic mail,
@@ -54,7 +55,7 @@ put your email in an image. This works much the same way as "word
 verification" does on this site. As long as you don't put your email in
 the name of the image or the alternate text, your email is safely hidden
 away. Nexodyne provides a free service to do this
-(<http://services.nexodyne.com/email/>). One of the cool things about
+(<https://services.nexodyne.com/email/>). One of the cool things about
 this website is that it will allow you to generate the image and save it
 locally, and they provide an encrypted link that allows you to serve the
 image directly off their server.
@@ -63,8 +64,7 @@ Here's the copy from their server:
 
 <div class="text-center" markdown=1>
 
-![Served
-Copy](http://services.nexodyne.com/email/icon/W16xUebD%2B5ICdw%3D%3D/MZ.X8AU%3D/R01haWw%3D/0/image.png)
+![Served Copy](https://services.nexodyne.com/email/icon/W16xUebD%2B5ICdw%3D%3D/MZ.X8AU%3D/R01haWw%3D/0/image.png)
 
 </div>
 
@@ -78,5 +78,5 @@ and the local copy:
 
 Very cool idea!
 
-(This post was also updated on [April 3,
-2007](http://minchinweb.blogspot.com/2007/04/gmail-image.html))
+(This post was also updated on
+[April 3, 2007]({filename}20070403-gmail-image.md))

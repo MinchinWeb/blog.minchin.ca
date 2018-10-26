@@ -1,12 +1,12 @@
 Title: Gmail Image
 Date: 2007-04-03 22:11
-Modified: 2007-04-09 15:49
+Modified_1: 2007-04-09 15:49
+Modified: 2018-10-25 21:21
 Author: Wm. Minchin
 Tags: Email, GMail, Nexodyne, Privacy, Series:On-Line Wonders
 Slug: gmail-image
 
-![My
-Email](http://4.bp.blogspot.com/_fWUoqQ2t4Js/RhMmt8j3__I/AAAAAAAAAAo/Nt_eWgdqwEw/s400/email2.png)
+![My Email]({filename}images/2007/email2.png)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
@@ -19,7 +19,7 @@ provider, check out Nexodyne, but if you like the envelope and have a
 Gmail account, get your own image
 [here](http://gizmo967.mgs3.org/Gmail/)! (The only downside is figuring
 out how to get a transparent background - Photoshop doesn't seem to like
-me today)
+me today).
 
 <!-- read more -->
 

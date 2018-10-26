@@ -1,10 +1,11 @@
 Title: Sunday Quotes #1: The Difference Love Makes
 Date: 2010-04-25 02:00
+Modified: 2018-10-25 21:34
 Author: Wm. Minchin
 Tags: Love, Series:Sunday Quotes
 Slug: sunday-quotes-1-the-difference-love-makes
 
-![Mother Teresa](http://1.bp.blogspot.com/_fWUoqQ2t4Js/S8v4ubNG3qI/AAAAAAAABRU/SIHYk1ht4IM/s200/MotherTeresa_090.jpg)
+![Mother Teresa]({filename}images/2010/MotherTeresa_090.jpg)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
