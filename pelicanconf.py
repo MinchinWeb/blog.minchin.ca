@@ -8,7 +8,7 @@ import seafoam
 AUTHOR = 'Wm. Minchin'
 SITENAME = 'Minchin.ca'
 SITEURL = ''
-SITE_ROOT_URL = 'http://minchin.ca'
+SITE_ROOT_URL = 'https://minchin.ca'
 
 TIMEZONE = 'America/Edmonton'
 

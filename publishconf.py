@@ -12,7 +12,7 @@ from pelicanconf import *
 
 
 SITEURL = '//blog.minchin.ca'
-SITE_ROOT_URL = 'http://minchin.ca'
+SITE_ROOT_URL = 'https://minchin.ca'
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
 
