@@ -36,9 +36,20 @@ def clean(ctx):
 
 
 @task
-def build(ctx):
-    """Build a local version of the blog."""
-    ctx.run('pelican -s pelicanconf.py')
+def build(ctx, publish=False, carefully=False, travis=False):
+    """Build the blog."""
+
+    config = "pelicanconf.py"
+    if publish:
+        config = "publishconf.py"
+    if travis:
+        config = "travisconf.py"
+    
+    if carefully:
+        carefully_cli = " --fatal=warnings"
+    else:
+        carefully_cli = ""
+    ctx.run('pelican -s {}{}'.format(config, carefully_cli))
 
 
 @task
@@ -84,20 +95,6 @@ def upload(ctx):
     publish(ctx)
     ctx.run('cd {} && git add -A && git commit -m "[Generated] {}" && git push'\
             .format(publish_path, time.strftime("%Y-%m-%d")))
-
-
-@task
-def publish(ctx):
-    """Build a publication version of the blog."""
-    ctx.run('pelican -s publishconf.py')
-
-
-@task
-def publish_carefully(ctx):
-    """(Carefully) Build a publication version of the blog.
-
-    i.e. fail on any warnings from pelican."""
-    ctx.run('pelican -s publishconf.py --fatal=warnings')
 
 
 # Add devsever

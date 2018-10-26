@@ -19,7 +19,7 @@ install:
 before_script:
   - invoke --list
 script:
-  - invoke publish-carefully
+  - invoke build --carefully
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
 # see https://travis-ci.org/MinchinWeb/blog.minchin.ca
 deploy:

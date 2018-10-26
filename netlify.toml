@@ -8,7 +8,7 @@
 [build]
   base    = ""
   publish = "output"
-  command = "invoke publish-carefully"
+  command = "invoke build --publish --carefully"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
