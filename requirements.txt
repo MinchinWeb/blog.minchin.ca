@@ -15,7 +15,7 @@ invoke==1.2.0
 jinja2==2.10              # via pelican
 joblib==0.13.1            # via pelican-minify
 markdown==3.0.1
-markupsafe==1.0           # via jinja2
+markupsafe==1.1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.cname==1.2.1
 minchin.pelican.plugins.image-process==1.1.4  # via seafoam
