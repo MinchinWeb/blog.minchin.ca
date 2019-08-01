@@ -12,7 +12,7 @@ feedgenerator==1.9        # via pelican
 html5lib==1.0.1
 htmlmin==0.1.12           # via pelican-minify
 invoke==1.2.0
-jinja2==2.10              # via pelican
+jinja2==2.10.1              # via pelican
 joblib==0.12.5            # via pelican-minify
 markdown==3.0.1
 markupsafe==1.0           # via jinja2
