@@ -16,3 +16,5 @@ pip-tools
 seafoam >= 2.3.4
 typogrify
 webassets >= 0.12.1
+# security forced updated
+jinja2 >= 2.10.1  # otherwise, via Pelican
