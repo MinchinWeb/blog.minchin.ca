@@ -6,8 +6,8 @@ Category: Project 365
 Slug: barrel-racing-photo-90-project-365
 Image: images/project-365/2011-06-29d - IMG_5522.JPG
 
-More rodeo photos! Barrel racing is amazing to watch -- a combination
-speed and finesse.
+More rodeo photos! Barrel racing is amazing to watch -- a combination speed and
+finesse.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

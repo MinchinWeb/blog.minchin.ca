@@ -6,15 +6,14 @@ Category: Project 365
 Slug: bull-riding-photo-91-project-365
 Image: images/project-365/2011-06-29e - IMG_5586.JPG
 
-If barrel racing is about finesse, bull riding is about sheer power.
-Holding on with only hand, the rider aims to stay on for eight seconds.
-A surprising few make it. Those that do stand a chance at rodeo glory.
+If barrel racing is about finesse, bull riding is about sheer power. Holding on
+with only hand, the rider aims to stay on for eight seconds. A surprising few
+make it. Those that do stand a chance at rodeo glory.
 
-I liked this photo because it freezes the bull's action so well, legs
-and in the air and rope flying, hinting at the bull's power. It's
-interesting to note the number of people around the periphery, watching
-attentively and ready to jump into action at the first sign of trouble
-to rescue the bull rider.
+I liked this photo because it freezes the bull's action so well, legs and in
+the air and rope flying, hinting at the bull's power. It's interesting to note
+the number of people around the periphery, watching attentively and ready to
+jump into action at the first sign of trouble to rescue the bull rider.
 
 <!-- read more -->
 

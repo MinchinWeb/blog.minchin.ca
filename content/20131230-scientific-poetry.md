@@ -3,8 +3,8 @@ Date: 2013-12-30 19:29
 Author: Wm. Minchin
 Slug: scientific-poetry
 
-I came across this little ditty and got a kick out of it. Hope it makes
-you smile.
+I came across this little ditty and got a kick out of it. Hope it makes you
+smile.
 
 > A friend who's in liquor production,  
 > Has a still of astounding construction,  

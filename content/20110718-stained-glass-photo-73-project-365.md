@@ -6,13 +6,13 @@ Category: Project 365
 Slug: stained-glass-photo-73-project-365
 Image: images/project-365/2011-01-05 - IMG_4678.JPG
 
-Catholic churches are everywhere in France. After seeing several dozen,
-I started to feel like I'd seen most of what there was to see. And then
-I would wander into some random church and discover another gem. In many
-of the churches, the stained glass was exquisite. Sometimes I could read
-the story in the windows and other times I just wondered who all the
-saints could be. This is a window I quite liked; I enjoyed how it
-depicted Jesus Christ, the "Lamb of God."
+Catholic churches are everywhere in France. After seeing several dozen, I
+started to feel like I'd seen most of what there was to see. And then I would
+wander into some random church and discover another gem. In many of the
+churches, the stained glass was exquisite. Sometimes I could read the story in
+the windows and other times I just wondered who all the saints could be. This
+is a window I quite liked; I enjoyed how it depicted Jesus Christ, the "Lamb of
+God."
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

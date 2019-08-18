@@ -6,8 +6,8 @@ Category: Project 365
 Slug: daisies-photo-95-project-365
 Image: images/project-365/2012-06-24 - IMG_7004.JPG
 
-As summer comes upon us, I found these daisies growing in the front
-yard. There are bonuses to having the lawn mover break!
+As summer comes upon us, I found these daisies growing in the front yard. There
+are bonuses to having the lawn mover break!
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

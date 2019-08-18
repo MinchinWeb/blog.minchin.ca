@@ -6,8 +6,8 @@ Category: Project 365
 Slug: temperature-photo-86-project-365
 Image: images/project-365/2011-05-15 - IMG_5311.JPG
 
-I like how the background has faded away, and how the photo seems to
-make the 'ordinary' thermometer seem special.
+I like how the background has faded away, and how the photo seems to make the
+'ordinary' thermometer seem special.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

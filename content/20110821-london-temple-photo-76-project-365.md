@@ -7,9 +7,9 @@ Category: Project 365
 Slug: london-temple-photo-76-project-365
 Image: images/project-365/2011-02-04b - IMG_4777.JPG
 
-Located just south of London proper is the London Temple of the Church
-of Jesus Christ of Latter-day Saints. From our base in France, we made a
-weekend trip here.
+Located just south of London proper is the London Temple of the Church of Jesus
+Christ of Latter-day Saints. From our base in France, we made a weekend trip
+here.
 
 I loved how the slowly faded daylight came out as this beautiful blue.
 

@@ -11,16 +11,15 @@ This is one of those pictures meant open a portal onto daily life...
 <!-- PELICAN_BEGIN_SUMMARY -->
 
 In France, many people (including me when I was there) live in low-rise
-apartment buildings. Typically, they are three to six stories tall with
-the bottom floor as retail (I lived above an insurance agent and a
-restaurant) and those above as residential. Many of the buildings are
-fairly old and so have narrow staircases and a small, if existent,
-elevator. Day-to-day, this isn't too bad, but when you go to move in or
-out, the stairs turn into a nightmare. So the solution is to bring your
-own "moving elevator" on moving day! Such a moving elevator can be
-carried nicely on a trailer behind the moving truck and unfolds at your
-soon-to-be-former lodging. Point it at a window, which can be as large
-as your front door and is never screened, and the moving begins!
+apartment buildings. Typically, they are three to six stories tall with the
+bottom floor as retail (I lived above an insurance agent and a restaurant) and
+those above as residential. Many of the buildings are fairly old and so have
+narrow staircases and a small, if existent, elevator. Day-to-day, this isn't
+too bad, but when you go to move in or out, the stairs turn into a nightmare.
+So the solution is to bring your own "moving elevator" on moving day! Such a
+moving elevator can be carried nicely on a trailer behind the moving truck and
+unfolds at your soon-to-be-former lodging. Point it at a window, which can be
+as large as your front door and is never screened, and the moving begins!
 
 <!-- read more -->
 

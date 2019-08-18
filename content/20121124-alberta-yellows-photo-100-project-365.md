@@ -6,12 +6,11 @@ Category: Project 365
 Alias: 2012/11/alberta-is-amazing-for-its-landscapes.html
 Image: images/project-365/2012-10-08a - IMG_7259.JPG
 
-Alberta is amazing for its landscapes. Much of it is flat, and combined
-with roads surveyed before anyone lived there on even mile spacing, you
-can get roads that seem to go on forever. This picture was take in
-October (Thanksgiving weekend, actually) and so the grass was basically
-dead but the snow had yet to come, leaving this beautiful palette of
-yellows.
+Alberta is amazing for its landscapes. Much of it is flat, and combined with
+roads surveyed before anyone lived there on even mile spacing, you can get
+roads that seem to go on forever. This picture was take in October
+(Thanksgiving weekend, actually) and so the grass was basically dead but the
+snow had yet to come, leaving this beautiful palette of yellows.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

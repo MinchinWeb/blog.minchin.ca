@@ -1,5 +1,6 @@
 title: CName Plugin 1.2.1 for Pelican Released
 date: 2018-10-25 20:37
+updated: 2019-08-18 10:57
 tags: pelican, pelican plugins, releases, python
 Category: Pelican Plugins
 
@@ -15,7 +16,7 @@ is useful when you are publishing your site to
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-Writing these posts about the new releases is often a little funny becuase the
+Writing these posts about the new releases is often a little funny because the
 changes made are often so small that they don't really feel worthy of their own
 post, but collectively, they start adding up. So this post actually covers five
 releases combined: 1.0.3, 1.0.4, 1.1.0, 1.2.0, 1.2.1.
@@ -30,11 +31,11 @@ releases combined: 1.0.3, 1.0.4, 1.1.0, 1.2.0, 1.2.1.
   [shared repository](https://github.com/getpelican/pelican-plugins) rather
   than via PyPI.
 - **v1.0.4** was released to make sure the license file was included in the
-  distrubtion uploaded to PyPI.
+  distribution uploaded to PyPI.
 - **v1.1.0** was me reworking the release process to be based on my
   *[minchin.releaser](https://github.com/MinchinWeb/minchin.releaser)*. I was
   already using an earlier version of the scripts, but I find it helpful to
-  have my release process stardardized and semi-automated. This in turn is part
+  have my release process standardized and semi-automated. This in turn is part
   of the reason there have so many small releases: it's easy to do. So easy,
   that these last three releases were all pushed out today!
 - **v1.2.0** added support for protocol-less `SITEURL` settings. I've been in

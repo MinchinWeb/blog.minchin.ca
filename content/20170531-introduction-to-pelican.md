@@ -5,9 +5,15 @@ Category: Essays
 
 ...and static site generators more generally.
 
-This is a summary of a presentation on Pelican I presented on May 9, 2016. It covers some of the building blocks of Pelican, and then provides several examples of Pelican in use.
+This is a summary of a presentation on Pelican I presented on May 9, 2016. It
+covers some of the building blocks of Pelican, and then provides several
+examples of Pelican in use.
 
-As a personal note, this presentation follows my own path of learning and growth with these technologies. I should note that I'm not a programmer or a web developer by trade; that everything I've done with Pelican has been as a part of another job or for personal projects. I hope to show you very practical applications of Pelican, rather than theoretical projects.
+As a personal note, this presentation follows my own path of learning and
+growth with these technologies. I should note that I'm not a programmer or a
+web developer by trade; that everything I've done with Pelican has been as a
+part of another job or for personal projects. I hope to show you very practical
+applications of Pelican, rather than theoretical projects.
 <!-- read more -->
 
 ## Intended Audience
@@ -20,7 +26,8 @@ I'm assuming:
 
 ## HTML Was Simple
 
-There was a time when you could write HTML in Notepad (or really any text editor). Your HTML file might have looked like this:
+There was a time when you could write HTML in Notepad (or really any text
+editor). Your HTML file might have looked like this:
 
 ~~~html
 <html>
@@ -43,13 +50,17 @@ which would turn into something like this:
     <a href="https://www.google.com">Google</a>!</p>
 </div>
 
-**This is foundational!** It is true that most the HTML we generate, or want to generate, is more complicated that this, but understanding basic HTML is very helpful to make adjustments to any website.
+**This is foundational!** It is true that most the HTML we generate, or want to
+generate, is more complicated that this, but understanding basic HTML is very
+helpful to make adjustments to any website.
 
-On a personal note, I found the idea of HTML simple to grasp as I was already familiar with WordPerfect's *Reveal Codes*.
+On a personal note, I found the idea of HTML simple to grasp as I was already
+familiar with WordPerfect's *Reveal Codes*.
 
 ## The LAMP Stack
 
-Today, many (most?) websites are run on a combination of technologies referred to as the "LAMP Stack":
+Today, many (most?) websites are run on a combination of technologies referred
+to as the "LAMP Stack":
 
 - **L**inux (Operating System)
 - **A**pache (Web Server)
@@ -60,39 +71,74 @@ This combination provides the basis for a *Dynamic Website*.
 
 This setup is hugely common:
 
-- Linux is used by 36% of websites ([source](http://w3techs.com/technologies/details/os-linux/all/all))
-- Apache is used by 53% of websites ([source](http://w3techs.com/technologies/overview/web_server/all))
-- PHP is used on 82% of websites using a scripting language ([source](http://w3techs.com/technologies/overview/programming_language/all))
+- Linux is used by 36% of websites
+  ([source](http://w3techs.com/technologies/details/os-linux/all/all))
+- Apache is used by 53% of websites
+  ([source](http://w3techs.com/technologies/overview/web_server/all))
+- PHP is used on 82% of websites using a scripting language
+  ([source](http://w3techs.com/technologies/overview/programming_language/all))
 
-WordPress is (probably) the most common use of the LAMP stack, and powers 26% of all websites! ([source](http://w3techs.com/technologies/overview/content_management/all))
+WordPress is (probably) the most common use of the LAMP stack, and powers 26%
+of all websites!
+([source](http://w3techs.com/technologies/overview/content_management/all))
 
 ## Downtime
 
 ![Fail Whale]({filename}images/2017/lifting-a-dreamer-2009.jpg)
 
-In recent years, various technologies have stepped forward to replace parts of the LAMP stack (such as Nginx for the webserver, multiple options for databases, or even Python as the scripting language), but the basic combination of pieces remains largely the same. The combination of all these moving parts increases complexity, and can lead to downtime for myriad reasons. Consider Twitter's *Fail Whale* (above). This is the image Twitter used to show when some part of their website wasn't working as expected. The fact that this image would enter into popular culture is a testament to how hard it is to manage a LAMP stack as scale.
+In recent years, various technologies have stepped forward to replace parts of
+the LAMP stack (such as Nginx for the webserver, multiple options for
+databases, or even Python as the scripting language), but the basic combination
+of pieces remains largely the same. The combination of all these moving parts
+increases complexity, and can lead to downtime for myriad reasons. Consider
+Twitter's *Fail Whale* (above). This is the image Twitter used to show when
+some part of their website wasn't working as expected. The fact that this image
+would enter into popular culture is a testament to how hard it is to manage a
+LAMP stack as scale.
 
-This is an area that Pelican, and static site generators more generally, aim to solve by eliminating the need for a database and scripting language on your webserver.
+This is an area that Pelican, and static site generators more generally, aim to
+solve by eliminating the need for a database and scripting language on your
+webserver.
 
 ## Competitors
 
-This presentation is about Pelican, but Pelican, of course, is no the only option. Some of the competitors include:
+This presentation is about Pelican, but Pelican, of course, is no the only
+option. Some of the competitors include:
 
 - for dynamically generated sites:
-    - [Wordpress](https://wordpress.org/) -- written in PHP, one of the most popular ways to run a website. Personally, probably because I wasn't working full time with it, I seemed that every time I touched it I was constantly trying to keep up with the security updates and trying to make it run faster. The advantage of WordPress is that it's hugely common, so it's (relatively) easy to find people to work on your site for you. WordPress' out-of-the-box experience is also one of the best on this list, making it easy for non-technical people to get it up and running.
-    - [Django](https://www.djangoproject.com/) -- written in Python. I don't have much personal experience with Django.
+    - [Wordpress](https://wordpress.org/) -- written in PHP, one of the most
+      popular ways to run a website. Personally, probably because I wasn't
+      working full time with it, I seemed that every time I touched it I was
+      constantly trying to keep up with the security updates and trying to make
+      it run faster. The advantage of WordPress is that it's hugely common, so
+      it's (relatively) easy to find people to work on your site for you.
+      WordPress' out-of-the-box experience is also one of the best on this
+      list, making it easy for non-technical people to get it up and running.
+    - [Django](https://www.djangoproject.com/) -- written in Python. I don't
+      have much personal experience with Django.
 - for statically generated sites:
-    - [Jekyll](https://jekyllrb.com/) -- written in Ruby. This is the default provided by Github's pages. When I considered it, now a couple of years ago, I couldn't get it to run on Windows.
-    - [Octopress](http://octopress.org/) -- a fork of Jekyll, written to provide expanded features, still in Ruby.
-    - [Sphinx](http://www.sphinx-doc.org/en/stable/) -- written in Python, originally designed for documenting Python source code. Very powerful for writing general content (and probably more powerful that Pelican), I haven't found a way I was satisfied with to use it with blog content.
-    - hand-crafted, or roll-your-own -- the principals behind a static site generator are rather simple, so to roll you own could maybe be done as a weekend project.
+    - [Jekyll](https://jekyllrb.com/) -- written in Ruby. This is the default
+      provided by Github's pages. When I considered it, now a couple of years
+      ago, I couldn't get it to run on Windows.
+    - [Octopress](http://octopress.org/) -- a fork of Jekyll, written to
+      provide expanded features, still in Ruby.
+    - [Sphinx](http://www.sphinx-doc.org/en/stable/) -- written in Python,
+      originally designed for documenting Python source code. Very powerful for
+      writing general content (and probably more powerful that Pelican), I
+      haven't found a way I was satisfied with to use it with blog content.
+    - hand-crafted, or roll-your-own -- the principals behind a static site
+      generator are rather simple, so to roll you own could maybe be done as a
+      weekend project.
     - and [100's of other options](https://www.staticgen.com/)...
 
-Your situation is probably different than mine, but I considered all of the above listed options, and for various reasons, decided Pelican would be the best fit for me.
+Your situation is probably different than mine, but I considered all of the
+above listed options, and for various reasons, decided Pelican would be the
+best fit for me.
 
 ## Pelican Building Blocks
 
-We're almost ready to jump into Pelican proper, but there's a few more things to introduce before we jump:
+We're almost ready to jump into Pelican proper, but there's a few more things
+to introduce before we jump:
 
 - markup languages: Markdown, Restructured Text (ReST), and HTML
 - tempalating: Jinja
@@ -100,9 +146,14 @@ We're almost ready to jump into Pelican proper, but there's a few more things to
 
 ### Markdown
 
-Markdown was created to be a lightweight markup language what remains readable even as the plain-text version. It was modelled after the conversions used in plain text emails and Usenet.
+Markdown was created to be a lightweight markup language what remains readable
+even as the plain-text version. It was modelled after the conversions used in
+plain text emails and Usenet.
 
-Markdown is used many places around the web ([Github](https://help.github.com/articles/basic-writing-and-formatting-syntax/), [Stack Overflow](https://stackoverflow.com/editing-help), etc). There are several dialects, but the core of the language is common and well-understood.
+Markdown is used many places around the web
+([Github](https://help.github.com/articles/basic-writing-and-formatting-syntax/),
+[Stack Overflow](https://stackoverflow.com/editing-help), etc). There are
+several dialects, but the core of the language is common and well-understood.
 
 An example markdown Pelican post:
 
@@ -131,7 +182,10 @@ A sentence with links to [Wikipedia](http://www.wikipedia.org/) and the
 
 ### Restructured Text
 
-Sometimes shorted as *ReST* or *RST*, this was originally created for documenting the Python standard library. As such, it has great Python support (but somewhat limited support in other programming languages), and a well-defined specification.
+Sometimes shorted as *ReST* or *RST*, this was originally created for
+documenting the Python standard library. As such, it has great Python support
+(but somewhat limited support in other programming languages), and a
+well-defined specification.
 
 An example Restructured Text Pelican post:
 
@@ -166,7 +220,8 @@ A sentence with links to Wikipedia_ and the `Linux kernel archive`_.
 
 ### HTML
 
-Pelican can also use HTML files as a source. Post metadata is read from the pages `meta` tags.
+Pelican can also use HTML files as a source. Post metadata is read from the
+pages `meta` tags.
 
 An example HTML Pelican post:
 
@@ -189,9 +244,12 @@ An example HTML Pelican post:
 
 ### Jinja
 
-Jinja is a templating language (we technically use Jinja2). Pelican uses this to define the templates that the blog content is then dropped into.
+Jinja is a templating language (we technically use Jinja2). Pelican uses this
+to define the templates that the blog content is then dropped into.
 
-Jinja isn't something you need to understand on day 1 to get your Pelican site up and running, but eventually you'll probably want to adjust your theme, and for that you'll need some Jinja.
+Jinja isn't something you need to understand on day 1 to get your Pelican site
+up and running, but eventually you'll probably want to adjust your theme, and
+for that you'll need some Jinja.
 
 A basic Jinja template:
 
@@ -308,15 +366,19 @@ A more advanced Jinja template:
 
 ![Responsive Design]({filename}images/2017/responsive-web-design-a-working-example.gif)
 
-*Responsive Design* is a way a designing a website so that it's layout will change between mobile and desktop browsers, but the actual content doesn't change. For this, we can use [Bootstrap](http://getbootstrap.com/).
+*Responsive Design* is a way a designing a website so that it's layout will
+change between mobile and desktop browsers, but the actual content doesn't
+change. For this, we can use [Bootstrap](http://getbootstrap.com/).
 
 ## Pelican
 
 ### Quickstart
 
-Yes, that took long enough. But let's jump into using Pelican. We can use `pelican-quickstart` to quickly create a skeleton site.
+Yes, that took long enough. But let's jump into using Pelican. We can use
+`pelican-quickstart` to quickly create a skeleton site.
 
-First, let's install Pelican. We also install Markdown, as it's not automatically installed.
+First, let's install Pelican. We also install Markdown, as it's not
+automatically installed.
 
 ~~~cmd
 C:> pip install pelican markdown
@@ -343,7 +405,8 @@ yourproject/
 
 ### Internal Links
 
-Pelican allows us to specify links between files. To do so, we use the **source content hierarchy** rather than the generated hierarchy.
+Pelican allows us to specify links between files. To do so, we use the **source
+content hierarchy** rather than the generated hierarchy.
 
 For example, if your site is laid out like this:
 
@@ -387,21 +450,46 @@ See below intra-site link examples in Markdown format.
 
 Pelican does have a couple of other quirks:
 
-- slugs for articles and pages must be unique. Duplicate slugs are assumed to be translations.
-- Pelican itself is under the [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html). For practical purposes, if you are just running Pelican for yourself and pushing the output to a server, I don't think this is an issue. If you are running a service that use Pelican to generate sites under the hood, there may be a requirement to provide your full source code. (That said, get your own legal advice if this is really a concern.)
+- slugs for articles and pages must be unique. Duplicate slugs are assumed to
+  be translations.
+- Pelican itself is under the
+  [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html). For practical
+  purposes, if you are just running Pelican for yourself and pushing the output
+  to a server, I don't think this is an issue. If you are running a service
+  that use Pelican to generate sites under the hood, there may be a requirement
+  to provide your full source code. (That said, get your own legal advice if
+  this is really a concern.)
 
 Using GitHub pages for hosting also has a couple of quirks too:
 
-- use the *master* branch for your personal or organization homepage, and the *gh-pages* branch for project pages (see [GitHub help](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) for more details, although they have a couple more options now).
-- project pages will show up as a sub-directory of your main website. (i.e. my [colourettu](https://github.com/MinchinWeb/colourettu) project's generated site lives at [minchin.ca/colourettu/](http://minchin.ca/colourettu/))
-- GitHub pages will automatically run your site through Jekyll before publishing it. I haven't had this cause problems directly, but it does add a delay between pushing your site to GitHub and having it go live. To remove this, add a `.nojekyll` file to the root of your project. I created a plugin ([minchin.pelican.plugins.nojekyll](https://github.com/MinchinWeb/minchin.pelican.plugins.nojekyll)) to take care of this automatically.
-- you have use a custom domain for your GitHub pages. Create a `CNAME` file that just contains your domain name, and change your DNS settings to point to GitHub to enable this. (See [GitHub Help](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for full details.) I created a plugin ([CName](https://github.com/MinchinWeb/minchin.pelican.plugins.cname)) to take care of this automatically.
+- use the *master* branch for your personal or organization homepage, and the
+  *gh-pages* branch for project pages (see [GitHub
+  help](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+  for more details, although they have a couple more options now).
+- project pages will show up as a sub-directory of your main website. (i.e. my
+  [colourettu](https://github.com/MinchinWeb/colourettu) project's generated
+  site lives at [minchin.ca/colourettu/](http://minchin.ca/colourettu/))
+- GitHub pages will automatically run your site through Jekyll before
+  publishing it. I haven't had this cause problems directly, but it does add a
+  delay between pushing your site to GitHub and having it go live. To remove
+  this, add a `.nojekyll` file to the root of your project. I created a plugin
+  ([minchin.pelican.plugins.nojekyll](https://github.com/MinchinWeb/minchin.pelican.plugins.nojekyll))
+  to take care of this automatically.
+- you have use a custom domain for your GitHub pages. Create a `CNAME` file
+  that just contains your domain name, and change your DNS settings to point to
+  GitHub to enable this. (See [GitHub
+  Help](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
+  for full details.) I created a plugin
+  ([CName](https://github.com/MinchinWeb/minchin.pelican.plugins.cname)) to
+  take care of this automatically.
 
 ## Pelican Configuration -- `pelicanconf.py`
 
-Your configuration file for Pelican are regular Python files. This means you can run Python function and import other Python files.
+Your configuration file for Pelican are regular Python files. This means you
+can run Python function and import other Python files.
 
-Pelican settings generally separated between development (`pelicanconf.py`) and production (`publishconf.py`, which usually imports `pelicanconf.py`).
+Pelican settings generally separated between development (`pelicanconf.py`) and
+production (`publishconf.py`, which usually imports `pelicanconf.py`).
 
 An example `pelicanconf.py`:
 
@@ -474,23 +562,45 @@ DELETE_OUTPUT_DIRECTORY = True
 
 ## Overview of Examples
 
-Below are four examples of sites I have build with Pelican. I have included full configuration files here, which makes this post particularly long. However, I hope having full working examples will help you get started on your own site.
+Below are four examples of sites I have build with Pelican. I have included
+full configuration files here, which makes this post particularly long.
+However, I hope having full working examples will help you get started on your
+own site.
 
-If the code below doesn't work, please let me know so I can fix it; Pelican does tweak its setting from time to time.
+If the code below doesn't work, please let me know so I can fix it; Pelican
+does tweak its setting from time to time.
 
 The four examples are:
 
-- **jnrl** -- a have a personal-use site where I display the notes I keep for myself.
-- **Burst Energy** -- a full production site I used to be responsible. In this case, it was mostly content pages rather than blog posts (although there was a small "News" section). I have also included some of the support code I used to generate pieces used by the website, and to format the generated site for deployment.
-- **Minchin.ca** -- my personal website (available at [minchin.ca](http://minchin.ca)).
-- **Minchin Genealogy** -- a site of my personal genealogy. This poses certain issues due to it's size (over 11,000 pages), but Pelican can still deal with it. I have included the build script for this site below, and you will see that Pelican is just one step -- the data is cleaned before it is fed to Pelican the resulting site is also adjusted. (Available at [minchin.ca/genealogy](http://minchin.ca/genealogy/)).
+- **jnrl** -- a have a personal-use site where I display the notes I keep for
+  myself.
+- **Burst Energy** -- a full production site I used to be responsible. In this
+  case, it was mostly content pages rather than blog posts (although there was
+  a small "News" section). I have also included some of the support code I used
+  to generate pieces used by the website, and to format the generated site for
+  deployment.
+- **Minchin.ca** -- my personal website (available at
+  [minchin.ca](http://minchin.ca)).
+- **Minchin Genealogy** -- a site of my personal genealogy. This poses certain
+  issues due to it's size (over 11,000 pages), but Pelican can still deal with
+  it. I have included the build script for this site below, and you will see
+  that Pelican is just one step -- the data is cleaned before it is fed to
+  Pelican the resulting site is also adjusted. (Available at
+  [minchin.ca/genealogy](http://minchin.ca/genealogy/)).
 
-Not listed here, but this site ([blog.minchin.ca](http://blog.minchin.ca)), is also generated with Pelican, and separately from the main part of Minchin.ca. The code for the site is [posted to GitHub](https://github.com/MinchinWeb/blog.minchin.ca) and open to review.
+Not listed here, but this site ([blog.minchin.ca](http://blog.minchin.ca)), is
+also generated with Pelican, and separately from the main part of Minchin.ca.
+The code for the site is [posted to
+GitHub](https://github.com/MinchinWeb/blog.minchin.ca) and open to review.
 
 
 ## Example 1 -- Jrnl
 
-In this example, I use Pelican to display notes that I store in [jrnl](http://jrnl.sh/). I use *jrnl* to export these notes to individual markdown files, which serve as the source files for Pelican. I uses a separate Python program ([prjct](https://github.com/MinchinWeb/prjct)) and a custom Pelican template to include my todo list items on tag pages.
+In this example, I use Pelican to display notes that I store in
+[jrnl](http://jrnl.sh/). I use *jrnl* to export these notes to individual
+markdown files, which serve as the source files for Pelican. I uses a separate
+Python program ([prjct](https://github.com/MinchinWeb/prjct)) and a custom
+Pelican template to include my todo list items on tag pages.
 
 <!-- Link to Demonstration version -->
 
@@ -709,9 +819,13 @@ PAGINATED_DIRECT_TEMPLATES = ['index', 'archives']
 
 <!-- Link to Demonstration version -->
 
-This is formerly a production site. I'd generate the site locally and then send a zip file containing the site to the hosting provider.
+This is formerly a production site. I'd generate the site locally and then send
+a zip file containing the site to the hosting provider.
 
-I used [invoke](http://www.pyinvoke.org/) to automate the site generation. This automation would also generate graphs (before running Pelican), generate a javascript file needed elsewhere (after running Pelican), and ensure the resulting zip file was in a consistent format.
+I used [invoke](http://www.pyinvoke.org/) to automate the site generation. This
+automation would also generate graphs (before running Pelican), generate a
+javascript file needed elsewhere (after running Pelican), and ensure the
+resulting zip file was in a consistent format.
 
 ### `tasks.py` -- Invoke configuration file
 
@@ -1216,7 +1330,12 @@ DEFAULT_PAGINATION = 10
 
 ## Minchin.ca
 
-This is my personal website at <http://minchin.ca>. I've edited Bootstrap extensively (colours, fonts, vertical menu). The theme has since been posted to PyPI as [seafoam](https://pypi.python.org/pypi/seafoam/) and is installable via `pip`. The [code for the site](https://github.com/MinchinWeb/minchinweb.github.io/tree/pelican), and the site ifself, are both hosted on GitHub Pages.
+This is my personal website at <http://minchin.ca>. I've edited Bootstrap
+extensively (colours, fonts, vertical menu). The theme has since been posted to
+PyPI as [seafoam](https://pypi.python.org/pypi/seafoam/) and is installable via
+`pip`. The [code for the
+site](https://github.com/MinchinWeb/minchinweb.github.io/tree/pelican), and the
+site ifself, are both hosted on GitHub Pages.
 
 ### `pelicanconf.py` -- Pelican Configuration
 
@@ -1343,7 +1462,12 @@ PDF_PROCESSOR = False
 
 ## Minchin Genealogy
 
-I host a copy of my genealogy on my personal website. The generate site contains over 11,000 pages (and so demonstrates that Pelican can handle very large sites). This site uses the same theme as *Minchin.ca*. I've used automation (in this case, a Python script) to automate source data generation and final site upload. This is hosted on GitHub pages as a *project page*. This site is set up to allow comments via email.
+I host a copy of my genealogy on my personal website. The generate site
+contains over 11,000 pages (and so demonstrates that Pelican can handle very
+large sites). This site uses the same theme as *Minchin.ca*. I've used
+automation (in this case, a Python script) to automate source data generation
+and final site upload. This is hosted on GitHub pages as a *project page*. This
+site is set up to allow comments via email.
 
 ### `gen_upload.py` -- Build Automation Script
 
@@ -2355,7 +2479,9 @@ PDF_PROCESSOR = False
 
 ### `adamconf.py` -- Additional Settings File
 
-This settings file is generated by the build script (`gen_upload.py`) and then imported into the Pelican configuration file (`pelicanconf.py`) to provide these setting to Pelican.
+This settings file is generated by the build script (`gen_upload.py`) and then
+imported into the Pelican configuration file (`pelicanconf.py`) to provide
+these setting to Pelican.
 
 ~~~py
 # Genealogy Uploader, v.3.2.3

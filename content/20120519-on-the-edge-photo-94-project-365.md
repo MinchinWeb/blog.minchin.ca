@@ -7,8 +7,8 @@ Slug: on-the-edge-photo-94-project-365
 Image: images/project-365/2011-07-05a - IMG_6043.JPG
 
 Driving through the mountains, we stopped at a beautiful overlook for
-breakfast. I love shooting in the mountains because it's so easy to get
-depth and great backgrounds are everywhere!
+breakfast. I love shooting in the mountains because it's so easy to get depth
+and great backgrounds are everywhere!
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

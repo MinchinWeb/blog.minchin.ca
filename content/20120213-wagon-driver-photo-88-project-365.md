@@ -6,9 +6,9 @@ Category: Project 365
 Slug: wagon-driver-photo-88-project-365
 Image: images/project-365/2011-06-29b - IMG_5365.JPG
 
-The parade provided lots of interesting sights. I got his photo of one
-of the wagon drivers in the parade. I thought the outfit was rather
-timeless and I liked the look on his face.
+The parade provided lots of interesting sights. I got his photo of one of the
+wagon drivers in the parade. I thought the outfit was rather timeless and I
+liked the look on his face.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

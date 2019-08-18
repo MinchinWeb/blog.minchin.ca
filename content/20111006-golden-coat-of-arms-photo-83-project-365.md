@@ -7,13 +7,12 @@ Slug: golden-coat-of-arms-photo-83-project-365
 Location: Buckingham Palace, London, UK
 Image: images/project-365/2011-04-01 - IMG_5262.JPG
 
-My continuing adventures took me to London and to see the Queen!
-Actually, the Queen was nowhere to be seen, but I did see Buckingham
-Palace and the Changing of the Guards. On the square surrounding
-Buckingham Palace are gates recognizing the different British colonies
-and on the gates of the Palace itself sit the Arms of Britain itself. I
-thought the gold leaf was cool and it provided a nice contrast against
-the grey-green iron of the rest of the gate.
+My continuing adventures took me to London and to see the Queen! Actually, the
+Queen was nowhere to be seen, but I did see Buckingham Palace and the Changing
+of the Guards. On the square surrounding Buckingham Palace are gates
+recognizing the different British colonies and on the gates of the Palace
+itself sit the Arms of Britain itself. I thought the gold leaf was cool and it
+provided a nice contrast against the grey-green iron of the rest of the gate.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

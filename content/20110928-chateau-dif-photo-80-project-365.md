@@ -7,9 +7,8 @@ Slug: chateau-dif-photo-80-project-365
 Location: Chemin de Saint-Esteve, Marseilles, France
 Image: images/project-365/2011-02-26 - IMG_5213.JPG
 
-A visit to the south coast of France would be incomplete without a visit
-to the Chateau d'If, the famed prison that gave birth to The Count of
-Monte Cristo.
+A visit to the south coast of France would be incomplete without a visit to the
+Chateau d'If, the famed prison that gave birth to The Count of Monte Cristo.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

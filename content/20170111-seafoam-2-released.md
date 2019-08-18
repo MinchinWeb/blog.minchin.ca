@@ -6,15 +6,16 @@ Category: Seafoam
 
 Version 2.0.4 of *Seafoam* has been released.
 
-Seafoam is the Pelican theme I use for this site, but published to PyPI in the hope that it will be useful to others.
+Seafoam is the Pelican theme I use for this site, but published to PyPI in the
+hope that it will be useful to others.
 
 This release changes the name of the project to *seafoam* from to unwieldy
 *[minchin.pelican.themes.minchindotca]({filename}20160912-minchin-dot-ca-pelican-theme-version-110-released.md)*.
-It also add support for the
-[Pelican Comment System](https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/),
-removes the need to define Jinja2 filters in your configuration file,
-updates to  Font Awesome v4.7, and several design fixes as well. Code is
-updated to work with Pelican v3.7 and Jinja v2.9.
+It also add support for the [Pelican Comment
+System](https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/),
+removes the need to define Jinja2 filters in your configuration file, updates
+to  Font Awesome v4.7, and several design fixes as well. Code is updated to
+work with Pelican v3.7 and Jinja v2.9.
 
 <!-- read more -->
 
@@ -44,18 +45,24 @@ Next, update your `pelicanconf.py` to use the theme, with its default settings:
 
 And then regenerate your site.
 
-The theme depends on the pathlib library, that was introduced in Python 3.4, so the theme won't work on earlier versions of Python. Installing the pathlib2 library should provide the necessary functionality for the theme to work, but this is currently untested by me.
+The theme depends on the pathlib library, that was introduced in Python 3.4, so
+the theme won't work on earlier versions of Python. Installing the pathlib2
+library should provide the necessary functionality for the theme to work, but
+this is currently untested by me.
 
 ### Settings
 
-The full settings are not particularly well documented (by me anyway), although the the [ReadMe](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3) for the base theme goes over most of the settings.
+The full settings are not particularly well documented (by me anyway), although
+the the
+[ReadMe](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3)
+for the base theme goes over most of the settings.
 
 ### Changelog
 
-I've built a release script that automates pushing releases to PyPI, and so
-it makes it very easy to make a release. In fact, writing these release blog
-posts is probably the most involved part of cutting a release! Therefore, this
-blog post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and 2.0.4:
+I've built a release script that automates pushing releases to PyPI, and so it
+makes it very easy to make a release. In fact, writing these release blog posts
+is probably the most involved part of cutting a release! Therefore, this blog
+post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and 2.0.4:
 
 #### Version 2.0.0 -- January 9, 2017
 
@@ -71,18 +78,21 @@ blog post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and 2.0.4:
 - *feature*: add support for reading time via
   [post stats](https://github.com/getpelican/pelican-plugins/tree/master/post_stats)
   plugin
-- *feature*: add support for [pelican comment system](https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system)
-- *bug*: restyle comments with bootstrap's `media` class (much
-  cleaner template code) (see [issue 6](https://github.com/MinchinWeb/seafoam/issues/6))
-- *bug*: switch template variable from `PAGES` to `pages` to
-  support Pelican v3.7 (see [issue 5](https://github.com/MinchinWeb/seafoam/issues/5))
-- *bug*: don't print section for next and previous posts in a category if
-  the article is the only one in that category
+- *feature*: add support for [pelican comment
+  system](https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system)
+- *bug*: restyle comments with bootstrap's `media` class (much cleaner template
+  code) (see [issue 6](https://github.com/MinchinWeb/seafoam/issues/6))
+- *bug*: switch template variable from `PAGES` to `pages` to support Pelican
+  v3.7 (see [issue 5](https://github.com/MinchinWeb/seafoam/issues/5))
+- *bug*: don't print section for next and previous posts in a category if the
+  article is the only one in that category
 
 #### Version 2.0.1 -- January 10, 2017
 
-- *bug*: pluralization of "1 comment" now correct (see [issue 8](https://github.com/MinchinWeb/seafoam/issues/8))
-- *bug*: fix pagination code to work with Jinja2 v2.9.0 (see [issue 9](https://github.com/MinchinWeb/seafoam/issues/9))
+- *bug*: pluralization of "1 comment" now correct (see [issue
+  8](https://github.com/MinchinWeb/seafoam/issues/8))
+- *bug*: fix pagination code to work with Jinja2 v2.9.0 (see [issue
+  9](https://github.com/MinchinWeb/seafoam/issues/9))
 
 #### Version 2.0.2 -- January 11, 2017
 
@@ -96,4 +106,5 @@ blog post is to serve for five releases: 2.0.0, 2.0.1, 2.0.2, 2.0.3, and 2.0.4:
 
 #### Version 2.0.4 -- January 11, 2017
 
-- *bug*: fix archive page template code to work with Jinja2 v2.9.0 (see [issue 10](https://github.com/MinchinWeb/seafoam/issues/10))
+- *bug*: fix archive page template code to work with Jinja2 v2.9.0 (see [issue
+  10](https://github.com/MinchinWeb/seafoam/issues/10))

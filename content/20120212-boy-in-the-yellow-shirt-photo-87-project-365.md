@@ -6,10 +6,9 @@ Category: Project 365
 Slug: boy-in-the-yellow-shirt-photo-87-project-365
 Image: images/project-365/2011-06-29a - IMG_5318.JPG
 
-This summer while I was waiting for a parade to start, so I started
-taking pictures of some of the other people waiting around me. I ended
-up with this neat picture of this boy. There's just something about the
-look on his face...
+This summer while I was waiting for a parade to start, so I started taking
+pictures of some of the other people waiting around me. I ended up with this
+neat picture of this boy. There's just something about the look on his face...
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

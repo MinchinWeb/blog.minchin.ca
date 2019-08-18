@@ -11,18 +11,19 @@ I am in the middle of moving my blog over from Blogger to self-hosting it and
 generating it with Pelican. One of the struggles was what to do with comments.
 Something like Disqus could work, but the philosophy of externally hosting
 comments doesn't seem to jibe very well with the philosophy of a static
-website, like this one. In the end, I discovered Bernhard Scheirle's
-`Pelican Comment System <https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/>`_!
-New comments are submitted via a *mailto:* link (which generates an email
-to me), and then each comment is stored on the backend as a separate file.
-The only problem left was how to import my existing comments from Blogger.
+website, like this one. In the end, I discovered Bernhard Scheirle's `Pelican
+Comment System
+<https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/>`_!
+New comments are submitted via a *mailto:* link (which generates an email to
+me), and then each comment is stored on the backend as a separate file. The
+only problem left was how to import my existing comments from Blogger.
 
-Blogger is good in that it will give you an export of everything, but the
-bad news is it's one giant XML file. XML is great if you're a computer, but
-a bit of a pain if you're a human. Add to that, I could not find the format
-documented anyway. After much trial and error, I was able to pull out what
-I needed. I'll present the code I used to do it (Python 3.6) and then
-explain what it does.
+Blogger is good in that it will give you an export of everything, but the bad
+news is it's one giant XML file. XML is great if you're a computer, but a bit
+of a pain if you're a human. Add to that, I could not find the format
+documented anyway. After much trial and error, I was able to pull out what I
+needed. I'll present the code I used to do it (Python 3.6) and then explain
+what it does.
 
 .. The div below is needed so that the code highlighting works as expected.
 
@@ -38,51 +39,50 @@ explain what it does.
 
 	</div>
 
-The code is written to run in Python 3.6, which was released a few days ago.
-If you haven't upgraded yet, I think the only 3.6-specific feature I used
-was the *f-string* at line 81.
+The code is written to run in Python 3.6, which was released a few days ago. If
+you haven't upgraded yet, I think the only 3.6-specific feature I used was the
+*f-string* at line 81.
 
 The other change you will need to do to use this code for yourself is the
 update the configuration at the top of the file (lines 25-32). You will also
 need the XML export of your Blogger blog.
 
-`untangle <https://untangle.readthedocs.io/en/latest/>`_ is the XML
-library I used. It seemed to work well for the task
-at hand. It can easily be installed from ``pip``:
+`untangle <https://untangle.readthedocs.io/en/latest/>`_ is the XML library I
+used. It seemed to work well for the task at hand. It can easily be installed
+from ``pip``:
 
 .. code-block:: shell
 
 	pip install untangle
 
-THe first task was figuring out what was all in Blogger XML export. The bulk
-of it was "entry"'s -- the first one was my HTML template, the next batch
-was a bunch of Blogger settings, the third batch was my posts, and the last
-batch was the comments. Which one it fell into could be determined by looking
-at the ``entry.category['term']`` (see line 52). This would give a string
-(a blogger URL) that ended in "#template", "#settings", "#post", or
-"#comment" as the case may be.
+THe first task was figuring out what was all in Blogger XML export. The bulk of
+it was "entry"'s -- the first one was my HTML template, the next batch was a
+bunch of Blogger settings, the third batch was my posts, and the last batch was
+the comments. Which one it fell into could be determined by looking at the
+``entry.category['term']`` (see line 52). This would give a string (a blogger
+URL) that ended in "#template", "#settings", "#post", or "#comment" as the case
+may be.
 
 If I had not already exported my entries, this would have been the way to do it
 (see line 70).
 
-Comments were processed by pulling the information I wanted out
-(see lines 90-98), determining what post the comment was attached to
-(see lines 115-123), and then write all the data to separate markdown files
-(see line 147). Each comment is exported into a folder named after the slug
-of the entry it was attached to. Renaming these folders proved one of the
-more annoying parts, as I had
-cleaned up the slugs of many of my posts during their initial export. Then
+Comments were processed by pulling the information I wanted out (see lines
+90-98), determining what post the comment was attached to (see lines 115-123),
+and then write all the data to separate markdown files (see line 147). Each
+comment is exported into a folder named after the slug of the entry it was
+attached to. Renaming these folders proved one of the more annoying parts, as I
+had cleaned up the slugs of many of my posts during their initial export. Then
 it was to regenerate my blog (with the comments turned on), and make sure
 everything was working as expected. The slug renaming was the only (minor)
 show-stopper I ran into.
 
 In other cleanup, I has also changed my name (as the default blog author)
-during the initial export on
-the blog, so I had to change that anywhere it appeared. As a final touch, I
-brought over some of the profile pictures of the other commenters, where
-available (this is what the ``authors.txt`` file, generated by lines 150-160
-is designed to help with). These are configured as follows in my main
-``pelicanconf.py`` file (the configuration file for Pelican):
+during the initial export on the blog, so I had to change that anywhere it
+appeared. As a final touch, I brought over some of the profile pictures of the
+other commenters, where available (this is what the ``authors.txt`` file,
+generated by lines 150-160 is designed to help with). These are configured as
+follows in my main ``pelicanconf.py`` file (the configuration file for
+Pelican):
 
 .. code-block:: python
 
@@ -99,9 +99,9 @@ is designed to help with). These are configured as follows in my main
 Hopefully some of this code will prove useful to someone else dealing with
 their Blogger export.
 
-The code has also been posted as a
-`gist on GitHub <https://gist.github.com/MinchinWeb/7b2e4cf4d1b935c62ce8d6d1968270ff>`_,
-so you're welcome to submit improvements as well. If you want to download
-the code, this may be the simplest place to get it from.
+The code has also been posted as a `gist on GitHub
+<https://gist.github.com/MinchinWeb/7b2e4cf4d1b935c62ce8d6d1968270ff>`_, so
+you're welcome to submit improvements as well. If you want to download the
+code, this may be the simplest place to get it from.
 
 Code is under the MIT license.

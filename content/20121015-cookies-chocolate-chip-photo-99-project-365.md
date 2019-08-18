@@ -7,9 +7,9 @@ Alias: 2012/10/cookies-chocolate-chip-photo-99-project.html
 Slug: cookies-chocolate-chip-photo-99-project-365
 Image: images/project-365/2012-09-16 - IMG_7212.JPG
 
-This is one of those pictures you have to take right away or the subject
-will be gone! I also like to take pictures like this where I can play
-with the depth of field and what is and isn't in focus.
+This is one of those pictures you have to take right away or the subject will
+be gone! I also like to take pictures like this where I can play with the depth
+of field and what is and isn't in focus.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

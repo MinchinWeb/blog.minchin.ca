@@ -10,4 +10,7 @@ This is advise for when given a speech, or otherwise speaking in public. Remembe
 3. They won't know when you make a mistake, so don't announce it.
 
 <!-- read more -->
-*from [Business Insider](http://www.businessinsider.com/how-to-calm-nerves-before-a-speech-2016-2) via [Lifehacker](http://lifehacker.com/remember-the-three-audience-truths-before-giving-a-sp-1758115278)*
+*from [Business
+Insider](http://www.businessinsider.com/how-to-calm-nerves-before-a-speech-2016-2)
+via
+[Lifehacker](http://lifehacker.com/remember-the-three-audience-truths-before-giving-a-sp-1758115278)*

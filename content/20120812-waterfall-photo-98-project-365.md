@@ -6,12 +6,12 @@ Category: Project 365
 Slug: waterfall-photo-98-project-365
 Image: images/project-365/2011-07-05d - IMG_6078.JPG
 
-Still in the National Parks between Banff and Jasper, I found this
-waterfall. The effect I was going for here was one of fluid motion - by
-setting a (relatively) long shutter speed (a tenth of a second, in this
-case), the motion of the water is captured. At the other extreme, with
-an extremely fast shutter speed, you can freeze a waterfall, making it
-look almost as if it had turned to ice in an instant.
+Still in the National Parks between Banff and Jasper, I found this waterfall.
+The effect I was going for here was one of fluid motion - by setting a
+(relatively) long shutter speed (a tenth of a second, in this case), the motion
+of the water is captured. At the other extreme, with an extremely fast shutter
+speed, you can freeze a waterfall, making it look almost as if it had turned to
+ice in an instant.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
@@ -27,11 +27,10 @@ look almost as if it had turned to ice in an instant.
 
 ### Project Update
 
-So this is the end of my first batch of 'Project 365' photos - 98 photos
-that have taken over two years to be put up. I realize that is a far cry
-from the original plan of a photo a day for a year. I can blame part of
-the backlog on moving five times and the following periods without
-internet, but regardless, I am through that backlog. Now I can post
-pictures closer to when I take them and hopefully offer more meaningful
-commentary. In short, I look forward to posting more pictures here
-soon!
+So this is the end of my first batch of 'Project 365' photos - 98 photos that
+have taken over two years to be put up. I realize that is a far cry from the
+original plan of a photo a day for a year. I can blame part of the backlog on
+moving five times and the following periods without internet, but regardless, I
+am through that backlog. Now I can post pictures closer to when I take them and
+hopefully offer more meaningful commentary. In short, I look forward to posting
+more pictures here soon!

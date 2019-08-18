@@ -5,18 +5,18 @@ tags: pelican, pelican plugins, releases, python
 Category: Pelican Plugins
 
 
-**Summary** is a plugin for [Pelican](http://docs.getpelican.com/),
-a static site generator written in Python.
+**Summary** is a plugin for [Pelican](http://docs.getpelican.com/), a static
+site generator written in Python.
 
-**Summary** allows easy, variable length summaries directly embedded into
-the body of your articles.
+**Summary** allows easy, variable length summaries directly embedded into the
+body of your articles.
 <!-- read more -->
 
 ## Installation
 
-The easiest way to install **Summary** is through the use of pip. This
-will also install the required dependencies automatically (currently
-none beyond Pelican).
+The easiest way to install **Summary** is through the use of pip. This will
+also install the required dependencies automatically (currently none beyond
+Pelican).
 
 ~~~~sh
 pip install minchin.pelican.plugins.summary
@@ -40,22 +40,19 @@ Configuration below).
 ## Configuration and Usage
 
 This plugin introduces two new settings: `SUMMARY_BEGIN_MARKER` and
-`SUMMARY_END_MARKER`: strings which can be placed directly into an
-article to mark the beginning and end of a summary. When found, the
-standard `SUMMARY_MAX_LENGTH` setting will be ignored. The markers
-themselves will also be removed from your articles before they are
-published. The default values are `<!-- PELICAN_BEGIN_SUMMARY -->` and
-`<!-- PELICAN_END_SUMMARY -->`.
+`SUMMARY_END_MARKER`: strings which can be placed directly into an article to
+mark the beginning and end of a summary. When found, the standard
+`SUMMARY_MAX_LENGTH` setting will be ignored. The markers themselves will also
+be removed from your articles before they are published. The default values are
+`<!-- PELICAN_BEGIN_SUMMARY -->` and `<!-- PELICAN_END_SUMMARY -->`.
 
-If no beginning or end marker is found, and if
-`SUMMARY_USE_FIRST_PARAGRAPH` is enabled in the settings, the summary
-will be the first paragraph of the post.
+If no beginning or end marker is found, and if `SUMMARY_USE_FIRST_PARAGRAPH` is
+enabled in the settings, the summary will be the first paragraph of the post.
 
-The plugin also sets a `has_summary` attribute on every article. It is
-True for articles with an explicitly-defined summary, and False otherwise.
-(It is also False for an article truncated by `SUMMARY_MAX_LENGTH`.)
-Your templates can use this e.g. to add a link to the full text at the end
-of the summary.
+The plugin also sets a `has_summary` attribute on every article. It is True for
+articles with an explicitly-defined summary, and False otherwise. (It is also
+False for an article truncated by `SUMMARY_MAX_LENGTH`.) Your templates can use
+this e.g. to add a link to the full text at the end of the summary.
 
 ## Known Issues
 
@@ -88,5 +85,5 @@ Original plugin from the [Pelican-Plugins repo](https://github.com/getpelican/pe
 
 ## License
 
-The plugin code is assumed to be under the AGPLv3 license (this is the
-license of the Pelican-Plugins repo).
+The plugin code is assumed to be under the AGPLv3 license (this is the license
+of the Pelican-Plugins repo).

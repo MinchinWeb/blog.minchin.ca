@@ -9,8 +9,8 @@ Slug: colourettu-1-0-0-for-python
 
 Version 1.0.0 of *Colourettu* has been released.
 
-Colourettu is a Python library I've written for dealing with colours,
-and specifically to determine the contrast between two colours.
+Colourettu is a Python library I've written for dealing with colours, and
+specifically to determine the contrast between two colours.
 
 <!-- read more -->
 
@@ -30,14 +30,13 @@ A quick example:
     >>> colourettu.contrast(c4, c5)
     4.363552233203198
 
-The easiest to install (or upgrade) *Colourettu* (assuming you already
-have Python installed) is to use *pip*:
+The easiest to install (or upgrade) *Colourettu* (assuming you already have
+Python installed) is to use *pip*:
 
     pip install colourettu --upgrade
 
 The biggest change with this release is that [*Colourettu*
 documentation](http://minchin.ca/colourettu/) is now online. A [full
-changelog](http://minchin.ca/colourettu/changelog.html) is online as
-part of that. [The code for
-*Colourettu*](https://github.com/MinchinWeb/colourettu/) is hosted on
-Github.
+changelog](http://minchin.ca/colourettu/changelog.html) is online as part of
+that. [The code for *Colourettu*](https://github.com/MinchinWeb/colourettu/) is
+hosted on Github.

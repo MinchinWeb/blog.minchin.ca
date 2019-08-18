@@ -46,10 +46,10 @@ generated.
 
 ## Requirements
 
-*Post Stats* depends on (and is really only useful with) Pelican. The
-plugin also requires Beautiful Soup 4 to process your content. If the plugin
-is installed from pip, these will automatically be installed. These can also
-be manually installed with pip:
+*Post Stats* depends on (and is really only useful with) Pelican. The plugin
+also requires Beautiful Soup 4 to process your content. If the plugin is
+installed from pip, these will automatically be installed. These can also be
+manually installed with pip:
 
 ~~~sh
 pip install pelican
@@ -59,8 +59,8 @@ pip install beautifulsoup4
 
 ## Configuration and Usage
 
-This plugin calculates various statistics about a post and store them in
-an article.stats dictionary.
+This plugin calculates various statistics about a post and store them in an
+article.stats dictionary.
 
 Example:
 
@@ -99,13 +99,13 @@ There are no user-configurable settings.
 
 ## Known Issues
 
-An issue, as such, is that there is no formal test suite. Testing is
-currently limited to my in-use observations. I also run a basic check upon
-uploaded the package to PyPI that it can be downloaded and loaded into
-Python.
+An issue, as such, is that there is no formal test suite. Testing is currently
+limited to my in-use observations. I also run a basic check upon uploaded the
+package to PyPI that it can be downloaded and loaded into Python.
 
-The package is tested in Python 3.6; compatibility with other version of
-Python is unknown, but there should be nothing particular keeping it from working with other "modern" versions of Python.
+The package is tested in Python 3.6; compatibility with other version of Python
+is unknown, but there should be nothing particular keeping it from working with
+other "modern" versions of Python.
 
 
 ## Credits

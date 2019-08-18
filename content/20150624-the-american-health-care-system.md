@@ -4,11 +4,10 @@ stared: False
 tags: Health Care, America
 Image: images/2015/L7vMdH5.jpg
 
-> All you need to know about the American health care system is that there's
-> a popular TV series where a man turns to cooking industrial quantities of
+> All you need to know about the American health care system is that there's a
+> popular TV series where a man turns to cooking industrial quantities of
 > crystal meth in order to pay his hospital bills.
 
 (This is a reference to *Breaking Bad*).
 
 *via [imgur](https://imgur.com/L7vMdH5)*
-

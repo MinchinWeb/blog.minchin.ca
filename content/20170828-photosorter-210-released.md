@@ -46,7 +46,7 @@ Dropbox to a local drive, and merge them with the rest of my photo collection.
 
 ## Impletmentation Notes
 
-I use a different folder set-up that Dan (in his original scirpt) used. The one
+I use a different folder set-up that Dan (in his original script) used. The one
 I'm using matches the default folder set-up for my Canon camera.
 
 ## Installation
@@ -92,7 +92,7 @@ photosorter src_dir dest_dir --move-existing
 - matching (to provide de-duplication) is based on full filepaths matching.
   I.e. if the per day folder is renamed, the script will not look in the
   renamed folder for photo matches.
-- Linux deamon setup is untested by myself.
+- Linux daemon setup is untested by myself.
 
 ## Changes
 

@@ -6,14 +6,13 @@ Category: Project 365
 Slug: chuckwagon-racing-photo-92-project-365
 Image: images/project-365/2011-06-29f - IMG_5626-001.JPG
 
-This is the event that brought us to Ponoka for the Stampede. Chuckwagon
-racing involves watch eight thoroughbred horses (four with the wagon and
-four outriders) fly through the "Half Mile of Hell" -- a figure eight in
-the infield and then around the track.
+This is the event that brought us to Ponoka for the Stampede. Chuckwagon racing
+involves watch eight thoroughbred horses (four with the wagon and four
+outriders) fly through the "Half Mile of Hell" -- a figure eight in the infield
+and then around the track.
 
-When it comes to photography, getting a good picture gets tricky due to
-the speed of the racers and the chaos of of the start as the four teams
-let loose.
+When it comes to photography, getting a good picture gets tricky due to the
+speed of the racers and the chaos of of the start as the four teams let loose.
 
 <!-- read more -->
 

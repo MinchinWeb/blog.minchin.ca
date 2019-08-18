@@ -10,11 +10,11 @@ Slug: metalibrary-9-for-openttd
 Version 9 of *MetaLibrary* has been released.
 
 To recap, *MetaLibrary* is a collection of code I've written to simplify
-writing an AI for [OpenTTD](http://www.openttd.org/), a remake of my
-childhood favorite, Transport Tycoon.
+writing an AI for [OpenTTD](http://www.openttd.org/), a remake of my childhood
+favorite, Transport Tycoon.
 
 Version 9 brings a couple of bug fixes in the Python build script. The
-[documentation for MetaLibrary](http://minchin.ca/openttd-metalibrary/)
-has also been updated.
+[documentation for MetaLibrary](http://minchin.ca/openttd-metalibrary/) has
+also been updated.
 
 <!-- read more -->

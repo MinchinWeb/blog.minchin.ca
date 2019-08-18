@@ -9,9 +9,9 @@ Slug: mediterranean-village-photo-79-project-365
 Location: Les Baux-de-Provence, France
 Image: images/project-365/2011-02-22 - IMG_5075.JPG
 
-Tucked away along the French Mediterranean coast are these beautiful
-little villages. This is the history that makes France seem like a fairy
-tale in North America...
+Tucked away along the French Mediterranean coast are these beautiful little
+villages. This is the history that makes France seem like a fairy tale in North
+America...
 
 This is the village of Les Baux-de-Provence.
 

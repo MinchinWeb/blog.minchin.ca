@@ -38,16 +38,21 @@ have Python installed) is to use *pip*:
 
     pip install colourettu --upgrade
 
-Additions for this version include the *blend* functionality, both as a stand-alone function and as a Palette method.
+Additions for this version include the *blend* functionality, both as a
+stand-alone function and as a Palette method.
 
-Breaking changes in this version are the fact that the *Colour* and *Palette* class have been renamed to the CapWords capitialization.
+Breaking changes in this version are the fact that the *Colour* and *Palette*
+class have been renamed to the CapWords capitialization.
 
 Other changes include:
 
-- the tests are now included by default at the *colourettu.test* namespace. This allows the tests to be run on a system with Colourettu installed by running `green colourettu.test`
+- the tests are now included by default at the *colourettu.test* namespace.
+  This allows the tests to be run on a system with Colourettu installed by
+  running `green colourettu.test`
 - updated documentation build system
 - better documentation
-- fix bug where using the *max_width* parameter with `Palette.to_image()` would result ina  black strip on the bottom/left of the generated image.
+- fix bug where using the *max_width* parameter with `Palette.to_image()` would
+  result ina  black strip on the bottom/left of the generated image.
 
 [*Colourettu* documentation](http://minchin.ca/colourettu/) is now
 online. A [full changelog](http://minchin.ca/colourettu/changelog.html)

@@ -113,6 +113,3 @@ that need to happen:
 ## Conclusion
 
 So, the journey begins. I'll post updates here to my blog, as appropriate.
-
-
-

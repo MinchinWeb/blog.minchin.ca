@@ -84,14 +84,14 @@ def serve_on(ctx, port):
 
 @task
 def reserve(ctx):
-    """build and serve."""
+    """Build and serve."""
     build(ctx)
     serve(ctx)
 
 
 @task
 def upload(ctx):
-    """publish and then push the result to GitHub."""
+    """Publish and then push the result to GitHub."""
     publish(ctx)
     ctx.run('cd {} && git add -A && git commit -m "[Generated] {}" && git push'\
             .format(publish_path, time.strftime("%Y-%m-%d")))
@@ -102,7 +102,7 @@ def upload(ctx):
 #  need to kill the second window manually
 @task
 def devserver(ctx):
-    """regeneration and serve."""
+    """Regeneration and serve."""
     regenerate(ctx)
     serve(ctx)
 

@@ -6,10 +6,9 @@ Category: Project 365
 Slug: tiny-bridge-photo-96-project-365
 Image: images/project-365/2011-07-05b - IMG_6045.JPG
 
-Bridges are usually seen when standing on them or sometimes beside them,
-but rarely straight down like this. This is taken along the Icefields
-Parkway, about halfway between Jasper and Banff, looking down from a
-roadside lookout.
+Bridges are usually seen when standing on them or sometimes beside them, but
+rarely straight down like this. This is taken along the Icefields Parkway,
+about halfway between Jasper and Banff, looking down from a roadside lookout.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

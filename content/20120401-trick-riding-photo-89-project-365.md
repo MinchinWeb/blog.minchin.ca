@@ -6,9 +6,9 @@ Category: Project 365
 Slug: trick-riding-photo-89-project-365
 Image: images/project-365/2011-06-29c - IMG_5463.JPG
 
-The rodeo provided a number of opportunities to take some great photos,
-so I have a couple more to come after this. This one was of some of the
-trick riding.
+The rodeo provided a number of opportunities to take some great photos, so I
+have a couple more to come after this. This one was of some of the trick
+riding.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

@@ -32,16 +32,15 @@ A quick example:
 ![Colourettu p2]({filename}images/2015/p2.png)
 </div>
 
-The easiest to install (or upgrade) *Colourettu* (assuming you already
-have Python installed) is to use *pip*:
+The easiest to install (or upgrade) *Colourettu* (assuming you already have
+Python installed) is to use *pip*:
 
     pip install colourettu --upgrade
 
-The changes for this version include a project logo (above), and the
-addition of the *palette* class.
+The changes for this version include a project logo (above), and the addition
+of the *palette* class.
 
-[*Colourettu* documentation](http://minchin.ca/colourettu/) is now
-online. A [full changelog](http://minchin.ca/colourettu/changelog.html)
-is online as part of that. [The code for
-*Colourettu*](https://github.com/MinchinWeb/colourettu/) is hosted on
-Github.
+[*Colourettu* documentation](http://minchin.ca/colourettu/) is now online. A
+[full changelog](http://minchin.ca/colourettu/changelog.html) is online as part
+of that. [The code for *Colourettu*](https://github.com/MinchinWeb/colourettu/)
+is hosted on Github.

@@ -4,8 +4,8 @@ tags: pelican, pelican plugins, releases, python
 Category: Pelican Plugins
 
 
-**Jinja Filters** is a plugin for [Pelican](http://docs.getpelican.com/),
-a static site generator written in Python.
+**Jinja Filters** is a plugin for [Pelican](http://docs.getpelican.com/), a
+static site generator written in Python.
 
 **Jinja Filters** provides a selection of functions (called *filters*) for
 templates to use when building your website. They are packaged for Pelican, but
@@ -41,14 +41,14 @@ And that's it! The filters are now available for use in your templates.
 
 At present, the plugin includes the following filters:
 
-- *datetime* -- allows you to change to format displayed for a datetime
-  object. Optionally supply a [datetime format string](https://docs.python.org/3.6/library/datetime.html#strftime-and-strptime-behavior)
+- *datetime* -- allows you to change to format displayed for a datetime object.
+  Optionally supply a [datetime format
+  string](https://docs.python.org/3.6/library/datetime.html#strftime-and-strptime-behavior)
   to get a custom format.
-- *article_date* -- a specialized version of *datetime* that returns
-  datetimes as wanted for article dates; specifically
-  *Friday, November 4, 2016*.
-- *breaking_spaces* -- replaceds non-breaking spaces (HTML code *&nbsp*)
-  with normal spaces.
+- *article_date* -- a specialized version of *datetime* that returns datetimes
+  as wanted for article dates; specifically *Friday, November 4, 2016*.
+- *breaking_spaces* -- replaceds non-breaking spaces (HTML code *&nbsp*) with
+  normal spaces.
 - *titlecase* -- Titlecases the supplied string
 
 For example, within your theme templates, you might have code like:
@@ -91,14 +91,15 @@ breaking spaces and then titlecase a category name, you might have code like:
 
 ## Known Issues
 
-An issue, as such, is that there is no formal test suite. Testing is
-currently limited to my in-use observations. I also run a basic check upon
-uploaded the package to PyPI that it can be downloaded and loaded into
-Python.
+An issue, as such, is that there is no formal test suite. Testing is currently
+limited to my in-use observations. I also run a basic check upon uploaded the
+package to PyPI that it can be downloaded and loaded into Python.
 
-The package is tested in Python 3.5; compatibility with other version of
-Python is unknown.
+The package is tested in Python 3.5; compatibility with other version of Python
+is unknown.
 
 ## Code
 
-The code for this project is available on [GitHub](https://github.com/MinchinWeb/minchin.pelican.jinja_filters). Contributions are welcome!
+The code for this project is available on
+[GitHub](https://github.com/MinchinWeb/minchin.pelican.jinja_filters).
+Contributions are welcome!

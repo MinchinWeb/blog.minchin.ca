@@ -6,10 +6,10 @@ Category: Project 365
 Slug: wild-rose-photo-97-project-365
 Image: images/project-365/2011-07-05c - IMG_6068.JPG
 
-The wild rose is Alberta's provincial flower, picked by the
-schoolchildren not long after the province's creation in 1905. The
-flower is beautiful, but I rarely see it in the city. I was extra
-excited to find one of this size and open like this.
+The wild rose is Alberta's provincial flower, picked by the schoolchildren not
+long after the province's creation in 1905. The flower is beautiful, but I
+rarely see it in the city. I was extra excited to find one of this size and
+open like this.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

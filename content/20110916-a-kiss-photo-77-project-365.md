@@ -8,9 +8,8 @@ Slug: a-kiss-photo-77-project-365
 Image: images/project-365/2011-02-21 - IMG_4975.JPG
 
 We travelled to southern France with some friends and as we explored the
-coastline and abandoned buildings, they decided it was quite romantic!
-(It probably helped that this was a trip they took to celebrate their
-anniversary.)
+coastline and abandoned buildings, they decided it was quite romantic! (It
+probably helped that this was a trip they took to celebrate their anniversary.)
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  
