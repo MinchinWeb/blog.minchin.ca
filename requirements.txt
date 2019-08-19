@@ -4,41 +4,45 @@
 #
 #    pip-compile --output-file=./requirements.txt ./requirements.in
 #
-beautifulsoup4==4.6.3     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
+beautifulsoup4==4.8.0     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
 blinker==1.4              # via pelican
 click==7.0                # via pip-tools
-docutils==0.14            # via pelican
+docutils==0.15.2          # via pelican
 feedgenerator==1.9        # via pelican
 html5lib==1.0.1
 htmlmin==0.1.12           # via pelican-minify
-invoke==1.2.0
+invoke==1.3.0
 jinja2==2.10.1
-joblib==0.12.5            # via pelican-minify
-markdown==3.0.1
-markupsafe==1.0           # via jinja2
+joblib==0.13.2            # via pelican-minify
+markdown==3.1.1
+markupsafe==1.1.1         # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.cname==1.2.1
-minchin.pelican.plugins.image-process==1.1.4  # via seafoam
+minchin.pelican.plugins.image-process==1.2.0  # via seafoam
 minchin.pelican.plugins.nojekyll==1.0.2
 minchin.pelican.plugins.optimize-images==1.1.1
 minchin.pelican.plugins.post-stats==1.1.1
 minchin.pelican.plugins.summary==1.1.1
 pelican-alias==1.1
 pelican-comment-system==1.4.0
-pelican-extended-sitemap==1.0.5
+pelican-extended-sitemap==1.2.2
 pelican-minify==0.9
 pelican-neighbors==1.0.0
 pelican==3.7.1
-pillow==5.3.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
-pip-tools==3.1.0
-pygments==2.2.0           # via pelican
-python-dateutil==2.7.4    # via pelican
-pytz==2018.6              # via feedgenerator, pelican
+pillow==6.1.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
+pip-tools==4.0.0
+pygments==2.4.2           # via pelican
+python-dateutil==2.8.0    # via pelican
+pytz==2019.2              # via feedgenerator, pelican
 seafoam==2.4.1
-six==1.11.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
+six==1.12.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
+soupsieve==1.9.3          # via beautifulsoup4
 titlecase==0.12.0         # via minchin.pelican.jinja-filters
 typogrify==2.0.7
-unidecode==1.0.22         # via pelican
+unidecode==1.1.1          # via pelican
 webassets==0.12.1
 webencodings==0.5.1       # via html5lib
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools==41.1.0        # via markdown

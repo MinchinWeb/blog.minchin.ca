@@ -6,7 +6,7 @@ minchin.pelican.plugins.nojekyll
 minchin.pelican.plugins.optimize_images
 minchin.pelican.plugins.post_stats
 minchin.pelican.plugins.summary
-pelican >= 3.7
+pelican == 3.7.1
 pelican-alias
 pelican-comment-system
 pelican-extended-sitemap
