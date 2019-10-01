@@ -13,7 +13,7 @@ html5lib==1.0.1
 htmlmin==0.1.12           # via pelican-minify
 invoke==1.3.0
 jinja2==2.10.1
-joblib==0.13.2            # via pelican-minify
+joblib==0.14.0            # via pelican-minify
 markdown==3.1.1
 markupsafe==1.1.1         # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
