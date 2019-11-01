@@ -29,7 +29,7 @@ pelican-extended-sitemap==1.2.2
 pelican-minify==0.9
 pelican-neighbors==1.0.0
 pelican==3.7.1
-pillow==6.1.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
+pillow==6.2.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
 pip-tools==4.0.0
 pygments==2.4.2           # via pelican
 python-dateutil==2.8.0    # via pelican
@@ -45,4 +45,4 @@ webassets==0.12.1
 webencodings==0.5.1       # via html5lib
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.1.0        # via markdown
+# setuptools==41.6.0        # via markdown
