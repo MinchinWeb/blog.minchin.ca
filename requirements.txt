@@ -28,7 +28,7 @@ pelican-comment-system==1.4.0
 pelican-extended-sitemap==1.2.3
 pelican-minify==0.9
 pelican-neighbors==1.0.0
-pelican==3.7.1
+pelican==4.2.0
 pillow==6.1.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
 pip-tools==4.0.0
 pygments==2.4.2           # via pelican
