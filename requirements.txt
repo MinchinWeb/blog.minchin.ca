@@ -37,7 +37,7 @@ pytz==2020.1              # via feedgenerator, pelican
 seafoam==2.4.4
 six==1.15.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
-soupsieve==1.9.3          # via beautifulsoup4
+soupsieve==2.0.1          # via beautifulsoup4
 titlecase==0.12.0         # via minchin.pelican.jinja-filters
 typogrify==2.0.7
 unidecode==1.1.1          # via pelican
