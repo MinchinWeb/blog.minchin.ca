@@ -41,7 +41,7 @@ soupsieve==2.0.1          # via beautifulsoup4
 titlecase==1.1.1         # via minchin.pelican.jinja-filters
 typogrify==2.0.7
 unidecode==1.1.1          # via pelican
-webassets==0.12.1
+webassets==2.0
 webencodings==0.5.1       # via html5lib
 
 # The following packages are considered to be unsafe in a requirements file:
