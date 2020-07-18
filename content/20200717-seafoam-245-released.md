@@ -1,5 +1,6 @@
 title: Seafoam 2.4.5 Released
 date: 2020-07-17 20:54
+Modified: 2020-07-18 11:41
 Author: Wm. Minchin
 Tags: seafoam, Python, releases
 Category: Seafoam
@@ -53,6 +54,11 @@ To install or to upgrade, you can use pip:
 ```sh
 pip install seafoam --upgrade
 ```
+
+### Update: July 18, 2020
+
+New day, new update! Version 2.4.6 adds a few non-breaking spaces to improve
+the flow of the acticle details on the article index page.
 
 ### Changelog
 
@@ -183,3 +189,8 @@ changelog entries.
 
 - *bug*: have bullet points list separators go to the next line.
 - *bug*: only display comment count if there are comments.
+
+#### Version 2.4.6 -- July 18, 2020
+
+- *bug*: add a new non-breaking spaces to help flow of article details on blog
+  index.
