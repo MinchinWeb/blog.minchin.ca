@@ -149,6 +149,7 @@ CATEGORY_IMAGES = {'colourettu':            'images/2015/colourettu-logo-4x.png'
                    'seafoam':               'images/2017/seafoam-logo-4x.png',
                    'minchin-dot-ca-theme':  'images/2016/minchindotca-theme-article.png',
                    'pelican-plugins':       'images/2020/pelican_logo.png',
+                   'covid':                 'images/2020/coronavirus-cdc-645x645.jpg',
                   }
 
 
