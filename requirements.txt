@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=./requirements.txt ./requirements.in
 #
-beautifulsoup4==4.9.1     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
+beautifulsoup4==4.9.3     # via minchin.pelican.plugins.image-process, minchin.pelican.plugins.post-stats
 blinker==1.4              # via pelican
 click==7.1.2              # via pip-tools
 docutils==0.16            # via pelican
