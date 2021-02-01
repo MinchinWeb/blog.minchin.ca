@@ -28,7 +28,7 @@ pelican-comment-system==1.4.0  # via -r ./requirements.in
 pelican-extended-sitemap==1.2.3  # via -r ./requirements.in
 pelican-minify==0.9       # via -r ./requirements.in
 pelican-neighbors==1.1.0  # via -r ./requirements.in
-pelican==3.7.1            # via -r ./requirements.in, minchin.pelican.jinja-filters, minchin.pelican.plugins.cname, minchin.pelican.plugins.image-process, minchin.pelican.plugins.nojekyll, minchin.pelican.plugins.optimize-images, minchin.pelican.plugins.post-stats, minchin.pelican.plugins.summary, pelican-alias, pelican-comment-system, pelican-minify, pelican-neighbors, seafoam
+pelican==4.5.4            # via -r ./requirements.in, minchin.pelican.jinja-filters, minchin.pelican.plugins.cname, minchin.pelican.plugins.image-process, minchin.pelican.plugins.nojekyll, minchin.pelican.plugins.optimize-images, minchin.pelican.plugins.post-stats, minchin.pelican.plugins.summary, pelican-alias, pelican-comment-system, pelican-minify, pelican-neighbors, seafoam
 pillow==7.2.0             # via minchin.pelican.plugins.image-process, pelican-comment-system
 pip-tools==5.2.1          # via -r ./requirements.in
 pygments==2.6.1           # via pelican
