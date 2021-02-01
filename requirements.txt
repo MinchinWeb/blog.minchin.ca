@@ -41,7 +41,7 @@ smartypants==2.0.1        # via typogrify
 soupsieve==2.1          # via beautifulsoup4
 titlecase==2.0.0          # via minchin.pelican.jinja-filters
 typogrify==2.0.7          # via -r ./requirements.in
-unidecode==1.1.1          # via pelican
+unidecode==1.1.2          # via pelican
 webassets==2.0            # via -r ./requirements.in
 webencodings==0.5.1       # via html5lib
 
