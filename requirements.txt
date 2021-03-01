@@ -39,7 +39,7 @@ seafoam==2.4.6            # via -r ./requirements.in
 six==1.15.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
 soupsieve==2.2          # via beautifulsoup4
-titlecase==1.1.1          # via minchin.pelican.jinja-filters
+titlecase==2.0.0          # via minchin.pelican.jinja-filters
 typogrify==2.0.7          # via -r ./requirements.in
 unidecode==1.1.1          # via pelican
 webassets==2.0            # via -r ./requirements.in
