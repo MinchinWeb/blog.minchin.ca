@@ -7,12 +7,13 @@ from __future__ import unicode_literals
 
 import os
 import sys
+
 sys.path.append(os.curdir)
 from pelicanconf import *
 
 
-SITEURL = '//blog.minchin.ca'
-SITE_ROOT_URL = 'https://minchin.ca'
+SITEURL = "//blog.minchin.ca"
+SITE_ROOT_URL = "https://minchin.ca"
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
 
@@ -21,15 +22,15 @@ FEED_DOMAIN = SITEURL
 # DELETE_OUTPUT_DIRECTORY = True
 
 PLUGINS = PLUGINS + [
-            'minchin.pelican.plugins.image_process',
-            'minchin.pelican.plugins.cname',
-            'minchin.pelican.plugins.nojekyll',
-            'minify',  # pelican-minify
-            'extended_sitemap',  # pelican-extended-sitemap
-            'minchin.pelican.plugins.optimize_images',  # need executables for Linux to do this on Travis-CI
-          ]
+    "minchin.pelican.plugins.image_process",
+    "minchin.pelican.plugins.cname",
+    "minchin.pelican.plugins.nojekyll",
+    "minify",  # pelican-minify
+    "extended_sitemap",  # pelican-extended-sitemap
+    "minchin.pelican.plugins.optimize_images",  # need executables for Linux to do this on Travis-CI
+]
 
 # OUTPUT_PATH = '../blog.minchin.ca-master/'  # default is 'output/'
 
-GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-1'
-GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'Minchin.ca Blog'
+GOOGLE_ANALYTICS_UNIVERSAL = "UA-384291-1"
+GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = "Minchin.ca Blog"
