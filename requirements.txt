@@ -34,7 +34,7 @@ pip-tools==6.0.1          # via -r ./requirements.in
 pygments==2.8.1           # via pelican
 python-dateutil==2.8.1    # via pelican
 pytz==2021.1              # via feedgenerator, pelican
-regex==2020.7.14          # via titlecase
+regex==2021.3.17          # via titlecase
 seafoam==2.4.6            # via -r ./requirements.in
 six==1.15.0               # via feedgenerator, html5lib, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
 smartypants==2.0.1        # via typogrify
