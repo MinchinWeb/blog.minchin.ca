@@ -392,7 +392,7 @@ And now you have a basic Pelican site.
 
 #### (Basic) File Structure
 
-~~~
+<pre>
 yourproject/
     ├── content/             # articles and pages go here
     ├── output/
@@ -401,7 +401,7 @@ yourproject/
     ├── Makefile
     ├── pelicanconf.py       # Main settings file
     └── publishconf.py       # Settings to use when ready to publish
-~~~
+</pre>
 
 ### Internal Links
 
@@ -410,7 +410,7 @@ content hierarchy** rather than the generated hierarchy.
 
 For example, if your site is laid out like this:
 
-~~~
+<pre>
 yourproject/
     ├── content/
     │   ├── article1.rst
@@ -428,7 +428,7 @@ yourproject/
     ├── Makefile
     ├── pelicanconf.py       # Main settings file
     └── publishconf.py       # Settings to use when ready to publish
-~~~
+</pre>
 
 so then you would create your entry (with links) like this:
 
