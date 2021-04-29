@@ -1,10 +1,9 @@
 # Global settings applied to the whole site.  
 # 
-# “publish” is the directory to publish (relative to root of your repo),
-# “command” is your build command,
 # “base” is directory to change to before starting build. if you set base:
 #    that is where we will look for package.json/.nvmrc/etc not repo root!
-
+# “publish” is the directory to publish (relative to root of your repo),
+# “command” is your build command,
 [build]
   base    = ""
   publish = "output"
@@ -19,3 +18,6 @@
 # will inherit these settings.
 [context.deploy-preview]
   command = "invoke build"
+
+[build.environment]
+  PYTHON_VERSION = "3.9"
