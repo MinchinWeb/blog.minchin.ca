@@ -23,7 +23,7 @@ htmlmin==0.1.12
     # via pelican-minify
 invoke==1.4.1
     # via -r requirements.in
-jinja2==2.11.2
+jinja2==2.11.3
     # via
     #   -r requirements.in
     #   pelican

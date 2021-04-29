@@ -36,7 +36,7 @@ def clean(ctx):
 
 
 @task
-def build(ctx, publish=False, carefully=False, travis=False):
+def build(ctx, publish=False, carefully=False, travis=False, verbose=False):
     """Build the blog."""
 
     config = "pelicanconf.py"
@@ -45,11 +45,12 @@ def build(ctx, publish=False, carefully=False, travis=False):
     if travis:
         config = "travisconf.py"
 
+    cli_args = ""
     if carefully:
-        carefully_cli = " --fatal=warnings"
-    else:
-        carefully_cli = ""
-    ctx.run("pelican -s {}{}".format(config, carefully_cli))
+        cli_args += " --fatal=warnings"
+    if verbose:
+        cli_args += " --verbose"
+    ctx.run("pelican -s {}{}".format(config, cli_args))
 
 
 @task
