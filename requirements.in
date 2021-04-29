@@ -18,3 +18,7 @@ typogrify
 webassets >= 0.12.1
 # security forced updated
 jinja2 >= 2.10.1  # otherwise, via Pelican
+Pillow>=8.1.2
+Pygments>=2.7.4  # otherwise, via Pelican
+# for better installs
+wheel
