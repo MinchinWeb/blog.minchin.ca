@@ -110,7 +110,8 @@ MENUITEMS = (
 MENUITEMS_2_AT = "Blog"
 MENUITEMS_2_AT_LINK = ""  # this is added to SITEURL
 
-MENUITEMS_2 = (  # ('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archive'),
+MENUITEMS_2 = (
+    # ('Archives',  SITEURL + '/' + ARCHIVES_URL,  'fa fa-fw fa-archive'),
     ("Labels", SITEURL + "/" + TAGS_URL, "fa fa-fw fa-tags"),
 )
 
@@ -155,11 +156,12 @@ PLUGINS = [
     # 'assets',  # unused
     "neighbors",
     "pelican_alias",
-    "pelican_comment_system",
+    "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
     # 'minchin.pelican.plugins.image_process',  # publish only
     # 'minchin.pelican.plugins.cname',  # publish only
     # 'minchin.pelican.plugins.nojekyll',  # publish only
     "minchin.pelican.jinja_filters",
+    # "pelican.plugins.jinja_filters",
     "minchin.pelican.plugins.summary",
     # 'minify',  # publish only
     # 'extended_sitemap'  # publish only

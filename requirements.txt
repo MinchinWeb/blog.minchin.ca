@@ -34,7 +34,9 @@ markdown==3.2.2
 markupsafe==1.1.1
     # via jinja2
 minchin.pelican.jinja-filters==1.0.4
-    # via seafoam
+    # via
+    #   -r requirements.in
+    #   seafoam
 minchin.pelican.plugins.cname==1.2.1
     # via -r requirements.in
 minchin.pelican.plugins.image-process==1.2.0
@@ -93,7 +95,7 @@ pytz==2020.1
     #   pelican
 regex==2020.7.14
     # via titlecase
-seafoam==2.4.6
+seafoam==2.4.7
     # via -r requirements.in
 six==1.15.0
     # via
