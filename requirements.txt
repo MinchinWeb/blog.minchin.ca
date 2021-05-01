@@ -29,7 +29,7 @@ jinja2==2.11.3
     #   pelican
 joblib==1.0.1
     # via pelican-minify
-markdown==3.2.2
+markdown==3.3.4
     # via -r requirements.in
 markupsafe==1.1.1
     # via jinja2
