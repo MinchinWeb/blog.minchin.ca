@@ -27,7 +27,7 @@ jinja2==2.11.3
     # via
     #   -r requirements.in
     #   pelican
-joblib==0.16.0
+joblib==1.0.1
     # via pelican-minify
 markdown==3.2.2
     # via -r requirements.in
