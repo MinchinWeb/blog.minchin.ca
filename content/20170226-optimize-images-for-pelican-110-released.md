@@ -1,6 +1,6 @@
 title: Optimize Images Plugin 1.1.0 for Pelican Released
 date: 2017-02-26 20:00
-tags: pelican, pelican plugins, releases, python
+tags: pelican, pelican plugins, releases, python, optimize images
 Category: Pelican Plugins
 
 *Optimize Images* is a plugin for [Pelican](http://docs.getpelican.com/), a

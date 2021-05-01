@@ -3,6 +3,7 @@ Date: 2013-07-13 18:50
 Modified: 2013-11-22 18:59
 Author: Wm. Minchin
 Slug: problems-with-prism-and-the-need-for-privacy
+tags: privacy
 
 Recently, American Edward Snowden exposed a ton of information about what
 information the US government, via the NSA, is collecting off the internet. The

@@ -1,6 +1,6 @@
 title: Image Process Plugin 1.1.3 for Pelican Released
 date: 2017-05-27 16:00
-tags: pelican, pelican plugins, releases, python
+tags: pelican, pelican plugins, releases, python, image process
 Category: Pelican Plugins
 Updated: 2017-05-31 11:46
 

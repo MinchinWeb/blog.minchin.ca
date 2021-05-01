@@ -1,6 +1,6 @@
 title: PhotoSorter Python script 2.1.0 Released
 date: 2017-08-28 15:16
-tags: dropbox, python, releases
+tags: dropbox, python, releases, photosorter
 Category: Python
 
 *Photosorter* is a little Python script to keep my photos from Dropbox organized.

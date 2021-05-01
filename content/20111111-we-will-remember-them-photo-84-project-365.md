@@ -2,7 +2,7 @@ Title: We Will Remember Them -- Photo 84 -- Project 365
 Date: 2011-11-11 14:03
 Modified: 2011-11-20 18:00
 Author: Wm. Minchin
-Tags: Project 365
+Tags: Project 365, Remembrance Day
 Category: Project 365
 Slug: we-will-remember-them-photo-84-project-365
 Image: images/project-365/2011-11-11 - IMG_6114.JPG

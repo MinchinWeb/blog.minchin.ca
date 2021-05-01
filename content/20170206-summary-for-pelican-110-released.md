@@ -1,7 +1,7 @@
 title: Summary Plugin 1.1.0 for Pelican Released
 date: 2017-02-05 15:29
 modified: 2017-02-21 14:51
-tags: pelican, pelican plugins, releases, python
+tags: pelican, pelican plugins, releases, python, summary (Pelican)
 Category: Pelican Plugins
 
 

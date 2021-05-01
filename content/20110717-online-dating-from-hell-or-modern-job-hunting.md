@@ -3,6 +3,7 @@ Date: 2011-07-17 21:33
 Author: Wm. Minchin
 Alias: 2011/07/online-dating-from-hell-or-modern-job.html
 Slug: online-dating-from-hell-or-modern-job-hunting
+tags: Job Hunting, Online Dating
 
 Several months ago I was in France and realized I would need to get a
 job upon my return to North America. In today's interconnected world, I

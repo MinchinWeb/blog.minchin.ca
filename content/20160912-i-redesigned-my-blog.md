@@ -2,7 +2,7 @@ title: I Redesigned My Blog
 date: 2016-09-12 19:46
 modified: 2016-12-29 22:33
 stared: False
-tags: blog
+tags: blog, seafoam
 Category: Minchin dot CA theme
 uuid: 4035535440534B8CBA6AB4E2304A6A9B
 creator:
