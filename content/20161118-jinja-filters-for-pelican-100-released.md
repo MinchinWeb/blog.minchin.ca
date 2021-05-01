@@ -1,8 +1,8 @@
 title: Jinja Filters 1.0.0 for Pelican Released
 date: 2016-11-18 17:41
-tags: pelican, pelican plugins, releases, python
+modified: 2021-04-30 19:25
+tags: pelican, pelican plugins, releases, python, jinja filters
 Category: Pelican Plugins
-
 
 **Jinja Filters** is a plugin for [Pelican](http://docs.getpelican.com/), a
 static site generator written in Python.
@@ -28,14 +28,13 @@ plugins:
 
 ~~~python
 PLUGINS = [
-          # ...
-          'minchin.pelican.jinja_filters',
-          # ...
-        ]
+    # ...
+    'minchin.pelican.jinja_filters',
+    # ...
+]
 ~~~
 
 And that's it! The filters are now available for use in your templates.
-
 
 ## Usage
 
@@ -61,8 +60,8 @@ For example, within your theme templates, you might have code like:
 
 gives:
 
-~~~    
-    Article Published Friday, November 4, 2016
+~~~text
+Article Published Friday, November 4, 2016
 ~~~
 
 Or with your own dateformat:
@@ -75,8 +74,8 @@ Or with your own dateformat:
 
 gives:
 
-~~~
-    Article Published Nov 04, 2016
+~~~text
+Article Published Nov 04, 2016
 ~~~
 
 Filters can also be chained, or applied in sequence. For example to remove
@@ -87,7 +86,6 @@ breaking spaces and then titlecase a category name, you might have code like:
     {{ article.category | breaking_spaces | titlecase}}
 </a>
 ~~~
-
 
 ## Known Issues
 
