@@ -20,7 +20,7 @@ This post actually covers three releases:
 - **v2.0.0** reorganized the project codebase to make this work as a "namespace
   plugin". Added by Pelican 4.5 is a feature to automatically activate such
   plugins. It also transfers the code repo to the
-  [Pelican-Plugins](https://github.com/pelican-plugins/jinja-filters0)
+  [Pelican-Plugins](https://github.com/pelican-plugins/jinja-filters)
   organization and moved the PyPI package to `pelican-jinja-filters`.
 - **v2.1.0** adds two filters -- *merge_date_url* and *datetime_from_period*.
   It also lowers the minimum Pelican version to 3 (from 4.5). Under the hood,
