@@ -5,7 +5,7 @@
 #    pip-compile
 #
 
-beautifulsoup4==4.9.1
+beautifulsoup4==4.9.3
     # via
     #   minchin.pelican.plugins.image-process
     #   minchin.pelican.plugins.post-stats
