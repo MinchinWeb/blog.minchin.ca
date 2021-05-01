@@ -33,7 +33,7 @@ markdown==3.3.4
     # via -r requirements.in
 markupsafe==1.1.1
     # via jinja2
-minchin.pelican.jinja-filters==1.0.4
+minchin.pelican.jinja-filters==1.1.0
     # via
     #   -r requirements.in
     #   seafoam
