@@ -154,9 +154,9 @@ CATEGORY_IMAGES = {
 PLUGIN_PATHS = ("../pelican-plugins",)
 PLUGINS = [
     # 'assets',  # unused
-    "neighbors",
     "pelican_alias",
     "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
+    "pelican.plugins.neighbors",
     # 'minchin.pelican.plugins.image_process',  # publish only
     # 'minchin.pelican.plugins.cname',  # publish only
     # 'minchin.pelican.plugins.nojekyll',  # publish only
