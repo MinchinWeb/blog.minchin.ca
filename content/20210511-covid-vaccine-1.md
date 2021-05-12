@@ -6,7 +6,7 @@ Category: Covid
 
 So, on Saturday, I ended up getting my first COVID vaccine shot.
 
-I actually ended up driving an hour out of town for it. Last thursday I became
+I actually ended up driving an hour out of town for it. Last Thursday I became
 eligible to sign up, but I was kind of stumped for when to book because our
 second car was in the shop. Normally (or what passes as "normal" in these Covid
 times...), that wouldn't really be an issue what with working from home these
@@ -35,7 +35,8 @@ weeks...that's four months -- May, June, July, August -- we'll almost be done
 the summer by the time that comes. And there still isn't a shot approved for
 the young ones yet, for the kids under 12. Will this ever really go away until
 something is approved for the kids? I don't know. For now, in-person schooling
-has been cancelled to try and keep the case count down.
+has been cancelled ("for the next two weeks") to try and keep the case count
+down.
 
 Overall, I'll take this bit of hope. Hopefully, more reasons to hope follow
 soon!
