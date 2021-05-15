@@ -3,10 +3,10 @@ date: 2021-04-30 9:37
 tags: pelican, pelican plugins, releases, python, pelican themes, jinja filters
 Category: Pelican Plugins
 
-**Jinja Filters** is a plugin for [Pelican](http://docs.getpelican.com/), a
+*Jinja Filters* is a plugin for [Pelican](http://docs.getpelican.com/), a
 static site generator written in Python.
 
-**Jinja Filters** provides a selection of functions (called *filters*) for
+*Jinja Filters* provides a selection of functions (called *filters*) for
 templates to use when building your website. They are packaged for Pelican, but
 may prove useful for other projects that make use of
 [Jinja2](http://jinja.pocoo.org/).
@@ -39,7 +39,7 @@ pip install minchin.pelican.jinja-filters --upgrade
 ~~~
 
 v1.1.0 actually depends on v2.1.0 or newer, which will automatically be
-installed. 
+installed.
 
 As a side, this (having one version of a package rely on another
 version of the "same" package) is generally not desirable or even possible. But
@@ -96,7 +96,7 @@ plugin.
 ### to v2.1.0
 
 Assuming you've done the steps listed above to upgrade to v2.0.0, `pip` remains
-the simplist way to upgrade:
+the simplest way to upgrade:
 
 ~~~sh
 pip install pelican-jinja-filters --upgrade
@@ -156,7 +156,7 @@ while will result in the generated HTML:
 <a href="https://blog.minchin.ca/posts/2021/>2021</a>
 ~~~
 
-## Thoughts on These Releases and the Future
+## Thoughts on These Releases and the Future {#personal-thoughts}
 
 This part is more of a personal than technical note.
 
