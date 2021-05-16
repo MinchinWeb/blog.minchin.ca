@@ -23,6 +23,9 @@ about the release in question can be the hardest part of the whole process (and
 so they often just never happen...). You'll notice in the changelog below it's
 not uncommon to see multiple releases the same day.
 
+A final thing I noticed was lacking from the project readme was any sort of
+sample images. This is hope will prove simple and easy to fix.
+
 ### Fallback fonts (i.e. "broken")
 
 ![fallback fonts]({filename}images/2020/broken_fonts.png)
@@ -31,7 +34,7 @@ not uncommon to see multiple releases the same day.
 
 ![workingfonts]({filename}images/2020/working_fonts.png)
 
-### Future Plans
+### Future Plans {#future-plans}
 
 This theme is based on [Bootstrap 3](https://getbootstrap.com/docs/3.3/). About
 a year ago, I'd started an effort to move to Bootstrap 4. Turns out that
@@ -60,9 +63,9 @@ pip install seafoam --upgrade
 New day, new update! Version 2.4.6 adds a few non-breaking spaces to improve
 the flow of the acticle details on the article index page.
 
-### Changelog
+### Changelog {#changelog}
 
-See my [previous post]({filename}20170111-seafoam-2-released.md) for earlier
+See my [previous post]({filename}20170111-seafoam-2-released.md#changelog) for earlier
 changelog entries.
 
 #### Version 2.1.0 -- February 20, 2017

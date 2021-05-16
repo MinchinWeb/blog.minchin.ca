@@ -57,7 +57,7 @@ the the
 [ReadMe](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3)
 for the base theme goes over most of the settings.
 
-### Changelog
+### Changelog {#changelog}
 
 I've built a release script that automates pushing releases to PyPI, and so it
 makes it very easy to make a release. In fact, writing these release blog posts
