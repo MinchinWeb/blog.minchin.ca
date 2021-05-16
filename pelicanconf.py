@@ -157,11 +157,10 @@ PLUGINS = [
     "pelican_alias",
     "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
     "pelican.plugins.neighbors",
-    # 'minchin.pelican.plugins.image_process',  # publish only
+    # "pelican.plugins.image_process",  # publish only
     # 'minchin.pelican.plugins.cname',  # publish only
     # 'minchin.pelican.plugins.nojekyll',  # publish only
-    "minchin.pelican.jinja_filters",
-    # "pelican.plugins.jinja_filters",
+    "pelican.plugins.jinja_filters",
     "minchin.pelican.plugins.summary",
     # 'minify',  # publish only
     # 'extended_sitemap'  # publish only

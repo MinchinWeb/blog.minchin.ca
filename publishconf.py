@@ -22,7 +22,7 @@ FEED_DOMAIN = SITEURL
 # DELETE_OUTPUT_DIRECTORY = True
 
 PLUGINS = PLUGINS + [
-    "minchin.pelican.plugins.image_process",
+    "pelican.plugins.image_process",
     "minchin.pelican.plugins.cname",
     "minchin.pelican.plugins.nojekyll",
     "minify",  # pelican-minify

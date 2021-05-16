@@ -4,10 +4,10 @@
 #
 #    pip-compile
 #
-beautifulsoup4==4.9.1
+beautifulsoup4==4.9.3
     # via
-    #   minchin.pelican.plugins.image-process
     #   minchin.pelican.plugins.post-stats
+    #   pelican-image-process
 blinker==1.4
     # via pelican
 click==7.1.2
@@ -28,18 +28,14 @@ jinja2==2.11.3
     #   pelican
 joblib==0.16.0
     # via pelican-minify
+lxml==4.6.3
+    # via -r requirements.in
 markdown==3.2.2
     # via -r requirements.in
 markupsafe==1.1.1
     # via jinja2
-minchin.pelican.jinja-filters==1.0.4
-    # via
-    #   -r requirements.in
-    #   seafoam
 minchin.pelican.plugins.cname==1.2.1
     # via -r requirements.in
-minchin.pelican.plugins.image-process==1.2.0
-    # via seafoam
 minchin.pelican.plugins.nojekyll==1.0.2
     # via -r requirements.in
 minchin.pelican.plugins.optimize-images==1.1.1
@@ -54,6 +50,10 @@ pelican-comment-system==1.4.0
     # via -r requirements.in
 pelican-extended-sitemap==1.2.3
     # via -r requirements.in
+pelican-image-process==2.1.1
+    # via seafoam
+pelican-jinja-filters==2.1.0
+    # via seafoam
 pelican-minify==0.9
     # via -r requirements.in
 pelican-neighbors==1.2.0
@@ -61,15 +61,15 @@ pelican-neighbors==1.2.0
 pelican==3.7.1
     # via
     #   -r requirements.in
-    #   minchin.pelican.jinja-filters
     #   minchin.pelican.plugins.cname
-    #   minchin.pelican.plugins.image-process
     #   minchin.pelican.plugins.nojekyll
     #   minchin.pelican.plugins.optimize-images
     #   minchin.pelican.plugins.post-stats
     #   minchin.pelican.plugins.summary
     #   pelican-alias
     #   pelican-comment-system
+    #   pelican-image-process
+    #   pelican-jinja-filters
     #   pelican-minify
     #   pelican-neighbors
     #   seafoam
@@ -78,8 +78,8 @@ pep517==0.10.0
 pillow==8.2.0
     # via
     #   -r requirements.in
-    #   minchin.pelican.plugins.image-process
     #   pelican-comment-system
+    #   pelican-image-process
 pip-tools==6.1.0
     # via -r requirements.in
 pygments==2.8.1
@@ -94,21 +94,21 @@ pytz==2020.1
     #   pelican
 regex==2020.7.14
     # via titlecase
-seafoam==2.4.7
+seafoam==2.5.0
     # via -r requirements.in
 six==1.15.0
     # via
     #   feedgenerator
     #   html5lib
-    #   minchin.pelican.plugins.image-process
     #   pelican
+    #   pelican-image-process
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
 soupsieve==2.0.1
     # via beautifulsoup4
 titlecase==1.1.1
-    # via minchin.pelican.jinja-filters
+    # via pelican-jinja-filters
 toml==0.10.2
     # via pep517
 typogrify==2.0.7

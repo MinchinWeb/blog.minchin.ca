@@ -12,15 +12,15 @@ pelican-comment-system
 pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
-pip-tools
-seafoam >= 2.4.7
+pip-tools >= 6
+seafoam >= 2.5.0
 typogrify
 webassets >= 0.12.1
+# for beautifulsoup
+lxml
 # security forced updated
 jinja2 >= 2.11.3  # otherwise, via Pelican
 Pillow >= 8.1.2
 Pygments >= 2.7.4  # otherwise, via Pelican
-# held back
-minchin.pelican.jinja-filters < 1.1.0
 # for better installs
 wheel
