@@ -32,7 +32,7 @@ lxml==4.6.3
     # via -r requirements.in
 markdown==3.3.4
     # via -r requirements.in
-markupsafe==1.1.1
+markupsafe==2.0.1
     # via jinja2
 minchin.pelican.plugins.cname==1.2.1
     # via -r requirements.in
