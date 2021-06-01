@@ -58,7 +58,7 @@ pelican-minify==0.9
     # via -r requirements.in
 pelican-neighbors==1.2.0
     # via -r requirements.in
-pelican==3.7.1
+pelican==4.6.0
     # via
     #   -r requirements.in
     #   minchin.pelican.plugins.cname
