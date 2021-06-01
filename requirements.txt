@@ -10,7 +10,7 @@ beautifulsoup4==4.9.3
     #   pelican-image-process
 blinker==1.4
     # via pelican
-click==7.1.2
+click==8.0.1
     # via pip-tools
 docutils==0.16
     # via pelican
