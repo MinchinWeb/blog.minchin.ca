@@ -105,7 +105,7 @@ six==1.16.0
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
-soupsieve==2.0.1
+soupsieve==2.2.1
     # via beautifulsoup4
 titlecase==1.1.1
     # via pelican-jinja-filters
