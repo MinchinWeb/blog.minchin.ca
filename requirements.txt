@@ -12,7 +12,7 @@ blinker==1.4
     # via pelican
 click==8.0.1
     # via pip-tools
-docutils==0.16
+docutils==0.17.1
     # via pelican
 feedgenerator==1.9.1
     # via pelican
