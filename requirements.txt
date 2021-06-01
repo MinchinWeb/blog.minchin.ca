@@ -82,7 +82,7 @@ pillow==8.2.0
     #   pelican-image-process
 pip-tools==6.1.0
     # via -r requirements.in
-pygments==2.8.1
+pygments==2.9.0
     # via
     #   -r requirements.in
     #   pelican
