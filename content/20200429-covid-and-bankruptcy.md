@@ -38,8 +38,9 @@ program figured out. But what has allowed me to sleep these last weeks is the
 assurance that if the government doesn't backstop my company (and we go
 bankrupt), it won't only be me but a bunch of my competitors too, and then my
 suppliers are in for a world of hurt, if not bankruptcy themselves; the
-government might not care about me, but they would have hell to pay from the
-populous if the entire industry gets blown into disarray.
+government might not care about me 9 I'm just a little fish...), but they would
+have hell to pay from the populous if the entire industry gets blown into
+disarray.
 
 ## Bankruptcy and Renewal
 
@@ -61,10 +62,10 @@ However, a wave of bankruptcies has also sometimes completely opened up an
 industry for the better:
 
 - Example 1: In the mid-1800's, railways were the "hot new thing" and so
-  extremely overbuilt in the US as all sorts of people rushed in to try and
-  take advantage of the moment. A wave of bankruptcies allowed new companies
-  into the industry at a much lower capital cost, and thus shipping by
-  railway became much cheaper.
+  railroad lines extremely overbuilt in the US as all sorts of people rushed in
+  to try and take advantage of the moment. A wave of bankruptcies allowed new
+  companies into the industry at a much lower capital cost, and thus shipping
+  by railway became much cheaper.
 - Example 2: During the DotCom boom (in the late 1990's and early 2000's),
   tonnes of fibre connections were built around the globe. After a wave of
   bankruptcies, this "dark" fibre found it's way to new owners and
