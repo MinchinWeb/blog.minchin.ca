@@ -79,7 +79,7 @@ pelican==4.6.0
     #   seafoam
 pep517==0.10.0
     # via pip-tools
-pillow==8.2.0
+pillow==8.3.0
     # via
     #   -r requirements.in
     #   pelican-comment-system
