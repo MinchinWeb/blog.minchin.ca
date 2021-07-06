@@ -3,7 +3,7 @@
 
 from datetime import date
 
-import seafoam
+# from pelican.plugins import seafoam
 
 AUTHOR = "Wm. Minchin"
 SITENAME = "Minchin.ca"
@@ -118,21 +118,21 @@ MENUITEMS_2 = (
 
 DISPLAY_PAGES_ON_MENU = False
 
-# see http://www.voidynullness.net/blog/2015/06/25/add-recent-posts-list-to-pelican-blog/
-TEMPLATE_PAGES = {
-    "404.html": "404.html",
-}
+# # see http://www.voidynullness.net/blog/2015/06/25/add-recent-posts-list-to-pelican-blog/
+# TEMPLATE_PAGES = {
+#     "404.html": "404.html",
+# }
 
 
 # Theme Related
 TYPOGRIFY = True
-THEME = seafoam.get_path()
+# THEME = seafoam.get_path()  # auto added by Seafoam
 SITELOGO = "images/MinchindotCA-200.png"
 SITELOGO_SIZE = "100%"
 PYGMENTS_STYLE = "friendly"
 DISPLAY_BREADCRUMBS = True
 FAVICON = "favicon.ico"
-BOOTSTRAP_THEME = "seafoam"
+# BOOTSTRAP_THEME = "seafoam"  # auto added by Seafoam
 USE_OPEN_GRAPH = True
 # CUSTOM_CSS = 'css/minchin-ca.css'
 DOCUTIL_CSS = False
@@ -153,18 +153,19 @@ CATEGORY_IMAGES = {
 # Plugins
 PLUGIN_PATHS = ("../pelican-plugins",)
 PLUGINS = [
-    # 'assets',  # unused
+    "pelican.plugins.seafoam",
+    # "assets",  # unused
     "pelican_alias",
     "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
     "pelican.plugins.neighbors",
-    # "pelican.plugins.image_process",  # publish only
-    # 'minchin.pelican.plugins.cname',  # publish only
-    # 'minchin.pelican.plugins.nojekyll',  # publish only
-    "pelican.plugins.jinja_filters",
+    # "pelican.plugins.image_process",  # publish only  # auto added by Seafoam
+    # "minchin.pelican.plugins.cname",  # publish only
+    # "minchin.pelican.plugins.nojekyll",  # publish only
+    # "pelican.plugins.jinja_filters",  # auto added by Seafoam
     "minchin.pelican.plugins.summary",
-    # 'minify',  # publish only
-    # 'extended_sitemap'  # publish only
-    # 'optimize_images',  # publish only
+    # "minify",  # publish only
+    # "extended_sitemap",  # publish only
+    # "optimize_images",  # publish only
     "minchin.pelican.plugins.post_stats",
 ]
 
@@ -185,8 +186,6 @@ PELICAN_COMMENT_SYSTEM_AUTHORS = {
 }
 
 IMAGE_PROCESS = {
-    "article-feature": ["scale_in 848 848 True"],
-    "index-feature": ["scale_in 263 263 True"],
     "example-pict": {
         "type": "picture",
         "sources": [
@@ -248,7 +247,7 @@ IMAGE_PROCESS = {
         "default": ("default", "1200w"),
     },
 }
-IMAGE_PROCESS_PARSER = "html5lib"
+IMAGE_PROCESS_PARSER = SEAFOAM_PARSER = "html5lib"
 # IMAGE_PROCESS_FORCE = True  # force reproduction of all images
 
 # SUMMARY_BEGIN_MARKER = '<!-- PELICAN_BEGIN_SUMMARY -->'
