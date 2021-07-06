@@ -36,7 +36,9 @@ def clean(ctx):
 
 
 @task
-def build(ctx, publish=False, carefully=False, travis=False, verbose=False):
+def build(
+    ctx, publish=False, carefully=False, travis=False, verbose=False, debug=False
+):
     """Build the blog."""
 
     config = "pelicanconf.py"
@@ -48,7 +50,9 @@ def build(ctx, publish=False, carefully=False, travis=False, verbose=False):
     cli_args = ""
     if carefully:
         cli_args += " --fatal=warnings"
-    if verbose:
+    if debug:
+        cli_args += " --debug"
+    elif verbose:
         cli_args += " --verbose"
     ctx.run("pelican -s {}{}".format(config, cli_args))
 
@@ -91,15 +95,15 @@ def reserve(ctx):
     serve(ctx)
 
 
-@task
-def upload(ctx):
-    """Publish and then push the result to GitHub."""
-    publish(ctx)
-    ctx.run(
-        'cd {} && git add -A && git commit -m "[Generated] {}" && git push'.format(
-            publish_path, time.strftime("%Y-%m-%d")
-        )
-    )
+# @task
+# def upload(ctx):
+#     """Publish and then push the result to GitHub."""
+#     publish(ctx)
+#     ctx.run(
+#         'cd {} && git add -A && git commit -m "[Generated] {}" && git push'.format(
+#             publish_path, time.strftime("%Y-%m-%d")
+#         )
+#     )
 
 
 # Add devsever
