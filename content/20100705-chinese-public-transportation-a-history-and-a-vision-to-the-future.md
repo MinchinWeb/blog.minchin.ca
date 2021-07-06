@@ -6,7 +6,7 @@ Alias: 2010/07/chinese-public-transportation-history.html
 Slug: chinese-public-transportation-a-history-and-a-vision-to-the-future
 Category: Essays
 
-### Abstract
+## Abstract
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
@@ -36,7 +36,7 @@ slowing of economic growth.
 
 <!-- read more -->
 
-### Introduction
+## Introduction
 
 Public transit is a relatively new phenomena in China. Planning for the Beijing
 Metro began with the help of Soviet experts in 1950, but it would be almost
@@ -63,7 +63,7 @@ observations based on the comparison of the development path Chinese cities are
 undertaking today is compared to the development path pursued by American
 cities following World War II.
 
-### A History of Public Transit in Mainland China
+## A History of Public Transit in Mainland China
 
 Current mode split in Chinese cities, as noted in Table 1, shows that public
 transit (all forms) currently has a mode capture of 19%. This share has likely
@@ -219,8 +219,7 @@ an enlarged version).
 </figcaption>
 </figure>
 
-
-### Beijing
+## Beijing
 
 <figure markdown=1>
 ![Beijing Metro Logo]({filename}/images/2010/image003.png)
@@ -300,7 +299,7 @@ Tianjin Subway, Including Lines Under Construction *([11](#ASD10))*
 </figcaption>
 </figure>
 
-### Shanghai
+## Shanghai
 
 Shanghai has a rich history, rising to particular importance following the
 Opium Wars (1839-42), after which it was opened to foreign trade. In the years
@@ -345,7 +344,7 @@ and is powered via overhead cantery, in part because of the high voltage (most
 metro systems run on 750 V DC and are powered via a third rail)
 *([15](#Rob04b))*.
 
-### Guangzhou
+## Guangzhou
 
 With a history stretching back more than 2100 years, Guangzhou has a varied and
 rich history. Established during the Qin dynasty as a provincial capital in AD
@@ -383,7 +382,7 @@ Guangzhou Metro Map (2013) *([19](#ASD10c))*
 </figcaption>
 </figure>
 
-### Shenzhen
+## Shenzhen
 
 Before 1979, Shenzhen was a sleepy fishing village with a population of
 300,000. That year brought Shenzhen the designation as the first of China's
@@ -419,12 +418,11 @@ Shenzhen Metro Network in 2020 *([23](#And09))*
 </figcaption>
 </figure>
 
-
 Due to its location near Hong Kong, part of the expansion to be complete in
 2011 will be a reciprocal agreement allowing a unified system of fare payment
 for both the Hong Kong and Shenzhen Metro Systems *([21](#Wik10d))*.
 
-### Hong Kong
+## Hong Kong
 
 <figure markdown=1>
 ![MTR Logo]({filename}/images/2010/image026.gif)
@@ -459,7 +457,7 @@ Future MTR Network *([27](#Xav09))*
 </figcaption>
 </figure>
 
-### Success with Transportation-Oriented Development in Hong Kong
+## Success with Transportation-Oriented Development in Hong Kong
 
 MTR has branched beyond solely providing public transit and has become a major
 land developer in Hong Kong, often developing the immediate area of new
@@ -478,7 +476,7 @@ success of MTR. MTR also, in its developments, aims to minimize 'unnecessary
 transportation' by avoid deliberately place facilities (such as schools or
 shops) beyond walking distance, where possible *([28](#Tan04))*.
 
-### Moving Forward
+## Moving Forward
 
 Growth of megacities and regions means that to fully understand the urban
 transportation picture, intercity rail links must be considered, especially in
@@ -536,7 +534,7 @@ guiding principal of reducing the need for trips to begin with, which has
 worked exceptionally well for Hong Kong's MTR in particular, and Hong Kong as a
 whole.
 
-### Conclusion
+## Conclusion
 
 Public transit is an area of high growth in China. As an example, Shanghai went
 from lacking an operational metro system before 1995 to having the world's
@@ -559,7 +557,7 @@ its limits, both in terms of capacity and life cycle. Chinese cities, and
 growing cities worldwide, do well to consider the long term impact of their
 transportation network choices of today.
 
-### References
+## References
 
 <!--- Adding the span tags provides an intra-document target for the reference links above. It also has the side effect of turning the below into paragraphs rather than a numbered list. -->
 

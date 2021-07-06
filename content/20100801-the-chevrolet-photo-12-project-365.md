@@ -23,4 +23,3 @@ energy and power than its simple surroundings suggest.
 *Date and Time Original*: 2010:07:31 10:53:49  
 *Post Production*: Crop
 </div>
-

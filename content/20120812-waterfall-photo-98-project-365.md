@@ -25,7 +25,7 @@ ice in an instant.
 *Date and Time Original*: 2011:07:05 11:46:46
 </div>
 
-### Project Update
+## Project Update
 
 So this is the end of my first batch of 'Project 365' photos - 98 photos that
 have taken over two years to be put up. I realize that is a far cry from the

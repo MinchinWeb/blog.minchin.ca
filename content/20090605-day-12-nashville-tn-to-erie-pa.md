@@ -87,7 +87,7 @@ Travel Days:
 [2]({filename}20090503-day-2-cardston-ab-to-provo-ut.md) ·
 [3]({filename}20090503-day-3-provo-ut.md) ·
 [4]({filename}20090503-day-4-provo-ut-to-las-vegas-nv.md) ·
-[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) · 
+[5]({filename}20090505-day-5-las-vegas-nv-to-san-diego-ca.md) ·
 [6]({filename}20090507-day-6-san-diego-ca.md) ·
 [7]({filename}20090509-day-7-san-deigo-ca-to-mesa-az.md) ·
 [8]({filename}20090510-day-8-mesa-az-to-el-paso-tx.md) ·
@@ -96,6 +96,5 @@ Travel Days:
 [11]({filename}20090604-day-11-texarkana-ak-to-nashville-tn.md) ·
 12 ·
 [13]({filename}20090624-day-13-erie-pa-to-montreal-qc.md)  
-[Two Weeks
-In]({filename}20090626-two-weeks-in-life-in-quebec.md)
+[Two Weeks In]({filename}20090626-two-weeks-in-life-in-quebec.md)
 </div>

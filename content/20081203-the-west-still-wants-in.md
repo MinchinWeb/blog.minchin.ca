@@ -77,6 +77,6 @@ chant remains "The West wants in..."
 
 ------------------------------------------------------------------------
 
-My friend Kyle also posted his thoughts on the matter: [Come Together
-Right Now Over
+My friend Kyle also posted his thoughts on the matter: [Come Together Right Now
+Over
 Greed](http://pedersonopinion.blogspot.com/2008/12/come-together-right-now-over-greed.html)

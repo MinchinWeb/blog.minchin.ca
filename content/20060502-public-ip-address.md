@@ -17,5 +17,5 @@ It should be noted that this is your public IP address, which can be
 different from you computer's IP address if you are behind a proxy or a
 firewall. People with high-speed internet access often have a fixed IP
 address, which is sometimes a concern, and often, hence the firewall.
-Those using dail-up internet typically have a new IP address assigned to
+Those using dial-up internet typically have a new IP address assigned to
 them each time they log in.

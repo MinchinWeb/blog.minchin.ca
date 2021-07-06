@@ -16,24 +16,30 @@ specifically to determine the contrast between two colours.
 
 A quick example:
 
-    import colourettu
-    c1 = colourettu.colour()                # defaults to #FFF
-    c2 = colourettu.colour("#eee")          # equivalent to #EEEEEE
-    c3 = colourettu.colour("#456bda")
-    c4 = colourettu.colour([3, 56, 129])    # as an RGB tuple or list
-    c5 = colourettu.colour((63, 199, 233))
+```python
+import colourettu
+c1 = colourettu.colour()                # defaults to #FFF
+c2 = colourettu.colour("#eee")          # equivalent to #EEEEEE
+c3 = colourettu.colour("#456bda")
+c4 = colourettu.colour([3, 56, 129])    # as an RGB tuple or list
+c5 = colourettu.colour((63, 199, 233))
+```
 
-    >>> colourettu.contrast("#FFF", "#FFF") # white on white
-    1.0
-    >>> colourettu.contrast(c1, "#000")     # black on white
-    20.999999999999996
-    >>> colourettu.contrast(c4, c5)
-    4.363552233203198
+```python-repl
+>>> colourettu.contrast("#FFF", "#FFF") # white on white
+1.0
+>>> colourettu.contrast(c1, "#000")     # black on white
+20.999999999999996
+>>> colourettu.contrast(c4, c5)
+4.363552233203198
+```
 
 The easiest to install (or upgrade) *Colourettu* (assuming you already have
 Python installed) is to use *pip*:
 
-    pip install colourettu --upgrade
+```sh
+pip install colourettu --upgrade
+```
 
 The biggest change with this release is that [*Colourettu*
 documentation](http://minchin.ca/colourettu/) is now online. A [full

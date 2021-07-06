@@ -29,13 +29,13 @@ that through whatever may lie ahead, by declaring goals now, I will have
 the strength to pull through, and accomplish my goals too. In no
 particular order, my goals include:
 
--   Maintaining my **spirituality** -- spiritual thing have always served
-    as an important touchstone in my life
--   Pursue my **education** and get my professional status in the next
-    five years - education opens the door to opportunity
--   Buy **my own place**, soon after graduation
--   Give my **love life** that attention it deserves
--   Have **a building named after me**
+- Maintaining my **spirituality** -- spiritual thing have always served as an
+  important touchstone in my life
+- Pursue my **education** and get my professional status in the next five years
+  -- education opens the door to opportunity
+- Buy **my own place**, soon after graduation
+- Give my **love life** that attention it deserves
+- Have **a building named after me**
 
 Did I miss anything? I'd be interested to hear how you've dealt with
 burnout in your life.

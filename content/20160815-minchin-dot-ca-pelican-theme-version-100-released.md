@@ -24,14 +24,20 @@ proof-of-concept as I am aware of no other Pelican themes available on PyPI.
 
 To use this theme, first install it via `pip`:
 
-    pip install minchin.pelican.themes.minchindotca
+```sh
+pip install minchin.pelican.themes.minchindotca
+```
 
 Next, update your `pelicanconf.py` to use the theme, with its default settings:
 
-    from minchin.pelican.themes import minchindotca
+```python
+# pelicanconf.py
 
-    THEME = minchindotca.get_path()
-    BOOTSTRAP_THEME = 'minchindotca'
+from minchin.pelican.themes import minchindotca
+
+THEME = minchindotca.get_path()
+BOOTSTRAP_THEME = 'minchindotca'
+```
 
 And then regenerate your site.
 

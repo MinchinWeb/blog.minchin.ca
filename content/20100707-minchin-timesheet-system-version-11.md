@@ -30,7 +30,9 @@ Download [Minchin Timesheet System
 v1.1]({filename}/images/2010/MTS_1v1.xlsm) (Excel Workbook)
 
 [Example Timesheet
-1](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-13-2010.pdf) ([mirror]({filename}/images/2010/Timesheet-5496-Mar-13-2010.pdf))
+1](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-13-2010.pdf)
+([mirror]({filename}/images/2010/Timesheet-5496-Mar-13-2010.pdf))
 
 [Example Timesheet
-2](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-27-2010.pdf) ([mirror]({filename}/images/2010/Timesheet-5496-Mar-27-2010.pdf))
+2](http://files.gove.net/shares/files/10w/minchin/Timesheet-5496-Mar-27-2010.pdf)
+([mirror]({filename}/images/2010/Timesheet-5496-Mar-27-2010.pdf))

@@ -22,7 +22,7 @@ someone feel loved greatly. At least that's the case for me - the
 moments that I remember touching (and changing) me the most happened on
 the background of knowing I was loved. So go love someone today!
 
-<font size="small">Picture by Túrelio, from [Wikipedia
-Commons](http://commons.wikimedia.org/wiki/File:MotherTeresa_090.jpg)</font>
+*Picture by Túrelio, from [Wikipedia
+Commons](http://commons.wikimedia.org/wiki/File:MotherTeresa_090.jpg)*
 
 <!-- Post note here  http://commons.wikimedia.org/wiki/User_talk:T%C3%BArelio/requests_%26_notifications#Ask_for_permission_of_using_photo_of_Image:MotherTeresa_090.jpg  -->

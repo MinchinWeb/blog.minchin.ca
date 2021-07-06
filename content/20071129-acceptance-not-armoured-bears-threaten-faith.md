@@ -7,7 +7,6 @@ Category: Social Commentary
 alias: 2007/11/acceptance-not-armoured-bears-threaten.html
 Slug: acceptance-not-armoured-bears-threaten-faith
 
-
 *This is written as a response to an article in the November 26, 2007
 edition of the University of Alberta student newspaper, "[The
 Gateway](http://www.thegatewayonline.ca/)" entitled "[Armoured bears

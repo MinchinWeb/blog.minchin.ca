@@ -3,7 +3,6 @@ date: 2016-09-12 19:29
 tags: pelican, pelican themes, releases, python, seafoam
 Category: Minchin dot CA theme
 
-
 This update was the final touches needed to make my site go live.
 
 I've been in the process of redesigning my blog and so as part of that I've
@@ -19,43 +18,49 @@ proof-of-concept as I am aware of no other Pelican themes available on PyPI.
 
 To use this theme, first install it via `pip`:
 
-    pip install minchin.pelican.themes.minchindotca
+```sh
+pip install minchin.pelican.themes.minchindotca
+```
 
 Next, update your `pelicanconf.py` to use the theme, with its default settings:
 
-    from minchin.pelican.themes import minchindotca
+```python
+# pelicanconf.py
 
-    THEME = minchindotca.get_path()
-    BOOTSTRAP_THEME = 'minchindotca'
+from minchin.pelican.themes import minchindotca
 
-    IMAGE_PROCESS = {
-      'article-feature': ["scale_in 848 848 True"],
-      'index-feature': ["scale_in 263 263 True"],
-    }
+THEME = minchindotca.get_path()
+BOOTSTRAP_THEME = 'minchindotca'
 
-    # Jijna2 filters
-    def datetimefilter(value, format='%Y/%m/%d %H:%M'):
-        """convert a datetime to a different format."""
-        return value.strftime(format)
+IMAGE_PROCESS = {
+    'article-feature': ["scale_in 848 848 True"],
+    'index-feature': ["scale_in 263 263 True"],
+}
 
-
-    def article_date(value):
-        """Converts a date to the format we want it displayed on the article
-           template.
-        """
-        return value.strftime('%A, %B %-d, %Y')
+# Jijna2 filters
+def datetimefilter(value, format='%Y/%m/%d %H:%M'):
+    """convert a datetime to a different format."""
+    return value.strftime(format)
 
 
-    def breaking_spaces(value):
-        """Converts non-breaking spaces to regular spaces."""
-        return value.replace('\u00A0', ' ')
+def article_date(value):
+    """Converts a date to the format we want it displayed on the article
+        template.
+    """
+    return value.strftime('%A, %B %-d, %Y')
 
 
-    JINJA_FILTERS = {
-      'datetimefilter': datetimefilter,
-      'article_date':   article_date,
-      'breaking_spaces': breaking_spaces,
-    }
+def breaking_spaces(value):
+    """Converts non-breaking spaces to regular spaces."""
+    return value.replace('\u00A0', ' ')
+
+
+JINJA_FILTERS = {
+    'datetimefilter': datetimefilter,
+    'article_date':   article_date,
+    'breaking_spaces': breaking_spaces,
+}
+```
 
 And then regenerate your site.
 

@@ -19,7 +19,6 @@ an article.stats dictionary:
   ([more info](http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests>))
 - `fk`: Flesch-kincaid Grade Level
 
-
 ## Installation
 
 The easiest way to install *Post Stats* is through the use of pip. This
@@ -43,7 +42,6 @@ PLUGINS = [
 You may also need to configure your template to make use of the statistics
 generated.
 
-
 ## Requirements
 
 *Post Stats* depends on (and is really only useful with) Pelican. The plugin
@@ -55,7 +53,6 @@ manually installed with pip:
 pip install pelican
 pip install beautifulsoup4
 ~~~
-
 
 ## Configuration and Usage
 
@@ -96,7 +93,6 @@ and can be used to create a tag/word cloud for a post.
 
 There are no user-configurable settings.
 
-
 ## Known Issues
 
 An issue, as such, is that there is no formal test suite. Testing is currently
@@ -107,14 +103,12 @@ The package is tested in Python 3.6; compatibility with other version of Python
 is unknown, but there should be nothing particular keeping it from working with
 other "modern" versions of Python.
 
-
 ## Credits
 
 [Original plugin](http://duncanlock.net/blog/2013/06/23/post-statistics-plugin-for-pelican/)
 by Duncan Lock ([@dflock](https://github.com/dflock)) and
 posted to the
 [Pelican-Plugins repo](https://github.com/getpelican/pelican-plugins).
-
 
 ## License
 

@@ -36,17 +36,16 @@ I set it up for, and it works great for that.
 
 There's other cool features too:
 
--   **A "Web Call" button**: Put a little bit of code on the web and
-    anyone can call you, without even giving out your phone number. It's
-    supposed to be great for blogs or eBay listings or the like.
--   **Call Screening**: You never have to worry about getting unwanted
-    calls. When someone call you, after you pick up, you're given the
-    option of 1) accepting the call, 2) sending the call to voicemail,
-    3) send to voicemail, but listen in (like we used to do with the
-    answering machine at home), or 4) record the call. On the website,
-    you can set up forwarding rules, including sending certain callers
-    to a "This number is no longer available" message - great for
-    telemarketers or ex-girlfriends that won't leave you alone.
+- **A "Web Call" button**: Put a little bit of code on the web and anyone can
+  call you, without even giving out your phone number. It's supposed to be
+  great for blogs or eBay listings or the like.
+- **Call Screening**: You never have to worry about getting unwanted calls.
+  When someone call you, after you pick up, you're given the option of 1)
+  accepting the call, 2) sending the call to voicemail, 3) send to voicemail,
+  but listen in (like we used to do with the answering machine at home), or 4)
+  record the call. On the website, you can set up forwarding rules, including
+  sending certain callers to a "This number is no longer available" message -
+  great for telemarketers or ex-girlfriends that won't leave you alone.
 
 There's a number of other options that let you do a number of really
 cool things, but these are the few that I've found particularly useful.
@@ -56,22 +55,20 @@ cool things, but these are the few that I've found particularly useful.
 For all the wonders of the service, there are still a few things I wish
 the service had. My wishlist included:
 
--   **Better Sound Quality**: The sound quality varies, but is often
-    sub-par. That being said, it's been worse when I'm on my cell phone
-    and so is my friend - cell phones are exactly noted for sound
-    quality.
--   **Canadian numbers**: Although GrandCentral will ring on a Canadian
-    number, they offer no Canadian numbers to serve as your GrandCentral
-    number. For me, this is a fairly big hindrance to using the service
-    to as designed - my friends will send me an email or find out my
-    cell number before making an international call to get a hold of me.
--   **To Call Without Internet Access**: I don't see a good solution to
-    this, but as it sits right now, it order to call out, you need to go
-    to GrandCentral's website. Most of the time, I'm close to a
-    computer, but the great thing about a phone is it stands alone, and
-    it doesn't if you have to rely on a website (I'm too cheap to pay
-    for mobile internet on my cell phone). Maybe placing calls by
-    sending a SMS would be a solution...
+- **Better Sound Quality**: The sound quality varies, but is often sub-par.
+  That being said, it's been worse when I'm on my cell phone and so is my
+  friend - cell phones are exactly noted for sound quality.
+- **Canadian numbers**: Although GrandCentral will ring on a Canadian number,
+  they offer no Canadian numbers to serve as your GrandCentral number. For me,
+  this is a fairly big hindrance to using the service to as designed - my
+  friends will send me an email or find out my cell number before making an
+  international call to get a hold of me.
+- **To Call Without Internet Access**: I don't see a good solution to this, but
+  as it sits right now, it order to call out, you need to go to GrandCentral's
+  website. Most of the time, I'm close to a computer, but the great thing about
+  a phone is it stands alone, and it doesn't if you have to rely on a website
+  (I'm too cheap to pay for mobile internet on my cell phone). Maybe placing
+  calls by sending a SMS would be a solution...
 
 ## Canadian Access
 

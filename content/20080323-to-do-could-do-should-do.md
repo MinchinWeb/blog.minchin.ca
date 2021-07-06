@@ -51,28 +51,27 @@ it.
 
 ### To Do
 
--   An assignment due next week
--   Appointments I need to set for the coming week
--   Tickets for a conference I want to attend in a month that sells out
-    quickly
+- An assignment due next week
+- Appointments I need to set for the coming week
+- Tickets for a conference I want to attend in a month that sells out quickly
 
 ### Should Do
 
--   This blog post
--   Car wash and oil change
--   Clean up my desk
--   Accommodations for the above conference
--   Update my journal
+- This blog post
+- Car wash and oil change
+- Clean up my desk
+- Accommodations for the above conference
+- Update my journal
 
 ### Could Do
 
--   Various blog post ideas
--   Review material for an upcoming course
--   Write several friends I haven't talked to in months
--   Post some pictures from my latest holiday to Facebook
--   Update various computer programs
--   Various 'under-the-hood' improvements to my website: add a
-    robots.txt file, add meta tag descriptions, etc
+- Various blog post ideas
+- Review material for an upcoming course
+- Write several friends I haven't talked to in months
+- Post some pictures from my latest holiday to Facebook
+- Update various computer programs
+- Various 'under-the-hood' improvements to my website: add a robots.txt file,
+  add meta tag descriptions, etc
 
 ## A Final Note
 

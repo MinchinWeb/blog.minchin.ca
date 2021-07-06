@@ -11,7 +11,7 @@ more people running around the house). But my company almost went bankrupt.
 
 ## Staring Down Bankruptcy
 
-My company provides what is argubley an "essential service" and operates in a
+My company provides what is arguable an "essential service" and operates in a
 pretty regulated industry, and so changing government regulations is always a
 background concern. That said, the regulations are both good and bad: they're
 complicated and can add cost a lot of money to comply with but they have also
@@ -87,7 +87,7 @@ companies were deemed "to big to fail" (i.e. too big to exist??): banks but
 also large manufacters like GM. If such a thing (more bankruptcies) were to
 happen, this would serve to deleverage the economy and would likely be
 deflationary, and thus would favour those with cash on hand. As well, it might
-be the most straighforward way to the Debt Jubilee some quarters have been
+be the most straightforward way to the Debt Jubilee some quarters have been
 clamouring for.
 
 However, companies today run cash-lean, often to an extreme. I remember one

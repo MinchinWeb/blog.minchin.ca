@@ -11,11 +11,11 @@ I guess I already knew I spent too much time on the Internet. I really
 haven't been on that long today, but I've still found some interesting
 things, including:
 
--   Airlines taking the polar route to Asia
--   Addictions drain the Canadian economy of $40B/year
--   JoneSoft's File Splitter
--   a potential "miracle pill" that started with figuring out how pot
-    works
+- [Airlines taking the polar route to
+  Asia]({filename}20060502-the-shortest-distance-is.md)
+- Addictions drain the Canadian economy of $40B/year
+- JoneSoft's File Splitter
+- a potential "miracle pill" that started with figuring out how pot works
 
 <!-- read more -->
 

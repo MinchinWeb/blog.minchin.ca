@@ -15,11 +15,11 @@ in school...
 
 My goals are three-fold:
 
-1.  Keep costs low. Money I pay in expenses can't be otherwise invested and
-    grow.
-2.  Easy to make into a habit. They say that consistently putting away money is
-    more important than almost anything else in your investment strategy.
-3.  Simple enough I can explain it to my wife. Basically the KISS rule.
+1. Keep costs low. Money I pay in expenses can't be otherwise invested and
+   grow.
+2. Easy to make into a habit. They say that consistently putting away money is
+   more important than almost anything else in your investment strategy.
+3. Simple enough I can explain it to my wife. Basically the KISS rule.
 
 <a name="more"></a>Because I am trying to invest a little bit of money each
 month, most "exotic" things (like buying real estate or opening a Tim Horton's)
@@ -87,32 +87,32 @@ the same way as Canada but are relatively stable, and something that will
 provide a counter to stocks, possibly in the above markets. Let's look at the
 ETF's offered. First, for the Canadian market:
 
--   [CRQ](http://www.claymoreinvestments.ca/etf/fund/crq) - Claymore Canadian
-    Fundamental Index - MER of 0.71% - models the TSX but includes more factors
-    than simply capitalization; part of the idea is to counteract companies
-    that are under- or overvalued
--   [HXT](http://www.horizonsetfs.com/pub/en/etfs/?etf=HXT&r=o) - Horizons
-    S&P/TSX 60 Index ETF - MER of 0.07% - a "synthetic ETF," meaning they don't
-    actually own all of the stocks, but that helps keep the MER low; this fund
-    includes the 60 biggest (by capitalization) stocks on the TSX, representing
-    71% of the TSX by market capitalization; the fund doesn't typically pay
-    much in dividends
--   [XMD](http://ca.ishares.com/product_info/fund/overview/XMD.htm) - iShares
-    S&P/TSX Completion - MER of 0.58% - everything on the TSX but the top 60
-    stocks
+- [CRQ](http://www.claymoreinvestments.ca/etf/fund/crq) -- Claymore Canadian
+  Fundamental Index -- MER of 0.71% -- models the TSX but includes more factors
+  than simply capitalization; part of the idea is to counteract companies
+  that are under- or overvalued
+- [HXT](http://www.horizonsetfs.com/pub/en/etfs/?etf=HXT&r=o) -- Horizons
+  S&P/TSX 60 Index ETF -- MER of 0.07% -- a "synthetic ETF," meaning they don't
+  actually own all of the stocks, but that helps keep the MER low; this fund
+  includes the 60 biggest (by capitalization) stocks on the TSX, representing
+  71% of the TSX by market capitalization; the fund doesn't typically pay
+  much in dividends
+- [XMD](http://ca.ishares.com/product_info/fund/overview/XMD.htm) -- iShares
+  S&P/TSX Completion -- MER of 0.58% -- everything on the TSX but the top 60
+  stocks
 
 For the American market:
 
--   [CLU](http://www.claymoreinvestments.ca/etf/fund/clu) - Claymore US
-    Fundamentals - MER of 0.72% - includes more factors than simply
-    capitalization; part of the idea is to counteract companies that are under-
-    or overvalued; based on the model used, the 1000 biggest firm in the United
-    States are selected - available as a Canadian hedged version as well
-    ([CLU.C](http://www.claymoreinvestments.ca/etf/fund/clu))
--   [HXS](http://www.horizonsetfs.com/pub/en/etfs/?etf=HXS&r=o) - Horizons S&P
-    500 IDX - MER of 0.15% - a "synthetic ETF"; "includes 500 of the leading
-    companies in leading industries in the United States economy" - this fund
-    in Canadian hedged
+- [CLU](http://www.claymoreinvestments.ca/etf/fund/clu) -- Claymore US
+  Fundamentals -- MER of 0.72% -- includes more factors than simply
+  capitalization; part of the idea is to counteract companies that are under-
+  or overvalued; based on the model used, the 1000 biggest firm in the United
+  States are selected - available as a Canadian hedged version as well
+  ([CLU.C](http://www.claymoreinvestments.ca/etf/fund/clu))
+- [HXS](http://www.horizonsetfs.com/pub/en/etfs/?etf=HXS&r=o) -- Horizons S&P
+  500 IDX -- MER of 0.15% -- a "synthetic ETF"; "includes 500 of the leading
+  companies in leading industries in the United States economy" -- this fund in
+  Canadian hedged
 
 For investing in international markets, there are funds targeting China, Japan,
 "Emerging Markets," the BRIC economies (Brazil, Russia, India, and China),
@@ -120,26 +120,26 @@ Latin America and international markets generally. Notably missing from that
 list is Europe.... I don't really know anything about these specific markets to
 pick a winner, so I'll just consider the general international funds:
 
--   [CIE](http://www.claymoreinvestments.ca/etf/fund/cie) - Claymore
-    International Fundamentals - MER of 0.73% - models the FTSE RAFI Developed
-    ex US 1000 Index which includes more factors than simply market
-    capitalization and covers companies not listed on American exchanges; by
-    percentage of the index, Canada represents 6%, the UK at 19%, France at 12
-    %, Japan at 16 %, Australia at 5% among others; in terms of sectors Oil &
-    Gas is at 10 % and Banks at 16% ([more
-    details](http://www.ftse.com/Indices/FTSE_RAFI_Index_Series/2008Downloads/FTSE_RAFI_Developed_ex_US_1000_Index_Factsheet.pdf)).
--   [VEF](https://www.vanguardcanada.ca/documents/literature/F9325EN.pdf) -
-    Vanguard MSCI EAFE Index ETF - MER of 0.37% - tracks the MSCI EAFE which
-    invests "primarily in stocks of companies located in Europe, Australia,
-    Asia and the Far East and uses derivative instruments to seek to hedge the
-    foreign currency exposure of the securities" so basically the 'developed
-    world' minus Canada and the United States; the fund includes 981 stocks; by
-    percentage of the index, the UK represents 21%, France at 11%, Germany and
-    Switzerland at 8% each, Japan at 24%, Australia at 7%; in terms of sectors
-    Financials is at 24% and Oil & Gas at 9% ([more
-    details](http://www.msci.com/resources/factsheets/MSCI_EAFE_Factsheet.pdf));
-    the fund seems to invest heavily in the American version of this fund; this
-    fund is Canadian dollar hedged.
+- [CIE](http://www.claymoreinvestments.ca/etf/fund/cie) -- Claymore
+  International Fundamentals -- MER of 0.73% -- models the FTSE RAFI Developed
+  ex US 1000 Index which includes more factors than simply market
+  capitalization and covers companies not listed on American exchanges; by
+  percentage of the index, Canada represents 6%, the UK at 19%, France at 12
+  %, Japan at 16 %, Australia at 5% among others; in terms of sectors Oil &
+  Gas is at 10 % and Banks at 16% ([more
+  details](http://www.ftse.com/Indices/FTSE_RAFI_Index_Series/2008Downloads/FTSE_RAFI_Developed_ex_US_1000_Index_Factsheet.pdf)).
+- [VEF](https://www.vanguardcanada.ca/documents/literature/F9325EN.pdf) --
+  Vanguard MSCI EAFE Index ETF -- MER of 0.37% -- tracks the MSCI EAFE which
+  invests "primarily in stocks of companies located in Europe, Australia,
+  Asia and the Far East and uses derivative instruments to seek to hedge the
+  foreign currency exposure of the securities" so basically the 'developed
+  world' minus Canada and the United States; the fund includes 981 stocks; by
+  percentage of the index, the UK represents 21%, France at 11%, Germany and
+  Switzerland at 8% each, Japan at 24%, Australia at 7%; in terms of sectors
+  Financials is at 24% and Oil & Gas at 9% ([more
+  details](http://www.msci.com/resources/factsheets/MSCI_EAFE_Factsheet.pdf));
+  the fund seems to invest heavily in the American version of this fund; this
+  fund is Canadian dollar hedged.
 
 Bonds are a debt holding that will return you both it's principal at the end of
 the term as well as interest while you hold the bond. I'm a little bit leery of
@@ -149,60 +149,60 @@ can't go down any further...) To provide income, a couple of other options
 include preferred shares, dividend paying stocks, and trusts (like REIT's or
 Real Estate Investment Trusts).
 
--   [CLF](http://www.claymoreinvestments.ca/etf/fund/clf) - Claymore 1-5 Year
-    Laddered Government Bonds - MER of 0.17% - annual dividend of about 4%,
-    yield of 20%
--   [CBO](http://www.claymoreinvestments.ca/etf/fund/cbo) - Claymore 1-5 Year
-    Laddered Corporate Bonds - MER of 0.28% - annual dividend of 4.5%, yield of
-    22%
--   [CAB](http://www.claymoreinvestments.ca/etf/fund/cab) - Claymore Advantaged
-    CND Bond Index - MER of 0.33% - annual dividend of 3%, yield of 15%
--   [CHB](http://www.claymoreinvestments.ca/etf/fund/chb) - Claymore Advantaged
-    High Yield Bond - MER of 0.56% - annual dividend 7.5%, yield of 36%; this
-    is "non-investment grade bonds"
--   [CSD](http://www.claymoreinvestments.ca/etf/fund/csd) - Claymore Short
-    Duration High Income - MER of 0.63% - annual dividend of 5%, yield of 2.5%;
-    both investment and non-investment grade bonds with a duration of less than
-    5 years
--   [CBD](http://www.claymoreinvestments.ca/etf/fund/cbd) - Claymore Global
-    Balanced Income - MER of 0.71% - annual dividend of 3%, yield of 16% -
-    holds a selection of other Claymore ETF's
--   [CPD](http://www.claymoreinvestments.ca/etf/fund/cpd) - Claymore S&P/TSX
-    CND Preferred Share - MER of 0.50% - annual dividend of 5%, yield of 28%
--   [CDZ](http://www.claymoreinvestments.ca/etf/fund/cdz) - Claymore S&P/TSX
-    CND Dividend - MER of 0.67% - annual dividend of 3%, yield of 15%; follows
-    the S&P/TSX Canadian Dividend Aristocrats Index
--   [FIE](http://www.claymoreinvestments.ca/etf/fund/fie) - Claymore Canadian
-    Financial Monthly Income - MER of 1.00% - annual dividend of 7.5%, yield of
-    114%; aims to provide a monthly cash distribution of 4 (or 5?) cents per
-    share (or 6% annually, based on the current share price); investments focus
-    on the Canadian financial sector
--   [CYH](http://www.claymoreinvestments.ca/etf/fund/cyh) - Claymore Global
-    Monthly Advantaged Dividends - MER of 0.83% - annual dividend of 4%, yield
-    of 28%; tracks an index of global dividend stocks but the index's
-    methodology is not published; the index is diverse, with no stock making up
-    more than 2% of the index; the ETF uses a "forward agreement" where it
-    doesn't directly own the stocks of the index, but gives you the returns as
-    if it did, this is done for tax reasons - "dividends" actually come as
-    return of capital or capital gains rather than foreign (American)
-    dividends; [MoneySense has a good profile of the
-    EFT](http://www.moneysense.ca/2010/11/15/under-the-hood-claymore-global-monthly-advantaged-dividend-etf/).
--   [CUD](http://www.claymoreinvestments.ca/etf/fund/cud) - Claymore S&P US
-    Dividend Growers - MER of 0.60+% - annual dividend of 2.4%, yield of 11%;
-    follows the S&P High Yield Dividend Aristocrats CAD Hedged Index; the index
-    is a collection of US stocks that have raised dividend for the last 25
-    years with limits on minimum size and stock liquidity; I've read about the
-    index and I guess historically it's done pretty well in the past, but
-    during the economic problems of 2008 a lot of the top performers cut
-    dividends (temporarily) and got dropped from the index
--   I wish there was an EFT that allowed me to invest in Canadian REIT's...
--   I guess another option in this category is my student loan which allows me
-    to make extra payments and charges 5.5% interest currently; it's not nearly
-    as sexy as having money in the market, but it still may be the best choice;
-    the only complication is it won't show up in my account balance which makes
-    figuring out sector balancing a little more complicated. Part of the idea
-    to making student loans work is to then invest the payments at the end that
-    I would have had to make but now don't because I paid off the loan early.
+- [CLF](http://www.claymoreinvestments.ca/etf/fund/clf) -- Claymore 1-5 Year
+  Laddered Government Bonds -- MER of 0.17% -- annual dividend of about 4%,
+  yield of 20%
+- [CBO](http://www.claymoreinvestments.ca/etf/fund/cbo) -- Claymore 1-5 Year
+  Laddered Corporate Bonds -- MER of 0.28% -- annual dividend of 4.5%, yield of
+  22%
+- [CAB](http://www.claymoreinvestments.ca/etf/fund/cab) -- Claymore Advantaged
+  CND Bond Index -- MER of 0.33% -- annual dividend of 3%, yield of 15%
+- [CHB](http://www.claymoreinvestments.ca/etf/fund/chb) -- Claymore Advantaged
+  High Yield Bond -- MER of 0.56% -- annual dividend 7.5%, yield of 36%; this
+  is "non-investment grade bonds"
+- [CSD](http://www.claymoreinvestments.ca/etf/fund/csd) -- Claymore Short
+  Duration High Income -- MER of 0.63% -- annual dividend of 5%, yield of 2.5%;
+  both investment and non-investment grade bonds with a duration of less than
+  5 years
+- [CBD](http://www.claymoreinvestments.ca/etf/fund/cbd) -- Claymore Global
+  Balanced Income -- MER of 0.71% -- annual dividend of 3%, yield of 16% -
+  holds a selection of other Claymore ETF's
+- [CPD](http://www.claymoreinvestments.ca/etf/fund/cpd) -- Claymore S&P/TSX
+  CND Preferred Share -- MER of 0.50% -- annual dividend of 5%, yield of 28%
+- [CDZ](http://www.claymoreinvestments.ca/etf/fund/cdz) -- Claymore S&P/TSX
+  CND Dividend -- MER of 0.67% -- annual dividend of 3%, yield of 15%; follows
+  the S&P/TSX Canadian Dividend Aristocrats Index
+- [FIE](http://www.claymoreinvestments.ca/etf/fund/fie) -- Claymore Canadian
+  Financial Monthly Income -- MER of 1.00% -- annual dividend of 7.5%, yield of
+  114%; aims to provide a monthly cash distribution of 4 (or 5?) cents per
+  share (or 6% annually, based on the current share price); investments focus
+  on the Canadian financial sector
+- [CYH](http://www.claymoreinvestments.ca/etf/fund/cyh) -- Claymore Global
+  Monthly Advantaged Dividends -- MER of 0.83% -- annual dividend of 4%, yield
+  of 28%; tracks an index of global dividend stocks but the index's
+  methodology is not published; the index is diverse, with no stock making up
+  more than 2% of the index; the ETF uses a "forward agreement" where it
+  doesn't directly own the stocks of the index, but gives you the returns as
+  if it did, this is done for tax reasons - "dividends" actually come as
+  return of capital or capital gains rather than foreign (American)
+  dividends; [MoneySense has a good profile of the
+  EFT](http://www.moneysense.ca/2010/11/15/under-the-hood-claymore-global-monthly-advantaged-dividend-etf/).
+- [CUD](http://www.claymoreinvestments.ca/etf/fund/cud) -- Claymore S&P US
+  Dividend Growers -- MER of 0.60+% -- annual dividend of 2.4%, yield of 11%;
+  follows the S&P High Yield Dividend Aristocrats CAD Hedged Index; the index
+  is a collection of US stocks that have raised dividend for the last 25
+  years with limits on minimum size and stock liquidity; I've read about the
+  index and I guess historically it's done pretty well in the past, but
+  during the economic problems of 2008 a lot of the top performers cut
+  dividends (temporarily) and got dropped from the index
+- I wish there was an EFT that allowed me to invest in Canadian REIT's...
+- I guess another option in this category is my student loan which allows me
+  to make extra payments and charges 5.5% interest currently; it's not nearly
+  as sexy as having money in the market, but it still may be the best choice;
+  the only complication is it won't show up in my account balance which makes
+  figuring out sector balancing a little more complicated. Part of the idea
+  to making student loans work is to then invest the payments at the end that
+  I would have had to make but now don't because I paid off the loan early.
 
 Ok, so now for my selections. For Canada, I'll go with the combination of HXT
 and XMD, roughly in proportion to the market cap of the indexes they follow
@@ -214,12 +214,12 @@ FIE (currently a dividend return of 7.5%), in roughly equal proportions. I
 decided to wight the three sectors equally, and so then with a little bit of
 rounding to make 'even' numbers, I get:
 
--   HXT - Horizons S&P/TSX 60 Index ETF - 25%
--   XMD - iShares S&P/TSX Completion - 10%
--   HXS - Horizons S&P 500 IDX - 15%
--   VEF - Vanguard MSCI EAFE Index ETF - 15%
--   FIE - Claymore Canadian Financial Monthly Income - 15%
--   Student Loans - 20%
+- HXT - Horizons S&P/TSX 60 Index ETF - 25%
+- XMD - iShares S&P/TSX Completion - 10%
+- HXS - Horizons S&P 500 IDX - 15%
+- VEF - Vanguard MSCI EAFE Index ETF - 15%
+- FIE - Claymore Canadian Financial Monthly Income - 15%
+- Student Loans - 20%
 
 <div markdown=1 class="text-center">
 ![Portfolio Allocations]({filename}/images/2012/portfolio-allocations.png)

@@ -57,14 +57,11 @@ not much else.
 So next time you hop a flight across the ocean, now you have a clue why
 all the flights "go north." Happy flying!
 
-## REFERENCE
+## Reference
 
--   Chicago Tribune. United take polar express on flights to China,
-    Japan. Published April 7, 2006. Available on-line at
-    [http://www.chicagotribune.com/business/
-    chi-0604040271apr04,1,1640385.story?
-    ctrack=1&cset=true](http://www.chicagotribune.com/business/chi-0604040271apr04,1,1640385.story?ctrack=1&cset=true%20)
-    Accessed May 2, 2006.
--   For further reading on Map Projections, try
-    [Wikipedia](http://en.wikipedia.org/wiki/Map_projections).
-
+- Chicago Tribune. United take polar express on flights to China, Japan.
+  Published April 7, 2006. Available on-line at
+  [http://www.chicagotribune.com/business/chi-0604040271apr04,1,1640385.story?ctrack=1&cset=true](http://www.chicagotribune.com/business/chi-0604040271apr04,1,1640385.story?ctrack=1&cset=true%20)
+  Accessed May 2, 2006.
+- For further reading on Map Projections, try
+  [Wikipedia](http://en.wikipedia.org/wiki/Map_projections).

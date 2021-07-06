@@ -40,5 +40,4 @@ importantly, myself.
 
 Thank you for joining me. I hope we enjoy the trip!
 
-To see [all of my Project 365
-photos...](/label/project-365/)
+To see [all of my Project 365 photos...](/label/project-365/)

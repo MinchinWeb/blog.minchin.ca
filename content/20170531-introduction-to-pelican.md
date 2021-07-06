@@ -392,7 +392,7 @@ And now you have a basic Pelican site.
 
 #### (Basic) File Structure
 
-<pre>
+```text
 yourproject/
     ├── content/             # articles and pages go here
     ├── output/
@@ -401,7 +401,7 @@ yourproject/
     ├── Makefile
     ├── pelicanconf.py       # Main settings file
     └── publishconf.py       # Settings to use when ready to publish
-</pre>
+```
 
 ### Internal Links
 
@@ -410,7 +410,7 @@ content hierarchy** rather than the generated hierarchy.
 
 For example, if your site is laid out like this:
 
-<pre>
+```text
 yourproject/
     ├── content/
     │   ├── article1.rst
@@ -428,7 +428,7 @@ yourproject/
     ├── Makefile
     ├── pelicanconf.py       # Main settings file
     └── publishconf.py       # Settings to use when ready to publish
-</pre>
+```
 
 so then you would create your entry (with links) like this:
 
@@ -559,7 +559,6 @@ DELETE_OUTPUT_DIRECTORY = True
 #GOOGLE_ANALYTICS = ""
 ~~~
 
-
 ## Overview of Examples
 
 Below are four examples of sites I have build with Pelican. I have included
@@ -592,7 +591,6 @@ Not listed here, but this site ([blog.minchin.ca](http://blog.minchin.ca)), is
 also generated with Pelican, and separately from the main part of Minchin.ca.
 The code for the site is [posted to
 GitHub](https://github.com/MinchinWeb/blog.minchin.ca) and open to review.
-
 
 ## Example 1 -- Jrnl
 
@@ -813,7 +811,6 @@ DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives',
                     'search', 'tags', '404', 'prjct']
 PAGINATED_DIRECT_TEMPLATES = ['index', 'archives']
 ~~~
-
 
 ## Example 2 -- Burst Energy
 
@@ -1458,7 +1455,6 @@ ADDTHIS_PROFILE = False
 DISQUS_SITENAME = False
 PDF_PROCESSOR = False
 ~~~
-
 
 ## Minchin Genealogy
 

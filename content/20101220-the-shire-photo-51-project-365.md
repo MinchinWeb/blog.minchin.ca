@@ -6,13 +6,12 @@ Category: Project 365
 Slug: the-shire-photo-51-project-365
 Image: images/project-365/2010-10-20a - IMG_3431.JPG
 
-Not the Shire from The Hobbit, but the countryside just a few miles from
-where we live. The French countryside is simply amazing, and quite the
-contrast to [the
-flatness](http://www.flickr.com/photos/minchinweb/2658117266/) closer to
-where I grew up. The other amazing thing for me was the fact that
-everything is still this green into late October. (That has changed only
-here in late December as everything is now covered in snow.)
+Not the Shire from The Hobbit, but the countryside just a few miles from where
+we live. The French countryside is simply amazing, and quite the contrast to
+[the flatness](http://www.flickr.com/photos/minchinweb/2658117266/) closer to
+where I grew up. The other amazing thing for me was the fact that everything is
+still this green into late October. (That has changed only here in late
+December as everything is now covered in snow.)
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

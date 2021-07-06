@@ -9,8 +9,8 @@ Image: images/project-365/2010-11-02b - IMG_3717.JPG
 
 [These chalk cliffs, as shown
 earlier]({filename}20101220-the-white-cliffs-of-normandy-photo-52-project-365.md),
-line the coast of Normandy. Here, it's easier to see how a town can form
-in the valleys carved by rivers into the cliffs. This is Le Treport.
+line the coast of Normandy. Here, it's easier to see how a town can form in the
+valleys carved by rivers into the cliffs. This is Le Treport.
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

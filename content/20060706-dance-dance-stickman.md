@@ -16,13 +16,14 @@ I was looking up ACSII art on
 came across this, which is too funny to pass up. Who says stickmen can't
 dance? Here's the Macarena!
 
-     o      o     o    o     o    <o     <o>    o>    o
-    .|.    \|.   \|/   //    X     \      |    <|    <|>
-     /\     >\   /<    >\   /<     >\    /<     >\   /<
+```text
+  o      o     o    o     o    <o     <o>    o>    o
+ .|.    \|.   \|/   //    X     \      |    <|    <|>
+  /\     >\   /<    >\   /<     >\    /<     >\   /<
+```
 
 Too funny!
 
 <!-- read more -->
 
-See also [my entry on ASCII
-Art]({filename}20060601-ascii-art.md).
+See also [my entry on ASCII Art]({filename}20060601-ascii-art.md).

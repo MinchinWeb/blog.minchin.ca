@@ -150,7 +150,6 @@ location. Installing the theme as a Python module means that I can't know the
 file location ahead of time, but I can ask Python at run time! So my theme has
 a short function:
 
-
 ```python
 # seafoam/__init__.py
 from pathlib import Path

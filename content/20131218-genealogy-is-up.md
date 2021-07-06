@@ -20,7 +20,7 @@ My genealogy remains a work in progress. If there are mistakes, let me know so
 I can fix them. If we're related and long lost cousins, I'd love to hear from
 you!
 
-### Update (July 26, 2016)
+## Update (July 26, 2016)
 
 *Adam* is no longer online, but Tim has continued to improve it and has bundled
 most (all?) of it's functionality into

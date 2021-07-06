@@ -14,7 +14,7 @@ Bring newly wed, I've also affectionately referee to this time as a
 "honeymoon" too. That said, there's a few things that stand out in my
 mind.
 
-### Home
+## Home
 
 *Home* is a funny word to start with, and adding more to the "fun," it
 lacks a direct translation in French. If *home* is defined and "where
@@ -33,7 +33,7 @@ and thus I have struggled to raise this place in France to the status of
 *home*. Perhaps the best definition is "Home is where your heart is" and
 so where my loved ones are, there is *my home*.
 
-### Cellphones
+## Cellphones
 
 Cellphones, or *portables* as the French call them, have become a
 prominent facet of modern life. For much of my University career, my
@@ -57,7 +57,7 @@ I was looking at my file, I realized that there was a cellphone number
 on file and not one that I had provided. I wonder if their computer
 system requires a cellphone number to submit the order...
 
-### Driving
+## Driving
 
 One of the last things I did before I left North America was sell my car
 and one of my first adventures when I return will likely be buying a
@@ -89,7 +89,7 @@ them. Without these little lights, it's lot harder to tell, from a
 distance, whether the vehicle in front of you is a passenger car or semi
 truck.
 
-### Wayfinding
+## Wayfinding
 
 Wayfinding, or the way to find the route from one city to another, is
 fundamentally different between France and the United States, but the
@@ -114,7 +114,7 @@ if you want to get from Paris to Nantes, you drive out of Paris
 following the signs for *Le Mans*, then *Angers*, and finally
 *Nantes*.
 
-### Living Next to the Ocean
+## Living Next to the Ocean
 
 There's a certain wonder to living next to the ocean like I am right
 now. Perhaps I feel that way because I grew up so far from the sea. I've
@@ -127,7 +127,7 @@ further in haven't. The conclusion I've drawn is I can see the wisdom in
 living right in the edge of the ocean rather than several kilometres
 back.
 
-### French Paperwork
+## French Paperwork
 
 Much has been said about the mountain of paperwork the French system
 required of you, and the reputation is well deserved. That said, the

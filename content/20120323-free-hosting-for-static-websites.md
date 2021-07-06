@@ -23,17 +23,17 @@ get up and running with GitHub:
 
 1. Create a user account on [GitHub.](http://www.github.com/)
 2. If you're not familiar with Git, read through the [GitHub Help
-pages](http://help.github.com/set-up-git-redirect). This will walk you
-through installing any software you might need to work with GitHub.
+   pages](http://help.github.com/set-up-git-redirect). This will walk you
+   through installing any software you might need to work with GitHub.
 3. [Create a repository](http://help.github.com/create-a-repo) named
-*{your_username}.github.com*
+   *{your_username}.github.com*
 4. Push the static files of your website to your new repository.
-    1.  Your page will go live at *http://{your_username}.github.io*
-    2.  If you want to use a different web address (and you own the domain),
-        include a file called *CNAME* that lists that other web address in your
-        repository. You will also need to create a A record for that domain
-        pointing to `192.30.252.153` and `192.30.252.154` (Get your domain name
-        registrar to help you with that one).
+    1. Your page will go live at *http://{your_username}.github.io*
+    2. If you want to use a different web address (and you own the domain),
+       include a file called *CNAME* that lists that other web address in your
+       repository. You will also need to create a A record for that domain
+       pointing to `192.30.252.153` and `192.30.252.154` (Get your domain name
+       registrar to help you with that one).
 5. You might have to wait 10 minutes for it to go live...
 6. You have a free website!
 

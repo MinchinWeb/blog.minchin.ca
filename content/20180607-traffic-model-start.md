@@ -47,7 +47,6 @@ to have a scope defined to help understand what to focus on. So here is my
    technologies such as driverless cars and smart roads will have on the
    transportation system.
 
-
 ### Measures of Success
 
 I expect this project will take some time, and be somewhat large, and so I
@@ -91,7 +90,6 @@ following:
         the game's traffic model for my own.
 - is fun!
 
-
 ### Next Steps
 
 This post was the first concrete step toward building my traffic model,
@@ -108,7 +106,6 @@ that need to happen:
   transportation planning and modeling software. Part of the is to avoid
   re-inventing the wheel, but also to provide inter-operability with current
   industry tools.
-
 
 ## Conclusion
 

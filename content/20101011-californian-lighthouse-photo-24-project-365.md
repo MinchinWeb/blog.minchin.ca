@@ -10,7 +10,7 @@ image: images/project-365/2010-08-19 - P365 - IMG_2159.JPG
 Further along the Pacific Coast Highway I came across a lighthouse, just
 before dusk. Perhaps it comes from my growing up far from the ocean, but
 I've always been fascinated with lighthouses and the lighthouse as a
-symbol in the way they stand as a sential and unmoved, regardless of the
+symbol in the way they stand as a sentinel and unmoved, regardless of the
 storm they brews around them.
 
 <div markdown=1 class="photo-infobox">

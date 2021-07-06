@@ -13,25 +13,25 @@ full report, you'll have to look elsewhere (I can point you to
 [CBC](http://www.cbc.ca/world/story/2007/08/02/bridge-collapse.html "CBC"));
 some highlights:
 
--   the bridge was built in 1967
--   I-35W is a major artery through Minneapolis; the bridge is 8 lanes wide and
-    reportedly carries over 200,000 vehicles a day
--   the bridge collapsed towards the end of the evening rush hour, about 7pm
-    local time; and very suddenly (the centre section collapsed in 4 seconds)
--   the cause of the collapse is unknown at present
-    -   A 2005 report rated the bridge as "structurally deficient" (a category
-        with 70,000+ other American bridges)
-    -   a more recent report suggested that the bridge, in its current state,
-        would likely be serviceable though to 2020
-    -   the bridge was undergoing non-structural repair work at the time, which
-        started the night before
-    -   a loaded freight train was running under the bridge at the time
-    -   the Department of Homeland Security and the FBI have stated that it
-        does not appear to be sabotage or terrorist related; security footage
-        does not show any smoke that would be characteristic of an explosion
--   the death toll currently (Thursday noon) is 7, although that is expected to
-    rise as bodies are pulled from the river; 79 are reported injured; 20 to 30
-    people are reported missing
+- the bridge was built in 1967
+- I-35W is a major artery through Minneapolis; the bridge is 8 lanes wide and
+  reportedly carries over 200,000 vehicles a day
+- the bridge collapsed towards the end of the evening rush hour, about 7pm
+  local time; and very suddenly (the centre section collapsed in 4 seconds)
+- the cause of the collapse is unknown at present
+    - A 2005 report rated the bridge as "structurally deficient" (a category
+      with 70,000+ other American bridges)
+    - a more recent report suggested that the bridge, in its current state,
+      would likely be serviceable though to 2020
+    - the bridge was undergoing non-structural repair work at the time, which
+      started the night before
+    - a loaded freight train was running under the bridge at the time
+    - the Department of Homeland Security and the FBI have stated that it does
+      not appear to be sabotage or terrorist related; security footage does not
+      show any smoke that would be characteristic of an explosion
+- the death toll currently (Thursday noon) is 7, although that is expected to
+  rise as bodies are pulled from the river; 79 are reported injured; 20 to 30
+  people are reported missing
 
 It will be a few days before everything gets sorted out; for now I imagine
 people are still in shock and not quite sure what to do. At the end of the

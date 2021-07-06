@@ -69,7 +69,7 @@ significant update to the
 
 <!-- before and after pictures -->
 
-### Back Up
+### Backup
 
 Before, I never really had a back up of my blog contents. Google didn't seem
 ready to shut down Blogger, but there's always that fear, at a low level

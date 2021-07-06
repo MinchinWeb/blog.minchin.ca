@@ -4,7 +4,6 @@ modified: 2017-02-21 14:51
 tags: pelican, pelican plugins, releases, python, summary (Pelican)
 Category: Pelican Plugins
 
-
 **Summary** is a plugin for [Pelican](http://docs.getpelican.com/), a static
 site generator written in Python.
 
@@ -35,7 +34,6 @@ PLUGINS = [
 
 You may also need to configure the summary start and end markers (see
 Configuration below).
-
 
 ## Configuration and Usage
 

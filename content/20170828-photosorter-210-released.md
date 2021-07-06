@@ -11,37 +11,39 @@ creation date as a fallback. There is also an option to move existing photos.
 <!-- read more -->
 
 Directory and file names follow a simple naming convention
-(``YYYY-MM/YYY_MM_DD/YYYY-MM-DD hh:mm:ss.ext``) that keeps everything neatly
+(`YYYY-MM/YYY_MM_DD/YYYY-MM-DD hh:mm:ss.ext`) that keeps everything neatly
 organized. Duplicates are detected and ignored based on their SHA1 hash and
 folder path. Photos taken in the same instant get de-duplicated by adding a
-suffix (``-1``, ``-2``, etc) to their filenames.
+suffix (`-1`, `-2`, etc) to their filenames.
 
 The result looks somewhat like this::
 
-    ├── 2013-01
-    │   ├── 2013_01_05
-    │   │   ├── 2013-01-05\ 13.24.45.jpg
-    │   │   ├── 2013-01-05\ 14.25.54.jpg
-    │   │   └── 2013-01-05\ 21.28.48-1.jpg
-    │   ├── 2013_01_06
-    │   │   ├── 2013-01-06\ 16.05.02.jpg
-    │   │   ├── 2013-01-06\ 19.59.25.jpg
-    │   │   ├── 2013-01-06\ 20.40.28.jpg
-    │   │   └── 2013-01-06\ 21.14.38.jpg
-    │   └── 2013_01_08
-    │       └── 2013-01-08\ 11.45.51.jpg
-    ├── 2013-02
-    |   └─ ...
-    ├── ...
-    ├── 2013-12
-    ├── 2014-01
-    ├── 2014-02
-    ├── ...
-    ├── 2014-12
-    ├── ...
+```text
+├── 2013-01
+│   ├── 2013_01_05
+│   │   ├── 2013-01-05\ 13.24.45.jpg
+│   │   ├── 2013-01-05\ 14.25.54.jpg
+│   │   └── 2013-01-05\ 21.28.48-1.jpg
+│   ├── 2013_01_06
+│   │   ├── 2013-01-06\ 16.05.02.jpg
+│   │   ├── 2013-01-06\ 19.59.25.jpg
+│   │   ├── 2013-01-06\ 20.40.28.jpg
+│   │   └── 2013-01-06\ 21.14.38.jpg
+│   └── 2013_01_08
+│       └── 2013-01-08\ 11.45.51.jpg
+├── 2013-02
+|   └─ ...
+├── ...
+├── 2013-12
+├── 2014-01
+├── 2014-02
+├── ...
+├── 2014-12
+├── ...
+```
 
-I use ``C:\Users\[windows username]\Dropbox\Camera Uploads`` as the source
-directory and ``Z:\Photos`` as the target. This allows me to move my photo from
+I use `C:\Users\[windows username]\Dropbox\Camera Uploads` as the source
+directory and `Z:\Photos` as the target. This allows me to move my photo from
 Dropbox to a local drive, and merge them with the rest of my photo collection.
 
 ## Impletmentation Notes
@@ -53,9 +55,9 @@ I'm using matches the default folder set-up for my Canon camera.
 
 The easiest way to install the script is through pip::
 
-~~~sh
+```sh
 pip install minchin.scripts.photosorter
-~~~
+```
 
 ## Requirements
 
@@ -63,28 +65,28 @@ The script's requirements will be automatically installed in the script is
 installed via *pip* as recommended above. They can also be installed manually,
 if required::
 
-~~~sh
+```sh
 pip install argcomplete>=1.3.0
 pip install exifread>=2.1.2
 pip install watchdog>=0.8.3
-~~~
+```
 
 ## Usage
 
 Watch `src_dir` and sort incoming photos into ``dest_dir``::
 
-~~~sh
+```sh
 photosorter src_dir dest_dir
-~~~
+```
 
 When you're done with it, ``Ctrl + C`` will end the program.
 
 If you also want to move the existing files in ``src_dir`` (which are, by
 default, ignored)::
 
-~~~sh
+```sh
 photosorter src_dir dest_dir --move-existing
-~~~
+```
 
 ## Known Issues
 

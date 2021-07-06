@@ -18,7 +18,7 @@ Honey, I started into Model Railroading, a childhood dream. One of my shocks
 was the cost of models! A regular-ish building, measuring maybe 2x3x3 inches
 would cost $60! There had to be a better way...
 
-### Enter 3D Printing
+## Enter 3D Printing
 
 Various technologies exist but the most popular, at least at the hobby level,
 basically consists of a hot metal nozzle that melts a 'thread' of plastic and
@@ -31,7 +31,7 @@ printer and railway modelling...
 
 <!-- Read More -->
 
-### Literature Review
+## Literature Review
 
 Good research starts with a review of those who have already worked on the
 problem. My Google searches turned up a few sites of note.
@@ -68,7 +68,7 @@ geometries.
 
 So the two issues that stand out are cost (of the printer) and resolution.
 
-### Cost
+## Cost
 
 Professional 3D printers don't come cheap. Searching online does not also show
 prices, but from what I can gather, professional printer lines start at
@@ -84,7 +84,7 @@ hobby printers use plastic that runs $50 per kilogram or a couple of cents per
 cubic centimeter. Although not free, if it defendant within reach (like how we
 don't think about paper in our inkjet printers today).
 
-### Resolution
+## Resolution
 
 Resolution is a measure of how fine of thing can be printed and still be seen.
 Ignoring the professional printers (already ruled out on the basis of cost),
@@ -103,7 +103,7 @@ dots per inch), I would have something workable. I remember when laser printers
 used to give you 150 dpi and it seemed rough, but very workable. So I think
 resolution is workable, although I will keep my eyes open for upgrades to that.
 
-### Competition
+## Competition
 
 Competition is good and bad. On the one hand, if there is some competition, it
 means the idea isn't too crazy and someone else may have developed a market for
@@ -125,7 +125,7 @@ create railway models and then produce them on a 3D printer. I wasn't able to
 figure out what kind of printer they use, but anything I added to my cart was
 out of stock, so I'm not sure they're in business anymore.
 
-### Conclusions
+## Conclusions
 
 3D printing is still a developing technology and as such is not
 "state-of-the-art" for model making. However, it is available at an accessible
@@ -135,11 +135,11 @@ of having the manufacturing in-house like this is that the inventory I need to
 keep on hand is very minimal. And even if the business side fails, I still get
 to use it to build my own railway!
 
-### Other Reading
+## Other Reading
 
--   [Overview of 3D printing
-    technologies](http://www.explainingthefuture.com/3dprinting.html)
--   [Some 3D printed model railroad
-    parts](http://www.kitforums.com/viewtopic.php?f=6&t=5593&start=10)
--   [A tool to help with Makerbot
-    configuration](http://www.makerbot.com/blog/2011/02/22/dead-simple-printer-calibration/)
+- [Overview of 3D printing
+  technologies](http://www.explainingthefuture.com/3dprinting.html)
+- [Some 3D printed model railroad
+  parts](http://www.kitforums.com/viewtopic.php?f=6&t=5593&start=10)
+- [A tool to help with Makerbot
+  configuration](http://www.makerbot.com/blog/2011/02/22/dead-simple-printer-calibration/)

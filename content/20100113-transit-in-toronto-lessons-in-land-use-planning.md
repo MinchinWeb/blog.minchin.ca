@@ -87,8 +87,7 @@ id="ednref7"></span>[***[7]***](#edn7)). FIGURE 2 shows the corridor (roadway
 and subway line) along the corridor in 1978 upon the line's opening.
 
 <figure id="ednref8" markdown=1>
-![Spadina subway line
-opening]({filename}images/2010/spadina-subway-line-opening.jpg)
+![Spadina subway line opening]({filename}images/2010/spadina-subway-line-opening.jpg)
 <figcaption markdown=1>
 FIGURE 2
 Opening of the Spadina subway line, 1978
@@ -105,11 +104,11 @@ Part of what set her book apart was that Jacobs did more than just criticize,
 but proposed an alternate model. In *Death and Life*, she makes four
 recommendations:
 
--   A street or district must serve several primary functions,
--   Blocks must be short,
--   Buildings must vary in age, condition, use and rentals, and
--   Populations must be dense
-    (<span id="ednref9"></span>[***[9]***](#edn9)).
+- A street or district must serve several primary functions,
+- Blocks must be short,
+- Buildings must vary in age, condition, use and rentals, and
+- Populations must be dense
+  (<span id="ednref9"></span>[***[9]***](#edn9)).
 
 Jacobs and her ideas remained influential in the planning process taking place
 in Toronto, and so rather than the expressway, a subway line was built. Today,
@@ -142,8 +141,7 @@ much as 100 to 200 people per hectare (***[6]***). FIGURE 3 shows a typical
 layout of a traditional walking city.
 
 <figure id="ednref11" markdown=1>
-![Walking
-City]({filename}images/2010/walking-city.jpg)
+![Walking City]({filename}images/2010/walking-city.jpg)
 <figcaption markdown=1>
 FIGURE 3
 Traditional Walking City
@@ -371,8 +369,7 @@ in the public transit sphere for the next 20 years in Toronto and area.
 <span id="edn1"></span>
 [[1]](#ednref1).
 *Population and dwelling counts, for Canada, provinces and territories,
-and census divisions, 2006 and 2001 census -- 100% data.*Statistics
-Canada.
+and census divisions, 2006 and 2001 census -- 100% data.* Statistics Canada.
 <http://www12.statcan.ca/english/census06/data/popdwell/Table.cfm?T=702&PR=35&S=0&O=A&RPP=25>.
 Accessed November 5, 2009.
 
@@ -392,7 +389,7 @@ Accessed November 6, 2009.
 <span id="edn4"></span>
 [[4]](#ednref4).
 Wikipedia contributors. *Toronto ON Toronto Skyline2
-modified.*Wikipedia, The Free Encyclopedia,
+modified.* Wikipedia, The Free Encyclopedia,
 <http://en.wikipedia.org/wiki/File:Toronto_ON_Toronto_Skyline2_modified.jpg>
 Accessed November 14, 2009.
 

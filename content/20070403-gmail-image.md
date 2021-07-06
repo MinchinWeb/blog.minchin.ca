@@ -23,5 +23,5 @@ me today).
 
 <!-- read more -->
 
-<small>(This is an update to [Nexodyne Email
-Images]({filename}20060514-nexodyne-email-images.md))</small>
+(This is an update to [Nexodyne Email
+Images]({filename}20060514-nexodyne-email-images.md)).

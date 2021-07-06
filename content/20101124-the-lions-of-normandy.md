@@ -35,13 +35,11 @@ the three leopards we now recognize as a symbol of the English crown.
 Unfortunately, the story refuses to stay so simple. Two facts come to the
 surface:
 
--   King Richard was the first to use (at least that we have record of) three
-    'lions' for a symbol of the English crown and thus for England. This was on
-    his great seal, created in 1198 after he returned from captivity in
-    Germany.
-
--   Heraldry, as we know it, wasn't defined and formalized until the
-    12<sup>th</sup> century in England.
+- King Richard was the first to use (at least that we have record of) three
+  'lions' for a symbol of the English crown and thus for England. This was on
+  his great seal, created in 1198 after he returned from captivity in Germany.
+- Heraldry, as we know it, wasn't defined and formalized until the
+  12<sup>th</sup> century in England.
 
 The combination of the two basically means that anything that happened before
 Richard's seal was outside the bounds and rules of 'modern' heraldry. Richard

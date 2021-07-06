@@ -11,7 +11,6 @@ effect on image quality. It uses [jpegtran](http://jpegclub.org/jpegtran/) and
 [OptiPNG](http://optipng.sourceforge.net/).
 <!-- read more -->
 
-
 ## Installation
 
 The easiest way to install *Optimize Images* is through the use of pip. This
@@ -36,7 +35,6 @@ PLUGINS = [
            ]
 ~~~
 
-
 ## Requirements
 
 *Optimize Images* depends on (and is really only useful with) Pelican. This can
@@ -54,14 +52,12 @@ Windows, installers are available at each respective website. On Ubuntu systems
 apt-get install optipng libjpeg-progs
 ~~~
 
-
 ## Configuration and Usage
 
 The plugin will activate and optimize images upon *finalized* signal of
 Pelican.
 
 The plugin has no user settings.
-
 
 ## Known Issues
 
@@ -78,12 +74,10 @@ The package is tested in Python 3.6; compatibility with other version of Python
 is unknown, but there should be nothing particular keeping it from working with
 other "modern" versions of Python.
 
-
 ## Credits
 
 Original plugin from the [Pelican-Plugins
 repo](https://github.com/getpelican/pelican-plugins).
-
 
 ## License
 

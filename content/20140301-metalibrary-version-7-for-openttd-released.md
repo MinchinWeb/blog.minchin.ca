@@ -34,25 +34,25 @@ for the first run, is slower than the old *Waterbody* *Check*. New versions of
 
 Other improvements include:
 
--   Ship Pathfinder now uses Lakes rather than WaterBodyCheck
--   Ship Pathfinder now makes sure every point is in the same waterbody before
-    adding it to the path
--   WaterBodyCheck is now deprecated in favour of Lakes
--   [Documentation for MetaLibrary](http://minchin.ca/openttd-metalibrary/) is
-    now online at Minchin.ca
--   Fix array creation bugs in Array.Create2D(), Array.Create3D()
--   Added `Array.RemoveDuplicates(Array)`
--   Added `Array.ToAIList(Array)`
--   Added `Extras.MinDistance(TileID, TargetArray)`; can be used as a valuator
--   Split Constants from Extras (file only, function access remains the same)
--   Split Industry from Extras (file only, function access remains the same)
--   Split Station from Extras (file only, function access remains the same)
--   Bumped maximum Log `Debug_Level` to 8
--   Added separate Changelog file
--   Rename `Readme.txt` to `Readme.md`
--   Update requirement to Fibonacci Heap, v.3
--   Automated creation of tar files for upload to BaNaNaS
--   Automated translation for the Game Script version
+- Ship Pathfinder now uses Lakes rather than WaterBodyCheck
+- Ship Pathfinder now makes sure every point is in the same waterbody before
+  adding it to the path
+- WaterBodyCheck is now deprecated in favour of Lakes
+- [Documentation for MetaLibrary](http://minchin.ca/openttd-metalibrary/) is
+  now online at Minchin.ca
+- Fix array creation bugs in Array.Create2D(), Array.Create3D()
+- Added `Array.RemoveDuplicates(Array)`
+- Added `Array.ToAIList(Array)`
+- Added `Extras.MinDistance(TileID, TargetArray)`; can be used as a valuator
+- Split Constants from Extras (file only, function access remains the same)
+- Split Industry from Extras (file only, function access remains the same)
+- Split Station from Extras (file only, function access remains the same)
+- Bumped maximum Log `Debug_Level` to 8
+- Added separate Changelog file
+- Rename `Readme.txt` to `Readme.md`
+- Update requirement to Fibonacci Heap, v.3
+- Automated creation of tar files for upload to BaNaNaS
+- Automated translation for the Game Script version
 
 The [forum thread for *MetaLibrary*
 discussion](http://www.tt-forums.net/viewtopic.php?f=65&t=57903) is on

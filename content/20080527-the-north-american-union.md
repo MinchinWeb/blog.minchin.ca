@@ -35,7 +35,7 @@ While to argue the timeline presented is to argue semantics, but let me
 just comment that I think the outcome presented is only possible because
 the timeframe is relatively tight (about 20 years).
 
-## Why would they let New York go?
+## Why Would They Let New York Go?
 
 The start of this process is that New York declares independence,
 effective 2018. It is suggested that the Union will let the city slip

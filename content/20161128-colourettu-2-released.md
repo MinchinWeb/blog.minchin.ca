@@ -13,21 +13,25 @@ Colourettu is a Python library I've written for dealing with colours and
 
 A quick example:
 
-    from colourettu import Colour, Palette
+```python
+from colourettu import Colour, Palette
 
-    p1 = Palette()
-    p1.blend()
-    p1.to_image('p1_blended.png', 60, vertical=False)
+p1 = Palette()
+p1.blend()
+p1.to_image('p1_blended.png', 60, vertical=False)
+```
 
 <div markdown=1 class="text-center">
 ![Colourettu p1 Blended]({filename}images/2016/p1_blended.png)
 </div>
 
-    c1 = Colour('#fff')
-    c2 = Colour('#7e1e9c')
-    p3 = Palette(c1, c3)
-    p3.blend(cycles=5)
-    p3.to_image('p3.png', max_width=360, vertical=False)
+```python
+c1 = Colour('#fff')
+c2 = Colour('#7e1e9c')
+p3 = Palette(c1, c3)
+p3.blend(cycles=5)
+p3.to_image('p3.png', max_width=360, vertical=False)
+```
 
 <div markdown=1 class="text-center">
 ![Colourettu p3]({filename}images/2016/p3.png)
@@ -36,13 +40,15 @@ A quick example:
 The easiest to install (or upgrade) *Colourettu* (assuming you already
 have Python installed) is to use *pip*:
 
-    pip install colourettu --upgrade
+```sh
+pip install colourettu --upgrade
+```
 
 Additions for this version include the *blend* functionality, both as a
 stand-alone function and as a Palette method.
 
 Breaking changes in this version are the fact that the *Colour* and *Palette*
-class have been renamed to the CapWords capitialization.
+class have been renamed to the CapWords capitalization.
 
 Other changes include:
 

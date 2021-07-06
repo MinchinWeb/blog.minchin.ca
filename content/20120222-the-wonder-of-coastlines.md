@@ -48,16 +48,16 @@ was granted that land by the king. And while the king lets you sell the land or
 live on it for all your days, he kept a couple of important powers, including
 taxation, eminent domain, and escheat. A short review:
 
--   **taxation** means owning property can make your liable for certain taxes,
-    simply by virtue of owning that land. This is why if you stop paying your
-    property taxes, the city ends up owning your house;
--   **eminent domain** (literally *supreme lordship* in Latin) allows the
-    government to take your property back against your wishes, although usually
-    with conditions like the proposed new use being in the public good and you
-    being paid the market value for the property or otherwise being made whole
-    (small comfort, right?); and
--   **escheat** allows the king to claim the property if you don't otherwise
-    have an heir.
+- **taxation** means owning property can make your liable for certain taxes,
+  simply by virtue of owning that land. This is why if you stop paying your
+  property taxes, the city ends up owning your house;
+- **eminent domain** (literally *supreme lordship* in Latin) allows the
+  government to take your property back against your wishes, although usually
+  with conditions like the proposed new use being in the public good and you
+  being paid the market value for the property or otherwise being made whole
+  (small comfort, right?); and
+- **escheat** allows the king to claim the property if you don't otherwise have
+  an heir.
 
 Some countries (like the US) have done away with the king, but kept the powers.
 So the problem with borrowing a rowboat and claiming wherever you make landfall

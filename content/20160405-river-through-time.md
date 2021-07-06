@@ -11,4 +11,3 @@ too slow for us to notice.
 
 *via [Hinderd
 Settleing](http://hinderedsettling.com/2014/03/16/rivers-through-time-as-seen-in-landsat-images/)*
-

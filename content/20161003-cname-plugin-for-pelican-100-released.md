@@ -35,12 +35,10 @@ PLUGINS = [
 
 And that's it! No further configuration is needed.
 
-
 ## Usage
 
 No configuration is needed. The value places in the *CNAME* files is based on
 your `SITEURL` setting.
-
 
 ## Known Issues
 
@@ -49,14 +47,12 @@ As the plugin makes use of the `SITEURL` plugin, if you are using both a
 generate different results for when you are testing your site locally and when
 you push it to production.
 
-
 ## Credits
 
 I can't claim I came up with the original idea. It is based on the [original
 code](https://github.com/getpelican/pelican-plugins/pull/566) by [Dmitriy
 Kalinin](http://lazycoder.ru/), that has languished as an open pull request in
 the `pelican-plugins` repo for the last year.
-
 
 ## Code
 
