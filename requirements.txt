@@ -49,7 +49,7 @@ minchin.pelican.plugins.post-stats==1.1.1
     # via -r requirements.in
 minchin.pelican.plugins.summary==1.1.1
     # via -r requirements.in
-pelican==3.7.1
+pelican==4.6.0
     # via
     #   -r requirements.in
     #   minchin.pelican.plugins.cname
