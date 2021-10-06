@@ -24,4 +24,4 @@
   # https://github.com/netlify/build-image/blob/focal/included_software.md
   PYTHON_VERSION = "3.8"
   # unused, but for faster builds
-  RUBY_VERSION = "2.7"
+  RUBY_VERSION = "2.7.2"
