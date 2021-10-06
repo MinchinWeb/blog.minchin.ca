@@ -1,6 +1,6 @@
 title: Pelican Trove Classifiers Added to PyPI
 date: 2017-04-18 10:04
-tags: pelican, pelican plugins, releases, python, seafoam, jinja filters, cname, image process, nojekyll, optimize image, post stats, summary (Pelican)
+tags: pelican, pelican plugins, releases, python, seafoam, jinja filters, cname, image process, nojekyll, optimize images, post stats, summary (Pelican)
 Category: Pelican Plugins
 Updated: 2017-05-31 12:24
 
