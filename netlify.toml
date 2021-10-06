@@ -21,7 +21,7 @@
 
 [build.environment]
   # list of supported version of Python
-  # https://github.com/netlify/build-image/blob/xenial/included_software.md
-  PYTHON_VERSION = "3.7"
+  # https://github.com/netlify/build-image/blob/focal/included_software.md
+  PYTHON_VERSION = "3.8"
   # unused, but for faster builds
-  RUBY_VERSION = "2.7.1"
+  RUBY_VERSION = "2.7"
