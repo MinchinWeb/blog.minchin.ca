@@ -3,7 +3,7 @@
 
 from datetime import date
 
-# from pelican.plugins import seafoam
+from minchin.pelican.plugins import autoloader
 
 AUTHOR = "Wm. Minchin"
 SITENAME = "Minchin.ca"
@@ -152,21 +152,25 @@ CATEGORY_IMAGES = {
 
 # Plugins
 PLUGIN_PATHS = ("../pelican-plugins",)
+AUTOLOADER_NAMESPACES = autoloader.DEFAULT_NAMESPACE_LIST + [
+    "pelican.plugins",
+]
 PLUGINS = [
-    "pelican.plugins.seafoam",
+    autoloader,
+    # "pelican.plugins.seafoam",
     # "assets",  # unused
     "pelican_alias",
     "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
-    "pelican.plugins.neighbors",
+    # "pelican.plugins.neighbors",
     # "pelican.plugins.image_process",  # publish only  # auto added by Seafoam
     # "minchin.pelican.plugins.cname",  # publish only
     # "minchin.pelican.plugins.nojekyll",  # publish only
     # "pelican.plugins.jinja_filters",  # auto added by Seafoam
-    "minchin.pelican.plugins.summary",
+    # "minchin.pelican.plugins.summary",
     # "minify",  # publish only
     # "extended_sitemap",  # publish only
     # "optimize_images",  # publish only
-    "minchin.pelican.plugins.post_stats",
+    # "minchin.pelican.plugins.post_stats",
 ]
 
 ASSET_CSS = False

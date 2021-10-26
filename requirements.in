@@ -1,6 +1,7 @@
 html5lib
 invoke >= 0.20.2
 markdown
+minchin.pelican.plugins.autoloader
 minchin.pelican.plugins.cname
 minchin.pelican.plugins.nojekyll
 minchin.pelican.plugins.optimize_images

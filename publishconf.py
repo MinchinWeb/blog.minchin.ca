@@ -22,12 +22,12 @@ FEED_DOMAIN = SITEURL
 # DELETE_OUTPUT_DIRECTORY = True
 
 PLUGINS = PLUGINS + [
-    "pelican.plugins.image_process",
-    "minchin.pelican.plugins.cname",
-    "minchin.pelican.plugins.nojekyll",
+    # "pelican.plugins.image_process",
+    # "minchin.pelican.plugins.cname",
+    # "minchin.pelican.plugins.nojekyll",
     "minify",  # pelican-minify
     "extended_sitemap",  # pelican-extended-sitemap
-    "minchin.pelican.plugins.optimize_images",  # need executables for Linux to do this on Travis-CI
+    # "minchin.pelican.plugins.optimize_images",  # need executables for Linux to do this on Travis-CI
 ]
 
 # OUTPUT_PATH = '../blog.minchin.ca-master/'  # default is 'output/'
