@@ -30,6 +30,8 @@ PLUGINS = PLUGINS + [
     # "minchin.pelican.plugins.optimize_images",  # need executables for Linux to do this on Travis-CI
 ]
 
+SEAFOAM_DEV_MODE = False  # turn on image processing
+
 # OUTPUT_PATH = '../blog.minchin.ca-master/'  # default is 'output/'
 
 GOOGLE_ANALYTICS_UNIVERSAL = "UA-384291-1"

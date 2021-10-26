@@ -14,7 +14,7 @@ pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
 pip-tools >= 6
-seafoam >= 2.6.0
+seafoam >= 2.7.0
 typogrify
 webassets >= 0.12.1
 # for beautifulsoup

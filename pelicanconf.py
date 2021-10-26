@@ -125,6 +125,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 
 # Theme Related
+SEAFOAM_DEV_MODE = True
 TYPOGRIFY = True
 # THEME = seafoam.get_path()  # auto added by Seafoam
 SITELOGO = "images/MinchindotCA-200.png"
@@ -139,6 +140,7 @@ DOCUTIL_CSS = False
 CUSTOM_JS_LIST = []
 # update copyright date automatically
 INDEX_COPY_DATE = "2006-{}".format(str(date.today().year)[-2:])
+TAGS_TEXT = "Labels"
 
 # list categories here in lowercase
 CATEGORY_IMAGES = {
