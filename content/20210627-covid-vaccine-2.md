@@ -44,7 +44,7 @@ two or three weeks when we do? I guess we'll figure that out when we get there.
 
 ---
 
-In not-Covid news, we're at the beginning of what looks to be a moster heat
+In not-Covid news, we're at the beginning of what looks to be a monster heat
 wave, with over a week with highs around 35-40&deg;C. We normally get about a
 week above 30&deg;C each summer, but this is promising to be extra hot and
 extra long. We'd talked about installing AC as part of our move-in renovations

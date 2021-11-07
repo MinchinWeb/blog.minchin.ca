@@ -157,23 +157,36 @@ PLUGIN_PATHS = ("../pelican-plugins",)
 AUTOLOADER_NAMESPACES = autoloader.DEFAULT_NAMESPACE_LIST + [
     "pelican.plugins",
 ]
+# if not autoloader.pelican_namespace_plugin_support():
+#     PLUGINS = [
+#         autoloader,
+#     ]
+# else:
+#     PLUGINS = []
+#
+# PLUGINS = PLUGINS + [
 PLUGINS = [
     autoloader,
-    # "pelican.plugins.seafoam",
-    # "assets",  # unused
     "pelican_alias",
-    "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
-    # "pelican.plugins.neighbors",
-    # "pelican.plugins.image_process",  # publish only  # auto added by Seafoam
-    # "minchin.pelican.plugins.cname",  # publish only
-    # "minchin.pelican.plugins.nojekyll",  # publish only
-    # "pelican.plugins.jinja_filters",  # auto added by Seafoam
-    # "minchin.pelican.plugins.summary",
-    # "minify",  # publish only
-    # "extended_sitemap",  # publish only
-    # "optimize_images",  # publish only
-    # "minchin.pelican.plugins.post_stats",
+    "pelican_comment_system",
 ]
+
+# PLUGINS = [
+#     "pelican.plugins.seafoam",
+#     # "assets",  # unused
+#     "pelican_alias",
+#     "pelican_comment_system",  # see https://github.com/Scheirle/pelican_comment_system/issues/9
+#     "pelican.plugins.neighbors",
+#     # "pelican.plugins.image_process",  # publish only  # auto added by Seafoam
+#     # "minchin.pelican.plugins.cname",  # publish only
+#     # "minchin.pelican.plugins.nojekyll",  # publish only
+#     # "pelican.plugins.jinja_filters",  # auto added by Seafoam
+#     "minchin.pelican.plugins.summary",
+#     # "minify",  # publish only
+#     # "extended_sitemap",  # publish only
+#     # "optimize_images",  # publish only
+#     "minchin.pelican.plugins.post_stats",
+# ]
 
 ASSET_CSS = False
 ASSET_JS = False
