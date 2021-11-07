@@ -2,7 +2,7 @@ title: Seafoam 2.4.5 Released
 date: 2020-07-17 20:54
 Modified: 2020-07-18 11:41
 Author: Wm. Minchin
-Tags: seafoam, Python, releases
+Tags: Seafoam, Python, Releases
 Category: Seafoam
 
 It's time for a new update to *Seafoam*, the website theme currently in use

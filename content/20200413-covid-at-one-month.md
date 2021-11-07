@@ -2,7 +2,7 @@ title: Covid Personal Update -- One Month In
 date: 2020-04-13
 Modified: 2020-11-21 15:49
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 
 So we're maybe a month into the semi-quarantine imposed by COVID going around.

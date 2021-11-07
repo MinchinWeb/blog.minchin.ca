@@ -1,7 +1,7 @@
 title: River Through Time
 date: 2016-04-05 14:14
 stared: False
-tags: geology
+tags: Geology
 Image: images/2016/ucayali71.gif
 
 Below is an animation of a river over about 20 years. I like it because it

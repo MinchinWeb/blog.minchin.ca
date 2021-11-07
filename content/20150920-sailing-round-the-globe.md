@@ -1,7 +1,7 @@
 Title: Sailing (Round the Globe)
 Date: 2015-09-20 16:52
 Author: Wm. Minchin
-Tags: 2030, 2040, sailing
+Tags: 2030, 2040, Sailing
 Slug: sailing-round-globe
 Image: images/2015/trip-around-the-world.png
 

@@ -2,6 +2,7 @@ Title: Valentine's Day Roadtrip
 Date: 2009-02-17 13:48
 Modified: 2009-03-29 19:40
 Author: Wm. Minchin
+Tags: Vacation
 Slug: valentines-day-roadtrip
 
 The on-going adventures that are life.... This week is Reading Week,

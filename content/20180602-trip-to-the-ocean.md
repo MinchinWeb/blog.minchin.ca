@@ -1,7 +1,7 @@
 Title: On Vacations and Oceans
 Date: 2018-06-06 17:29
 Author: Wm. Minchin
-Tags: ocean, vacation
+Tags: Ocean, Vacation
 summary: After 5 years away, I return to the ocean.
 Category: Personal Bits
 Image: images/2018/the_ocean.jpg

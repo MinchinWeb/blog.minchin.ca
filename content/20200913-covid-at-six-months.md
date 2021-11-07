@@ -2,7 +2,7 @@ title: Covid -- 6 Months In
 date: 2020-09-13
 Modified: 2020-11-21 16:26
 Author: Wm. Minchin
-Tags: covid, housing
+Tags: Covid, Housing
 Category: Covid
 
 Life feels like it's returning to normal. But I wonder if that's mostly because

@@ -1,7 +1,7 @@
 title: The American Health Care System
 date: 2015-06-24 20:54
 stared: False
-tags: Health Care, America
+tags: Health Care, United States of America
 Image: images/2015/L7vMdH5.jpg
 
 > All you need to know about the American health care system is that there's a

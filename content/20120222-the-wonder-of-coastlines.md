@@ -1,7 +1,7 @@
 Title: The Wonder of Coastlines
 Date: 2012-02-22 22:31
 Author: Wm. Minchin
-Tags: Coastlines, Property, Series:Social Commentary
+Tags: Coastlines, Property, Series:Social Commentary, Ocean
 Category: Social Commentary
 Slug: the-wonder-of-coastlines
 Image: images/2012/IMG_4814.JPG

@@ -2,7 +2,7 @@ Title: MetaLibrary 7 for OpenTTD released
 Date: 2014-03-01 22:43
 Modified: 2015-08-14 8:11
 Author: Wm. Minchin
-Tags: MetaLibrary, NoAI, OpenTTD, releases
+Tags: MetaLibrary, NoAI, OpenTTD, Releases
 Category: MetaLibrary
 Alias: 2014/03/metalibrary-version-7-for-openttd.html
 Slug: metalibrary-7-for-openttd

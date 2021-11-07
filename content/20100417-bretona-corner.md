@@ -2,7 +2,7 @@ Title: Bretona Corner
 Date: 2010-04-17 21:42
 Modified: 2011-05-19 18:30
 Author: Wm. Minchin
-Tags: Anthony Henday, Series:Personal Bits, Transportation, YouTube
+Tags: Anthony Henday Drive, Series:Personal Bits, Transportation, YouTube
 Category: Personal Bits
 Slug: bretona-corner
 

@@ -1,7 +1,7 @@
 title: Covid Vaccine -- 1 of 2
 date: 2021-05-11 21:37
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 
 So, on Saturday, I ended up getting my first COVID vaccine shot.

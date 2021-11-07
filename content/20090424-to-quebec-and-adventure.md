@@ -2,7 +2,7 @@ Title: To Québec and Adventure!
 Date: 2009-04-24 12:45
 Modified: 2009-06-26 8:25
 Author: Wm. Minchin
-Tags: Quebec Trip 2009, Road Trips, Travel
+Tags: Quebec Trip 2009, Road Trips, Travel, Vacation
 Category: Quebec Trip 2009
 Slug: to-quebec-and-adventure
 

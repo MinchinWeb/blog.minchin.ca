@@ -1,7 +1,7 @@
 title: Minchin dot CA Pelican Theme 1.0.0 Released
 date: 2016-08-15 11:19
 stared: False
-tags: pelican, pelican themes, releases, python, seafoam
+tags: Pelican, Pelican Themes, Releases, Python, Seafoam
 Category: Minchin dot CA theme
 uuid: F1B13C708C91438AAA5C7D0C844BAED0
 creator:

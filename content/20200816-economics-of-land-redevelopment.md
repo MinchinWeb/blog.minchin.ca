@@ -2,7 +2,7 @@ title: Economics of Land Redevelopment
 date: 2020-08-16
 Modified: 2020-11-21 16:18
 Author: Wm. Minchin
-Tags: covid, housing, city planning, redevelopment
+Tags: Covid, Housing, City Planning, Redevelopment
 Category: Covid
 
 I've been house hunting for a while, seeing if I can mind a bigger place at an

@@ -1,6 +1,6 @@
 title: Post Stats Plugin 1.1.0 for Pelican Released
 date: 2017-02-26 20:52
-tags: pelican, pelican plugins, releases, python, post stats
+tags: Pelican, Pelican Plugins, Releases, Python, Post Stats
 Category: Pelican Plugins
 
 *Post Stats* is a plugin for [Pelican](http://docs.getpelican.com/),

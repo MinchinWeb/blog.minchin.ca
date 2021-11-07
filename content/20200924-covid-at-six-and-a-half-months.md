@@ -2,7 +2,7 @@ title: Covid -- 6 1/2 Months In
 date: 2020-09-24
 Modified: 2020-11-21 16:29
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 
 So [normal]({filename}20200913-covid-at-six-months.md) went out the window

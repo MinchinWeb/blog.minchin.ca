@@ -25,7 +25,7 @@ Here's an example, useful for the bottom of a webpage:
 > **Edit (July 5, 2021):** It seems the weather network has finally taken their
 > server offline; frankly I'm surprised it lasted this long. As well, the main
 > site has moved to HTTPS, and various tools would complain about the fact the
-> the above button was a HTTP iframe. Well, it's solved now...
+> the above button was a HTTP iframe. Well, that's solved now...
 
 Or add the Canadian map and see what the weather is like across the
 country (clicking on a city will take you to the 4 day forecast on The

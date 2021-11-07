@@ -1,7 +1,7 @@
 title: Summary Plugin 1.1.0 for Pelican Released
 date: 2017-02-05 15:29
 modified: 2017-02-21 14:51
-tags: pelican, pelican plugins, releases, python, summary (Pelican)
+tags: Pelican, Pelican Plugins, Releases, Python, Summary (Pelican)
 Category: Pelican Plugins
 
 **Summary** is a plugin for [Pelican](http://docs.getpelican.com/), a static

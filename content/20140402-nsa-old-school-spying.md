@@ -1,7 +1,7 @@
 title: NSA Old-School Spying
 date: 2014-04-02 09:34
 stared: False
-tags: NSA, America
+tags: NSA, United States of America
 
 While the recent revelations from Snowden have put a spotlight on the efforts
 of the NSA to spy on seemingly everything, one of the surprising results is

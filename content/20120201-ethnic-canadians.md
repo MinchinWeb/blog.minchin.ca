@@ -2,7 +2,7 @@ Title: Ethnic Canadians
 Date: 2012-02-01 13:05
 Modified: 2012-02-03 02:07
 Author: Wm. Minchin
-Tags: Canada, Ethnicity, Map
+Tags: Canada, Ethnicity, Maps
 Slug: ethnic-canadians
 Image: images/2013/Censusdivisions-ethnic.png
 

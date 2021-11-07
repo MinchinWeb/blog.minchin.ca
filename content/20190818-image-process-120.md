@@ -1,6 +1,6 @@
 title: Image Process Plugin 1.2.0 for Pelican Released
 date: 2019-08-18 17:13
-tags: pelican, pelican plugins, releases, python, image process
+tags: Pelican, Pelican Plugins, Releases, Python, Image Process
 Category: Pelican Plugins
 
 *Image Process* is a plugin for [Pelican](http://docs.getpelican.com/),

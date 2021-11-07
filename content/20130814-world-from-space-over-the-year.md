@@ -1,7 +1,7 @@
 title: World from Space, Over the Year
 date: 2013-08-14 12:02
 stared: False
-tags: maps
+tags: Maps
 Image: images/2013/worlds-seasons.gif
 
 > This NASA moving image, recorded by satellite over a full year as part of

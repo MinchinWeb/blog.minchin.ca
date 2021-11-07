@@ -2,7 +2,7 @@ title: Negative Covid Test Results
 date: 2020-09-27
 Modified: 2020-11-21 16:33
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 
 So my Honey and the kids got their Covid test back: negative. But, odd to me

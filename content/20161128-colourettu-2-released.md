@@ -1,7 +1,7 @@
 Title: Colourettu 2.0.0 for Python Released
 Date: 2016-11-28 17:51
 Author: Wm. Minchin
-Tags: Colourettu, Python, releases
+Tags: Colourettu, Python, Releases
 Category: Colourettu
 
 Version 2.0.0 of *Colourettu* has been released.

@@ -1,6 +1,6 @@
 title: Introduction to Pelican
 date: 2017-05-31 15:41
-tags: pelican, presentations, python
+tags: Pelican, Presentations, Python
 Category: Essays
 
 ...and static site generators more generally.

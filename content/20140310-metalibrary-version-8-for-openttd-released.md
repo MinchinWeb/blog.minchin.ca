@@ -2,7 +2,7 @@ Title: MetaLibrary 8 for OpenTTD released
 Date: 2014-03-10 21:12
 Modified: 2015-08-14 8:11
 Author: Wm. Minchin
-Tags: MetaLibrary, NoAI, OpenTTD, releases
+Tags: MetaLibrary, NoAI, OpenTTD, Releases
 Category: MetaLibrary
 Alias: 2014/03/metalibrary-version-8-for-openttd.html
 Slug: metalibrary-8-for-openttd

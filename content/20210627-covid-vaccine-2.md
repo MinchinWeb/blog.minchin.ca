@@ -1,7 +1,7 @@
 title: Covid Vaccine -- 2 of 2
 date: 2021-06-28 20:44
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 Image: images/2021/IMG_20210625_122606.jpg
 

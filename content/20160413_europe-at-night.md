@@ -1,7 +1,7 @@
 title: Europe at Night
 date: 2016-04-13 11:18
 stared: False
-tags: maps, europe, lights
+tags: Maps, Europe, Lights
 Image: images/2016/12923192_1692121354394817_5808536295664882897_n.jpg
 
 > [T]his is actually a composite produced by the National Oceanic and

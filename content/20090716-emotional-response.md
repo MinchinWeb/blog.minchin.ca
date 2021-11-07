@@ -2,7 +2,7 @@ Title: Emotional Response
 Date: 2009-07-16 12:25
 Modified: 2009-11-12 23:45
 Author: Wm. Minchin
-Tags: Emotion and Reasoning, Engineering, Relationships, Series:Personal Bits
+Tags: Emotion and Reasoning, Engineering, Relationships, Series:Personal Bits, Emotions
 Category: Personal Bits
 Slug: emotional-response
 

@@ -1,7 +1,7 @@
 title: CName Plugin 1.2.1 for Pelican Released
 date: 2018-10-25 20:37
 updated: 2019-08-18 10:57
-tags: pelican, pelican plugins, releases, python, cname
+tags: Pelican, Pelican Plugins, Releases, Python, CName
 Category: Pelican Plugins
 
 **CName** is a plugin for [Pelican](http://docs.getpelican.com/),

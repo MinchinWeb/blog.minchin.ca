@@ -1,6 +1,6 @@
 title: Jinja Filters 1.1.0 & 2.1.0 for Pelican Released
 date: 2021-04-30 9:37
-tags: pelican, pelican plugins, releases, python, pelican themes, jinja filters
+tags: Pelican, Pelican Plugins, Releases, Python, Pelican Themes, Jinja Filters
 Category: Pelican Plugins
 
 *Jinja Filters* is a plugin for [Pelican](http://docs.getpelican.com/), a

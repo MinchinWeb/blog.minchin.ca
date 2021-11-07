@@ -2,7 +2,7 @@ title: Covid Personal Update -- 11 Months In
 date: 2021-02-14
 Modified: 2021-03-15 21:35
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 
 So it's almost exactly 11 months since the first Covid restrictions were

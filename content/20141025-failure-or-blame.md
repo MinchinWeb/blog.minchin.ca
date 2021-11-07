@@ -4,7 +4,7 @@ stared: False
 tags: Quotes
 
 > If you work in an organization, the underlying rule is simple: People are not
->a fraid of failure, they’re afraid of blame.
+> afraid of failure, they’re afraid of blame.
 >
 > -- Seth Godin
 

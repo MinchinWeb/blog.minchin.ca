@@ -2,7 +2,7 @@ title: Covid and Bankruptcy
 date: 2020-04-29
 Modified: 2020-11-21 16:00
 Author: Wm. Minchin
-Tags: covid, bankruptcy
+Tags: Covid, Bankruptcy
 Category: Covid
 
 So we are about two months in to the local COVID crisis. I work from home and

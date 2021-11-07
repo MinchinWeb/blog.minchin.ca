@@ -1,7 +1,7 @@
 Title: Building a Traffic Model
 Date: 2018-06-07 14:01
 Author: Wm. Minchin
-Tags: traffic model, transportation planning, engineering, python
+Tags: Traffic Model, Transportation Planning, Engineering, Python
 Category: Traffic Model
 Image: images/2018/cities_skyline_traffic_in_cake.jpg
 

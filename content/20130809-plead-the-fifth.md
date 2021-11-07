@@ -1,7 +1,7 @@
 title: Plead the Fifth
 date: 2013-08-09 12:00
 stared: False
-tags: quotes, law
+tags: Quotes, Law
 
 A
 [reminder](http://priceonomics.com/how-sergey-aleynikov-learned-never-to-talk-to-the/)

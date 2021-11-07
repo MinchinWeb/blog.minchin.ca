@@ -2,7 +2,7 @@ Title: The Shortest Distance is...
 Date: 2006-05-02 14:32
 Modified: 2008-02-05 21:55
 Author: Wm. Minchin
-Tags: Air Travel, Maps, Map Projections, Maps, NORAD, Polar Flights, Series:Random Bits
+Tags: Air Travel, Maps, Map Projections, NORAD, Polar Flights, Series:Random Bits
 Category: Random Bits
 Slug: the-shortest-distance-is
 

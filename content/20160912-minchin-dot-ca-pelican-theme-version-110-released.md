@@ -1,6 +1,6 @@
 title: Minchin dot CA Pelican Theme 1.1.0 Released
 date: 2016-09-12 19:29
-tags: pelican, pelican themes, releases, python, seafoam
+tags: Pelican, Pelican Themes, Releases, Python, Seafoam
 Category: Minchin dot CA theme
 
 This update was the final touches needed to make my site go live.

@@ -1,7 +1,7 @@
 Title: Alberta Bankruptcy Exceptions
 Date: 2014-01-03 16:48
 Author: Wm. Minchin
-Tags: bankruptcy
+Tags: Bankruptcy
 Slug: alberta-bankruptcy-exceptions
 
 Out of curiosity, I looked up the Alberta Bankruptcy Exceptions. In a nutshell,

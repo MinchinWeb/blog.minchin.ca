@@ -1,6 +1,6 @@
 title: Advanced Pelican: Automated Site Updates with Travis-CI and GitHub Pages
 date: 2017-05-31 19:50
-tags: pelican, pelican plugins, python
+tags: Pelican, Pelican Plugins, Python
 Category: Essays
 
 In this article I'll talk about how I automated updating my

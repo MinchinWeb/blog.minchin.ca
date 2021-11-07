@@ -2,7 +2,7 @@ title: Personal Update on COVID-19 -- The "Beginning"
 date: 2020-03-16
 Modified: 2020-11-21 15:40
 Author: Wm. Minchin
-Tags: covid
+Tags: Covid
 Category: Covid
 
 I thought I should write a (small?) note on the virus (*Novel Coronavirus

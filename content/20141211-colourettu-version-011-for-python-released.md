@@ -2,7 +2,7 @@ Title: Colourettu 0.1.1 for Python released
 Date: 2014-12-11 17:20
 Modified: 2015-08-15 14:26
 Author: Wm. Minchin
-Tags: Colourettu, Python, releases
+Tags: Colourettu, Python, Releases
 Category: Colourettu
 Alias: 2014/12/colourettu-version-011-for-python-released.html
 Slug: colourettu-0-1-1-for-python

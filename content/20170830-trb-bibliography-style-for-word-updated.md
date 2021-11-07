@@ -1,8 +1,8 @@
 Title: TRB (Transportation Research Board) Bibliography Style Updated for Word 2013/2016
 Date: 2017-08-30 12:04
 Author: Wm. Minchin
-Tags: BibWord, Microsoft Word, TRB, Word 2013, Word 2016, releases
-summary: Updating my version of the Transportation Research Board (TRB) reference style for use with the reference manager in Microsoft Word 2013 and 2016.
+Tags: BibWord, Microsoft Word, TRB, Word 2013, Word 2016, Releases
+Summary: Updating my version of the Transportation Research Board (TRB) reference style for use with the reference manager in Microsoft Word 2013 and 2016.
 
 <div markdown=1 class="text-center">
 ![Word 2016 Reference Tab]({filename}images/2017/word-2016-reference-tab.png)

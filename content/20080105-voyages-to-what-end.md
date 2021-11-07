@@ -1,7 +1,7 @@
 Title: Voyages: To What End
 Date: 2008-01-05 23:20
 Author: Wm. Minchin
-Tags: California, Series:Personal Bits, T.S.  Eliot, Vacation, Vision, Voyage
+Tags: California, Series:Personal Bits, T.S. Eliot, Vacation, Vision, Voyage
 Category: Personal Bits
 Slug: voyages-to-what-end
 
