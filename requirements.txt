@@ -35,7 +35,7 @@ lxml==4.6.4
     # via
     #   -r requirements.in
     #   pelican-image-process
-markdown==3.3.4
+markdown==3.3.6
     # via -r requirements.in
 markupsafe==2.0.1
     # via jinja2
