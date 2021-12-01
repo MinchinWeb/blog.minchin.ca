@@ -88,7 +88,7 @@ pillow==8.4.0
     #   -r requirements.in
     #   pelican-comment-system
     #   pelican-image-process
-pip-tools==6.3.0
+pip-tools==6.4.0
     # via -r requirements.in
 pygments==2.10.0
     # via
