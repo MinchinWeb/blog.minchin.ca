@@ -13,8 +13,6 @@ blinker==1.4
     # via pelican
 click==8.0.1
     # via pip-tools
-colorama==0.4.4
-    # via click
 docutils==0.17.1
     # via pelican
 feedgenerator==2.0.0
@@ -31,7 +29,7 @@ jinja2==3.0.2
     #   pelican
 joblib==1.0.1
     # via pelican-minify
-lxml==4.6.3
+lxml==4.6.5
     # via
     #   -r requirements.in
     #   pelican-image-process
