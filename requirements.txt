@@ -29,7 +29,7 @@ jinja2==3.0.3
     # via
     #   -r requirements.in
     #   pelican
-joblib==1.0.1
+joblib==1.1.0
     # via pelican-minify
 lxml==4.6.3
     # via
