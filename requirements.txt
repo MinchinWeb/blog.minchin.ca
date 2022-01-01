@@ -90,7 +90,7 @@ pillow==8.4.0
     #   pelican-image-process
 pip-tools==6.4.0
     # via -r requirements.in
-pygments==2.10.0
+pygments==2.11.1
     # via
     #   -r requirements.in
     #   pelican
