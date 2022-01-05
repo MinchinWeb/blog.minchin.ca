@@ -15,12 +15,12 @@ with several absences due to people in Covid quarantine.
 <!-- read more -->
 
 The Christmas/holiday season has been extended by at least a week, as they
-kids' school has been closed for this week to trying to help control the Covid
+kids' school has been closed for this week to try and help control the Covid
 spread. It's nice to have them home, but the logistics of it get a little hairy
 with both parents working....
 
 On a non-Covid note, this Christmas season has been frightening cold. I think
-we going on two weeks now with one a single day about -20&deg;C. The good news
+we're going on two weeks now without a single day about -20&deg;C. The good news
 is that the car even managed to start at -38&deg;C! Although it is finally
 forecast to get to 0&deg;C next week. :)
 
