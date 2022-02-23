@@ -23,5 +23,6 @@ lxml
 jinja2 >= 2.11.3  # otherwise, via Pelican
 Pillow >= 8.3.2
 Pygments >= 2.7.4  # otherwise, via Pelican
+lxml >= 4.6.5
 # for better installs
 wheel
