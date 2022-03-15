@@ -77,17 +77,21 @@ because" category:
   Nunavut** -- I don't think you can go any further north; probably
   someplace to visit in the summer.
 
-The roadtrip is the most likely possibility, so let's do a little napkin
-math: ignore Alaska and the round trip distance is approximately 20,000
-km,
-<!-- http://www.mapquest.com/mq/9-reIBrSV1 http://www.mapquest.com/mq/6-SONmOQJ02akx  http://www.vancouverisland.com/Transport/details.asp?id=8  http://www.mapquest.com/mq/9-Y0gnqAYN -->
-so at 800km/day (which is a ton of driving), you're looking at 25 days of
-driving, and more if I stop anywhere for any amount of time, and about
-$2800 in gas at today's prices ($1.30/l), about $1000 for food
-($40/day) and $2000 for hotels ($80/night), if I go that route. A
-fair chuck of change, but doable...tempting...plus, if I can find anyone
-to come along, all but the food costs get split, making it that much
-more affordable.
+<!-- 
+    http://www.mapquest.com/mq/9-reIBrSV1
+    http://www.mapquest.com/mq/6-SONmOQJ02akx
+    http://www.vancouverisland.com/Transport/details.asp?id=8
+    http://www.mapquest.com/mq/9-Y0gnqAYN
+-->
+
+The roadtrip is the most likely possibility, so let's do a little napkin math:
+ignore Alaska and the round trip distance is approximately 20,000 km, so at
+800km/day (which is a ton of driving), you're looking at 25 days of driving,
+and more if I stop anywhere for any amount of time, and about $2,800 in gas at
+today's prices ($1.30/l), about $1,000 for food ($40/day) and $2,000 for hotels
+($80/night), if I go that route. A fair chuck of change, but
+doable...tempting...plus, if I can find anyone to come along, all but the food
+costs get split, making it that much more affordable.
 
 There's a million other places to visit and among the most noticeably
 lacking from this list is an African Safari, but these are the places

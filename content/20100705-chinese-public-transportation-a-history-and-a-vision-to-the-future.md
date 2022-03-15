@@ -215,7 +215,7 @@ an enlarged version).
 <figure markdown=1>
 ![Rapid Transit in China]({filename}/images/2010/image001.jpg)
 <figcaption markdown=1>
-    Rapid Transit in China, Today and 2020 *([4](#Yon10))*
+Rapid Transit in China, Today and 2020 *([4](#Yon10))*
 </figcaption>
 </figure>
 
@@ -224,7 +224,7 @@ an enlarged version).
 <figure markdown=1>
 ![Beijing Metro Logo]({filename}/images/2010/image003.png)
 <figcaption markdown=1>
-    Beijing Metro Logo
+Beijing Metro Logo
 </figcaption>
 </figure>
 
@@ -265,7 +265,7 @@ by 2020 (not 2015, as noted in the diagram).
 <figure markdown=1>
 ![Beijing Subway Plan for 2020]({filename}/images/2010/image005.png)
 <figcaption markdown=1>
-    Beijing Subway Plan for 2020 *([9](#Ran09))*
+Beijing Subway Plan for 2020 *([9](#Ran09))*
 </figcaption>
 </figure>
 
