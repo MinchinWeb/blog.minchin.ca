@@ -168,7 +168,6 @@ AUTOLOADER_NAMESPACES = autoloader.DEFAULT_NAMESPACE_LIST + [
 PLUGINS = [
     autoloader,
     "pelican_alias",
-    "pelican_comment_system",
 ]
 
 # PLUGINS = [

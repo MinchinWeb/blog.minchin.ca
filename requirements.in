@@ -6,6 +6,7 @@ minchin.pelican.plugins.cname
 minchin.pelican.plugins.nojekyll
 minchin.pelican.plugins.optimize_images
 minchin.pelican.plugins.post_stats
+minchin.pelican.plugins.static-comments >= 2.1.0
 minchin.pelican.plugins.summary
 pelican == 3.7.1
 pelican-alias
@@ -21,8 +22,10 @@ webassets >= 0.12.1
 lxml
 # security forced updated
 jinja2 >= 2.11.3  # otherwise, via Pelican
-Pillow >= 8.3.2
+Pillow >= 9.0.1
 Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.6.5
 # for better installs
 wheel
+
+pelican-image-process @ git+https://github.com/pelican-plugins/image-process.git@3.0.0

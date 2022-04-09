@@ -7,7 +7,6 @@
 beautifulsoup4==4.10.0
     # via
     #   minchin-pelican-plugins-post-stats
-    #   pelican-image-process
     #   seafoam
 blinker==1.4
     # via pelican
@@ -34,15 +33,15 @@ jinja2==3.0.3
 joblib==1.1.0
     # via pelican-minify
 lxml==4.8.0
-    # via
-    #   -r requirements.in
-    #   pelican-image-process
+    # via -r requirements.in
 markdown==3.3.6
     # via -r requirements.in
 markupsafe==2.1.0
     # via jinja2
 minchin-pelican-plugins-autoloader==1.0.2
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   minchin-pelican-plugins-static-comments
 minchin-pelican-plugins-cname==1.2.1
     # via -r requirements.in
 minchin-pelican-plugins-nojekyll==1.1.1
@@ -50,6 +49,8 @@ minchin-pelican-plugins-nojekyll==1.1.1
 minchin-pelican-plugins-optimize-images==1.1.1
     # via -r requirements.in
 minchin-pelican-plugins-post-stats==1.1.1
+    # via -r requirements.in
+minchin-pelican-plugins-static-comments==2.1.0
     # via -r requirements.in
 minchin-pelican-plugins-summary==1.1.1
     # via -r requirements.in
@@ -61,10 +62,10 @@ pelican==3.7.1
     #   minchin-pelican-plugins-nojekyll
     #   minchin-pelican-plugins-optimize-images
     #   minchin-pelican-plugins-post-stats
+    #   minchin-pelican-plugins-static-comments
     #   minchin-pelican-plugins-summary
     #   pelican-alias
     #   pelican-comment-system
-    #   pelican-image-process
     #   pelican-jinja-filters
     #   pelican-minify
     #   pelican-neighbors
@@ -75,8 +76,10 @@ pelican-comment-system==1.4.0
     # via -r requirements.in
 pelican-extended-sitemap==1.2.3
     # via -r requirements.in
-pelican-image-process==2.1.3
-    # via seafoam
+pelican-image-process @ git+https://github.com/pelican-plugins/image-process.git@3.0.0
+    # via
+    #   -r requirements.in
+    #   seafoam
 pelican-jinja-filters==2.1.1
     # via seafoam
 pelican-minify==0.9
@@ -85,11 +88,11 @@ pelican-neighbors==1.2.0
     # via -r requirements.in
 pep517==0.12.0
     # via pip-tools
-pillow==8.4.0
+pillow==9.0.1
     # via
     #   -r requirements.in
+    #   minchin-pelican-plugins-static-comments
     #   pelican-comment-system
-    #   pelican-image-process
 pip-tools==6.5.1
     # via -r requirements.in
 pygments==2.11.2
@@ -112,7 +115,6 @@ six==1.16.0
     # via
     #   html5lib
     #   pelican
-    #   pelican-image-process
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
