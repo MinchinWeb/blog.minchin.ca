@@ -240,8 +240,8 @@ When a user submits a comment, you will get an email with the details. You then
 take those details from your email and create a text file within your Pelican
 site, one for each comment. By default, the plugin will look for comments in a
 folder `comments` in your root content folder (probably the same one your have
-your Pelican articles in), and then in subfolders that match the slug of the post
-the comment applies to.
+your Pelican articles in), and then in subfolders that match the slug of the
+article the comment applies to.
 
 The actual comment file will look something like this:
 
@@ -268,9 +268,9 @@ go, so if you run into issues, please leave a comment on this post!
 
 ## Upgrading (from the Pelican Comment System)
 
-Upgrading from the *Pelican Comment System* should be seemless, and show be as
-simple as uninstalling the *Pelican Comment System* (and removing it from your
-`pelicanconf.py`) and installing *Static Comments*.
+Upgrading from the *Pelican Comment System* should be seemless, and should be
+as simple as uninstalling the *Pelican Comment System* (and removing it from
+your `pelicanconf.py`) and installing *Static Comments*.
 
 ~~~sh
 pip uninstall pelican-comment-system
@@ -293,7 +293,7 @@ been renamed.
   consistent stream of emails, so it may be a viable option.
 - You have to manually add comments to your site, regenerate it, and reupload
   it before the comments will show on your site. This means that comments won't
-  immediately show, the the workflow may not be feasible if you have a high
+  immediately show, and the the workflow may not be feasible if you have a high
   comment volume.
 - The documentation that is on the Github repo has been reviewed, but may still
   be out of date in places. Please let me know if you notice any issues there.
