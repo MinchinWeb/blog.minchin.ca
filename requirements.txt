@@ -76,7 +76,7 @@ pelican-comment-system==1.4.0
     # via -r requirements.in
 pelican-extended-sitemap==1.2.3
     # via -r requirements.in
-pelican-image-process @ git+https://github.com/pelican-plugins/image-process.git@3.0.0
+pelican-image-process==2.1.3
     # via
     #   -r requirements.in
     #   seafoam
