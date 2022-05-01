@@ -93,7 +93,7 @@ pillow==9.1.0
     #   -r requirements.in
     #   minchin-pelican-plugins-static-comments
     #   pelican-comment-system
-pip-tools==6.5.1
+pip-tools==6.6.0
     # via -r requirements.in
 pygments==2.11.2
     # via
