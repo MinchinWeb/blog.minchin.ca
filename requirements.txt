@@ -36,7 +36,7 @@ lxml==4.8.0
     # via -r requirements.in
 markdown==3.3.6
     # via -r requirements.in
-markupsafe==2.1.0
+markupsafe==2.1.1
     # via jinja2
 minchin-pelican-plugins-autoloader==1.0.2
     # via
