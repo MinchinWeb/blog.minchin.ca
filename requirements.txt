@@ -105,7 +105,7 @@ pytz==2022.1
     # via
     #   feedgenerator
     #   pelican
-seafoam==2.7.0
+seafoam==2.7.1
     # via -r requirements.in
 semantic-version==2.9.0
     # via
