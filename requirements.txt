@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-beautifulsoup4==4.10.0
+beautifulsoup4==4.11.1
     # via
     #   minchin-pelican-plugins-post-stats
     #   seafoam
