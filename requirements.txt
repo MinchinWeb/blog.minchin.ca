@@ -107,7 +107,7 @@ pytz==2022.1
     #   pelican
 seafoam==2.7.1
     # via -r requirements.in
-semantic-version==2.9.0
+semantic-version==2.10.0
     # via
     #   minchin-pelican-plugins-autoloader
     #   seafoam
