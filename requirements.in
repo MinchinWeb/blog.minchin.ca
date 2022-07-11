@@ -7,8 +7,9 @@ minchin.pelican.plugins.nojekyll
 minchin.pelican.plugins.optimize_images
 minchin.pelican.plugins.post_stats
 minchin.pelican.plugins.static-comments >= 2.1.0
-pelican == 3.7.1
 minchin.pelican.plugins.summary >= 1.2.0
+# pelican == 3.7.1
+pelican
 pelican-alias
 pelican-comment-system
 pelican-extended-sitemap
