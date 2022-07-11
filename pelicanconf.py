@@ -39,14 +39,14 @@ PAGINATOR_LIMIT = 6
 STATIC_PATHS = [
     "images",
     "../extras",
-    "css",
-    "design",
-    "js",
-    "fonts",
-    "pages/img",
+    # "css",
+    # "design",
+    # "js",
+    # "fonts",
+    # "pages/img",
     "../.gitattributes",
     "../.gitignore",
-    "../README.txt",
+    # "../README.txt",
 ]
 # STATIC_EXCLUDE = ['theme/less']
 
