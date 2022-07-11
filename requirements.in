@@ -14,7 +14,7 @@ pelican-comment-system
 pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
-pip-tools >= 6.4
+pip-tools >= 6.8
 seafoam >= 2.7.0
 typogrify
 webassets >= 0.12.1
@@ -22,7 +22,7 @@ webassets >= 0.12.1
 lxml
 # security forced updated
 jinja2 >= 2.11.3  # otherwise, via Pelican
-Pillow >= 9.0.1
+Pillow >= 9.1
 Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.6.5
 # for better installs
