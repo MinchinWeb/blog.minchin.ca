@@ -1,6 +1,6 @@
 title: Image Process Plugin 3.0.2 for Pelican Released
-date: 2022-07-11 13:02
-Modified: 2022-07-11 17:39
+date: 2022-07-11 13:02 +0200
+Modified: 2022-07-11 17:39 +0200
 tags: Pelican, Pelican Plugins, Releases, Python, Pelican Themes, Image Process
 Category: Pelican Plugins
 

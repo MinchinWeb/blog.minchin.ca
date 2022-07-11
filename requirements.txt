@@ -49,6 +49,7 @@ minchin-pelican-plugins-autoloader==1.0.2
     # via
     #   -r requirements.in
     #   minchin-pelican-plugins-static-comments
+    #   minchin-pelican-plugins-summary
 minchin-pelican-plugins-cname==1.2.1
     # via -r requirements.in
 minchin-pelican-plugins-nojekyll==1.1.1
@@ -59,7 +60,7 @@ minchin-pelican-plugins-post-stats==1.1.1
     # via -r requirements.in
 minchin-pelican-plugins-static-comments==2.1.0
     # via -r requirements.in
-minchin-pelican-plugins-summary==1.1.1
+minchin-pelican-plugins-summary==1.2.0
     # via -r requirements.in
 packaging==21.3
     # via build
@@ -121,6 +122,7 @@ seafoam==2.7.0
 semantic-version==2.9.0
     # via
     #   minchin-pelican-plugins-autoloader
+    #   minchin-pelican-plugins-summary
     #   seafoam
 six==1.16.0
     # via
