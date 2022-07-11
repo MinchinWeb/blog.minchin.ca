@@ -47,28 +47,28 @@ want to see Vegas, I need more than one night; the first will get eaten
 up in just getting settled in.
 
 <figure markdown=1>
-![Fort Cole]({filename}images/2009/IMG_7091.JPG)
+![Fort Cole]({static}images/2009/IMG_7091.JPG)
 <figcaption markdown=1>
 Historic Old Fort Cole, located at near the junction of I-15 and I-70.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Telegraph Room at Fort Cole]({filename}images/2009/IMG_7085.JPG)
+![Telegraph Room at Fort Cole]({static}images/2009/IMG_7085.JPG)
 <figcaption markdown=1>
 The telegraph room at Old Fort Cole.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![St George Temple]({filename}images/2009/IMG_7105.JPG)
+![St George Temple]({static}images/2009/IMG_7105.JPG)
 <figcaption markdown=1>
 The St. George Temple.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![The Tropicana]({filename}images/2009/IMG_7116.JPG)
+![The Tropicana]({static}images/2009/IMG_7116.JPG)
 <figcaption markdown=1>
 This is (one tower of) the hotel I stayed at in Vegas -- the Tropicana.
 </figcaption>

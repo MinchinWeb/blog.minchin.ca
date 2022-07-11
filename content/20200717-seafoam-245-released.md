@@ -27,11 +27,11 @@ sample images. This is hope will prove simple and easy to fix.
 
 ## Fallback fonts (i.e. "broken")
 
-![fallback fonts]({filename}images/2020/broken_fonts.png)
+![fallback fonts]({static}images/2020/broken_fonts.png)
 
 ## Working fonts
 
-![workingfonts]({filename}images/2020/working_fonts.png)
+![workingfonts]({static}images/2020/working_fonts.png)
 
 ## Future Plans {#future-plans}
 

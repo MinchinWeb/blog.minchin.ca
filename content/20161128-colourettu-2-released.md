@@ -22,7 +22,7 @@ p1.to_image('p1_blended.png', 60, vertical=False)
 ```
 
 <div markdown=1 class="text-center">
-![Colourettu p1 Blended]({filename}images/2016/p1_blended.png)
+![Colourettu p1 Blended]({static}images/2016/p1_blended.png)
 </div>
 
 ```python
@@ -34,7 +34,7 @@ p3.to_image('p3.png', max_width=360, vertical=False)
 ```
 
 <div markdown=1 class="text-center">
-![Colourettu p3]({filename}images/2016/p3.png)
+![Colourettu p3]({static}images/2016/p3.png)
 </div>
 
 The easiest to install (or upgrade) *Colourettu* (assuming you already

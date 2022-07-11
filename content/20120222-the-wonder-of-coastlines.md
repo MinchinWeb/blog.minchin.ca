@@ -27,10 +27,10 @@ At Victoria, a busy city has grown up, but the shoreline to the west quickly
 starts resembling what it must have looked like 250 years ago.
 
 <div markdown=1 class="feature-image">
-![Vancouver Island]({filename}images/2012/IMG_6297.JPG)
+![Vancouver Island]({static}images/2012/IMG_6297.JPG)
 </div>
 <div markdown=1 class="feature-image">
-![Vancouver Island]({filename}images/2012/IMG_6298.JPG)
+![Vancouver Island]({static}images/2012/IMG_6298.JPG)
 </div>
 
 In both places, as I sat looking out over the ocean and listening to the gently

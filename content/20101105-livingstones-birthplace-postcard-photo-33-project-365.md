@@ -14,7 +14,7 @@ photography -- still complicated and expensive. The other thing that
 amazes me is how simple the address is. All in all, it's an interesting
 peak into the past.
 
-![Sinnamon Postcard]({filename}images/project-365/2010-09-01b%20-%20P365%20-%20IMG_2536.JPG)
+![Sinnamon Postcard]({static}images/project-365/2010-09-01b%20-%20P365%20-%20IMG_2536.JPG)
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

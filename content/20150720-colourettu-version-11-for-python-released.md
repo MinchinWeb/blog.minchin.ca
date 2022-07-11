@@ -33,7 +33,7 @@ p2.to_image('p2.png', max_width=360, vertical=False)
 ```
 
 <div markdown=1 class="text-center">
-![Colourettu p2]({filename}images/2015/p2.png)
+![Colourettu p2]({static}images/2015/p2.png)
 </div>
 
 The easiest to install (or upgrade) *Colourettu* (assuming you already have

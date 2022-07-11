@@ -213,7 +213,7 @@ cities that will see this investment *([4](#Yon10))* (click on the image to see
 an enlarged version).
 
 <figure markdown=1>
-![Rapid Transit in China]({filename}/images/2010/image001.jpg)
+![Rapid Transit in China]({static}/images/2010/image001.jpg)
 <figcaption markdown=1>
 Rapid Transit in China, Today and 2020 *([4](#Yon10))*
 </figcaption>
@@ -222,7 +222,7 @@ Rapid Transit in China, Today and 2020 *([4](#Yon10))*
 ## Beijing
 
 <figure markdown=1>
-![Beijing Metro Logo]({filename}/images/2010/image003.png)
+![Beijing Metro Logo]({static}/images/2010/image003.png)
 <figcaption markdown=1>
 Beijing Metro Logo
 </figcaption>
@@ -263,7 +263,7 @@ this year. This will bring the system length to 420 km by 2012 and to 561 km by
 by 2020 (not 2015, as noted in the diagram).
 
 <figure markdown=1>
-![Beijing Subway Plan for 2020]({filename}/images/2010/image005.png)
+![Beijing Subway Plan for 2020]({static}/images/2010/image005.png)
 <figcaption markdown=1>
 Beijing Subway Plan for 2020 *([9](#Ran09))*
 </figcaption>
@@ -272,7 +272,7 @@ Beijing Subway Plan for 2020 *([9](#Ran09))*
 ### Tianjin
 
 <figure markdown=1>
-![Tainjin Metro Logo]({filename}/images/2010/image007.png)
+![Tainjin Metro Logo]({static}/images/2010/image007.png)
 <figcaption markdown=1>
 Tainjin Metro Logo
 </figcaption>
@@ -293,7 +293,7 @@ and Lines 4, 7, and 8 remain in the planning stages *([10](#Wik10c))*.
 Below is a map of the Tianjin Metro system.
 
 <figure markdown=1>
-![Tianjin Subway]({filename}/images/2010/image009.png)
+![Tianjin Subway]({static}/images/2010/image009.png)
 <figcaption markdown=1>
 Tianjin Subway, Including Lines Under Construction *([11](#ASD10))*
 </figcaption>
@@ -312,7 +312,7 @@ investment. In 2005, Shanghai became the world's largest port
 an important world city.
 
 <figure markdown=1>
-![Shanghai Metro Logo]({filename}/images/2010/image011.png)
+![Shanghai Metro Logo]({static}/images/2010/image011.png)
 <figcaption markdown=1>
 Shanghai Metro Logo
 </figcaption>
@@ -333,7 +333,7 @@ the airport. By 2020, it is anticipated that there will be 22 lines in
 operation with 877 km of track (see below) *([13](#Wik10f))*.
 
 <figure markdown=1>
-![Shanghai Metro Map]({filename}/images/2010/image013.jpg)
+![Shanghai Metro Map]({static}/images/2010/image013.jpg)
 <figcaption markdown=1>
 Shanghai Metro Map *([14](#Yon10b))*
 </figcaption>
@@ -360,7 +360,7 @@ a plan launched in 1997 to restore the city image and remake it into a regional
 hub for southeast China and Southeast Asia *([16](#Jia03))*.
 
 <figure markdown=1>
-![Guangzhou Metro Logo]({filename}/images/2010/image015.png)
+![Guangzhou Metro Logo]({static}/images/2010/image015.png)
 <figcaption markdown=1>
 Guangzhou Metro Logo
 </figcaption>
@@ -376,7 +376,7 @@ planning stages. The system is expected to grow to 191 km by 2010 (see below
 for 2013 system) and over 600 km in the long term.
 
 <figure markdown=1>
-![Guangzhou Metro Map]({filename}/images/2010/image017.png)
+![Guangzhou Metro Map]({static}/images/2010/image017.png)
 <figcaption markdown=1>
 Guangzhou Metro Map (2013) *([19](#ASD10c))*
 </figcaption>
@@ -392,7 +392,7 @@ as the number five financial center in the world after London, New York, Hong
 Kong, and Singapore *([20](#Edd10))*.
 
 <figure markdown=1>
-![Shenzhen Metro Logo]({filename}/images/2010/image019.png)
+![Shenzhen Metro Logo]({static}/images/2010/image019.png)
 <figcaption markdown=1>
 Shenzhen Metro Logo
 </figcaption>
@@ -405,14 +405,14 @@ service by 2011 (see below) *([21](#Wik10d))*. Plans of the expanded 2020
 system can also be found below.
 
 <figure markdown=1>
-![Shenzhen Metro Map]({filename}/images/2010/image021.png)
+![Shenzhen Metro Map]({static}/images/2010/image021.png)
 <figcaption markdown=1>
 Shenzhen Metro Map *([22](#Ran081))*
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Shenzhen Metro Network ]({filename}/images/2010/image023.png)
+![Shenzhen Metro Network ]({static}/images/2010/image023.png)
 <figcaption markdown=1>
 Shenzhen Metro Network in 2020 *([23](#And09))*
 </figcaption>
@@ -425,7 +425,7 @@ for both the Hong Kong and Shenzhen Metro Systems *([21](#Wik10d))*.
 ## Hong Kong
 
 <figure markdown=1>
-![MTR Logo]({filename}/images/2010/image026.gif)
+![MTR Logo]({static}/images/2010/image026.gif)
 <figcaption markdown=1>
 MTR Logo
 </figcaption>
@@ -451,7 +451,7 @@ the expanded network can be found in below), due, no doubt in part, to the
 already extensive nature of the system.
 
 <figure markdown=1>
-![Future MTR Network]({filename}/images/2010/image027.png)
+![Future MTR Network]({static}/images/2010/image027.png)
 <figcaption markdown=1>
 Future MTR Network *([27](#Xav09))*
 </figcaption>

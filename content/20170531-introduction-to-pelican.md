@@ -84,7 +84,7 @@ of all websites!
 
 ## Downtime
 
-![Fail Whale]({filename}images/2017/lifting-a-dreamer-2009.jpg)
+![Fail Whale]({static}images/2017/lifting-a-dreamer-2009.jpg)
 
 In recent years, various technologies have stepped forward to replace parts of
 the LAMP stack (such as Nginx for the webserver, multiple options for
@@ -364,7 +364,7 @@ A more advanced Jinja template:
 
 ### Responsive Design
 
-![Responsive Design]({filename}images/2017/responsive-web-design-a-working-example.gif)
+![Responsive Design]({static}images/2017/responsive-web-design-a-working-example.gif)
 
 *Responsive Design* is a way a designing a website so that it's layout will
 change between mobile and desktop browsers, but the actual content doesn't
@@ -386,7 +386,7 @@ C:> pip install pelican markdown
 C:> pelican-quickstart
 ~~~
 
-![Quickstart]({filename}images/2017/pelican-quickstart.gif)
+![Quickstart]({static}images/2017/pelican-quickstart.gif)
 
 And now you have a basic Pelican site.
 
@@ -440,10 +440,10 @@ Date: 2012-12-01 10:02
 
 See below intra-site link examples in Markdown format.
 
-[a link relative to the current file]({filename}../article1.rst)
-[a link relative to the content root]({filename}/article1.rst)
+[a link relative to the current file]({static}../article1.rst)
+[a link relative to the content root]({static}/article1.rst)
 
-![Alt Text]({filename}/images/han.jpg)
+![Alt Text]({static}/images/han.jpg)
 ~~~
 
 ### Quirks

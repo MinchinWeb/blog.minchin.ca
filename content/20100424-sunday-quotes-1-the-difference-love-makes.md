@@ -5,7 +5,7 @@ Author: Wm. Minchin
 Tags: Love, Series:Sunday Quotes
 Slug: sunday-quotes-1-the-difference-love-makes
 
-![Mother Teresa]({filename}images/2010/MotherTeresa_090.jpg)
+![Mother Teresa]({static}images/2010/MotherTeresa_090.jpg)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

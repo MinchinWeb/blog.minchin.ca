@@ -46,7 +46,7 @@ the Arkansas-Texas border, got a room in Texarkana, and decided to call
 it a night.
 
 <figure markdown=1>
-![Minchin, Texas]({filename}images/2009/IMG_7315.JPG)
+![Minchin, Texas]({static}images/2009/IMG_7315.JPG)
 <figcaption markdown=1>
 "Minchin,
 Texas" - Roseland Drive, Denton County, Texas
@@ -54,7 +54,7 @@ Texas" - Roseland Drive, Denton County, Texas
 </figure>
 
 <figure markdown=1>
-![Paris, Texas]({filename}images/2009/IMG_7316.JPG)
+![Paris, Texas]({static}images/2009/IMG_7316.JPG)
 <figcaption markdown=1>
 Paris!
 </figcaption>

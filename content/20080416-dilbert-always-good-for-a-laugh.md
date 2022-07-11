@@ -5,7 +5,7 @@ Author: Wm. Minchin
 Tags: Dilbert, Series:Web Site-seeing
 Slug: dilbert-always-good-for-a-laugh
 
-![Dilbert]({filename}images/2008/dilbert.gif)
+![Dilbert]({static}images/2008/dilbert.gif)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

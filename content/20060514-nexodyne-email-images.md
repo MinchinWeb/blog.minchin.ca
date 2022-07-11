@@ -69,7 +69,7 @@ and the local copy:
 
 <div class="text-center" markdown=1>
 
-![Local Copy]({filename}images/2006/mail.png)
+![Local Copy]({static}images/2006/mail.png)
 
 </div>
 

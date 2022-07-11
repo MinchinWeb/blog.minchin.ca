@@ -6,7 +6,7 @@ Author: Wm. Minchin
 Tags: Email, GMail, Nexodyne, Privacy, Series:On-Line Wonders
 Slug: gmail-image
 
-![My Email]({filename}images/2007/email2.png)
+![My Email]({static}images/2007/email2.png)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

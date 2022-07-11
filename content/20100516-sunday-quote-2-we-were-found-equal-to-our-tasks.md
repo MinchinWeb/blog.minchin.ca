@@ -6,7 +6,7 @@ Tags: Motivation, Neal Maxwell, Series:Sunday Quotes
 Alias: 2010/05/sunday-quote-2-we-were-found-equal-to.html
 Slug: sunday-quote-2-we-were-found-equal-to-our-tasks
 
-![Neil A. Maxwell]({filename}images/2010/Neil_A_Maxwell.jpg)
+![Neil A. Maxwell]({static}images/2010/Neil_A_Maxwell.jpg)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

@@ -275,7 +275,7 @@ set up to get this to work the way we want:
   my *CName* plugin automatically to create the appropriate `CNAME` file in my
   generated site.
 
-![GitHub Pages settings]({filename}images/2017/github-pages-settings.png)
+![GitHub Pages settings]({static}images/2017/github-pages-settings.png)
 
 ## Closing Thoughts
 

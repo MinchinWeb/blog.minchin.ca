@@ -36,21 +36,21 @@ to El Paso, although I might drive further as I hope to make it to
 Dallas the next night, and there's about 1000km between the two....
 
 <figure markdown=1>
-![California Freeway, by San Deigo]({filename}images/2009/IMG_7202.JPG)
+![California Freeway, by San Deigo]({static}images/2009/IMG_7202.JPG)
 <figcaption markdown=1>
 The California freeway, just north of San Deigo.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Windmills by Palm Springs]({filename}images/2009/IMG_7213.JPG)
+![Windmills by Palm Springs]({static}images/2009/IMG_7213.JPG)
 <figcaption markdown=1>
 By Palm Springs, the "fields" of windmills.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Exit to Mecca, California]({filename}images/2009/IMG_7223.JPG)
+![Exit to Mecca, California]({static}images/2009/IMG_7223.JPG)
 <figcaption markdown=1>
 The
 exit to Mecca -- I should have stopped in just to boggle the mind of the
@@ -59,7 +59,7 @@ Muslim friends when I tell them I'm been....
 </figure>
 
 <figure markdown=1>
-![Main Street, Deseret Hot Springs, California]({filename}images/2009/IMG_7228.JPG)
+![Main Street, Deseret Hot Springs, California]({static}images/2009/IMG_7228.JPG)
 <figcaption markdown=1>
 Main Street, Deseret Hot Springs, California.
 </figcaption>

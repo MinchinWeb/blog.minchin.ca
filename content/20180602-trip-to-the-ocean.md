@@ -22,7 +22,7 @@ that long!
 But the drive was beautiful.
 
 <div markdown=1 class="text-center">
-![Forested Road to the Ocean]({filename}images/2018/road_to_the_ocean.jpg)
+![Forested Road to the Ocean]({static}images/2018/road_to_the_ocean.jpg)
 </div>
 
 The landscape I travelled through was wild and empty. There was one stretch of
@@ -46,10 +46,10 @@ hoped to see whales, but it turned out to be the wrong season. But we were
 lucky enough to see some Grizzly bears in the wild!
 
 <div markdown=1 class="text-center">
-![Grizzly Bears]({filename}images/2018/grizzley_bears_2.jpg)
+![Grizzly Bears]({static}images/2018/grizzley_bears_2.jpg)
 </div>
 <div markdown=1 class="text-center">
-![Grizzly Bears]({filename}images/2018/grizzley_bears_1.jpg)
+![Grizzly Bears]({static}images/2018/grizzley_bears_1.jpg)
 </div>
 
 Over all, it was a great break from work and my normal routine. And I hope to

@@ -40,4 +40,4 @@ Below is another picture of the whole machine in context.
 *Date and Time Original*: 2011:04:22 14:46:09
 </div>
 
-![Parking Meter]({filename}images/project-365/2011-04-22a%20-%20IMG_5276.JPG)
+![Parking Meter]({static}images/project-365/2011-04-22a%20-%20IMG_5276.JPG)

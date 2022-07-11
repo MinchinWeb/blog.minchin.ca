@@ -17,7 +17,7 @@ This is one of those times. This photo was taken on a bus in St. Malo --
 "Obliterate Your Tickets Please!"
 
 <div markdown=1 class="text-center">
-![Obliterate Your Ticket]({filename}images/project-365/2010-11-20a%20-%20IMG_3889-1.JPG)
+![Obliterate Your Ticket]({static}images/project-365/2010-11-20a%20-%20IMG_3889-1.JPG)
 </div>
 
 <div markdown=1 class="photo-infobox">

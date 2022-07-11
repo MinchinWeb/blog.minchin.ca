@@ -46,7 +46,7 @@ system. Conclusions and observations were also drawn on how the success of
 Toronto may be replicated elsewhere.
 
 <figure id="ednref4" markdown=1>
-![Toronto ON Skyline]({filename}images/2010/TO-skyline.jpg)
+![Toronto ON Skyline]({static}images/2010/TO-skyline.jpg)
 <figcaption markdown=1>
 FIGURE 1 Toronto skyline ([***[4]***](#edn4)).
 </figcaption>
@@ -87,7 +87,7 @@ id="ednref7"></span>[***[7]***](#edn7)). FIGURE 2 shows the corridor (roadway
 and subway line) along the corridor in 1978 upon the line's opening.
 
 <figure id="ednref8" markdown=1>
-![Spadina subway line opening]({filename}images/2010/spadina-subway-line-opening.jpg)
+![Spadina subway line opening]({static}images/2010/spadina-subway-line-opening.jpg)
 <figcaption markdown=1>
 FIGURE 2
 Opening of the Spadina subway line, 1978
@@ -141,7 +141,7 @@ much as 100 to 200 people per hectare (***[6]***). FIGURE 3 shows a typical
 layout of a traditional walking city.
 
 <figure id="ednref11" markdown=1>
-![Walking City]({filename}images/2010/walking-city.jpg)
+![Walking City]({static}images/2010/walking-city.jpg)
 <figcaption markdown=1>
 FIGURE 3
 Traditional Walking City
@@ -161,7 +161,7 @@ hectare) (***[6]***). FIGURE 4 shows a typical layout for a city that has
 developed into tram based suburbs.
 
 <figure markdown=1>
-![Tram City]({filename}images/2010/transit-city.jpg)
+![Tram City]({static}images/2010/transit-city.jpg)
 <figcaption markdown=1>
 FIGURE 4
 Tram Based Suburbs (***[11]***).
@@ -181,7 +181,7 @@ suburbs.
 
 <figure markdown=1>
 ![Auto
-City]({filename}images/2010/automobile-city.jpg)
+City]({static}images/2010/automobile-city.jpg)
 <figcaption markdown=1>
 FIGURE 5
 Automobile Based Suburbs (***11***).

@@ -67,7 +67,7 @@ Heraldry](http://www7b.biglobe.ne.jp/~bprince/hr/foxdavies/fdguide11.htm)
 The Leopard at the foot of Richard the Lionheart's tomb in the Rouen Cathedral
 (Also Photo 42 for my Project 365).
 
-![Richard Lionheart's Tomb]({filename}images/project-365/IMG_3762.JPG)
+![Richard Lionheart's Tomb]({static}images/project-365/IMG_3762.JPG)
 
 <div markdown=1 class="photo-infobox">
 *Model*: Canon EOS DIGITAL REBEL XSI  

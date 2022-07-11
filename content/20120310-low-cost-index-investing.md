@@ -222,7 +222,7 @@ rounding to make 'even' numbers, I get:
 - Student Loans - 20%
 
 <div markdown=1 class="text-center">
-![Portfolio Allocations]({filename}/images/2012/portfolio-allocations.png)
+![Portfolio Allocations]({static}/images/2012/portfolio-allocations.png)
 </div>
 
 Overall, the portfolio would have a weighed MER of 0.30%.

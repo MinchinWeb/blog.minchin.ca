@@ -38,14 +38,14 @@ would be great, but I think it's a little too far from where I need to
 go, although Ottawa and Palymra remain options.
 
 <figure markdown=1>
-![Hotel in El Paso]({filename}images/2009/IMG_7272.JPG)
+![Hotel in El Paso]({static}images/2009/IMG_7272.JPG)
 <figcaption markdown=1>
 The place I stayed at at 311 E Franklin Street, El Paso TX.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![Sunset]({filename}images/2009/IMG_7306.JPG)
+![Sunset]({static}images/2009/IMG_7306.JPG)
 <figcaption markdown=1>
 A gorgeous sunset.
 </figcaption>

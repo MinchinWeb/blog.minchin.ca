@@ -79,7 +79,7 @@ USSR fell, we, in the West, discovered the appearance of military might
 had come at the cost of all else.
 
 <figure markdown=1>
-![One World, One Dream?]({filename}images/2008/2759948173_691107f946_o.jpg)
+![One World, One Dream?]({static}images/2008/2759948173_691107f946_o.jpg)
 <figcaption markdown=1>
 One World One Dream? *via [goa_entranced on Flickr](http://www.flickr.com/photos/8769295@N07/2759948173/)*
 </figcaption>

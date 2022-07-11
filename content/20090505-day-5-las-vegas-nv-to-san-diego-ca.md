@@ -29,7 +29,7 @@ California is beautiful, but lots of hills (and traffic). Tomorrow, I'm
 just going to stick around San Diego.
 
 <figure markdown=1>
-![Vegas hotel room]({filename}images/2009/IMG_7118.JPG)
+![Vegas hotel room]({static}images/2009/IMG_7118.JPG)
 <figcaption markdown=1>
 This
 was the room I stay in in Vegas.
@@ -37,7 +37,7 @@ was the room I stay in in Vegas.
 </figure>
 
 <figure markdown=1>
-![Bridge at Hoover Dam]({filename}images/2009/IMG_7127.JPG)
+![Bridge at Hoover Dam]({static}images/2009/IMG_7127.JPG)
 <figcaption markdown=1>
 They're
 in the process of building a bride just downstream of the dam to
@@ -46,7 +46,7 @@ increase the capacity of US-89, which currently runs across the dam.
 </figure>
 
 <figure markdown=1>
-![Hoover Dam]({filename}images/2009/IMG_7128.JPG)
+![Hoover Dam]({static}images/2009/IMG_7128.JPG)
 <figcaption markdown=1>
 Hoover
 Dam from the front - the white at the bottom is the roof of the power
@@ -55,7 +55,7 @@ house.
 </figure>
 
 <figure markdown=1>
-![Zzyzx Road]({filename}images/2009/IMG_7161.JPG)
+![Zzyzx Road]({static}images/2009/IMG_7161.JPG)
 <figcaption markdown=1>
 Zzyzx
 Road -- you wonder if they did that just so it would show up last in the
@@ -64,7 +64,7 @@ dictionary....
 </figure>
 
 <figure markdown=1>
-![California Freeway]({filename}images/2009/IMG_7169.JPG)
+![California Freeway]({static}images/2009/IMG_7169.JPG)
 <figcaption markdown=1>
 The California freeways.
 </figcaption>

@@ -17,14 +17,14 @@ plan is to make it to Mesa, Arizona.
 <!-- read more -->
 
 <figure markdown=1>
-![Beautiful View]({filename}images/2009/IMG_7199.JPG)
+![Beautiful View]({static}images/2009/IMG_7199.JPG)
 <figcaption markdown=1>
 The beautiful view from the place I was staying.
 </figcaption>
 </figure>
 
 <figure markdown=1>
-![San Diego Temple]({filename}images/2009/IMG_7196.JPG)
+![San Diego Temple]({static}images/2009/IMG_7196.JPG)
 <figcaption markdown=1>
 The San Diego Temple.
 </figcaption>

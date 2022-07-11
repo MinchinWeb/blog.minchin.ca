@@ -14,7 +14,7 @@ manager was introduced in Microsoft Word 2007 (found on the 'Reference'
 tab, see below).
 
 <div markdown=1 class="text-center">
-![Reference in Word]({filename}/images/2010/References_in_Word.png)
+![Reference in Word]({static}/images/2010/References_in_Word.png)
 </div>
 
 It allows one to add sources to a paper or report as it is being typed in a

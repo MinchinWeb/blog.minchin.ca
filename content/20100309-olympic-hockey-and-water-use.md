@@ -30,7 +30,7 @@ when the game picks up and the end of the periods.
 
 But like I said, amazing game. GO CANADA!
 
-![Flushes During Hockey Game]({filename}/images/2010/flush_game.jpg)
+![Flushes During Hockey Game]({static}/images/2010/flush_game.jpg)
 
 (The green line represents water usage on the day before the game, or
 usage on a 'normal' day)

@@ -58,12 +58,12 @@ significant update to the
 <div class="col-sm-6 col-xs-12" markdown=1>
 #### Old Design
 
-![Old Design]({filename}images/2016/blogger-full-article.png)
+![Old Design]({static}images/2016/blogger-full-article.png)
 </div>
 <div class="col-sm-6 col-xs-12" markdown=1>
 #### New Design
 
-![New Design]({filename}images/2016/minchindotca-theme-full-article.png)
+![New Design]({static}images/2016/minchindotca-theme-full-article.png)
 </div>
 </div>
 
