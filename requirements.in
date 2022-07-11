@@ -27,5 +27,3 @@ Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.6.5
 # for better installs
 wheel
-
-pelican-image-process @ git+https://github.com/pelican-plugins/image-process.git@3.0.0

@@ -13,6 +13,7 @@ on any external services or servers; just an email address is required.
 Comments are stored as text files, similiar in structure to Pelican articles.
 This gives you complete control over the comments appearing on your site and
 allows you to back them up with the rest of your site.
+<!-- read more -->
 
 ## This Release
 
