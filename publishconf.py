@@ -32,6 +32,7 @@ PLUGINS = PLUGINS + [
 ]
 
 SEAFOAM_DEV_MODE = False  # turn on image processing
+OPTIMIZE_IMAGES_DEV_MODE = False
 
 # OUTPUT_PATH = '../blog.minchin.ca-master/'  # default is 'output/'
 

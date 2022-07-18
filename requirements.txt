@@ -50,13 +50,14 @@ markupsafe==2.1.1
 minchin-pelican-plugins-autoloader==1.1.0
     # via
     #   -r requirements.in
+    #   minchin-pelican-plugins-optimize-images
     #   minchin-pelican-plugins-static-comments
     #   minchin-pelican-plugins-summary
 minchin-pelican-plugins-cname==1.2.1
     # via -r requirements.in
 minchin-pelican-plugins-nojekyll==1.1.1
     # via -r requirements.in
-minchin-pelican-plugins-optimize-images==1.1.1
+minchin-pelican-plugins-optimize-images==1.2.1
     # via -r requirements.in
 minchin-pelican-plugins-post-stats==1.1.1
     # via -r requirements.in

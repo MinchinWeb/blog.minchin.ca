@@ -126,6 +126,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 # Theme Related
 SEAFOAM_DEV_MODE = True
+OPTIMIZE_IMAGES_DEV_MODE = True
 TYPOGRIFY = True
 # THEME = seafoam.get_path()  # auto added by Seafoam
 SITELOGO = "images/MinchindotCA-200.png"
