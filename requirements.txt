@@ -105,7 +105,7 @@ pillow==9.3.0
     #   minchin-pelican-plugins-static-comments
     #   pelican-comment-system
     #   pelican-image-process
-pip-tools==6.8.0
+pip-tools==6.9.0
     # via -r requirements.in
 pygments==2.12.0
     # via
