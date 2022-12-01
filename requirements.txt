@@ -97,7 +97,7 @@ pelican-minify==0.9
     # via -r requirements.in
 pelican-neighbors==1.2.0
     # via -r requirements.in
-pep517==0.12.0
+pep517==0.13.0
     # via build
 pillow==9.2.0
     # via
