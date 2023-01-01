@@ -64,7 +64,7 @@ minchin-pelican-plugins-static-comments==2.1.1
     # via -r requirements.in
 minchin-pelican-plugins-summary==1.2.0
     # via -r requirements.in
-packaging==21.3
+packaging==22.0
     # via build
 pelican==4.8.0
     # via
