@@ -45,7 +45,7 @@ lxml==4.9.2
     #   pelican-image-process
 markdown==3.4.3
     # via -r requirements.in
-markupsafe==2.1.1
+markupsafe==2.1.2
     # via jinja2
 minchin-pelican-plugins-autoloader==1.1.0
     # via
