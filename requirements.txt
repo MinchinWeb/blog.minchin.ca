@@ -89,7 +89,7 @@ pelican-comment-system==1.4.0
     # via -r requirements.in
 pelican-extended-sitemap==1.2.3
     # via -r requirements.in
-pelican-image-process==3.0.2
+pelican-image-process==3.0.3
     # via seafoam
 pelican-jinja-filters==2.1.1
     # via seafoam
