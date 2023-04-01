@@ -9,7 +9,7 @@ beautifulsoup4==4.12.0
     #   minchin-pelican-plugins-post-stats
     #   pelican-image-process
     #   seafoam
-blinker==1.4
+blinker==1.5
     # via pelican
 build==0.8.0
     # via pip-tools
