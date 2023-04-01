@@ -146,7 +146,7 @@ tomli==2.0.1
     #   pep517
 typogrify==2.0.7
     # via -r requirements.in
-unidecode==1.3.4
+unidecode==1.3.6
     # via pelican
 webassets==2.0
     # via -r requirements.in
