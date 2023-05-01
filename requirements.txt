@@ -11,7 +11,7 @@ beautifulsoup4==4.12.2
     #   seafoam
 blinker==1.6.2
     # via pelican
-build==0.8.0
+build==0.10.0
     # via pip-tools
 click==8.1.3
     # via pip-tools
