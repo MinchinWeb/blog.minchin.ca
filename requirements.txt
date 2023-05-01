@@ -99,7 +99,7 @@ pelican-neighbors==1.2.0
     # via -r requirements.in
 pep517==0.13.0
     # via build
-pillow==9.2.0
+pillow==9.5.0
     # via
     #   -r requirements.in
     #   minchin-pelican-plugins-static-comments
