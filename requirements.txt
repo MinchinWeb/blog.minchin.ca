@@ -23,7 +23,7 @@ commonmark==0.9.1
     # via rich
 docutils==0.19
     # via pelican
-feedgenerator==2.0.0
+feedgenerator==2.1.0
     # via pelican
 html5lib==1.1
     # via -r requirements.in
