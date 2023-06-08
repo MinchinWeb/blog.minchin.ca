@@ -16,8 +16,8 @@ DEFAULT_LANG = "en"
 
 
 # Caching
-CACHE_CONTENT = True
-LOAD_CONTENT_CACHE = True
+# CACHE_CONTENT = True
+# LOAD_CONTENT_CACHE = True
 
 
 # Blogroll
@@ -228,7 +228,7 @@ IMAGE_PROCESS = {
         ],
         "default": ("default", "640w"),
     },
-    "9-col": {
+    "col-9": {
         "type": "picture",
         "sources": [
             {
