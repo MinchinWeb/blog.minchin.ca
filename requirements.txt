@@ -123,7 +123,7 @@ pytz==2023.3
     #   pelican
 rich==13.4.1
     # via pelican
-seafoam==2.7.1
+seafoam==2.8.0
     # via -r requirements.in
 semantic-version==2.10.0
     # via
