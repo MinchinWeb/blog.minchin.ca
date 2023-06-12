@@ -8,7 +8,6 @@ minchin.pelican.plugins.optimize_images
 minchin.pelican.plugins.post_stats
 minchin.pelican.plugins.static-comments >= 2.1.0
 minchin.pelican.plugins.summary >= 1.2.0
-# pelican == 3.7.1
 pelican
 pelican-alias
 pelican-comment-system
@@ -16,7 +15,7 @@ pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
 pip-tools >= 6.8
-seafoam >= 2.8.0
+seafoam >= 2.8.1
 typogrify
 webassets >= 0.12.1
 # for beautifulsoup
