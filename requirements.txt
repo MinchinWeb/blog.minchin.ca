@@ -27,7 +27,7 @@ html5lib==1.1
     # via -r requirements.in
 htmlmin==0.1.12
     # via pelican-minify
-importlib-metadata==6.6.0
+importlib-metadata==6.7.0
     # via markdown
 invoke==2.1.2
     # via -r requirements.in
