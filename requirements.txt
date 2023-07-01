@@ -121,7 +121,7 @@ pytz==2023.3
     # via
     #   feedgenerator
     #   pelican
-rich==13.4.1
+rich==13.4.2
     # via pelican
 seafoam==2.8.1
     # via -r requirements.in
