@@ -6,7 +6,8 @@ Tags: Code of Conduct, Acceptance, Python, Open Source, Series:Social Commentary
 Category: Releases
 Image: images/2023/st_benedict_delivering_his_rule_to_the_monks_of_his_order.jpg
 
-Towards the end of 2011 (in the depths of Covid...), I started thinking about
+Towards the end of <del>2011</del> 2021 (in the depths of Covid...), I started
+thinking about
 adding a *code of conduct* to my open source software projects. Github
 recommends adding one, somewhat similiar to how they recommend including a
 software license.
