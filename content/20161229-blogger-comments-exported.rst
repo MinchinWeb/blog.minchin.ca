@@ -2,7 +2,7 @@ Blogger Comments Exported
 #########################
 
 :date: 2016-12-29 18:33
-:tags: Python, Blog, Blogger, XML, Untangle
+:tags: Python, Blog, Blogger, XML, Untangle, Pelican, Static Comments
 :category: Minchin dot CA theme
 :authors: Wm. Minchin
 

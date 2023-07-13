@@ -1,7 +1,7 @@
 Title: Seafoam 2.0.4 Pelican Theme Released
 Date: 2017-01-11 13:33T+0700
 Author: Wm. Minchin
-Tags: Seafoam, Python, Releases
+Tags: Seafoam, Python, Releases, Pelican Themes
 Category: Seafoam
 
 Version 2.0.4 of *Seafoam* has been released.

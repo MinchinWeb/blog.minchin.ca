@@ -1,6 +1,6 @@
 title: Static Comments Plugin 2.1.1 for Pelican Released
 date: 2022-04-30 14:17
-tags: Pelican, Pelican Plugins, Releases, Python, Pelican Themes, Static Comments
+tags: Pelican, Pelican Plugins, Releases, Python, Static Comments
 Category: Pelican Plugins
 
 *Static Comments* is a plugin for [Pelican](http://docs.getpelican.com/),
