@@ -1,8 +1,9 @@
 Title: What Time Is It?
 Date: 2006-09-12 12:14
-Modified: 2007-04-09 15:38
+Modified_1: 2007-04-09 15:38
+Modified: 2023-07-12 21:01 -0600
 Author: Wm. Minchin
-Tags: Clock, Clocks, Java Applet, Quotables, Series:On-Line Wonders, Time, WorldTimeServer.com
+Tags: Clocks, Quotables, Series:On-Line Wonders, Time
 Slug: what-time-is-it
 
 > Time is an illusion. Lunchtime doubly so.
@@ -24,61 +25,30 @@ I think it's cool. Here's my little gallery of world times:
 
 <!-- read more -->
 
-<center>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td>
-<embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;wtsid=JP" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash">
-</embed>
-</td>
+**Update** (2023-07-12): The original embedable clocks were written in Flash,
+but Flash log ago disappeared from the web. However, World Time Server released
+a replacement HTML5 version, which is now embedded below!
 
-<td>
-</td>
-
-<td>
-<embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;wtsid=CA-AB" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash">
-</embed>
-</td>
-</tr>
-
-<tr>
-<td>
-Kyoto
-</td>
-
-<td>
-</td>
-
-<td>
-Calgary
-</td>
-
-<tr>
-<td>
-<embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;wtsid=FR" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash">
-</embed>
-</td>
-
-<td>
-</td>
-
-<td>
-<embed src="http://www.worldtimeserver.com/clocks/wtsclock001.swf?color=559966&amp;wtsid=RU-MOW" width="150" height="150" wmode="transparent" type="application/x-shockwave-flash">
-</embed>
-</td>
-
-</tr>
-
-<td>
-Paris
-</td>
-
-<td>
-</td>
-
-<td>
-Moscow
-</td>
-</tr>
-</table>
-</center>
+<div class="panel"><div class="panel-body">
+  <table>
+    <tr>
+      <td>
+        <script async defer id='2023713244117' src='https://widgets.worldtimeserver.com/Public.ashx?rid=2023713244117&theme=Analog&action=clock&wtsid=JP&hex=ff9900&city=Kyoto&size=small'></script>
+      </td>
+      <td></td>
+      <td>
+        <script async defer id='202371324251607' src='https://widgets.worldtimeserver.com/Public.ashx?rid=202371324251607&theme=Analog&action=clock&wtsid=CA-AB&hex=ff9900&city=Calgary&size=small'></script>
+      </td>
+      <td></td>
+      <td>
+        <script async defer id='202371324523517' src='https://widgets.worldtimeserver.com/Public.ashx?rid=202371324523517&theme=Analog&action=clock&wtsid=FR&hex=ff9900&city=Paris&size=small'></script>
+      </embed>
+      </td>
+      <td></td>
+      <td>
+        <script async defer id='20237132468960' src='https://widgets.worldtimeserver.com/Public.ashx?rid=20237132468960&theme=Analog&action=clock&wtsid=RU-MOW&hex=ff9900&city=Moscow&size=small'></script>
+      </embed>
+      </td>
+    </tr>
+  </table>
+</div></div>

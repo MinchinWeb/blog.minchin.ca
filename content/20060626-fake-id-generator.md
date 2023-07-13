@@ -2,7 +2,7 @@ Title: Fake ID Generator
 Date: 2006-06-26 12:23
 Modified: 2007-04-09 22:35
 Author: Wm. Minchin
-Tags: dev.allred.com/fakename, Fake ID, ID, Identification, Online Privacy, Pookmail.com, Privacy, Series:Web Site-seeing
+Tags: Fake ID, Online Privacy, Series:Web Site-seeing
 Slug: fake-id-generator
 
 In something that reminds me of the movie *Catch Me If You Can*, I came

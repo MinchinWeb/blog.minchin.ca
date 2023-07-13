@@ -1,8 +1,9 @@
 Title: Where's Willy
 Date: 2007-03-22 19:30
-Modified: 2007-04-09 15:47
+Modified_1: 2007-04-09 15:47
+Modified: 2023-07-12 21:30 -0600
 Author: Wm. Minchin
-Tags: CBC, Currency, Currency Tracking, Disease Spread, Epidemic, Science Blog, Series:Web Site-seeing, University of California, WheresGeorge.com, WheresWilly.com, WillyMap, Wilfred Laurier
+Tags: CBC, Currency Tracking, Disease Spread, Epidemic, Science Blog, Series:Web Site-seeing, University of California, WheresGeorge.com, WheresWilly.com, WillyMap, Wilfred Laurier
 Slug: wheres-willy
 Image: images/2007/Wheres_Willy_20s.jpg
 
@@ -22,7 +23,7 @@ registration, but if you do register (it uses your email as your ID),
 you can log back in to see what has become of the bills you've entered,
 and can configure it to send you an email when one of your bills shows
 back up again. It's attracted enough note that CBC has a
-[article](http://www.cbc.ca/news/background/counterfeit/wheres-willy.html)
+[article](https://web.archive.org/web/20070404202647/http://www.cbc.ca/news/background/counterfeit/wheres-willy.html)
 on it.
 
 I registered a couple months ago and have had a lot of fun. I do a lot
@@ -54,3 +55,8 @@ readers and at [www.WheresGeorge.com](http://www.wheresgeorge.com) for
 my American friends.
 
 *[picture](http://www.flickr.com/photos/impeccabletiming/242129064/) via by Snuggle Up & Read on Flickr*
+
+**Update** (2023-07-12): So *Where's Willy* is still a thing, although I
+haven't used it in some time because the current polymer bills aren't easy to
+mark with the web address. I updated the link to the CBC article with a capture
+from the Internet Archive's Wayback machine.

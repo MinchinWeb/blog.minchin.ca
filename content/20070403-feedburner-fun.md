@@ -3,7 +3,7 @@ Date: 2007-04-03 19:42
 Modified_1: 2007-04-09 15:49
 Modified: 2016-08-08 22:23
 Author: Wm. Minchin
-Tags: Atom, FeedBurner.com, Headline Animator, RRS, Series:On-Line Wonders
+Tags: Atom, Headline Animator, RRS, Series:On-Line Wonders
 Slug: feedburner-fun
 
 A service I've known about for a while that I finally decided to check
