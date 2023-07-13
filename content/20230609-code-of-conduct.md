@@ -91,8 +91,8 @@ people are asked to keep their faith out of sight as a condition of having it
 at all. Although the principals at SQLite do seem to be religious, they have
 also been clear that your (personal) religion will not bar you from
 participating in the project: in their introduction they explain that you are
-not required believe, agree with, or even accept the Code to participate in the
-project.
+not required to believe, agree with, or even accept the Code to participate in
+their project.
 
 Another complaint has been that it doesn't lay out an enforcement mechanism.
 Except that it does, asking that those who have failed to live up to the ideals
@@ -115,8 +115,7 @@ response to the misunderstanding most commonly encountered. Here's the text:
 >
 > #### Purpose
 >
-> The Founder of this project, and all of the current developers at the time
-> when this document was composed, have pledged to govern their interactions
+> The Founder of this project has pledged to govern their interactions
 > with each other and with the larger this project's user community in
 > accordance with the "instruments of good works" from chapter 4 of [The Rule
 > of St. Benedict](https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict)
