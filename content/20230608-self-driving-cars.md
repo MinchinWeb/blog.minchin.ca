@@ -1,5 +1,5 @@
 title: What Happens If Self-Driving Cars Become a Reality?
-date: 2023-06-08 15:58 +0600
+date: 2023-06-08 15:58 -0600
 tags: Future, Self-Driving Cars, City Planning, Essays, Transportation, Series:Social Commentary 
 Category: Essays
 

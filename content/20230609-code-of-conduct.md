@@ -1,5 +1,5 @@
 title: Selecting a Code of Conduct for My Software Projects
-date: 2023-06-09 22:36 +0600
+date: 2023-06-09 22:36 -0600
 original_draft: 2021-11-07 12:57
 Author: Wm. Minchin
 Tags: Code of Conduct, Acceptance, Python, Open Source, Series:Social Commentary, releases
