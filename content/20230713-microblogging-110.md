@@ -1,5 +1,5 @@
-title: Microblogging Plugin 1.0.0 for Pelican Released
-date: 2023-07-13 23:34 -0600
+title: Microblogging 1.1.0 for Pelican Released
+date: 2023-07-14 11:52 -0600
 tags: Pelican, Pelican Plugins, Releases, Python, Microblogging (Pelican)
 Category: Pelican Plugins
 
@@ -29,7 +29,7 @@ welcomed!
 The simplest way to install (and upgrade) *Microblogging* is to use `pip`:
 
 ~~~sh
-pip install minchin.pelican.plugins.microblog --upgrade
+pip install minchin.pelican.readers.microblog --upgrade
 ~~~
 
 If you're using *seafoam* as your theme, you will want to upgrade that to at
@@ -46,7 +46,7 @@ their defaults:
 
 MICROBLOG_FOLDER = "micro"
 
-: Folder containing your &micro;posts, relative to your content root.
+: Folder containing your &micro;posts, relative to your content root folder.
 
 MICROBLOG_MAX_LENGTH = 140
 
@@ -56,7 +56,8 @@ MICROBLOG_MAX_LENGTH = 140
 MICROBLOG_SAVE_AS = ARTICLE_SAVE_AS
 
 : What to save the &micro;posts' output file as. Defaults to using the same
-   file structure as you are using for articles. c.f. `MICROBLOG_URL`.
+   file structure as you are using for articles (aka "regular" posts). c.f.
+   `MICROBLOG_URL`.
 
 MICROBLOG_SLUG = "u{date:%Y%m%d%H%M}"
 
@@ -66,7 +67,8 @@ that Pelican expects slugs to be universally unique.
 MICROBLOG_URL = ARTICLE_URL
 
 : What URL to post the &micro;posts to. Defaults to using the same URL
-   structure as you are using for articles. c.f. `MICROBLOG_SAVE_AS`.
+   structure as you are using for articles (aka "regular" posts). c.f.
+   `MICROBLOG_SAVE_AS`.
 
 
 ## Sample &micro;posts
@@ -85,6 +87,8 @@ I'm microblogging with Pelican!
 https://blog.minchin.ca/label/microblogging-pelican
 ```
 
+---
+
 Or a post with an (featured) image:
 
 ```md
@@ -99,6 +103,8 @@ automatically be added.)
 
 The image path is relative to your `content` folder. A URL of the photo is
 added to the end of the post as well.
+
+---
 
 Or with tags (or hashtags):
 
@@ -123,14 +129,17 @@ post.
 Although updating your theme is not *strictly* necessary, you will probably get
 more satifactory results if you do. Some pointers as you go about your update:
 
+- &micro;posts are considered `Articles` by Pelican, and will be included
+  in the `articles` and `dates` "lists" provided by the templating engine.
 - each &micro;post is tagged with `article.micro = True`, so this can be used
   as a test for conditional formating.
 - &micro;posts have a title (as required for Pelican), but you probably want to
   hide/not display the title, as titles are of the form `u201307180934`.
 - &micro;posts are short; by default they are encouraged to be no more than 140
-  characters. If you intend to abide by that, there are several places (like
-  your archive list) where it may make sense to show the whole &micro;post
-  (`article.content`) rather than the title and a link to the full post page.
+  displayed characters. If you intend to abide by that, there are several
+  places (like your archive list) where it may make sense to show the whole
+  &micro;post (`article.content`) rather than the title and a link to the full
+  post page.
 
 
 ## Release History
@@ -152,11 +161,13 @@ Version 1.0.0, released July 11, 2023.
 ## Known Issues
 
 - hashtags can't be pulled out of post body
-- &micro;posts seem to mess up the `articles` list passed to the templating
-  engine. Use `dates` instead (which is sorted by date)?
+- &micro;posts seem to mess up the ordering of the `articles` list passed to
+  the templating engine. Use `dates` instead (which is sorted by date)?
+- text (metadata and body) processing relies on Pelican's built-in Markdown
+  reader.
 
 
-## Personal Thoughts (on the Plugin and Development)
+## Personal Thoughts (on the Plugin, Development, and Microblogging)
 
 In terms of development, it is perhaps interesting to note that this project
 was "Readme Driven Development"[^RDD], where I first wrote the Readme file, and
@@ -182,8 +193,8 @@ anything. With the current chaos at Twitter and excitement around Mastodon (and
 Threads), I considered setting up a Mastodon account, but it seems the sensible
 thing would be to stand up my owner server for my own account; this is way less
 work! The missing part of this plugin in its current form is the social aspect,
-and that will take more thought on how to implement. For now, I have comments,
-as with any other post on this site.
+and that will take more thought on how to implement. For now, I have comments
+via email, as with any other post on this site.
 
 So will I be comfortable write more microposts? Will they seem less serious,
 and so can be *off the cuff*? Time will see, I guess.
