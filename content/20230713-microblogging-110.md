@@ -1,6 +1,6 @@
 title: Microblogging 1.1.0 for Pelican Released
 date: 2023-07-14 11:52 -0600
-tags: Pelican, Pelican Plugins, Releases, Python, Microblogging (Pelican)
+tags: Pelican, Pelican Plugins, Releases, Python, Microblogging
 Category: Pelican Plugins
 
 *Microblogging* is a plugin for [Pelican](http://docs.getpelican.com/),
