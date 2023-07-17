@@ -53,7 +53,7 @@ jobs:
         run: invoke build --carefully --publish
 
       - name: Upload Artifact (Built Site)
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./output
 
