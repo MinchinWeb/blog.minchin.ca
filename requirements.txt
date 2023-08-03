@@ -101,7 +101,7 @@ pelican-image-process==3.0.3
     # via seafoam
 pelican-jinja-filters==2.1.1
     # via seafoam
-pelican-minify==0.9
+pelican-minify==2.0.0
     # via -r requirements.in
 pelican-neighbors==1.2.0
     # via -r requirements.in
