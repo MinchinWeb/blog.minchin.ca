@@ -16,10 +16,12 @@ To update requirements::
 
 To update the (local) virtual environment::
 
-    pip-sync
+    python -m piptools sync
 
-(Note that ``pip-sync`` can't update itself on Windows.)
+(Note that ``pip-sync`` can't update itself on Windows when run directly.)
 
 To generate a "filename" for comments::
 
     random.randint(1 10**19-1)
+
+.. or use UUIDv7? (they are timestamped)
