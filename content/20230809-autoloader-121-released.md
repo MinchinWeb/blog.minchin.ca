@@ -11,7 +11,8 @@ site, but rather works to make your other plugins better.
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 This release of *Autoloader* is to fix a crashing bug when no plugins in the
-`minchin.pelican.readers` namespace are loaded.
+<code markdown=1>minchin.&ZeroWidthSpace;pelican.&ZeroWidthSpace;readers</code>
+namespace are loaded.
 
 I also updated a number of other plugins to blacklist v1.2.0 to avoid these
 crashes.
