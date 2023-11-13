@@ -29,3 +29,6 @@ Pillow >= 10.0.1
 Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.9.1
 wheel >= 0.38.1
+# html-mimify also requires rust to be installed, and Build Tools for Visual
+# Studio, for 2017 or later 
+# choco install rust-ms visualstudio2022-workload-vctools
