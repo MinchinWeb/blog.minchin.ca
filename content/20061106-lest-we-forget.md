@@ -1,10 +1,12 @@
 Title: Lest We Forget
 Date: 2006-11-06 13:23
-Modified: 2007-04-09 15:40
+Modified: 2023-11-13 13:29
 Author: Wm. Minchin
-Tags: Flanders, Flanders Fields, In Flanders Fields, Lest We Forget, November 11, Remembrance Day, Series:Reading, Wikipedia
+Tags: Flanders Fields, Lest We Forget, November 11, Remembrance Day, Series:Reading, Wikipedia
 Slug: lest-we-forget
 Image: images/2006/High_Wood_cemetery,_France.jpg
+
+## In Flanders Fields
 
 In Flanders fields the poppies blow  
 Between the crosses, row on row,  
@@ -28,5 +30,5 @@ In Flanders fields.
 
 -- Lieutenant Colonel John McCrae
 
-*[picture](https://commons.wikimedia.org/wiki/File:High_Wood_cemetery,_France.jpg) and
-[poem](https://en.wikipedia.org/wiki/In_Flanders_Fields) via Wikipedia*
+*[Picture](https://commons.wikimedia.org/wiki/File:High_Wood_cemetery,_France.jpg) and
+[poem text](https://en.wikipedia.org/wiki/In_Flanders_Fields) via Wikipedia*
