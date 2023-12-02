@@ -1,6 +1,6 @@
 title: I Redesigned My Blog
 date: 2016-09-12 19:46
-modified: 2016-12-29 22:33
+modified: 2023-12-02 14:27
 stared: False
 tags: Blog, Seafoam, Pelican Themes
 Category: Minchin dot CA theme
@@ -19,7 +19,7 @@ considerations.
 
 ## Why You Shouldn't Do This
 
-To start with, we shouldn't you do the same thing. In a word, **time**. I've
+To start with, you shouldn't do the same thing. In a word, **time**. I've
 spent numerous evenings over the last <del>two</del> four months to get this
 done. This has proved far more than a simple weekend project. If you're time
 available for your blog is limited (which it almost always is), and your

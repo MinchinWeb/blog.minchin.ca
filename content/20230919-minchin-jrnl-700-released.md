@@ -1,7 +1,7 @@
 Title: minchin.jrnl v7 "Phoenix" released
 Date: 2023-09-21 13:22 -0600
 First_Draft: 2023-03-12 19:25:43
-Tags: Python, releases, minchin.jrnl, forks
+Tags: Python, releases, minchin.jrnl, forks (software)
 Category: minchin.jrnl
 Image: images/2023/0330-sdxl-781_432_927-40-20230809_070914.png
 
