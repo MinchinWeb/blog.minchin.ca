@@ -71,7 +71,11 @@ MARKUP = ("rst", "md", "markdown", "mkd", "mdown", "html", "htm")
 PATH = "content"
 # OUTPUT_PATH = '../blog.minchin.ca-temp/'  # default is 'output/'
 
-# FORMATTED_FIELDS = ['summary', 'title', ]
+# FORMATTED_FIELDS = [
+#     # "summary",
+#     # "title",
+#     "subtitle",
+# ]
 
 
 # Set URL's
