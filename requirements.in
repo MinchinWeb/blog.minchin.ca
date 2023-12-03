@@ -9,7 +9,7 @@ minchin.pelican.plugins.post_stats
 minchin.pelican.plugins.static-comments >= 2.1.0
 minchin.pelican.plugins.summary >= 1.2.0
 minchin.pelican.readers.microblog
-pelican
+pelican != 4.9.0
 pelican-alias
 pelican-comment-system
 pelican-extended-sitemap
