@@ -101,9 +101,9 @@ list.
     - flexbox?
     - columns
     - HTML5, semantic web
-        - <div> vs <nav>, <article>
+        - <div> vs <nav>, <article>, <aside>
 - integration with the rest of my site
-    - technical documentation
-    - genealogy
+    - technical documentation -- menus
+    - genealogy -- width
 
 
