@@ -83,7 +83,9 @@ list.
 
 ### Colours, and a "Paper Feel"
 
+### (Web) Butalism
 
+I have also become intrigued by the trend of *web brutalism*. *Brutalism* is an architectural trend 
 
 - sidenotes/endnotes
 - "fat" footer
