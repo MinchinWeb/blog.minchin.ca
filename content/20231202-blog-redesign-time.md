@@ -83,23 +83,42 @@ list.
 
 ### Colours, and a "Paper Feel"
 
-I do quite like the colours I choose for the site, but was never super excited about the current light text on a dark background; this is something I'd like to revisit in any redesign.
+I do quite like the colours I choose for the site, but was never super excited
+about the current light text on a dark background; this is something I'd like
+to revisit in any redesign.
 
 For colours (and feel generally), 
 
-### (Web) Butalism
+### (Web) Brutalism
 
-I have also become intrigued by the trend of *web brutalism*. *Brutalism* is an architectural trend perhaps best known from the post-war Soviet buildings. It relies on the function of the building material, often concrete, for form and eschews decoration and curves. The web version relies heavily on the browser's default styles (black text, blue links, inline images), and eschews complex design, almost all styling, and, in the extreme, any further colour.
+I have also become intrigued by the trend of *web brutalism*. *Brutalism* is an
+architectural trend perhaps best known from the post-war Soviet buildings. It
+relies on the function of the building material, often concrete, for form and
+eschews decoration and curves. The web version relies heavily on the browser's
+default styles (black text, blue links, inline images), and eschews complex
+design, almost all styling, and, in the extreme, any further colour.
 
-Perhaps it is a nostagal for the aesthetic of the "Netscape era", or perhaps for an era when we didn't worry much about the design part of websites as there was so little we could do to ultimately change it anyway.
+Perhaps it is a nostalgia for the aesthetic of the "Netscape era", or perhaps
+for an era when we didn't worry much about the design part of websites as there
+was so little we could do to ultimately change it anyway.
 
-I don't think I'm ready to go full *web butalism*, but I do appreciate it's simplicity.
+I don't think I'm ready to go full *web brutalism*, but I do appreciate it's
+simplicity.
 
 ### Bootstrap
 
-The existing version of this site was built using Bootstrap v3. On the backend, I'm using a CSS preprocessor called LESS to build my stylesheets. One of the big issues with upgrading to the newest version of Bootstrap is that they dropped support for LESS, and now solely use SCSS as their processor. The names are less important, but what that means if that to upgrade I'd have to re-write all my additions, styles, and colouring beyond the base colour scheme.
+The existing version of this site was built using Bootstrap v3. On the backend,
+I'm using a CSS preprocessor called LESS to build my stylesheets. One of the
+big issues with upgrading to the newest version of Bootstrap is that they
+dropped support for LESS, and now solely use SCSS as their processor. The names
+are less important, but what that means if that to upgrade I'd have to re-write
+all my additions, styles, and colouring beyond the base colour scheme.
 
-Nothing is currently broken that would force me to upgrade/rewrite, but CSS flexbox has become much better supported, and may be worthwhile baseling of future design on. Also, if I do an upgrade, "staying" with Bootstrap requires basically a re-write anyway, so I could consider other CSS frameworks, or not using one at all.
+Nothing is currently broken that would force me to upgrade/rewrite, but CSS
+flexbox has become much better supported, and may be worthwhile baseling of
+future design on. Also, if I do an upgrade, "staying" with Bootstrap requires
+basically a re-write anyway, so I could consider other CSS frameworks, or not
+using one at all.
 
 ### Further Uses and Integrations
 
