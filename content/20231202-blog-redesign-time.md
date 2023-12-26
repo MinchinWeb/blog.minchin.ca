@@ -87,7 +87,17 @@ I do quite like the colours I choose for the site, but was never super excited
 about the current light text on a dark background; this is something I'd like
 to revisit in any redesign.
 
-For colours (and feel generally), 
+For colours (and feel generally), my current struggle is how to add colour to
+give the site character, against the ultimate readability of black type on an
+off-white background.
+
+I am toying with the idea of leaning heavily on a paper- and book-inspired
+design. The motifs of a book are well established, and have been fairly
+optimised over the years to deal well with large amounts of reading material
+(like on my blog). Plus having a design inspiration would provide queues and
+clues for all the little pieces of the design. Taking this to an extreme, I've
+wondered if I could add "page numbers" to site, partly to lean into the book
+metephor and partly as a way of organizing the diverse parts of my site.
 
 ### (Web) Brutalism
 
@@ -120,6 +130,10 @@ future design on. Also, if I do an upgrade, "staying" with Bootstrap requires
 basically a re-write anyway, so I could consider other CSS frameworks, or not
 using one at all.
 
+### CommonMark
+
+### Other Uses of the Design
+
 ### Further Uses and Integrations
 
 - sidenotes/endnotes
@@ -142,5 +156,3 @@ using one at all.
 - integration with the rest of my site
     - technical documentation -- menus
     - genealogy -- width
-
-
