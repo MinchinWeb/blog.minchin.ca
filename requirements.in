@@ -11,7 +11,7 @@ minchin.pelican.plugins.summary >= 1.2.0
 minchin.pelican.readers.microblog
 pelican != 4.9.0
 pelican-alias
-pelican-comment-system
+# pelican-comment-system
 pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
@@ -19,16 +19,24 @@ pip-tools >= 6.8
 seafoam >= 2.9.0
 typogrify
 webassets >= 0.12.1
+
+# on Termux (included by default on Windows)
+tzdata  # otherwise, via Pelican
+
 # for beautifulsoup
 lxml
+
 # for better installs
 wheel
+
 # security forced updated
-jinja2 >= 2.11.3  # otherwise, via Pelican
-Pillow >= 10.0.1
+jinja2 >= 3.1.3  # otherwise, via Pelican
+Pillow >= 10.2.0
 Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.9.1
 wheel >= 0.38.1
+
 # html-mimify also requires rust to be installed, and Build Tools for Visual
 # Studio, for 2017 or later 
 # choco install rust-ms visualstudio2022-workload-vctools
+

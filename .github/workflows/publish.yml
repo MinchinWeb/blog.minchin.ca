@@ -30,7 +30,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           # supported versions: https://github.com/actions/python-versions/releases
-          python-version: 3.11
+          python-version: 3.12
           cache: pip
           cache-dependency-path: 'requirements.txt'
 
