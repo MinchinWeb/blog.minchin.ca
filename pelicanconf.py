@@ -63,7 +63,7 @@ EXTRA_PATH_METADATA = {
 # FILENAME_METADATA = ('(?P<date>\d{4}-\d{2}-\d{2}).*')  # default?
 # FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'  # extract date and slug
 # FILENAME_METADATA = '(?P<slug>[\w-]*)'      # so anything before the file extension becomes the slug
-FILENAME_METADATA = "(?P<date>\d{4}\d{2}\d{2})-(?P<slug>.*)"
+FILENAME_METADATA = r"(?P<date>\d{4}\d{2}\d{2})-(?P<slug>.*)"
 ## Please note that the metadata available inside your files takes precedence
 #  over the metadata extracted from the filename.
 
