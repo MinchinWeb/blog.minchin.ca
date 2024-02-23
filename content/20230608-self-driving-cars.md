@@ -1,5 +1,6 @@
 title: What Happens If Self-Driving Cars Become a Reality?
 date: 2023-06-08 15:58 -0600
+modified: 2024-02-22 21:01 -0700
 tags: Future, Self-Driving Cars, City Planning, Essays, Transportation, Series:Social Commentary 
 Category: Essays
 
@@ -20,10 +21,10 @@ years later have yet to arrive.
 First, a few baseline assumptions in this scenario:
 
 - "Self-driving" means cars can drive themselves without human control, either
-  local or remote. Also, that they can drive in the full range of conditions
-  and situations that prudent human drivers can (and do) today. So it's not
-  going to take you off-roading, but snow on the highway or missing lane lines
-  through a construction zone are not a problem.
+  local or remote[^2023060801]. Also, that they can drive in the full range of
+  conditions and situations that prudent human drivers can (and do) today. So
+  it's not going to take you off-roading, but snow on the highway or missing
+  lane lines through a construction zone are not a problem.
 - Cars are going to be electric powered. This will be driven by (among other
   things) the need to safely "refuel" the car without requiring a human
   on-site.
@@ -41,7 +42,7 @@ First, a few baseline assumptions in this scenario:
 The question of whether we will rent or own these new cars has huge
 implications for those who are proposing to own the rental fleets (like Uber),
 but probably don't change the may of the outcomes below. I'm going to (mostly)
-punt on the question. 
+punt on the question.
 
 ## Scenario 1: Driving the Kids to School
 
@@ -250,3 +251,19 @@ me ask some questions:
 First order effects are easy enough to guess at, but our society is complex and
 varied, and how the "end game" of self-driving cars plays out could result in a
 fundamentally different society than the one we assume now.
+
+
+[^2023060801]: **Update**, February 22, 2024: When I wrote this originally, I
+was imagining you having to hire a driver to either sit in the car with you or
+sit in a window-less room somewhere nearby driving your car around like it's
+some sort of video game. The hiccup to both these is they add a substantial
+operating cost to driving, and my predictions that follow are based on the idea
+of the vehicle being *very* cheap to actually operate. However, I have since
+been reminded of the idea of *artificial artificial intelligence*, that is to
+say a computer ("AI") that operates by outsourcing the thinking parts to a
+human elsewhere (and thus is a "fake AI"). If that elsewhere is somewhere where
+local wages are very cheap and latency between there and your car isn't too
+bad, maybe the assumed economics still hold. The advantage of *artificial
+artificial intelligence* is it allows you to launch your service without having
+to deal with every edge case, instead allowing your backroom operators to solve
+such problems on the fly.
