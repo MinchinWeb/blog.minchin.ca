@@ -13,7 +13,7 @@ pelican != 4.9.0
 pelican-alias
 # pelican-comment-system
 pelican-extended-sitemap
-pelican-minify
+# pelican-minify  # breaks jquery
 pelican-neighbors
 pip-tools >= 6.8
 seafoam >= 2.9.0
