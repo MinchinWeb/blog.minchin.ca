@@ -1,6 +1,7 @@
 Title: Genealogy is Up!
 Date: 2013-12-18 20:31
-Modified: 2016-07-26 17:03
+Modified_1: 2016-07-26 17:03
+Modified: 2024-03-18 22:10-0600
 Author: Wm. Minchin
 Tags: Genealogy, Minchin.ca
 Slug: genealogy-is-up
@@ -14,7 +15,8 @@ a website that I could update without the links changing, and a way to hide the
 information about living people. Just this last week I found *Adam*, an online
 service hosted by Tim Forsythe, that will do that for me. So now my genealogy
 is up! Check it out at
-[minchin.ca/genealogy/](http://www.minchin.ca/genealogy/).
+<del markdown=1>[minchin.ca/genealogy/](http://www.minchin.ca/genealogy/)</del>
+[genealogy.minchin.ca](https://genealogy.minchin.ca/).
 
 My genealogy remains a work in progress. If there are mistakes, let me know so
 I can fix them. If we're related and long lost cousins, I'd love to hear from
